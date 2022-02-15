@@ -86,6 +86,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/</loc>
+         <lastmod>2022-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/gdpr/</loc>
+         <lastmod>2022-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/high-net-worth-individuals/</loc>
+         <lastmod>2022-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://use-cases.ekgf.org/use-case/cyber-security/</loc>
          <lastmod>2022-02-15</lastmod>
          <changefreq>daily</changefreq>
