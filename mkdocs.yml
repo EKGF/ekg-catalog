@@ -19,7 +19,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: ekgf-logo-reversed
+    logo: ekgf-logo-symbol
     repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
