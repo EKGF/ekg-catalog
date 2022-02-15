@@ -19,7 +19,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   icon:
-    logo: agnos-ai-logo-reversed
+    logo: ekgf-logo-reversed
     repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
