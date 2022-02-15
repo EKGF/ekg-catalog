@@ -1,8 +1,8 @@
 site_name: EKG/Usecases
 site_description: Use cases for the Enterprise Knowledge Graph
-repo_name: 'ekgf/usecases'
-repo_url: https://github.com/ekgf/usecases
-site_url: https://usecases.ekgf.org
+repo_name: 'ekgf/ekg-use-cases'
+repo_url: https://github.com/ekgf/ekg-use-cases
+site_url: https://use-cases.ekgf.org
 site_dir: site
 site_author: Enterprise Knowledge Graph Foundation
 copyright: Copyright &copy; 2022 Enterprise Knowledge Graph Foundation
@@ -60,7 +60,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/EKGF
     - icon: fontawesome/brands/github
-      link: https://github.com/EKGF/usecases
+      link: https://github.com/EKGF/ekg-use-cases
 extra_javascript:
   - "javascript/images_dark.js"
   - "javascript/refresh_on_toggle_dark_light.js"
