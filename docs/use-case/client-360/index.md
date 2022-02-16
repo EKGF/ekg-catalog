@@ -1,19 +1,5 @@
 # Client 360
 
-```markmap
-# Root
-
-## Branch 1
-
-* Branchlet 1a
-* Branchlet 1b
-
-## Branch 2
-
-* Branchlet 2a
-* Branchlet 2b
-```
-
 ## Summary
 
 The arch-use case is "Client 360".
