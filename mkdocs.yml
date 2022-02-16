@@ -1,5 +1,5 @@
-site_name: EKG/Usecases
-site_description: Use cases for the Enterprise Knowledge Graph
+site_name: EKG/Catalog
+site_description: Use case catalog for the Enterprise Knowledge Graph
 repo_name: 'ekgf/ekg-catalog'
 repo_url: https://github.com/ekgf/ekg-catalog
 site_url: https://use-cases.ekgf.org
