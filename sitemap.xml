@@ -116,11 +116,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/interest-graph/</loc>
-         <lastmod>2022-02-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/money-laundering/</loc>
          <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
@@ -137,11 +132,6 @@
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/sanctions/</loc>
-         <lastmod>2022-02-16</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/social-media/</loc>
          <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -216,12 +206,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://use-cases.ekgf.org/use-case/client-360/relationships-and-connections/social-graph/</loc>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/social-media/</loc>
          <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://use-cases.ekgf.org/use-case/client-360/social-media/</loc>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/social-media/interest-graph/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/social-media/social-graph/</loc>
          <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>

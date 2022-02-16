@@ -1,8 +1,8 @@
 !define BORDER_THICKNESS 1
 
 skinparam Padding 4
-skinparam RoundCorner 4
-skinparam Shadowing false
+skinparam RoundCorner 40
+skinparam Shadowing true
 
 skinparam Default {
   'FontName "Open Sans Semibold"
