@@ -1,5 +1,7 @@
 # Client 360
 
+![Client 360 Tree](../../diagrams/out/client-360.svg#darkable)
+
 ## Summary
 
 The arch-use case is "Client 360".
@@ -14,3 +16,4 @@ for this use case.
 
 - [Relationships & Connections](relationships-and-connections/index.md)
 - [Know Your Customer (KYC)](know-your-customer/index.md)
+- [Social Media](social-media/index.md)

@@ -1,0 +1,33 @@
+@startmindmap
+
+!include ../include/themes/light.puml
+
++ Client 360
+++ Know Your Customer
++++_ Money Laundering
++++_ Identification Verification
++++_ Politically Exposed Persons (PEPs)
++++_ Crime Records
++++_ Sanctions
++++_ Risk Management
++++_ High Net Worth Individuals (HNWI)
++++_ GDPR
++++ Core Record Management
+++++_ Countries
+++++_ Regions
+++++_ Jurisdictions
+++++_ Legal Entities
+++++_ Locations
+++++_ Buildings
+++++_ Addresses
+++++_ Audit
+++ Relationships &\nConnections
++++_ Business Connections
++++_ Family Connections
++++_ Social Connections
++++_ Political Connections
+++ Social Media
++++_ Social Graph
++++_ Interest Graph
+++_ ...many others...
+@endmindmap

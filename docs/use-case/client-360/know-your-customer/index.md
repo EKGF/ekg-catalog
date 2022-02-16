@@ -1,8 +1,6 @@
 # Know Your Customer
 
 - [Core Record Management](core-record-management/index.md)
-- [Social Media](social-media.md)
-- [Interest Graph](interest-graph.md)
 - [Money Laundering](money-laundering.md)
 - [Identification Verification](identification-verification.md)
 - [Politically Exposed Persons (PEPs)](peps.md)
