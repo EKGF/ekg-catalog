@@ -1,5 +1,7 @@
 # Core Record Management
 
+<object data="../../../../diagrams/out/core-record-management.svg#darkable" type="image/svg+xml"/>
+
 - [Countries](countries.md)
 - [Regions](regions.md)
 - [Jurisdictions](jurisdictions.md)

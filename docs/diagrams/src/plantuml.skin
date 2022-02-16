@@ -1,0 +1,8 @@
+mindmapDiagram {
+  .rose {
+    BackgroundColor #FFBBCC
+  }
+  .your_style_name {
+    BackgroundColor lightblue
+  }
+}

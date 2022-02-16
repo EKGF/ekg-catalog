@@ -1,5 +1,7 @@
 # Know Your Customer
 
+<object data="../../../diagrams/out/know-your-customer.svg#darkable" type="image/svg+xml"/>
+
 - [Core Record Management](core-record-management/index.md)
 - [Money Laundering](money-laundering.md)
 - [Identification Verification](identification-verification.md)

@@ -2,32 +2,32 @@
 
 !include ../include/themes/light.puml
 
-+ Client 360
-++ Know Your Customer
-+++_ Money Laundering
-+++_ Identification Verification
-+++_ Politically Exposed Persons (PEPs)
-+++_ Crime Records
-+++_ Sanctions
-+++_ Risk Management
-+++_ High Net Worth Individuals (HNWI)
-+++_ GDPR
-+++ Core Record Management
-++++_ Countries
-++++_ Regions
-++++_ Jurisdictions
-++++_ Legal Entities
-++++_ Locations
-++++_ Buildings
-++++_ Addresses
-++++_ Audit
-++ Relationships &\nConnections
-+++_ Business Connections
-+++_ Family Connections
-+++_ Social Connections
-+++_ Political Connections
-++ Social Media
-+++_ Social Graph
-+++_ Interest Graph
++ [[ /use-case/client-360/ Client 360 ]]
+++ [[ /use-case/client-360/know-your-customer/ Know Your Customer (KYC) ]]
++++_ [[ /use-case/client-360/know-your-customer/money-laundering/ Money Laundering ]]
++++_ [[ /use-case/client-360/know-your-customer/identification-verification/ Identification Verification ]]
++++_ [[ /use-case/client-360/know-your-customer/peps/ Politically Exposed Persons (PEPs) ]]
++++_ [[ /use-case/client-360/know-your-customer/crime-records/ Crime Records ]]
++++_ [[ /use-case/client-360/know-your-customer/sanctions/ Sanctions ]]
++++_ [[ /use-case/client-360/know-your-customer/risk-management/ Risk Management ]]
++++_ [[ /use-case/client-360/know-your-customer/high-net-worth-individuals/ High Net Worth Individuals (HNWI) ]]
++++_ [[ /use-case/client-360/know-your-customer/gdpr/ GDPR ]]
++++ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
+++++_ [[ /use-case/client-360/know-your-customer/core-record-management/countries/ Countries ]]
+++++_ [[ /use-case/client-360/know-your-customer/core-record-management/regions/ Regions ]]
+++++_ [[ /use-case/client-360/know-your-customer/core-record-management/jurisdictions/ Jurisdictions ]]
+++++_ [[ /use-case/client-360/know-your-customer/core-record-management/legal-entities/ Legal Entities ]]
+++++_ [[ /use-case/client-360/know-your-customer/core-record-management/locations/ Locations ]]
+++++_ [[ /use-case/client-360/know-your-customer/core-record-management/buildings/ Buildings ]]
+++++_ [[ /use-case/client-360/know-your-customer/core-record-management/addresses/ Addresses ]]
+++++_ [[ /use-case/client-360/know-your-customer/core-record-management/audit/ Audit ]]
+++ [[ /use-case-client-360/relationships-and-connections/ Relationships &\nConnections ]]
++++_ [[ /use-case-client-360/relationships-and-connections/business-connections/ Business Connections ]]
++++_ [[ /use-case-client-360/relationships-and-connections/family-connections/ Family Connections ]]
++++_ [[ /use-case-client-360/relationships-and-connections/social-connections/ Social Connections ]]
++++_ [[ /use-case-client-360/relationships-and-connections/political-connections/ Political Connections ]]
+++ [[ /use-case-client-360/social-media/ Social Media ]]
++++_ [[ /use-case-client-360/social-media/social-graph/ Social Graph ]]
++++_ [[ /use-case-client-360/social-media/social-graph/ Interest Graph ]]
 ++_ ...many others...
 @endmindmap

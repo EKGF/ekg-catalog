@@ -1,6 +1,6 @@
 # Client 360
 
-![Client 360 Tree](../../diagrams/out/client-360.svg#darkable)
+<object data="../../diagrams/out/client-360.svg#darkable" type="image/svg+xml"/>
 
 ## Summary
 

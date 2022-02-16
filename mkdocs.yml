@@ -1,7 +1,7 @@
 site_name: EKG/Usecases
 site_description: Use cases for the Enterprise Knowledge Graph
-repo_name: 'ekgf/ekg-use-cases'
-repo_url: https://github.com/ekgf/ekg-use-cases
+repo_name: 'ekgf/ekg-catalog'
+repo_url: https://github.com/ekgf/ekg-catalog
 site_url: https://use-cases.ekgf.org
 site_dir: site
 site_author: Enterprise Knowledge Graph Foundation
@@ -27,14 +27,18 @@ theme:
       primary: indigo
       accent: light-blue
       toggle:
-        icon: material/toggle-switch-off-outline
+#        icon: material/toggle-switch-off-outline
+#        icon: material/lightbulb-outline
+        icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
       accent: deep orange
       toggle:
-        icon: material/toggle-switch
+#        icon: material/toggle-switch
+#        icon: material/lightbulb
+        icon: material/weather-night
         name: Switch to light mode
   features:
     - search.highlight
@@ -60,7 +64,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/EKGF
     - icon: fontawesome/brands/github
-      link: https://github.com/EKGF/ekg-use-cases
+      link: https://github.com/EKGF/ekg-catalog
 extra_javascript:
   - "javascript/images_dark.js"
   - "javascript/refresh_on_toggle_dark_light.js"
@@ -80,6 +84,7 @@ plugins:
         - "*.tmp"
         - "*.sparql"
         - "*.gz"
+        - diagrams/src/*
       regex:
         - '.*\.(tmp|bin|tar)$'
         - '_.*\.md$'
@@ -98,9 +103,6 @@ plugins:
       theme_folder: "include/themes"
       theme_light: "light.puml"
       theme_dark: "dark.puml"
-#  - exclude:
-#      glob:
-#        - diagrams/include/C4/*
 
 markdown_extensions:
   - toc:
