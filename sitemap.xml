@@ -2,127 +2,407 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://use-cases.ekgf.org/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/api-gateway/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/api/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/ekg-id/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/ekg-iri/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/ekg-platform/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/ekg/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/primary-repo/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/sparql/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/story/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/triple/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/triplestore/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/glos/use-case/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/strategic-use-cases/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/client-360/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/activity-monitoring/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/crime-records/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/gdpr/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/high-net-worth-individuals/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/identification-verification/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/interest-graph/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/money-laundering/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/peps/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/risk-management/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/sanctions/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/social-media/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/core-record-management/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/core-record-management/addresses/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/core-record-management/audit/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/core-record-management/buildings/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/core-record-management/countries/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/core-record-management/jurisdictions/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/core-record-management/legal-entities/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/core-record-management/locations/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/core-record-management/regions/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/relationships-and-connections/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/relationships-and-connections/business-connections/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/relationships-and-connections/family-connections/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/relationships-and-connections/political-connections/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/relationships-and-connections/social-connections/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/relationships-and-connections/social-graph/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/social-media/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/cyber-security/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/digital-twin/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/fraud-detection/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/addresses/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/assets/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/business-registration/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/classification/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/commercial-register/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/compliance/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/contacts/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/control/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/currencies/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/directorships/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/dissolution/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/documents/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/earnings-estimates/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/fundamentals/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/issued-capital/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/legal-form/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/liability-terms/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/liquidation/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/organizational-structure/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/ownership/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/ratings/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/share-capital/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/shares/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/signatories/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/corporate-actions/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/corporate-actions/dividends/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/corporate-actions/merger-and-acquisition-history/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/corporate-actions/parents-and-subsidiaries/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/corporate-actions/spin-offs/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/legal-entity-management/corporate-actions/stock-splits/</loc>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/organization-management/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/risk-management/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
