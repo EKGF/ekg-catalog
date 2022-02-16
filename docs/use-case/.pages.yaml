@@ -1,4 +1,11 @@
 title: Use Cases
+collapse: false
 nav:
-  - ...
   - strategic-use-cases.md
+  - client-360
+  - cyber-security
+  - digital-twin
+  - fraud-detection
+  - organization-management
+  - risk-management
+  - ...
