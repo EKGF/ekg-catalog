@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="213px" preserveAspectRatio="none" style="width:583px;height:213px;background:#2E303E;" version="1.1" viewBox="0 0 583 213" width="583px" zoomAndPan="magnify"><defs><filter height="300%" id="f71netoryluok" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#7A209F" filter="url(#f71netoryluok)" height="41.9688" rx="20" ry="20" style="stroke:#EEEEEE;stroke-width:1.5;" width="189" x="238" y="84.8906"/><a href="/use-case/client-360/know-your-customer/core-record-management/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="157" x="252" y="110.0293">Core Record Management</text></a><a href="/use-case/client-360/know-your-customer/core-record-management/countries/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/countries/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/countries/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/countries/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="57" x="484" y="26.1387">Countries</text></a><path d="M427,105.875 L437,105.875 C452,105.875 452,21.9844 467,21.9844 L477,21.9844 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/core-record-management/regions/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/regions/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/regions/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/regions/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="48" x="484" y="50.1074">Regions</text></a><path d="M427,105.875 L437,105.875 C452,105.875 452,45.9531 467,45.9531 L477,45.9531 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/core-record-management/jurisdictions/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/jurisdictions/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/jurisdictions/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/jurisdictions/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="73" x="484" y="74.0762">Jurisdictions</text></a><path d="M427,105.875 L437,105.875 C452,105.875 452,69.9219 467,69.9219 L477,69.9219 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/core-record-management/legal-entities/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/legal-entities/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/legal-entities/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/legal-entities/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="79" x="484" y="98.0449">Legal Entities</text></a><path d="M427,105.875 L437,105.875 C452,105.875 452,93.8906 467,93.8906 L477,93.8906 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/core-record-management/locations/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/locations/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/locations/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/locations/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="57" x="484" y="122.0137">Locations</text></a><path d="M427,105.875 L437,105.875 C452,105.875 452,117.8594 467,117.8594 L477,117.8594 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/core-record-management/buildings/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/buildings/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/buildings/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/buildings/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="54" x="484" y="145.9824">Buildings</text></a><path d="M427,105.875 L437,105.875 C452,105.875 452,141.8281 467,141.8281 L477,141.8281 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/core-record-management/addresses/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/addresses/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/addresses/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/addresses/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="66" x="484" y="169.9512">Addresses</text></a><path d="M427,105.875 L437,105.875 C452,105.875 452,165.7969 467,165.7969 L477,165.7969 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/core-record-management/audit/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/audit/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/audit/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/audit/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="30" x="484" y="193.9199">Audit</text></a><path d="M427,105.875 L437,105.875 C452,105.875 452,189.7656 467,189.7656 L477,189.7656 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/" target="_top" title="/use-case/client-360/know-your-customer/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="163" x="14" y="110.0293">Know Your Customer (KYC)</text></a><path d="M238,105.875 L228,105.875 C213,105.875 213,105.875 198,105.875 L188,105.875 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><!--MD5=[e904148e92bdd26a627b1086de1a4415]
+@startmindmap
+
+!define BG_MAIN_COLOR      #1A618C
+!define BG_SECONDARY_COLOR #616768
+!define BG_PACKAGE_COLOR   #7a209f
+!define BORDER_COLOR       #EEEEEE
+!define FONT_COLOR         #EEEEEE
+
+skinparam backgroundColor       #transparent
+skinparam backgroundColor       %hsl_color(232, 15, 21)
+skinparam HyperLinkColor        #lightgreen
+
+' include the general skinparams for both, light and dark
+' to overwrite with the given settings
+!define BORDER_THICKNESS 1
+
+skinparam Padding 4
+skinparam RoundCorner 40
+skinparam Shadowing true
+skinparam HyperlinkUnderline false
+skinparam handwritten false
+
+skinparam Default {
+'FontName "Open Sans Semibold"
+FontColor FONT_COLOR
+FontSize 12
+}
+
+skinparam Arrow {
+Color FONT_COLOR
+FontColor FONT_COLOR
+FontStyle Bold
+}
+
+skinparam package {
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+}
+skinparam node {
+FontColor FONT_COLOR
+BackgroundColor BG_PACKAGE_COLOR
+BorderColor BORDER_COLOR
+}
+skinparam component {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+Style uml2
+}
+
+skinparam database {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+
+skinparam cloud {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+
+skinparam collections {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam Control {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam Boundary {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam Entity {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam interface {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam SequenceParticipantBorderThickness 3
+skinparam sequence {
+ParticipantBackgroundColor BG_MAIN_COLOR
+ParticipantBorderColor BORDER_COLOR
+ParticipantFontStyle normal
+ParticipantFontColor FONT_COLOR
+LifeLineBorderColor BORDER_COLOR
+LifeLineBackgroundColor BG_MAIN_COLOR
+ArrowColor FONT_COLOR
+ArrowBorderColor BORDER_COLOR
+ArrowFontColor FONT_COLOR
+ArrowThickness 3
+ActorBackgroundColor BG_MAIN_COLOR
+ActorBorderColor BORDER_COLOR
+ActorFontColor FONT_COLOR
+}
+
+' C4 Styling
+' ##################################
+
+skinparam rectangle<<person>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<external_person>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_SECONDARY_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<external_system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_SECONDARY_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam database<<system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam database<<external_system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_SECONDARY_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<boundary>> {
+Shadowing false
+StereotypeFontSize 0
+BackgroundColor BG_PACKAGE_COLOR
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BorderColor BORDER_COLOR
+BorderStyle dashed
+BorderThickness BORDER_THICKNESS
+}
+skinparam rectangle<<container>> {
+Shadowing false
+StereotypeFontSize 14
+BackgroundColor BG_MAIN_COLOR
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam state {
+BackgroundColor #9397B2
+FontColor white
+AttributeFontColor #03045e
+BorderColor #0077b6
+}
+
+skinparam class {
+BackgroundColor #9397B2
+FontColor white
+AttributeFontColor #03045e
+BorderColor #0077b6
+}
+
+skinparam arrowColor #FF9900
+skinparam arrowThickness 1
+
++ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/countries/ Countries ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/regions/ Regions ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/jurisdictions/ Jurisdictions ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/legal-entities/ Legal Entities ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/locations/ Locations ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/buildings/ Buildings ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/addresses/ Addresses ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/audit/ Audit ]]
+- -_ [[ /use-case/client-360/know-your-customer/ Know Your Customer (KYC) ]]
+@endmindmap
+
+@startmindmap
+
+
+skinparam backgroundColor       #transparent
+skinparam backgroundColor       #2E303E
+skinparam HyperLinkColor        #lightgreen
+
+
+skinparam Padding 4
+skinparam RoundCorner 40
+skinparam Shadowing true
+skinparam HyperlinkUnderline false
+skinparam handwritten false
+
+skinparam Default {
+FontColor #EEEEEE
+FontSize 12
+}
+
+skinparam Arrow {
+Color #EEEEEE
+FontColor #EEEEEE
+FontStyle Bold
+}
+
+skinparam package {
+FontColor #EEEEEE
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+}
+skinparam node {
+FontColor #EEEEEE
+BackgroundColor #7a209f
+BorderColor #EEEEEE
+}
+skinparam component {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+Style uml2
+}
+
+skinparam database {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+
+skinparam cloud {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+
+skinparam collections {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam Control {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam Boundary {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam Entity {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam interface {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam SequenceParticipantBorderThickness 3
+skinparam sequence {
+ParticipantBackgroundColor #1A618C
+ParticipantBorderColor #EEEEEE
+ParticipantFontStyle normal
+ParticipantFontColor #EEEEEE
+LifeLineBorderColor #EEEEEE
+LifeLineBackgroundColor #1A618C
+ArrowColor #EEEEEE
+ArrowBorderColor #EEEEEE
+ArrowFontColor #EEEEEE
+ArrowThickness 3
+ActorBackgroundColor #1A618C
+ActorBorderColor #EEEEEE
+ActorFontColor #EEEEEE
+}
+
+
+skinparam rectangle<<person>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam rectangle<<external_person>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #616768
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam rectangle<<system>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam rectangle<<external_system>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #616768
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam database<<system>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam database<<external_system>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #616768
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam rectangle<<boundary>> {
+Shadowing false
+StereotypeFontSize 0
+BackgroundColor #7a209f
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BorderColor #EEEEEE
+BorderStyle dashed
+BorderThickness 1
+}
+skinparam rectangle<<container>> {
+Shadowing false
+StereotypeFontSize 14
+BackgroundColor #1A618C
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam state {
+BackgroundColor #9397B2
+FontColor white
+AttributeFontColor #03045e
+BorderColor #0077b6
+}
+
+skinparam class {
+BackgroundColor #9397B2
+FontColor white
+AttributeFontColor #03045e
+BorderColor #0077b6
+}
+
+skinparam arrowColor #FF9900
+skinparam arrowThickness 1
+
++ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/countries/ Countries ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/regions/ Regions ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/jurisdictions/ Jurisdictions ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/legal-entities/ Legal Entities ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/locations/ Locations ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/buildings/ Buildings ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/addresses/ Addresses ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/audit/ Audit ]]
+- -_ [[ /use-case/client-360/know-your-customer/ Know Your Customer (KYC) ]]
+@endmindmap
+
+PlantUML version 1.2022.2beta5(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
