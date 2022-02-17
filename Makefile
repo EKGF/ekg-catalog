@@ -30,7 +30,7 @@ endif
 endif
 
 CURRENT_BRANCH := $(shell git branch --show-current)
-PAT_MKDOCS_INSIDERS := $(shell cat ../.secrets/PAT_MKDOCS_INSIDERS.txt 2>/dev/null)
+PAT_MKDOCS_INSIDERS := $(shell cat ~/.secrets/PAT_MKDOCS_INSIDERS.txt 2>/dev/null)
 ifeq ($(PAT_MKDOCS_INSIDERS),)
 	MKDOCS_CONFIG_FILE := 'mkdocs.outsiders.yml'
 else
@@ -43,11 +43,13 @@ all: docs-build
 .PHONY: info
 info:
 	@echo "Git Branch: ${CURRENT_BRANCH}"
+	@echo "MkDocs: ${MKDOCS}"
 	@echo "Operating System: ${YOUR_OS}"
 	@echo "MkDocs: ${MKDOCS}"
 	@echo "MkDocs config file: ${MKDOCS_CONFIG_FILE}"
 	@echo "Python pip: ${PIP}"
 	@echo "install target: ${INSTALL_TARGET}"
+	@echo "Document Version: ${DOC_VERSION}"
 
 .PHONY: install
 install: docs-install
@@ -68,6 +70,7 @@ docs-install-brew-packages:
 	brew upgrade libpng || brew install libpng
 	brew upgrade zlib || brew install zlib
 	brew upgrade plantuml || brew install plantuml
+	brew upgrade graphviz || brew install graphviz
 
 .PHONY: docs-install-brew
 ifeq ($(YOUR_OS), Linux)
