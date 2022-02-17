@@ -131,11 +131,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/money-laundering/</loc>
-         <lastmod>2022-02-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/peps/</loc>
          <lastmod>2022-02-17</lastmod>
          <changefreq>daily</changefreq>
@@ -147,6 +142,26 @@
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/sanctions/</loc>
+         <lastmod>2022-02-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/anti-money-laundering/</loc>
+         <lastmod>2022-02-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/</loc>
+         <lastmod>2022-02-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/</loc>
+         <lastmod>2022-02-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/</loc>
          <lastmod>2022-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="131px" preserveAspectRatio="none" style="width:466px;height:131px;background:#2E303E;" version="1.1" viewBox="0 0 466 131" width="466px" zoomAndPan="magnify"><defs><filter height="300%" id="f1w34je2l40has" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><a href="/use-case/client-360/know-your-customer/anti-money-laundering/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="174" x="17" y="69.1074">Anti Money Laundering (AML)</text></a><a href="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="162" x="256" y="26.1387">Correspondent-based AML</text></a><path d="M199,64.9531 L209,64.9531 C224,64.9531 224,21.9844 239,21.9844 L249,21.9844 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><rect fill="#7A209F" filter="url(#f1w34je2l40has)" height="41.9688" rx="20" ry="20" style="stroke:#EEEEEE;stroke-width:1.5;" width="153" x="249" y="43.9688"/><a href="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="121" x="263" y="69.1074">Network-based AML</text></a><path d="M199,64.9531 L209,64.9531 C224,64.9531 224,64.9531 239,64.9531 L249,64.9531 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="190" x="256" y="112.0762">Transaction/Finance-based AML</text></a><path d="M199,64.9531 L209,64.9531 C224,64.9531 224,107.9219 239,107.9219 L249,107.9219 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><!--MD5=[1c201ae528d756cddfc33541c59b0def]
+@startmindmap
+
+!define BG_MAIN_COLOR      #1A618C
+!define BG_SECONDARY_COLOR #616768
+!define BG_PACKAGE_COLOR   #7a209f
+!define BORDER_COLOR       #EEEEEE
+!define FONT_COLOR         #EEEEEE
+
+skinparam backgroundColor       #transparent
+skinparam backgroundColor       %hsl_color(232, 15, 21)
+skinparam HyperLinkColor        #lightgreen
+
+' include the general skinparams for both, light and dark
+' to overwrite with the given settings
+!define BORDER_THICKNESS 1
+
+skinparam Padding 4
+skinparam RoundCorner 40
+skinparam Shadowing true
+skinparam HyperlinkUnderline false
+skinparam handwritten false
+
+skinparam Default {
+'FontName "Open Sans Semibold"
+FontColor FONT_COLOR
+FontSize 12
+}
+
+skinparam Arrow {
+Color FONT_COLOR
+FontColor FONT_COLOR
+FontStyle Bold
+}
+
+skinparam package {
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+}
+skinparam node {
+FontColor FONT_COLOR
+BackgroundColor BG_PACKAGE_COLOR
+BorderColor BORDER_COLOR
+}
+skinparam component {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+Style uml2
+}
+
+skinparam database {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+
+skinparam cloud {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+
+skinparam collections {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam Control {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam Boundary {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam Entity {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam interface {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam SequenceParticipantBorderThickness 3
+skinparam sequence {
+ParticipantBackgroundColor BG_MAIN_COLOR
+ParticipantBorderColor BORDER_COLOR
+ParticipantFontStyle normal
+ParticipantFontColor FONT_COLOR
+LifeLineBorderColor BORDER_COLOR
+LifeLineBackgroundColor BG_MAIN_COLOR
+ArrowColor FONT_COLOR
+ArrowBorderColor BORDER_COLOR
+ArrowFontColor FONT_COLOR
+ArrowThickness 3
+ActorBackgroundColor BG_MAIN_COLOR
+ActorBorderColor BORDER_COLOR
+ActorFontColor FONT_COLOR
+}
+
+' C4 Styling
+' ##################################
+
+skinparam rectangle<<person>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<external_person>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_SECONDARY_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<external_system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_SECONDARY_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam database<<system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam database<<external_system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_SECONDARY_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<boundary>> {
+Shadowing false
+StereotypeFontSize 0
+BackgroundColor BG_PACKAGE_COLOR
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BorderColor BORDER_COLOR
+BorderStyle dashed
+BorderThickness BORDER_THICKNESS
+}
+skinparam rectangle<<container>> {
+Shadowing false
+StereotypeFontSize 14
+BackgroundColor BG_MAIN_COLOR
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam state {
+BackgroundColor #9397B2
+FontColor white
+AttributeFontColor #03045e
+BorderColor #0077b6
+}
+
+skinparam class {
+BackgroundColor #9397B2
+FontColor white
+AttributeFontColor #03045e
+BorderColor #0077b6
+}
+
+skinparam arrowColor #FF9900
+skinparam arrowThickness 1
+
++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
+++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/ Correspondent-based AML ]]
+++ [[ /use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/ Network-based AML ]]
+++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/ Transaction/Finance-based AML ]]
+
+@endmindmap
+
+@startmindmap
+
+
+skinparam backgroundColor       #transparent
+skinparam backgroundColor       #2E303E
+skinparam HyperLinkColor        #lightgreen
+
+
+skinparam Padding 4
+skinparam RoundCorner 40
+skinparam Shadowing true
+skinparam HyperlinkUnderline false
+skinparam handwritten false
+
+skinparam Default {
+FontColor #EEEEEE
+FontSize 12
+}
+
+skinparam Arrow {
+Color #EEEEEE
+FontColor #EEEEEE
+FontStyle Bold
+}
+
+skinparam package {
+FontColor #EEEEEE
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+}
+skinparam node {
+FontColor #EEEEEE
+BackgroundColor #7a209f
+BorderColor #EEEEEE
+}
+skinparam component {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+Style uml2
+}
+
+skinparam database {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+
+skinparam cloud {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+
+skinparam collections {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam Control {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam Boundary {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam Entity {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam interface {
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+FontColor #EEEEEE
+}
+skinparam SequenceParticipantBorderThickness 3
+skinparam sequence {
+ParticipantBackgroundColor #1A618C
+ParticipantBorderColor #EEEEEE
+ParticipantFontStyle normal
+ParticipantFontColor #EEEEEE
+LifeLineBorderColor #EEEEEE
+LifeLineBackgroundColor #1A618C
+ArrowColor #EEEEEE
+ArrowBorderColor #EEEEEE
+ArrowFontColor #EEEEEE
+ArrowThickness 3
+ActorBackgroundColor #1A618C
+ActorBorderColor #EEEEEE
+ActorFontColor #EEEEEE
+}
+
+
+skinparam rectangle<<person>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam rectangle<<external_person>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #616768
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam rectangle<<system>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam rectangle<<external_system>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #616768
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam database<<system>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #1A618C
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam database<<external_system>> {
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BackgroundColor #616768
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam rectangle<<boundary>> {
+Shadowing false
+StereotypeFontSize 0
+BackgroundColor #7a209f
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BorderColor #EEEEEE
+BorderStyle dashed
+BorderThickness 1
+}
+skinparam rectangle<<container>> {
+Shadowing false
+StereotypeFontSize 14
+BackgroundColor #1A618C
+StereotypeFontColor #EEEEEE
+FontColor #EEEEEE
+BorderColor #EEEEEE
+BorderThickness 1
+}
+
+skinparam state {
+BackgroundColor #9397B2
+FontColor white
+AttributeFontColor #03045e
+BorderColor #0077b6
+}
+
+skinparam class {
+BackgroundColor #9397B2
+FontColor white
+AttributeFontColor #03045e
+BorderColor #0077b6
+}
+
+skinparam arrowColor #FF9900
+skinparam arrowThickness 1
+
++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
+++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/ Correspondent-based AML ]]
+++ [[ /use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/ Network-based AML ]]
+++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/ Transaction/Finance-based AML ]]
+
+@endmindmap
+
+PlantUML version 1.2022.2beta5(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

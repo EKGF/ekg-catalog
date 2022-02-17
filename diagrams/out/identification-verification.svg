@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="299px" preserveAspectRatio="none" style="width:469px;height:299px;background:#FFFFFF;" version="1.1" viewBox="0 0 469 299" width="469px" zoomAndPan="magnify"><defs><filter height="300%" id="fxiffz6mi98ui" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><a href="/use-case/client-360/know-your-customer/" target="_top" title="/use-case/client-360/know-your-customer/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="163" x="17" y="152.998">Know Your Customer (KYC)</text></a><a href="/use-case/client-360/know-your-customer/anti-money-laundering/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="174" x="245" y="26.1387">Anti Money Laundering (AML)</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,21.9844 228,21.9844 L238,21.9844 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><rect fill="#EEB291" filter="url(#fxiffz6mi98ui)" height="41.9688" rx="20" ry="20" style="stroke:#444444;stroke-width:1.5;" width="179" x="238" y="43.9688"/><a href="/use-case/client-360/know-your-customer/identification-verification/" target="_top" title="/use-case/client-360/know-your-customer/identification-verification/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/identification-verification/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/identification-verification/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="147" x="252" y="69.1074">Identification Verification</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,64.9531 228,64.9531 L238,64.9531 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/peps/" target="_top" title="/use-case/client-360/know-your-customer/peps/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/peps/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/peps/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="203" x="245" y="112.0762">Politically Exposed Persons (PEPs)</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,107.9219 228,107.9219 L238,107.9219 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/crime-records/" target="_top" title="/use-case/client-360/know-your-customer/crime-records/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/crime-records/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/crime-records/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="89" x="245" y="136.0449">Crime Records</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,131.8906 228,131.8906 L238,131.8906 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/sanctions/" target="_top" title="/use-case/client-360/know-your-customer/sanctions/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/sanctions/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/sanctions/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="58" x="245" y="160.0137">Sanctions</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,155.8594 228,155.8594 L238,155.8594 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/risk-management/" target="_top" title="/use-case/client-360/know-your-customer/risk-management/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/risk-management/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/risk-management/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="105" x="245" y="183.9824">Risk Management</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,179.8281 228,179.8281 L238,179.8281 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/high-net-worth-individuals/" target="_top" title="/use-case/client-360/know-your-customer/high-net-worth-individuals/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/high-net-worth-individuals/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/high-net-worth-individuals/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="204" x="245" y="207.9512">High Net Worth Individuals (HNWI)</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,203.7969 228,203.7969 L238,203.7969 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/gdpr/" target="_top" title="/use-case/client-360/know-your-customer/gdpr/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/gdpr/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/gdpr/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="31" x="245" y="231.9199">GDPR</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,227.7656 228,227.7656 L238,227.7656 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/activity-monitoring/" target="_top" title="/use-case/client-360/know-your-customer/activity-monitoring/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/activity-monitoring/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/activity-monitoring/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="110" x="245" y="255.8887">Activity Monitoring</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,251.7344 228,251.7344 L238,251.7344 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/core-record-management/" target="_top" title="/use-case/client-360/know-your-customer/core-record-management/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/core-record-management/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/core-record-management/" xlink:type="simple"><text fill="#0000FF" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="157" x="245" y="279.8574">Core Record Management</text></a><path d="M188,148.8438 L198,148.8438 C213,148.8438 213,275.7031 228,275.7031 L238,275.7031 " fill="none" style="stroke:#023E8A;stroke-width:1.0;"/><!--MD5=[7b0d3d71af0ac194ab845bc57518d4f0]
+@startmindmap
+
+!define BG_MAIN_COLOR      #66BCF0
+!define BG_SECONDARY_COLOR #B4BCBE
+!define BG_PACKAGE_COLOR   #eeb291
+!define BORDER_COLOR       #444444
+!define FONT_COLOR         #444444
+
+skinparam backgroundColor #white
+
+' include the general skinparams for both, light and dark
+' to overwrite with the given settings
+!define BORDER_THICKNESS 1
+
+skinparam Padding 4
+skinparam RoundCorner 40
+skinparam Shadowing true
+skinparam HyperlinkUnderline false
+skinparam handwritten false
+
+skinparam Default {
+'FontName "Open Sans Semibold"
+FontColor FONT_COLOR
+FontSize 12
+}
+
+skinparam Arrow {
+Color FONT_COLOR
+FontColor FONT_COLOR
+FontStyle Bold
+}
+
+skinparam package {
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+}
+skinparam node {
+FontColor FONT_COLOR
+BackgroundColor BG_PACKAGE_COLOR
+BorderColor BORDER_COLOR
+}
+skinparam component {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+Style uml2
+}
+
+skinparam database {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+
+skinparam cloud {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+
+skinparam collections {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam Control {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam Boundary {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam Entity {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam interface {
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+FontColor FONT_COLOR
+}
+skinparam SequenceParticipantBorderThickness 3
+skinparam sequence {
+ParticipantBackgroundColor BG_MAIN_COLOR
+ParticipantBorderColor BORDER_COLOR
+ParticipantFontStyle normal
+ParticipantFontColor FONT_COLOR
+LifeLineBorderColor BORDER_COLOR
+LifeLineBackgroundColor BG_MAIN_COLOR
+ArrowColor FONT_COLOR
+ArrowBorderColor BORDER_COLOR
+ArrowFontColor FONT_COLOR
+ArrowThickness 3
+ActorBackgroundColor BG_MAIN_COLOR
+ActorBorderColor BORDER_COLOR
+ActorFontColor FONT_COLOR
+}
+
+' C4 Styling
+' ##################################
+
+skinparam rectangle<<person>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<external_person>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_SECONDARY_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<external_system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_SECONDARY_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam database<<system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_MAIN_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam database<<external_system>> {
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BackgroundColor BG_SECONDARY_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam rectangle<<boundary>> {
+Shadowing false
+StereotypeFontSize 0
+BackgroundColor BG_PACKAGE_COLOR
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BorderColor BORDER_COLOR
+BorderStyle dashed
+BorderThickness BORDER_THICKNESS
+}
+skinparam rectangle<<container>> {
+Shadowing false
+StereotypeFontSize 14
+BackgroundColor BG_MAIN_COLOR
+StereotypeFontColor FONT_COLOR
+FontColor FONT_COLOR
+BorderColor BORDER_COLOR
+BorderThickness BORDER_THICKNESS
+}
+
+skinparam state {
+BackgroundColor #ade8f4
+FontColor #03045e
+AttributeFontColor #03045e
+ArrowColor #023e8a
+BorderColor #0077b6
+}
+
+skinparam class {
+BackgroundColor #ade8f4
+}
+
+skinparam arrowThickness 1
+
+
++_ [[ /use-case/client-360/know-your-customer/ Know Your Customer (KYC) ]]
+++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
+++ [[ /use-case/client-360/know-your-customer/identification-verification/ Identification Verification ]]
+++_ [[ /use-case/client-360/know-your-customer/peps/ Politically Exposed Persons (PEPs) ]]
+++_ [[ /use-case/client-360/know-your-customer/crime-records/ Crime Records ]]
+++_ [[ /use-case/client-360/know-your-customer/sanctions/ Sanctions ]]
+++_ [[ /use-case/client-360/know-your-customer/risk-management/ Risk Management ]]
+++_ [[ /use-case/client-360/know-your-customer/high-net-worth-individuals/ High Net Worth Individuals (HNWI) ]]
+++_ [[ /use-case/client-360/know-your-customer/gdpr/ GDPR ]]
+++_ [[ /use-case/client-360/know-your-customer/activity-monitoring/ Activity Monitoring ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
+@endmindmap
+
+@startmindmap
+
+
+skinparam backgroundColor #white
+
+
+skinparam Padding 4
+skinparam RoundCorner 40
+skinparam Shadowing true
+skinparam HyperlinkUnderline false
+skinparam handwritten false
+
+skinparam Default {
+FontColor #444444
+FontSize 12
+}
+
+skinparam Arrow {
+Color #444444
+FontColor #444444
+FontStyle Bold
+}
+
+skinparam package {
+FontColor #444444
+BackgroundColor #66BCF0
+BorderColor #444444
+}
+skinparam node {
+FontColor #444444
+BackgroundColor #eeb291
+BorderColor #444444
+}
+skinparam component {
+BackgroundColor #66BCF0
+BorderColor #444444
+FontColor #444444
+Style uml2
+}
+
+skinparam database {
+BackgroundColor #66BCF0
+BorderColor #444444
+FontColor #444444
+}
+
+skinparam cloud {
+BackgroundColor #66BCF0
+BorderColor #444444
+FontColor #444444
+}
+
+skinparam collections {
+BackgroundColor #66BCF0
+BorderColor #444444
+FontColor #444444
+}
+skinparam Control {
+BackgroundColor #66BCF0
+BorderColor #444444
+FontColor #444444
+}
+skinparam Boundary {
+BackgroundColor #66BCF0
+BorderColor #444444
+FontColor #444444
+}
+skinparam Entity {
+BackgroundColor #66BCF0
+BorderColor #444444
+FontColor #444444
+}
+skinparam interface {
+BackgroundColor #66BCF0
+BorderColor #444444
+FontColor #444444
+}
+skinparam SequenceParticipantBorderThickness 3
+skinparam sequence {
+ParticipantBackgroundColor #66BCF0
+ParticipantBorderColor #444444
+ParticipantFontStyle normal
+ParticipantFontColor #444444
+LifeLineBorderColor #444444
+LifeLineBackgroundColor #66BCF0
+ArrowColor #444444
+ArrowBorderColor #444444
+ArrowFontColor #444444
+ArrowThickness 3
+ActorBackgroundColor #66BCF0
+ActorBorderColor #444444
+ActorFontColor #444444
+}
+
+
+skinparam rectangle<<person>> {
+StereotypeFontColor #444444
+FontColor #444444
+BackgroundColor #66BCF0
+BorderColor #444444
+BorderThickness 1
+}
+
+skinparam rectangle<<external_person>> {
+StereotypeFontColor #444444
+FontColor #444444
+BackgroundColor #B4BCBE
+BorderColor #444444
+BorderThickness 1
+}
+
+skinparam rectangle<<system>> {
+StereotypeFontColor #444444
+FontColor #444444
+BackgroundColor #66BCF0
+BorderColor #444444
+BorderThickness 1
+}
+
+skinparam rectangle<<external_system>> {
+StereotypeFontColor #444444
+FontColor #444444
+BackgroundColor #B4BCBE
+BorderColor #444444
+BorderThickness 1
+}
+
+skinparam database<<system>> {
+StereotypeFontColor #444444
+FontColor #444444
+BackgroundColor #66BCF0
+BorderColor #444444
+BorderThickness 1
+}
+
+skinparam database<<external_system>> {
+StereotypeFontColor #444444
+FontColor #444444
+BackgroundColor #B4BCBE
+BorderColor #444444
+BorderThickness 1
+}
+
+skinparam rectangle<<boundary>> {
+Shadowing false
+StereotypeFontSize 0
+BackgroundColor #eeb291
+StereotypeFontColor #444444
+FontColor #444444
+BorderColor #444444
+BorderStyle dashed
+BorderThickness 1
+}
+skinparam rectangle<<container>> {
+Shadowing false
+StereotypeFontSize 14
+BackgroundColor #66BCF0
+StereotypeFontColor #444444
+FontColor #444444
+BorderColor #444444
+BorderThickness 1
+}
+
+skinparam state {
+BackgroundColor #ade8f4
+FontColor #03045e
+AttributeFontColor #03045e
+ArrowColor #023e8a
+BorderColor #0077b6
+}
+
+skinparam class {
+BackgroundColor #ade8f4
+}
+
+skinparam arrowThickness 1
+
+
++_ [[ /use-case/client-360/know-your-customer/ Know Your Customer (KYC) ]]
+++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
+++ [[ /use-case/client-360/know-your-customer/identification-verification/ Identification Verification ]]
+++_ [[ /use-case/client-360/know-your-customer/peps/ Politically Exposed Persons (PEPs) ]]
+++_ [[ /use-case/client-360/know-your-customer/crime-records/ Crime Records ]]
+++_ [[ /use-case/client-360/know-your-customer/sanctions/ Sanctions ]]
+++_ [[ /use-case/client-360/know-your-customer/risk-management/ Risk Management ]]
+++_ [[ /use-case/client-360/know-your-customer/high-net-worth-individuals/ High Net Worth Individuals (HNWI) ]]
+++_ [[ /use-case/client-360/know-your-customer/gdpr/ GDPR ]]
+++_ [[ /use-case/client-360/know-your-customer/activity-monitoring/ Activity Monitoring ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
+@endmindmap
+
+PlantUML version 1.2022.2beta5(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
