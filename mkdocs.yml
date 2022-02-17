@@ -48,7 +48,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 #   - navigation.sections
-    - navigation.expand
+#    - navigation.expand
     - navigation.indexes
     - content.code.annotate
 extra:
@@ -87,8 +87,6 @@ plugins:
       regex:
         - '.*\.(tmp|bin|tar)$'
         - '_.*\.md$'
-  - macros:
-      module_name: docs/main
   - build_plantuml:
       render: "server" # or "local" for local rendering
       bin_path: "/usr/local/bin/plantuml" # ignored when render: server
@@ -106,6 +104,8 @@ plugins:
       filename: .pages.yaml
       collapse_single_pages: false
       strict: true
+  - macros:
+      module_name: docs/main
 
 markdown_extensions:
   - toc:

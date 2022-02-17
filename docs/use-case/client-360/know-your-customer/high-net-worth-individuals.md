@@ -27,7 +27,7 @@ It is only through using a holistic view that you can get analysis data to give 
 
 A holistic view enables you to connect these counter parties to see if these financial interactions make sense.
 The ability to monitor activity in context of a holistic view enables the organization to have valuable insights on what these individuals are doing.
-This information can in turn be used to more effectively assess an individual for \glsxtrshort{aml} issues and risk.
+This information can in turn be used to more effectively assess an individual for AML issues and risk.
 This is an important lower level analysis task that knowledge graph excels at because as most large scale money laundering tends to involve networks of individuals and organizations with a controlling force.
 The EKG enables the easier identification of all networks (bank accounts, transactions and customers) which in turn allows for swift analysis of alerts.
 A cluster of automatic alerts all in a given network identified by the \glsxtrshort{ekg} can be swifty escalated for review (this is detailed further in the use case \usecaseref{uc:aml}).

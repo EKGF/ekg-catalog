@@ -1,0 +1,16 @@
+@startmindmap
+
+!include ../include/themes/light.puml
+
++_ [[ /use-case/client-360/know-your-customer/ Know Your Customer (KYC) ]]
+++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
+++_ [[ /use-case/client-360/know-your-customer/identification-verification/ Identification Verification ]]
+++ [[ /use-case/client-360/know-your-customer/peps/ Politically Exposed Persons (PEPs) ]]
+++_ [[ /use-case/client-360/know-your-customer/crime-records/ Crime Records ]]
+++_ [[ /use-case/client-360/know-your-customer/sanctions/ Sanctions ]]
+++_ [[ /use-case/client-360/know-your-customer/risk-management/ Risk Management ]]
+++_ [[ /use-case/client-360/know-your-customer/high-net-worth-individuals/ High Net Worth Individuals (HNWI) ]]
+++_ [[ /use-case/client-360/know-your-customer/gdpr/ GDPR ]]
+++_ [[ /use-case/client-360/know-your-customer/activity-monitoring/ Activity Monitoring ]]
+++_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
+@endmindmap

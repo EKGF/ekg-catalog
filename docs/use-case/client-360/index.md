@@ -1,6 +1,6 @@
 # Client 360
 
-<object data="../../diagrams/out/client-360.svg#darkable" type="image/svg+xml"/>
+<object data="../../diagrams/out/client-360.svg#darkable" type="image/svg+xml"></object>
 
 ## Summary
 

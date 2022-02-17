@@ -1,5 +1,7 @@
 ### GDPR
 
+<object data="../../../../diagrams/out/gdpr.svg#darkable" type="image/svg+xml"></object>
+
 By creating a holistic view of the data within the organization and
 leveraging both internally and externally available data (such as
 directors, shareholders, sanctions and adverse lists) the EKG can create

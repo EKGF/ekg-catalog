@@ -1,0 +1,6 @@
+title: Anti Money Laundering (AML)
+nav:
+  - index.md
+  - Correspondent-based AML: correspondent-based-aml.md
+  - Network-based AML: network-based-aml.md
+  - Transaction-based AML: transaction-based-aml.md
