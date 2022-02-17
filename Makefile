@@ -30,11 +30,12 @@ endif
 endif
 
 CURRENT_BRANCH := $(shell git branch --show-current)
-PAT_MKDOCS_INSIDERS := $(shell cat ~/.secrets/PAT_MKDOCS_INSIDERS.txt 2>/dev/null)
+PAT_MKDOCS_INSIDERS := $(shell cat $(HOME)/.secrets/PAT_MKDOCS_INSIDERS.txt 2>/dev/null)
 ifeq ($(PAT_MKDOCS_INSIDERS),)
-	MKDOCS_CONFIG_FILE := 'mkdocs.outsiders.yml'
+MKDOCS_CONFIG_FILE := 'mkdocs.outsiders.yml'
+$(info You don't have the $(HOME)/.secrets/PAT_MKDOCS_INSIDERS.txt file so we are using the open source version of MkDocs)
 else
-	MKDOCS_CONFIG_FILE := 'mkdocs.yml'
+MKDOCS_CONFIG_FILE := 'mkdocs.yml'
 endif
 
 .PHONY: all

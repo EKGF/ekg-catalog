@@ -22,7 +22,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =
 
 document.addEventListener("DOMContentLoaded", function(){
     alert('The page has fully loaded');
-    var palette = __md_get("__palette")
+    const palette = __md_get("__palette");
     alert("palette: " + palette)
     if (palette && typeof palette.color === "object")
         if (palette.color.scheme === "slate") {

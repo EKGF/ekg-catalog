@@ -1,5 +1,8 @@
+title: Home
 nav:
   - index.md
-  - use-case
-  - ...
+  - Use Cases: use-case
+  - Datasets: dataset
+  - Ontologies: ontology
+  - other
   - glos
