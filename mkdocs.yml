@@ -54,10 +54,10 @@ theme:
 extra:
   generator: false
   giscus:
-    repo_id: 'MDEwOlJlcG9zaXRvcnkzMTk3MTE4MzM='
+    repo_id: 'R_kgDOG2Ysqg'
     category:
       name: 'General'
-      id: 'DIC_kwDOEw5qWc4CA98b'
+      id: 'DIC_kwDOG2Ysqs4CBNPm'
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/EKG_Foundation
