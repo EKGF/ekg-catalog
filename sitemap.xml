@@ -71,6 +71,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://use-cases.ekgf.org/glos/urn/</loc>
+         <lastmod>2022-02-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://use-cases.ekgf.org/glos/use-case/</loc>
          <lastmod>2022-02-17</lastmod>
          <changefreq>daily</changefreq>

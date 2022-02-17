@@ -1,0 +1,14 @@
+wheel
+mkdocs-build-plantuml-plugin
+mkdocs
+mkdocs-localsearch
+mkdocs-include-markdown-plugin
+mkdocs-awesome-pages-plugin
+mkdocs-macros-plugin
+mkdocs-mermaid2-plugin
+mkdocs-git-revision-date-plugin
+mkdocs-minify-plugin
+mkdocs-redirects
+mdx-spanner
+markdown-emdash
+
