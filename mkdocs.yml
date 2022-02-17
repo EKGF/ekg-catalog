@@ -65,6 +65,9 @@ extra:
       link: https://www.linkedin.com/company/EKGF
     - icon: fontawesome/brands/github
       link: https://github.com/EKGF/ekg-catalog
+  analytics:
+    provider: google
+    property: G-E2T299FBZG
 extra_javascript:
   - "javascript/images_dark.js"
   - "javascript/refresh_on_toggle_dark_light.js"
