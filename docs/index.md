@@ -1,11 +1,16 @@
+---
+hide:
+- navigation
+- toc
+---
 # Introduction
 
 Welcome to the use case catalog for the Enterprise Knowledge Graph.
 
 This Catalog is a collection of all use cases that are being
-worked on are being discussed in the EKGF community.
+worked on are being discussed in the [EKGF](https://ekgf.org) community.
 
 Besides all use cases, we have:
 
-- Datasets, per use case
-- Ontologies, per dataset and per use case
+- [Datasets](dataset/index.md), per use case
+- [Ontologies](ontology/index.md), per dataset and per use case
