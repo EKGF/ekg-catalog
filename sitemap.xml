@@ -266,11 +266,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://use-cases.ekgf.org/use-case/enterprise-initiative-prioritization/</loc>
-         <lastmod>2022-03-09</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://use-cases.ekgf.org/use-case/fraud-detection/</loc>
          <lastmod>2022-03-09</lastmod>
          <changefreq>daily</changefreq>
@@ -432,6 +427,26 @@
     </url>
     <url>
          <loc>https://use-cases.ekgf.org/use-case/organization-management/</loc>
+         <lastmod>2022-03-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/other/</loc>
+         <lastmod>2022-03-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/other/enterprise-initiative-prioritization/</loc>
+         <lastmod>2022-03-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/other/identify-redundant-vendor-contracts/</loc>
+         <lastmod>2022-03-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://use-cases.ekgf.org/use-case/other/merger-and-acquisition-evaluation-and-integration/</loc>
          <lastmod>2022-03-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
