@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="131px" preserveAspectRatio="none" style="width:466px;height:131px;background:#2E303E;" version="1.1" viewBox="0 0 466 131" width="466px" zoomAndPan="magnify"><defs><filter height="300%" id="fw2g7dnglexhm" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><a href="/use-case/client-360/know-your-customer/anti-money-laundering/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="174" x="17" y="69.1074">Anti Money Laundering (AML)</text></a><rect fill="#7A209F" filter="url(#fw2g7dnglexhm)" height="41.9688" rx="20" ry="20" style="stroke:#EEEEEE;stroke-width:1.5;" width="194" x="249" y="20"/><a href="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="162" x="263" y="45.1387">Correspondent-based AML</text></a><path d="M199,64.9531 L209,64.9531 C224,64.9531 224,40.9844 239,40.9844 L249,40.9844 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="121" x="256" y="88.1074">Network-based AML</text></a><path d="M199,64.9531 L209,64.9531 C224,64.9531 224,83.9531 239,83.9531 L249,83.9531 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="190" x="256" y="112.0762">Transaction/Finance-based AML</text></a><path d="M199,64.9531 L209,64.9531 C224,64.9531 224,107.9219 239,107.9219 L249,107.9219 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><!--MD5=[9d819fe8bba110cf50847afff26894ba]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="123px" preserveAspectRatio="none" style="width:466px;height:123px;background:#2E303E;" version="1.1" viewBox="0 0 466 123" width="466px" zoomAndPan="magnify"><defs><filter height="300%" id="f11b4pnjia9k8s" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><a href="/use-case/client-360/know-your-customer/anti-money-laundering/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="174" x="17" y="65.1074">Anti Money Laundering (AML)</text></a><rect fill="#7A209F" filter="url(#f11b4pnjia9k8s)" height="33.9688" rx="20" ry="20" style="stroke:#EEEEEE;stroke-width:1.5;" width="186" x="249" y="20"/><a href="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="162" x="259" y="41.1387">Correspondent-based AML</text></a><path d="M199,60.9531 L209,60.9531 C224,60.9531 224,36.9844 239,36.9844 L249,36.9844 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="121" x="256" y="80.1074">Network-based AML</text></a><path d="M199,60.9531 L209,60.9531 C224,60.9531 224,75.9531 239,75.9531 L249,75.9531 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><a href="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" target="_top" title="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" xlink:actuate="onRequest" xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" xlink:show="new" xlink:title="/use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/" xlink:type="simple"><text fill="#90EE90" font-family="sans-serif" font-size="12" lengthAdjust="spacing" text-decoration="underline" textLength="190" x="256" y="104.0762">Transaction/Finance-based AML</text></a><path d="M199,60.9531 L209,60.9531 C224,60.9531 224,99.9219 239,99.9219 L249,99.9219 " fill="none" style="stroke:#FF9900;stroke-width:1.0;"/><!--MD5=[57c50da39b045cb9c03d131a0441f8df]
 @startmindmap
 
 !define BG_MAIN_COLOR      #1A618C
@@ -175,6 +175,7 @@ BorderColor BORDER_COLOR
 BorderThickness BORDER_THICKNESS
 }
 
+
 skinparam state {
 BackgroundColor #9397B2
 FontColor white
@@ -191,6 +192,7 @@ BorderColor #0077b6
 
 skinparam arrowColor #FF9900
 skinparam arrowThickness 1
+
 
 +_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
 ++ [[ /use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/ Correspondent-based AML ]]
@@ -364,6 +366,7 @@ BorderColor #EEEEEE
 BorderThickness 1
 }
 
+
 skinparam state {
 BackgroundColor #9397B2
 FontColor white
@@ -381,6 +384,7 @@ BorderColor #0077b6
 skinparam arrowColor #FF9900
 skinparam arrowThickness 1
 
+
 +_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
 ++ [[ /use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/ Correspondent-based AML ]]
 ++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/ Network-based AML ]]
@@ -388,7 +392,7 @@ skinparam arrowThickness 1
 
 @endmindmap
 
-PlantUML version 1.2022.3beta2(Unknown compile time)
+PlantUML version 1.2022.8beta2(Unknown compile time)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM
