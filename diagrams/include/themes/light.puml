@@ -1,26 +1,34 @@
-!define BG_MAIN_COLOR      #66BCF0
-!define BG_SECONDARY_COLOR #B4BCBE
-!define BG_PACKAGE_COLOR   #eeb291
-!define BORDER_COLOR       #444444
-!define FONT_COLOR         #444444
+!define BG_MAIN_COLOR      #4051b5
+!define BG_SECONDARY_COLOR #4051b5
+!define BG_PACKAGE_COLOR   #4051b5
+!define BORDER_COLOR       #ff6f00
+!define FONT_COLOR         #ffffff
 
-skinparam backgroundColor #white
+skinparam backgroundColor #transparent
 
 ' include the general skinparams for both, light and dark
 ' to overwrite with the given settings
 !include general.puml
 
 skinparam state {
-    BackgroundColor #ade8f4
-    FontColor #03045e
-    AttributeFontColor #03045e
-    ArrowColor #023e8a
-    BorderColor #0077b6
+    BackgroundColor #4051b5
+    FontColor #ffffff
+    AttributeFontColor #ffffff
+    ArrowColor #ff6f00
+    BorderColor #ff6f00
 }
 
 skinparam class {
-    BackgroundColor #ade8f4
+    BackgroundColor #4051b5
+    FontColor #ffffff
+    BorderColor #ff6f00
+}
+
+' Mindmap specific styling
+skinparam node {
+    BackgroundColor #4051b5
+    FontColor #ffffff
+    BorderColor #ff6f00
 }
 
 skinparam arrowThickness 1
-
