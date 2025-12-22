@@ -1,4 +1,4 @@
-### GDPR
+# GDPR
 
 <object data="../../../../diagrams/out/gdpr.svg#darkable" type="image/svg+xml"></object>
 

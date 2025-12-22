@@ -23,15 +23,14 @@ endif
 endif
 
 #
-# Since we do not have asdf for Windows, we need to install these tools
-# on windows in a different way. Here we assume you did that yourself in
-# the local project's virtualenv directory (./.venv).
+# Windows note: install the required build tools separately (outside of this Makefile),
+# then run `make install` to create/use the local project's virtualenv (./.venv).
 #
 VENV_PYTHON := $(VIRTUAL_ENV)/bin/python3
 UV := uv
-PYTHON_VERSION := 3.13
+PYTHON_VERSION := 3.14.2
 
-PIPENV_DEFAULT_PYTHON_VERSION := 3.13
+PIPENV_DEFAULT_PYTHON_VERSION := 3.14.2
 PIPENV_VENV_IN_PROJECT := 1
 
 CURRENT_BRANCH := $(shell git branch --show-current)
@@ -57,6 +56,7 @@ clean:
 	@rm -rf site 2>/dev/null || true
 	@rm -rf .venv 2>/dev/null || true
 	@rm -rf *.lock 2>/dev/null || true
+	@rm -rf docs/diagrams/out 2>/dev/null || true
 
 .PHONY: install
 install: docs-install
@@ -69,6 +69,10 @@ docs-install: docs-install-brew docs-install-brew-packages docs-install-python-p
 docs-install-github-actions: docs-install-brew-packages docs-install-python-packages info
 
 .PHONY: docs-install-brew-packages
+ifeq ($(YOUR_OS), Linux)
+docs-install-brew-packages:
+	@echo "Skip Homebrew packages on Linux (installed via apt-get in CI)"
+else
 docs-install-brew-packages:
 	@echo "Install packages via HomeBrew:"
 	@brew upgrade cairo 2>/dev/null || brew install cairo
@@ -80,6 +84,7 @@ docs-install-brew-packages:
 	@brew upgrade zlib 2>/dev/null || brew install zlib
 	@brew upgrade graphviz 2>/dev/null || brew install graphviz
 	@brew upgrade uv 2>/dev/null || brew install uv
+endif
 
 .PHONY: docs-install-brew
 ifeq ($(YOUR_OS), Linux)
@@ -166,7 +171,7 @@ docs-serve-debug-non-strict: docs-ensure-venv
 
 .PHONY: docs-deploy
 docs-deploy: docs-ensure-venv
-	$(UV) run mkdocs gh-deploy --config-file $(MKDOCS_CONFIG_FILE) --verbose
+	$(UV) run mkdocs gh-deploy --config-file $(MKDOCS_CONFIG_FILE)
 
 .PHONY: docs-sync-from
 docs-sync-from: docs-sync-from-ekg-maturity docs-sync-from-ekg-principles

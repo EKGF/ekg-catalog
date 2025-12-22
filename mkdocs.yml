@@ -1,13 +1,14 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: EKG/Catalog
-site_description: Catalog abd repository for components of the Enterprise Knowledge Graph
+site_description: Catalog and repository for components of the Enterprise Knowledge Graph
 repo_name: 'EKGF/ekg-catalog'
 repo_url: https://github.com/EKGF/ekg-catalog
 site_url: https://catalog.ekgf.org
 edit_uri: edit/main/docs/
 site_dir: site
 site_author: Object Management Group (OMG) Enterprise Knowledge Graph Forum
-copyright: "Copyright © 2025 Object Management Group®, OMG® | All Rights Reserved"
+copyright: >-
+  Copyright © 2025 Object Management Group®, OMG® | All Rights Reserved
 
 # Navigation
 # nav: omitted, because we're using the awesome-pages plugin (https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/)
@@ -26,8 +27,8 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: light-blue
+      primary: custom
+      accent: custom
       toggle:
 #        icon: material/toggle-switch-off-outline
 #        icon: material/lightbulb-outline
@@ -35,8 +36,8 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
 #        icon: material/toggle-switch
 #        icon: material/lightbulb
@@ -58,6 +59,7 @@ theme:
 extra:
   homepage: https://www.ekgf.org/quadrants
   generator: false
+  google_site_verification: "Q_9d2He8XxoBrVAXrAXsEm2R_UrGZ6KcOCXkeNRQ058"
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/EKG_Foundation
@@ -69,9 +71,9 @@ extra:
     provider: google
     property: 331824165
 extra_javascript:
-  - "javascript/images_dark.js"
-  - "javascript/refresh_on_toggle_dark_light.js"
-  - "https://cdn.jsdelivr.net/gh/rod2ik/cdn@main/mkdocs/javascripts/mkdocs-graphviz.js"
+  - javascripts/mermaid.js
+  - javascripts/darkable-objects.js
+  - javascripts/objective-badges.js
 plugins:
   - include-markdown
   - git-revision-date-localized:
@@ -88,6 +90,7 @@ plugins:
   - exclude-search:
       exclude:
         - 'fragment/*'
+        - 'other/seo-guide.md'
   - build_plantuml:
       render: "server" # or "local" for local rendering
       bin_path: "/usr/local/bin/plantuml" # ignored when render: server
@@ -117,8 +120,6 @@ plugins:
         - '_.*\.md$'
   - kroki:
       server_url: https://kroki.io/
-  - macros:
-      module_name: 'docs/main'
 
 markdown_extensions:
   - footnotes
@@ -146,13 +147,21 @@ markdown_extensions:
       auto_append:
         - abbreviations.md
   - pymdownx.details
-  - pymdownx.mark
   - pymdownx.magiclink
-  - pymdownx.smartsymbols
   - pymdownx.critic
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
+      options:
+        custom_icons:
+          - docs-overrides/.icons
+  # Mermaid diagram support - using Material for MkDocs native integration
+  # NOTE: Do NOT use mkdocs-mermaid2-plugin - it conflicts with Material's native support
+  # Material for MkDocs has built-in Mermaid.js support that works better with instant loading
+  # Custom colors are configured using:
+  #   1. Theme palette set to 'custom' (primary/accent colors)
+  #   2. CSS variables in docs/stylesheets/extra.css
+  #   3. Inline %%{init}%% directives in individual diagrams (docs/fragment/uctm-diagram-*.md)
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -165,4 +174,3 @@ markdown_extensions:
           case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tilde

@@ -3,9 +3,14 @@ collapse: false
 nav:
   - strategic-use-cases.md
   - client-360
+  - construction-project-quotations
   - cyber-security
+  - data-privacy-governance
   - digital-twin
   - fraud-detection
   - organization-management
+  - recommendation-engine
+  - regulatory-reports
   - risk-management
+  - supply-chain-management
   - ...

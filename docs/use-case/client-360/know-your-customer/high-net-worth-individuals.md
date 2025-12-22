@@ -1,4 +1,4 @@
-### High Net Worth Individuals
+# High Net Worth Individuals
 
 This is especially the case in regard to High Net Worth (HNW) individuals.
 A large number of organizations monitor the transactions of HNW individuals

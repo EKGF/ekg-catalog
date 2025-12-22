@@ -1,11 +1,10 @@
-!define BG_MAIN_COLOR      #1A618C
-!define BG_SECONDARY_COLOR #616768
-!define BG_PACKAGE_COLOR   #7a209f
-!define BORDER_COLOR       #EEEEEE
-!define FONT_COLOR         #EEEEEE
+!define BG_MAIN_COLOR      #4051b5
+!define BG_SECONDARY_COLOR #4051b5
+!define BG_PACKAGE_COLOR   #4051b5
+!define BORDER_COLOR       #ff6f00
+!define FONT_COLOR         #ffffff
 
 skinparam backgroundColor       #transparent
-skinparam backgroundColor       %hsl_color(232, 15, 21)
 skinparam HyperLinkColor        #lightgreen
 
 ' include the general skinparams for both, light and dark
@@ -13,17 +12,24 @@ skinparam HyperLinkColor        #lightgreen
 !include general.puml
 
 skinparam state {
-    BackgroundColor #9397B2
-    FontColor white
-    AttributeFontColor #03045e
-    BorderColor #0077b6
+    BackgroundColor #4051b5
+    FontColor #ffffff
+    AttributeFontColor #ffffff
+    BorderColor #ff6f00
 }
 
 skinparam class {
-    BackgroundColor #9397B2
-    FontColor white
-    AttributeFontColor #03045e
-    BorderColor #0077b6
+    BackgroundColor #4051b5
+    FontColor #ffffff
+    AttributeFontColor #ffffff
+    BorderColor #ff6f00
+}
+
+' Mindmap specific styling
+skinparam node {
+    BackgroundColor #4051b5
+    FontColor #ffffff
+    BorderColor #ff6f00
 }
 
 skinparam arrowColor #FF9900
