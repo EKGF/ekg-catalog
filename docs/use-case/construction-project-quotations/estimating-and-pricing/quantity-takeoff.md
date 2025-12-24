@@ -1,0 +1,17 @@
+# Quantity Takeoff (2D/3D/BIM)
+
+<object data="../../../diagrams/out/quantity-takeoff.svg#darkable" type="image/svg+xml"></object>
+
+Produce a defensible quantity basis for pricing by measuring and
+classifying quantities from drawings, specs, and BIM models — including
+measurement rules and assumptions.
+
+- **Typical inputs**: drawings/specs, BIM models, measurement rules,
+  scope/WBS, takeoff templates
+- **Typical outputs**: quantity sheets, quantity-to-BoQ mapping, takeoff
+  assumptions, versioned quantity deltas
+- **EKG + GenAI**: extract quantities and references from unstructured
+  documents, link each quantity to its source and scope item, and flag
+  inconsistencies across revisions.
+
+
