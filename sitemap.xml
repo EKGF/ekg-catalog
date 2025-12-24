@@ -369,6 +369,10 @@
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
+         <loc>https://catalog.ekgf.org/use-case/legal-entity-management/compliance-and-documentation/</loc>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
          <loc>https://catalog.ekgf.org/use-case/legal-entity-management/compliance-and-documentation/compliance/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
@@ -377,11 +381,19 @@
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
+         <loc>https://catalog.ekgf.org/use-case/legal-entity-management/contact-and-location-information/</loc>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
          <loc>https://catalog.ekgf.org/use-case/legal-entity-management/contact-and-location-information/addresses/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://catalog.ekgf.org/use-case/legal-entity-management/contact-and-location-information/contacts/</loc>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://catalog.ekgf.org/use-case/legal-entity-management/corporate-governance/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
@@ -394,6 +406,10 @@
     </url>
     <url>
          <loc>https://catalog.ekgf.org/use-case/legal-entity-management/corporate-governance/signatories/</loc>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://catalog.ekgf.org/use-case/legal-entity-management/financial-information/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
@@ -417,6 +433,10 @@
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
+         <loc>https://catalog.ekgf.org/use-case/legal-entity-management/identification-and-registration/</loc>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
          <loc>https://catalog.ekgf.org/use-case/legal-entity-management/identification-and-registration/business-registration/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
@@ -433,11 +453,19 @@
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
+         <loc>https://catalog.ekgf.org/use-case/legal-entity-management/lifecycle-and-status/</loc>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
          <loc>https://catalog.ekgf.org/use-case/legal-entity-management/lifecycle-and-status/dissolution/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
          <loc>https://catalog.ekgf.org/use-case/legal-entity-management/lifecycle-and-status/liquidation/</loc>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://catalog.ekgf.org/use-case/legal-entity-management/ownership-and-capital-structure/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
@@ -482,6 +510,10 @@
     </url>
     <url>
          <loc>https://catalog.ekgf.org/use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/stock-splits/</loc>
+         <lastmod>2025-12-24</lastmod>
+    </url>
+    <url>
+         <loc>https://catalog.ekgf.org/use-case/legal-entity-management/supporting-information/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
