@@ -1,5 +1,7 @@
 # Business Registration
 
+<object data="../../../../diagrams/out/business-registration.svg#darkable" type="image/svg+xml"></object>
+
 ## Summary
 
 Business registration management involves tracking and managing information about entity registration with regulatory authorities, including registration numbers, registration dates, registration status, and registration jurisdictions. Business registration information is fundamental for entity identification, legal compliance, and regulatory reporting.

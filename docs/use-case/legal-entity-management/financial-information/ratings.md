@@ -1,5 +1,7 @@
 # Ratings
 
+<object data="../../../../diagrams/out/ratings-lem.svg#darkable" type="image/svg+xml"></object>
+
 ## Summary
 
 Ratings management involves tracking and managing credit ratings, risk ratings, and other entity assessments from rating agencies and internal risk models. Ratings provide standardized assessments of entity creditworthiness, risk, and financial strength, which are used for investment decisions, risk management, and regulatory compliance.
