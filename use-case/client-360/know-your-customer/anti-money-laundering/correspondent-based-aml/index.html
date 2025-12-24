@@ -143,7 +143,7 @@
     "name": "Object Management Group (OMG) Enterprise Knowledge Graph Forum",
     "url": "https://catalog.ekgf.org/"
   },
-  "dateModified": "<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="February 17, 2022 13:00:46 EST"><span class="timeago" datetime="2022-02-17T13:00:46-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="February 17, 2022 13:00:46 EST">2022-02-17</span>",
+  "dateModified": "<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 24, 2025 15:05:08 EST"><span class="timeago" datetime="2025-12-24T15:05:08-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 24, 2025 15:05:08 EST">2025-12-24</span>",
   "mainEntity": {
     "@type": "Article",
     "headline": "Correspondent-based AML",
@@ -1448,6 +1448,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Correspondent-based AML
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1464,6 +1482,69 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-ekg-is-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why EKG is Required
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -6220,27 +6301,41 @@
 <h1 id="correspondent-based-aml">Correspondent-based AML<a class="headerlink" href="#correspondent-based-aml" title="Permanent link">&para;</a></h1>
 <object data="../../../../../diagrams/out/correspondent-based-aml.svg#darkable" type="image/svg+xml"></object>
 
-<p>As a result of fragmented and poor data quality existing AML platforms are
-struggling to properly monitor and understand the context of
-correspondent banking.
-Often this has meant that emphasis has been on the “lower hanging fruit”
-of internal clients involved rather than the entire spectrum.
-KYC of the foreign party in a correspondent banking transaction is very hard
-to achieve leading to large number of false flags of inaccurate mapping
-via-vis the organization’s own metadata.
-In addition, potential genuine issues are missed as clients are treated
-separately as opposed to combining them into one entity.</p>
-<p>Knowledge Graph technologies enable a holistic view to be constructed
-and can handle these multiple versions of the truth.
-This enables the reconstruction of links and networks to analyse historic
-and current transactions.
-This links into your existing networks to understand the cash flows of
-foreign counterparties, nature of the business and context in terms of
-ownerships structures.</p>
-<p>This allows you the use of all data related to the entity (both internal
-and external), to heal or reconstitute the message, completing any
-missing data-points for subsequent and historic transactions.
-For this point alerts can be raised and suspicious transactions investigated.</p>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>Correspondent-based AML focuses on detecting money laundering risks in correspondent banking relationships, where one bank provides services to another bank's customers. This is particularly challenging because financial institutions must monitor transactions involving foreign counterparties with limited visibility into the underlying customers and their risk profiles.</p>
+<h2 id="the-challenge">The Challenge<a class="headerlink" href="#the-challenge" title="Permanent link">&para;</a></h2>
+<p>Financial institutions face significant challenges in correspondent banking AML:</p>
+<ul>
+<li><strong>Limited visibility</strong> — Banks have limited information about the ultimate customers in correspondent transactions</li>
+<li><strong>Fragmented data</strong> — Transaction data is fragmented across multiple systems with poor data quality</li>
+<li><strong>KYC complexity</strong> — Performing KYC on foreign counterparties is difficult, leading to many false positives</li>
+<li><strong>Multiple versions of truth</strong> — Inconsistent data across systems makes it hard to understand transaction context</li>
+<li><strong>Network complexity</strong> — Correspondent relationships involve complex networks of banks, customers, and transactions</li>
+<li><strong>Regulatory scrutiny</strong> — Correspondent banking is under intense regulatory scrutiny for AML compliance</li>
+<li><strong>Focus limitations</strong> — Traditional systems focus on "lower hanging fruit" (internal clients) rather than the full spectrum of risks</li>
+<li><strong>Missing connections</strong> — Clients are treated separately, missing connections that indicate genuine issues</li>
+</ul>
+<p>As a result of fragmented and poor data quality, existing AML platforms struggle to properly monitor and understand the context of correspondent banking. KYC of the foreign party in a correspondent banking transaction is very hard to achieve, leading to large numbers of false flags and inaccurate mapping via-vis the organization's own metadata. In addition, potential genuine issues are missed as clients are treated separately as opposed to combining them into one entity.</p>
+<h2 id="why-ekg-is-required">Why <abbr title="Enterprise Knowledge Graph, an EKGF standard">EKG</abbr> is Required<a class="headerlink" href="#why-ekg-is-required" title="Permanent link">&para;</a></h2>
+<p>Enterprise Knowledge Graphs enable a holistic view of correspondent banking:</p>
+<ul>
+<li><strong>Holistic view construction</strong> — Knowledge Graph technologies enable a holistic view to be constructed and can handle these multiple versions of the truth</li>
+<li><strong>Network reconstruction</strong> — Reconstruct links and networks to analyze historic and current transactions</li>
+<li><strong>Cash flow analysis</strong> — Link into existing networks to understand the cash flows of foreign counterparties, nature of the business, and context in terms of ownership structures</li>
+<li><strong>Data healing</strong> — Use all data related to the entity (both internal and external) to heal or reconstitute the message, completing any missing data-points for subsequent and historic transactions</li>
+<li><strong>Contextual monitoring</strong> — Understand the full context of correspondent relationships and transactions</li>
+<li><strong>Pattern detection</strong> — Identify suspicious patterns across correspondent banking networks</li>
+</ul>
+<p>This allows you to use all data related to the entity (both internal and external) to heal or reconstitute the message, completing any missing data-points for subsequent and historic transactions. For this point alerts can be raised and suspicious transactions investigated.</p>
+<h2 id="business-value">Business Value<a class="headerlink" href="#business-value" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Enhanced risk detection</strong> — Identify genuine money laundering risks in correspondent banking relationships</li>
+<li><strong>Reduced false positives</strong> — Better context reduces false flags and inaccurate mappings</li>
+<li><strong>Regulatory compliance</strong> — Meet enhanced due diligence requirements for correspondent banking</li>
+<li><strong>Operational efficiency</strong> — Focus resources on genuine risks rather than false positives</li>
+<li><strong>Network insights</strong> — Understand the full network of correspondent relationships and transactions</li>
+<li><strong>Data quality improvement</strong> — Heal and complete transaction data for better analysis</li>
+</ul>
 
 <!-- Source file information -->
 
@@ -6266,7 +6361,7 @@ For this point alerts can be raised and suspicious transactions investigated.</p
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="February 17, 2022 13:00:46 EST"><span class="timeago" datetime="2022-02-17T13:00:46-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="February 17, 2022 13:00:46 EST">2022-02-17</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 24, 2025 15:05:08 EST"><span class="timeago" datetime="2025-12-24T15:05:08-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 24, 2025 15:05:08 EST">2025-12-24</span>
   </span>
 
     

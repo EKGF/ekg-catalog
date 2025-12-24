@@ -143,7 +143,7 @@
     "name": "Object Management Group (OMG) Enterprise Knowledge Graph Forum",
     "url": "https://catalog.ekgf.org/"
   },
-  "dateModified": "<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="February 17, 2022 13:00:46 EST"><span class="timeago" datetime="2022-02-17T13:00:46-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="February 17, 2022 13:00:46 EST">2022-02-17</span>",
+  "dateModified": "<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 24, 2025 15:05:08 EST"><span class="timeago" datetime="2025-12-24T15:05:08-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 24, 2025 15:05:08 EST">2025-12-24</span>",
   "mainEntity": {
     "@type": "Article",
     "headline": "Sanctions",
@@ -1736,6 +1736,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sanctions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1752,6 +1770,69 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-ekg-is-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why EKG is Required
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -6218,6 +6299,43 @@
 <h1 id="sanctions">Sanctions<a class="headerlink" href="#sanctions" title="Permanent link">&para;</a></h1>
 <object data="../../../../diagrams/out/sanctions.svg#darkable" type="image/svg+xml"></object>
 
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>Sanctions screening involves checking customers, transactions, and business relationships against government sanctions lists and embargoes to ensure compliance with international sanctions regimes. It is a critical component of KYC and AML compliance, helping financial institutions avoid severe penalties and reputational damage from prohibited transactions.</p>
+<h2 id="the-challenge">The Challenge<a class="headerlink" href="#the-challenge" title="Permanent link">&para;</a></h2>
+<p>Financial institutions face significant challenges in sanctions screening:</p>
+<ul>
+<li><strong>Multiple sanctions regimes</strong> — Must comply with OFAC (US), EU, UN, UK, and other jurisdictions' sanctions</li>
+<li><strong>Frequent list updates</strong> — Sanctions lists change daily as new individuals and entities are added or removed</li>
+<li><strong>Name matching complexity</strong> — False positives from common names, transliterations, and name variations</li>
+<li><strong>Entity resolution</strong> — Determining if a customer matches a sanctioned entity requires sophisticated matching</li>
+<li><strong>Indirect connections</strong> — Must screen not just direct customers but also beneficial owners and related parties</li>
+<li><strong>Real-time requirements</strong> — Transactions must be screened in real-time to prevent prohibited activity</li>
+<li><strong>Regulatory penalties</strong> — Severe fines and criminal penalties for sanctions violations</li>
+<li><strong>Data quality</strong> — Sanctions lists may have incomplete or inconsistent data</li>
+</ul>
+<p>Traditional screening approaches rely on periodic batch checks that may miss recent additions or fail to provide sufficient context for accurate matching.</p>
+<h2 id="why-ekg-is-required">Why <abbr title="Enterprise Knowledge Graph, an EKGF standard">EKG</abbr> is Required<a class="headerlink" href="#why-ekg-is-required" title="Permanent link">&para;</a></h2>
+<p>Enterprise Knowledge Graphs provide powerful sanctions screening capabilities:</p>
+<ul>
+<li><strong>Multi-list integration</strong> — Connect sanctions lists from multiple jurisdictions and maintain unified view</li>
+<li><strong>Enhanced entity resolution</strong> — Use relationship context to disambiguate individuals and entities with similar names</li>
+<li><strong>Relationship analysis</strong> — Identify indirect connections to sanctioned entities through business or family relationships</li>
+<li><strong>Temporal tracking</strong> — Maintain historical sanctions data and track changes as lists are updated</li>
+<li><strong>Real-time screening</strong> — Continuously screen customers and transactions as sanctions lists are updated</li>
+<li><strong>Contextual matching</strong> — Reduce false positives by considering additional identifying information (dates of birth, addresses, etc.)</li>
+<li><strong>Network analysis</strong> — Identify entire networks connected to sanctioned entities</li>
+<li><strong>Compliance documentation</strong> — Maintain complete audit trail of sanctions screening and decisions</li>
+</ul>
+<h2 id="business-value">Business Value<a class="headerlink" href="#business-value" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Regulatory compliance</strong> — Meet mandatory sanctions screening requirements and avoid severe penalties</li>
+<li><strong>Risk mitigation</strong> — Prevent prohibited transactions and avoid association with sanctioned entities</li>
+<li><strong>Reputational protection</strong> — Avoid damage from sanctions violations and negative media attention</li>
+<li><strong>Operational efficiency</strong> — Reduce false positives and manual review effort through intelligent matching</li>
+<li><strong>Real-time protection</strong> — Screen transactions in real-time to prevent sanctions violations</li>
+<li><strong>Cost reduction</strong> — Avoid fines and penalties that can reach billions of dollars</li>
+</ul>
+
 <!-- Source file information -->
 
 
@@ -6242,7 +6360,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="February 17, 2022 13:00:46 EST"><span class="timeago" datetime="2022-02-17T13:00:46-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="February 17, 2022 13:00:46 EST">2022-02-17</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 24, 2025 15:05:08 EST"><span class="timeago" datetime="2025-12-24T15:05:08-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 24, 2025 15:05:08 EST">2025-12-24</span>
   </span>
 
     

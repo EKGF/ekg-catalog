@@ -143,7 +143,7 @@
     "name": "Object Management Group (OMG) Enterprise Knowledge Graph Forum",
     "url": "https://catalog.ekgf.org/"
   },
-  "dateModified": "<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="February 17, 2022 13:00:46 EST"><span class="timeago" datetime="2022-02-17T13:00:46-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="February 17, 2022 13:00:46 EST">2022-02-17</span>",
+  "dateModified": "<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 24, 2025 15:05:08 EST"><span class="timeago" datetime="2025-12-24T15:05:08-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 24, 2025 15:05:08 EST">2025-12-24</span>",
   "mainEntity": {
     "@type": "Article",
     "headline": "Network-based AML",
@@ -1476,6 +1476,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Network-based AML
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1492,6 +1510,80 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-ekg-is-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why EKG is Required
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Topics
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -6220,13 +6312,42 @@
 <h1 id="network-based-aml">Network Based AML<a class="headerlink" href="#network-based-aml" title="Permanent link">&para;</a></h1>
 <object data="../../../../../diagrams/out/network-based-aml.svg#darkable" type="image/svg+xml"></object>
 
-<p>Closely linked with the
-<a href="../../">KYC use case</a> and
-further discussed in the use case
-"<a href="../../high-net-worth-individuals/">High net-worth individuals</a>"
-(HNWI), Knowledge Graph technologies enable powerful synergies
-between AML and KYC to identify patterns and network that maybe
-involved in illegal activity.</p>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>Network-based AML uses graph analysis and network detection techniques to identify money laundering patterns across connected customers, accounts, and transactions. Rather than analyzing individual transactions in isolation, network-based AML examines the relationships and connections between entities to detect sophisticated money laundering schemes that span multiple parties and accounts.</p>
+<h2 id="the-challenge">The Challenge<a class="headerlink" href="#the-challenge" title="Permanent link">&para;</a></h2>
+<p>Financial institutions struggle to detect network-based money laundering:</p>
+<ul>
+<li><strong>Complex schemes</strong> — Money laundering often involves networks of individuals and organizations working together</li>
+<li><strong>Fragmented view</strong> — Traditional systems analyze transactions individually, missing the network context</li>
+<li><strong>Hidden connections</strong> — Relationships between parties may not be immediately apparent from transaction data</li>
+<li><strong>Scale and complexity</strong> — Large networks with thousands of nodes and connections are difficult to analyze</li>
+<li><strong>Pattern evolution</strong> — Criminals adapt their methods, requiring systems that can detect new network patterns</li>
+<li><strong>False positive management</strong> — Distinguishing legitimate business networks from money laundering networks</li>
+<li><strong>Regulatory requirements</strong> — Must demonstrate ability to detect network-based money laundering</li>
+</ul>
+<p>Closely linked with the <a href="../../">KYC use case</a> and further discussed in the use case "<a href="../../high-net-worth-individuals/">High net-worth individuals</a>" (HNWI), network-based AML requires understanding customer relationships and networks to identify suspicious patterns.</p>
+<h2 id="why-ekg-is-required">Why <abbr title="Enterprise Knowledge Graph, an EKGF standard">EKG</abbr> is Required<a class="headerlink" href="#why-ekg-is-required" title="Permanent link">&para;</a></h2>
+<p>Enterprise Knowledge Graphs provide powerful network analysis capabilities:</p>
+<ul>
+<li><strong>Natural network representation</strong> — Graph structure inherently represents relationships and connections</li>
+<li><strong>Network pattern detection</strong> — Use graph algorithms to identify suspicious network structures and patterns</li>
+<li><strong>Multi-hop analysis</strong> — Traverse networks to find indirect connections and relationships</li>
+<li><strong>Community detection</strong> — Automatically identify clusters and communities within customer networks</li>
+<li><strong>KYC-AML integration</strong> — Knowledge Graph technologies enable powerful synergies between AML and KYC to identify patterns and networks that may be involved in illegal activity</li>
+<li><strong>Temporal network analysis</strong> — Track how networks evolve over time and detect emerging patterns</li>
+<li><strong>Holistic view</strong> — Connect all customer relationships, transactions, and entities in one unified view</li>
+</ul>
+<h2 id="business-value">Business Value<a class="headerlink" href="#business-value" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Enhanced detection</strong> — Identify sophisticated money laundering schemes that span multiple parties</li>
+<li><strong>Network insights</strong> — Understand the full structure of money laundering networks</li>
+<li><strong>Proactive monitoring</strong> — Detect emerging network patterns before they become major issues</li>
+<li><strong>Regulatory compliance</strong> — Demonstrate ability to detect network-based money laundering</li>
+<li><strong>Operational efficiency</strong> — Automatically identify suspicious networks for investigation</li>
+<li><strong>Risk mitigation</strong> — Prevent money laundering through early detection of network patterns</li>
+</ul>
+<h2 id="related-topics">Related Topics<a class="headerlink" href="#related-topics" title="Permanent link">&para;</a></h2>
+<p>See also <a href="../../high-net-worth-individuals/">High Net Worth Individuals</a> for discussion of network analysis in HNWI monitoring, where most large-scale money laundering tends to involve networks of individuals and organizations with a controlling force.</p>
 
 <!-- Source file information -->
 
@@ -6252,7 +6373,7 @@ involved in illegal activity.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="February 17, 2022 13:00:46 EST"><span class="timeago" datetime="2022-02-17T13:00:46-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="February 17, 2022 13:00:46 EST">2022-02-17</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 24, 2025 15:05:08 EST"><span class="timeago" datetime="2025-12-24T15:05:08-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 24, 2025 15:05:08 EST">2025-12-24</span>
   </span>
 
     
