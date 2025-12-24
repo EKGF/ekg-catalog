@@ -1,0 +1,13 @@
+@startmindmap
+
+!include ../include/themes/light.puml
+
++ [[ /use-case/construction-project-quotations/scope-and-requirements/ Scope & Requirements ]]
+++_ [[ /use-case/construction-project-quotations/scope-and-requirements/scope-decomposition-wbs-boq/ Scope Decomposition (WBS/BoQ) ]]
+++_ [[ /use-case/construction-project-quotations/scope-and-requirements/assumptions-exclusions-qualifications/ Assumptions, Exclusions & Qualifications ]]
+++_ [[ /use-case/construction-project-quotations/scope-and-requirements/rfis-clarifications-addenda/ RFIs, Clarifications & Addenda ]]
+++_ [[ /use-case/construction-project-quotations/scope-and-requirements/constructability-review/ Constructability Review ]]
+--_ [[ /use-case/construction-project-quotations/ Complex Construction Project Quotations ]]
+@endmindmap
+
+

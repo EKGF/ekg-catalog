@@ -1,0 +1,12 @@
+@startmindmap
+
+!include ../include/themes/light.puml
+
++_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/ Proposal & Negotiation ]]
+++_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/proposal-document-generation/ Proposal Document Generation & Assembly ]]
+++_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/compliance-matrix-and-submission-packaging/ Compliance Matrix & Submission Packaging ]]
+++ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/negotiation-support-and-revisions/ Negotiation Support & Revisions ]]
+--_ [[ /use-case/construction-project-quotations/ Complex Construction Project Quotations ]]
+@endmindmap
+
+
