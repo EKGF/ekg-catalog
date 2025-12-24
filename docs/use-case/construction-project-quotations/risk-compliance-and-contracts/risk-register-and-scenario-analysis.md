@@ -1,6 +1,6 @@
 # Risk Register & Scenario Analysis
 
-<object data="../../../diagrams/out/risk-register-and-scenario-analysis.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/risk-register-and-scenario-analysis.svg#darkable" type="image/svg+xml"></object>
 
 Identify, structure, and quantify risks that drive cost, schedule, and
 commercial exposure — and run scenarios to understand ranges, not just

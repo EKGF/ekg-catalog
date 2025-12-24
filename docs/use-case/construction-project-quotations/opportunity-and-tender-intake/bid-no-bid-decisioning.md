@@ -1,6 +1,6 @@
 # Bid/No-Bid Decisioning
 
-<object data="../../../diagrams/out/bid-no-bid-decisioning.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/bid-no-bid-decisioning.svg#darkable" type="image/svg+xml"></object>
 
 Decide whether to pursue a tender based on strategic fit, delivery
 capability, commercial attractiveness, and risk exposure — and capture

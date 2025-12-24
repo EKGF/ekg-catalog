@@ -1,6 +1,6 @@
 # Constructability Review
 
-<object data="../../../diagrams/out/constructability-review.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/constructability-review.svg#darkable" type="image/svg+xml"></object>
 
 Review the design for buildability, sequencing, access/logistics, safety,
 and temporary works to surface issues early and translate them into cost,

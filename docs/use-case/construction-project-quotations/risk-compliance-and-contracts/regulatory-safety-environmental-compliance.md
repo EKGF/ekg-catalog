@@ -1,6 +1,6 @@
 # Regulatory, Safety & Environmental Compliance
 
-<object data="../../../diagrams/out/regulatory-safety-environmental-compliance.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/regulatory-safety-environmental-compliance.svg#darkable" type="image/svg+xml"></object>
 
 Extract, manage, and validate compliance obligations across building
 codes, permits, safety, environmental, and client standards — and make

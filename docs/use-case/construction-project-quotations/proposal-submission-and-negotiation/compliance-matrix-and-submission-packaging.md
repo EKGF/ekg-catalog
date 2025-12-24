@@ -1,6 +1,6 @@
 # Compliance Matrix & Submission Packaging
 
-<object data="../../../diagrams/out/compliance-matrix-and-submission-packaging.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/compliance-matrix-and-submission-packaging.svg#darkable" type="image/svg+xml"></object>
 
 Demonstrate compliance by mapping every requirement to the exact
 proposal section and evidence, and package the submission so nothing is

@@ -1,6 +1,6 @@
 # Unit Rates & Cost Libraries
 
-<object data="../../../diagrams/out/unit-rates-and-cost-libraries.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/unit-rates-and-cost-libraries.svg#darkable" type="image/svg+xml"></object>
 
 Maintain and apply consistent cost intelligence: unit rates, assemblies,
 productivity baselines, and cost codes — with traceable sources and

@@ -1,6 +1,6 @@
 # Assumptions, Exclusions & Qualifications
 
-<object data="../../../diagrams/out/assumptions-exclusions-qualifications.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/assumptions-exclusions-qualifications.svg#darkable" type="image/svg+xml"></object>
 
 Make the “unknowns” explicit: document assumptions, exclusions, and
 qualifications so the quotation is defensible and downstream delivery

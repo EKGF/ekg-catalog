@@ -1,6 +1,6 @@
 # Document Ingestion & Knowledge Extraction
 
-<object data="../../../diagrams/out/document-ingestion-and-knowledge-extraction.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/document-ingestion-and-knowledge-extraction.svg#darkable" type="image/svg+xml"></object>
 
 Convert large volumes of tender and project documentation (PDFs,
 drawings, calculations) into machine-readable knowledge that can be

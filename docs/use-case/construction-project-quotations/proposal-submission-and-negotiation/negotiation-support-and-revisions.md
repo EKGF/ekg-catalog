@@ -1,6 +1,6 @@
 # Negotiation Support & Revisions
 
-<object data="../../../diagrams/out/negotiation-support-and-revisions.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/negotiation-support-and-revisions.svg#darkable" type="image/svg+xml"></object>
 
 Support clarifications, BAFO rounds, and negotiations by tracking
 versioned changes to scope, assumptions, pricing, and contract terms —

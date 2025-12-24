@@ -1,6 +1,6 @@
 # Indirects, Overheads & General Conditions
 
-<object data="../../../diagrams/out/indirects-overheads-general-conditions.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/indirects-overheads-general-conditions.svg#darkable" type="image/svg+xml"></object>
 
 Estimate the “cost of running the job”: site setup, temporary works,
 site management, permits, logistics, supervision, QA/QC, and other

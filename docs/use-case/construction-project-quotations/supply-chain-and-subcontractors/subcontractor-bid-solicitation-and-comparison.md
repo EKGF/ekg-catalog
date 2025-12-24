@@ -1,6 +1,6 @@
 # Subcontractor Bid Solicitation & Comparison
 
-<object data="../../../diagrams/out/subcontractor-bid-solicitation-and-comparison.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/subcontractor-bid-solicitation-and-comparison.svg#darkable" type="image/svg+xml"></object>
 
 Run the subcontractor bidding process: invite bidders, manage
 clarifications, receive bids, and compare them against scope packages

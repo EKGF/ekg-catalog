@@ -1,6 +1,6 @@
 # Scope Decomposition (WBS/BoQ)
 
-<object data="../../../diagrams/out/scope-decomposition-wbs-boq.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/scope-decomposition-wbs-boq.svg#darkable" type="image/svg+xml"></object>
 
 Decompose the tender scope into a consistent structure (WBS/BoQ/cost
 codes) so estimating, procurement, risk, and proposal assembly can work

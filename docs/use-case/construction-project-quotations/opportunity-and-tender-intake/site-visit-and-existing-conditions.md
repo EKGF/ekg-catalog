@@ -1,6 +1,6 @@
 # Site Visit & Existing Conditions
 
-<object data="../../../diagrams/out/site-visit-and-existing-conditions.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/site-visit-and-existing-conditions.svg#darkable" type="image/svg+xml"></object>
 
 Capture the real-world constraints that rarely show up cleanly in the
 tender documents: access, logistics, existing assets, utilities,

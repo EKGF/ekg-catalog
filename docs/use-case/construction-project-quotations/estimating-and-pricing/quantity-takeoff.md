@@ -1,6 +1,6 @@
 # Quantity Takeoff (2D/3D/BIM)
 
-<object data="../../../diagrams/out/quantity-takeoff.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/quantity-takeoff.svg#darkable" type="image/svg+xml"></object>
 
 Produce a defensible quantity basis for pricing by measuring and
 classifying quantities from drawings, specs, and BIM models — including

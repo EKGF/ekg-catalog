@@ -1,6 +1,6 @@
 # Proposal Document Generation & Assembly
 
-<object data="../../../diagrams/out/proposal-document-generation.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/proposal-document-generation.svg#darkable" type="image/svg+xml"></object>
 
 Assemble a complete, consistent tender response by generating proposal
 narrative, technical approach, schedules, and cost breakdowns from the

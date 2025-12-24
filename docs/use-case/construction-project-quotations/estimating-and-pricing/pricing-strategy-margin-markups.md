@@ -1,6 +1,6 @@
 # Pricing Strategy (Margin/Markups)
 
-<object data="../../../diagrams/out/pricing-strategy-margin-markups.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/pricing-strategy-margin-markups.svg#darkable" type="image/svg+xml"></object>
 
 Turn the cost estimate into a bid price by applying markups, margin
 targets, commercial terms, and competitive strategy — while preserving a

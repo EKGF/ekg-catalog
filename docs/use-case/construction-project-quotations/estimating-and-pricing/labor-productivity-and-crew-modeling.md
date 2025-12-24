@@ -1,6 +1,6 @@
 # Labor Productivity & Crew Modeling
 
-<object data="../../../diagrams/out/labor-productivity-and-crew-modeling.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/labor-productivity-and-crew-modeling.svg#darkable" type="image/svg+xml"></object>
 
 Translate scope into labor hours by modeling crews, productivity, shift
 patterns, access constraints, and “site realities” that dominate

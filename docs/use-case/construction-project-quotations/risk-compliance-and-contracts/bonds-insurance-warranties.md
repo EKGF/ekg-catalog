@@ -1,6 +1,6 @@
 # Bonds, Insurance & Warranties
 
-<object data="../../../diagrams/out/bonds-insurance-warranties.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/bonds-insurance-warranties.svg#darkable" type="image/svg+xml"></object>
 
 Manage financial and contractual protections required to bid and
 deliver: bid/performance bonds, insurance coverages, warranties, and

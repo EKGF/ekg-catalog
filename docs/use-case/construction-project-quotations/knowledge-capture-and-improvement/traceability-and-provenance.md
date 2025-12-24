@@ -1,6 +1,6 @@
 # Traceability & Provenance
 
-<object data="../../../diagrams/out/traceability-and-provenance.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/traceability-and-provenance.svg#darkable" type="image/svg+xml"></object>
 
 Make every number and claim in the quotation explainable: what source it
 came from, which version, who approved it, and what downstream artifacts

@@ -1,6 +1,6 @@
 # Subcontractor Scope Packages
 
-<object data="../../../diagrams/out/subcontractor-scope-packages.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/subcontractor-scope-packages.svg#darkable" type="image/svg+xml"></object>
 
 Create clear, complete scope packages for subcontractors, including
 boundaries, interfaces, assumptions, and deliverables — so bids are

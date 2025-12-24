@@ -1,6 +1,6 @@
 # RFIs, Clarifications & Addenda
 
-<object data="../../../diagrams/out/rfis-clarifications-addenda.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/rfis-clarifications-addenda.svg#darkable" type="image/svg+xml"></object>
 
 Manage questions, clarifications, and addenda as first-class knowledge,
 and propagate every change to the affected scope, estimate, risks, and

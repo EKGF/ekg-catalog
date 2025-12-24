@@ -1,6 +1,6 @@
 # Estimate vs Actual & Lessons Learned
 
-<object data="../../../diagrams/out/estimate-vs-actual-and-lessons-learned.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/estimate-vs-actual-and-lessons-learned.svg#darkable" type="image/svg+xml"></object>
 
 Close the loop by comparing bid assumptions and estimated costs against
 actual project outcomes, explaining variances, and feeding validated

@@ -1,6 +1,6 @@
 # Contingency & Escalation
 
-<object data="../../../diagrams/out/contingency-and-escalation.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/contingency-and-escalation.svg#darkable" type="image/svg+xml"></object>
 
 Quantify uncertainty: apply risk-based contingency and price escalation
 based on schedule, procurement lead times, market volatility, and known

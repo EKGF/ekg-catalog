@@ -1,6 +1,6 @@
 # RFP/RFQ Intake & Document Catalog
 
-<object data="../../../diagrams/out/rfp-rfq-intake.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/rfp-rfq-intake.svg#darkable" type="image/svg+xml"></object>
 
 Turn an incoming tender pack (RFP/RFQ) into a structured, versioned
 document and requirement catalog that downstream estimating, risk, and

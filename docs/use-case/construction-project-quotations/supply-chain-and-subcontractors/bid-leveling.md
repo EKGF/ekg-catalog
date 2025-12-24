@@ -1,6 +1,6 @@
 # Bid Leveling & Comparative Analysis
 
-<object data="../../../diagrams/out/bid-leveling.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/bid-leveling.svg#darkable" type="image/svg+xml"></object>
 
 Perform apples-to-apples evaluation by normalizing bid scope,
 qualifications, and commercial terms into a leveled comparison that

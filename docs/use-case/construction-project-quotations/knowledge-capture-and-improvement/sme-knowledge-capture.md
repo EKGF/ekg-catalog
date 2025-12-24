@@ -1,6 +1,6 @@
 # SME Knowledge Capture
 
-<object data="../../../diagrams/out/sme-knowledge-capture.svg#darkable" type="image/svg+xml"></object>
+<object data="../../../../diagrams/out/sme-knowledge-capture.svg#darkable" type="image/svg+xml"></object>
 
 Capture the estimator/engineer “know-how” that determines real-world
 cost and risk: rules of thumb, method choices, constraints, and
