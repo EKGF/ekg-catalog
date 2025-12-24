@@ -28,8 +28,6 @@ mindmapDiagram {
   }
   depth(1) {
     FontSize 15
-    FontColor #red
-    HyperlinkColor #red
   }
   depth(2) {
     FontSize 14
@@ -65,13 +63,13 @@ mindmapDiagram {
 ++++_ [[ /use-case/client-360/know-your-customer/core-record-management/buildings/ Buildings ]]
 ++++_ [[ /use-case/client-360/know-your-customer/core-record-management/addresses/ Addresses ]]
 ++++_ [[ /use-case/client-360/know-your-customer/core-record-management/audit/ Audit ]]
-++_ [[ /use-case-client-360/relationships-and-connections/ Relationships & Connections ]]
-+++_ [[ /use-case-client-360/relationships-and-connections/business-connections/ Business Connections ]]
-+++_ [[ /use-case-client-360/relationships-and-connections/family-connections/ Family Connections ]]
-+++_ [[ /use-case-client-360/relationships-and-connections/social-connections/ Social Connections ]]
-+++_ [[ /use-case-client-360/relationships-and-connections/political-connections/ Political Connections ]]
-++_ [[ /use-case-client-360/social-media/ Social Media ]]
-+++_ [[ /use-case-client-360/social-media/social-graph/ Social Graph ]]
-+++_ [[ /use-case-client-360/social-media/social-graph/ Interest Graph ]]
+++_ [[ /use-case/client-360/relationships-and-connections/ Relationships & Connections ]]
++++_ [[ /use-case/client-360/relationships-and-connections/business-connections/ Business Connections ]]
++++_ [[ /use-case/client-360/relationships-and-connections/family-connections/ Family Connections ]]
++++_ [[ /use-case/client-360/relationships-and-connections/social-connections/ Social Connections ]]
++++_ [[ /use-case/client-360/relationships-and-connections/political-connections/ Political Connections ]]
+++_ [[ /use-case/client-360/social-media/ Social Media ]]
++++_ [[ /use-case/client-360/social-media/social-graph/ Social Graph ]]
++++_ [[ /use-case/client-360/social-media/interest-graph/ Interest Graph ]]
 ++_ ...many others...
 @endmindmap
