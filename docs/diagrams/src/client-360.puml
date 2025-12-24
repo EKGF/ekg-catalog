@@ -1,6 +1,47 @@
-@startmindmap
+@startmindmap client-360
 
 !include ../include/themes/light.puml
+!option handwritten false
+
+<style>
+mindmapDiagram {
+  node {
+    Padding 5
+    Margin 15
+    BackGroundColor BG_MAIN_COLOR
+    LinkUnderline false
+  }
+  boxless {
+    FontColor BG_MAIN_COLOR
+  }
+  rootNode {
+    Padding 15
+    FontStyle Italic
+  }
+  leafNode {
+    Padding 1
+    FontSize 15
+  }
+  arrow {
+    Color ARROW_COLOR
+    LineThickness 1.5
+  }
+  depth(1) {
+    FontSize 15
+    FontColor #red
+    HyperlinkColor #red
+  }
+  depth(2) {
+    FontSize 14
+  }
+  depth(3) {
+    FontSize 13
+  }
+  depth(4) {
+    FontSize 12
+  }
+}
+</style>
 
 + [[ /use-case/client-360/ Client 360 ]]
 ++_ [[ /use-case/client-360/know-your-customer/ KYC ]]
