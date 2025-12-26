@@ -1,14 +1,24 @@
-# Directorships
-
-<object data="../../../../diagrams/out/directorships.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Directorships management involves tracking individuals who serve as
-directors on entity boards, including their appointments, roles,
-responsibilities, and relationships to entities. Director information
-is critical for corporate governance, regulatory compliance, conflict
-of interest management, and understanding entity control structures.
+---
+title: >-
+  Directorships
+summary: >-
+  Directorships manages the relationships between individuals serving as directors and the entities they govern, handling different director roles (executive, non-executive, independent, chairman) and tracking appointments, resignations, and role changes over time. This use case addresses identifying directors serving on multiple entities, detecting potential conflicts of interest, ensuring compliance with director qualification and independence requirements, understanding director networks, and supporting corporate governance and due diligence through comprehensive director information.
+keywords:
+  - directorships
+  - manages
+  - relationships
+  - between
+  - individuals
+  - serving
+  - directors
+  - entities
+  - govern
+  - handling
+  - different
+  - director
+parents:
+  - ..
+---
 
 ## The Challenge
 

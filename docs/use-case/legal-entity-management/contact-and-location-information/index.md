@@ -1,16 +1,24 @@
-# Contact & Location Information
-
-<object data="../../../../diagrams/out/contact-and-location-information.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Contact and Location Information encompasses all contact details and
-geographic information related to legal entities, including addresses,
-contact persons, and location data. This information is essential for
-communication, regulatory compliance, geographic risk assessment, and
-understanding entity operational presence. Maintaining accurate
-contact and location information is critical for effective entity
-management and regulatory compliance.
+---
+title: >-
+  Contact & Location Information
+summary: >-
+  Contact and location information manages entity contacts and addresses including registered, business, mailing, and operational addresses, handling multiple contact types with different roles and responsibilities. This use case addresses maintaining accurate contact and location information, tracking address and contact changes over time, connecting addresses to jurisdictions, regions, and countries, linking contacts to entities, roles, and other contacts, managing contact data in compliance with privacy regulations, and supporting regulatory compliance, communication efficiency, and geographic risk assessment through comprehensive contact and location management.
+keywords:
+  - contact
+  - location
+  - information
+  - manages
+  - entity
+  - contacts
+  - addresses
+  - including
+  - registered
+  - business
+  - mailing
+  - operational
+parents:
+  - ..
+---
 
 ## The Challenge
 

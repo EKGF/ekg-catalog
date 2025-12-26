@@ -1,15 +1,24 @@
-# Correspondent-based AML
-
-<object data="../../../../../diagrams/out/correspondent-based-aml.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Correspondent-based AML focuses on detecting money laundering risks in
-correspondent banking relationships, where one bank provides services
-to another bank's customers. This is particularly challenging because
-financial institutions must monitor transactions involving foreign
-counterparties with limited visibility into the underlying customers
-and their risk profiles.
+---
+title: >-
+  Correspondent-based AML
+summary: >-
+  Correspondent-based AML monitors correspondent banking relationships where banks provide services to foreign counterparties, addressing limited visibility into ultimate customers, fragmented transaction data, and difficulty performing KYC on foreign parties. This use case enables holistic views of correspondent networks, reconstructs transaction links, analyzes cash flows and ownership structures, heals incomplete transaction data, and reduces false positives while identifying genuine money laundering risks in correspondent relationships.
+keywords:
+  - correspondent-based
+  - aml
+  - monitors
+  - correspondent
+  - banking
+  - relationships
+  - banks
+  - provide
+  - services
+  - foreign
+  - counterparties
+  - addressing
+parents:
+  - ..
+---
 
 ## The Challenge
 

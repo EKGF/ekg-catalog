@@ -1,14 +1,24 @@
-# Earnings Estimates
-
-<object data="../../../../diagrams/out/earnings-estimates.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Earnings estimates management involves tracking and managing financial
-forecasts and estimates for legal entities, including revenue
-projections, earnings forecasts, and analyst estimates. Earnings
-estimates are used for financial planning, investment analysis, risk
-assessment, and performance monitoring.
+---
+title: >-
+  Earnings Estimates
+summary: >-
+  Earnings estimates manages forward-looking earnings projections from multiple sources including internal planning, external analysts, and market sources, tracking estimate accuracy and changes over time. This use case addresses integrating estimates from multiple sources, tracking estimate changes and versions over time, comparing estimates to actual results to analyze accuracy, linking estimates to methodologies and assumptions, understanding how entity relationships affect estimates, and supporting financial planning, investment analysis, and risk assessment through comprehensive estimate management.
+keywords:
+  - earnings
+  - estimates
+  - manages
+  - forward-looking
+  - projections
+  - multiple
+  - sources
+  - including
+  - internal
+  - planning
+  - external
+  - analysts
+parents:
+  - ..
+---
 
 ## The Challenge
 

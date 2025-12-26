@@ -1,15 +1,24 @@
-# Shares
-
-<object data="../../../../diagrams/out/shares.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Shares management involves tracking and managing information about
-entity shares, including share types, share classes, share rights, and
-share ownership. Shares represent ownership interests in entities and
-determine voting rights, dividend rights, and other shareholder
-rights. Understanding shares is essential for ownership analysis,
-corporate governance, and regulatory compliance.
+---
+title: >-
+  Shares
+summary: >-
+  Shares manages the different types and classes of shares issued by entities, tracking their rights (voting, dividend, liquidation), ownership, and how they affect ownership and control structures. This use case addresses managing multiple share classes with different rights, tracking share ownership across shareholders and time periods, modeling share rights and their implications, connecting shares to corporate actions, meeting regulatory requirements for share reporting, and supporting ownership analysis and corporate governance through comprehensive share information.
+keywords:
+  - shares
+  - manages
+  - different
+  - types
+  - classes
+  - issued
+  - entities
+  - tracking
+  - rights
+  - voting
+  - dividend
+  - liquidation
+parents:
+  - ..
+---
 
 ## The Challenge
 

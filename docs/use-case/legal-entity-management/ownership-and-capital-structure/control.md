@@ -1,16 +1,24 @@
-# Control
-
-<object data="../../../../diagrams/out/control.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Control management involves tracking and analyzing control
-relationships between entities, including direct control, indirect
-control, beneficial control, and de facto control. Understanding
-control structures is essential for regulatory compliance (beneficial
-ownership), risk assessment, corporate governance, and understanding
-entity relationships. Control may be exercised through ownership,
-voting rights, board composition, or contractual arrangements.
+---
+title: >-
+  Control
+summary: >-
+  Control determines who exercises control over entities through multiple mechanisms including ownership, voting rights, board composition, and contractual arrangements, recognizing both formal and de facto control. This use case addresses identifying indirect control through complex ownership chains, analyzing control through multiple mechanisms, tracking control changes over time, identifying ultimate beneficial owners through control structures, meeting regulatory requirements for control disclosure, and supporting risk assessment and corporate governance through comprehensive control analysis.
+keywords:
+  - control
+  - determines
+  - exercises
+  - over
+  - entities
+  - through
+  - multiple
+  - mechanisms
+  - including
+  - ownership
+  - voting
+  - rights
+parents:
+  - ..
+---
 
 ## The Challenge
 

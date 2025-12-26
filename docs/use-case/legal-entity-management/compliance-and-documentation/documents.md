@@ -1,16 +1,24 @@
-# Documents
-
-<object data="../../../../diagrams/out/documents.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Document management for legal entities involves maintaining,
-organizing, and tracking all documents related to entity formation,
-operations, compliance, and transactions. This includes corporate
-documents (articles of incorporation, bylaws), regulatory filings,
-contracts, financial statements, and compliance documentation.
-Effective document management is essential for legal compliance, due
-diligence, and operational efficiency.
+---
+title: >-
+  Documents
+summary: >-
+  Documents manages legal entity documents including various formats and types from multiple sources, tracking document versions, amendments, and relationships, and ensuring appropriate access control and retention compliance. This use case addresses connecting documents to entities, transactions, and compliance requirements, modeling relationships between documents (amendments, supersessions, references), tracking document versions and lifecycle over time, finding documents based on entity relationships and compliance context, linking documents to entities for fine-grained access control, connecting documents to compliance requirements and evidence, and supporting operational efficiency, regulatory compliance, and due diligence through comprehensive document management.
+keywords:
+  - documents
+  - manages
+  - legal
+  - entity
+  - including
+  - various
+  - formats
+  - types
+  - multiple
+  - sources
+  - tracking
+  - document
+parents:
+  - ..
+---
 
 ## The Challenge
 

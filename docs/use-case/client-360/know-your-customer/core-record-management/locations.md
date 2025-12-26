@@ -1,12 +1,24 @@
-# Locations
-
-## Summary
-
-Location management in KYC involves maintaining information about
-geographic locations associated with customers, including business
-locations, operational sites, and service delivery points. Locations
-provide geographic context for risk assessment, regulatory compliance,
-and understanding customer operations.
+---
+title: >-
+  Locations
+summary: >-
+  Location management tracks customer geographic presence including headquarters, branches, and operational sites, connecting locations to addresses, buildings, jurisdictions, and regions for comprehensive geographic context. This use case addresses managing multiple customer locations, understanding location relationships, using location data for geographic risk assessment, tracking location changes over time, and supporting service delivery through accurate location understanding.
+keywords:
+  - locations
+  - location
+  - management
+  - tracks
+  - customer
+  - geographic
+  - presence
+  - including
+  - headquarters
+  - branches
+  - operational
+  - sites
+parents:
+  - ..
+---
 
 ## The Challenge
 

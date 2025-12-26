@@ -1,15 +1,24 @@
-# Network Based AML
-
-<object data="../../../../../diagrams/out/network-based-aml.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Network-based AML uses graph analysis and network detection techniques
-to identify money laundering patterns across connected customers,
-accounts, and transactions. Rather than analyzing individual
-transactions in isolation, network-based AML examines the
-relationships and connections between entities to detect sophisticated
-money laundering schemes that span multiple parties and accounts.
+---
+title: >-
+  Network Based AML
+summary: >-
+  Network-based AML detects money laundering schemes involving multiple interconnected parties by analyzing relationship networks and transaction patterns. This use case addresses identifying hidden connections between parties, detecting complex network structures, understanding how money laundering networks evolve over time, distinguishing legitimate business networks from criminal networks, and leveraging KYC relationship data to identify suspicious patterns across customer networks.
+keywords:
+  - network
+  - based
+  - aml
+  - network-based
+  - detects
+  - money
+  - laundering
+  - schemes
+  - involving
+  - multiple
+  - interconnected
+  - parties
+parents:
+  - ..
+---
 
 ## The Challenge
 

@@ -1,13 +1,24 @@
-# Audit
-
-## Summary
-
-Audit management in KYC involves maintaining complete records of all
-customer due diligence activities, decisions, and changes to support
-regulatory compliance, internal reviews, and external examinations.
-Comprehensive audit trails are essential for demonstrating that
-appropriate KYC processes were followed and for investigating issues
-when they arise.
+---
+title: >-
+  Audit
+summary: >-
+  Audit management maintains complete records of all KYC activities, decisions, and changes to support regulatory compliance, investigations, and accountability. This use case addresses ensuring record completeness across fragmented systems, maintaining temporal tracking of customer profile and risk assessment changes, supporting quick retrieval and analysis of audit records for investigations, managing long-term data retention, and providing complete audit documentation for regulatory examinations.
+keywords:
+  - audit
+  - management
+  - maintains
+  - complete
+  - records
+  - all
+  - kyc
+  - activities
+  - decisions
+  - changes
+  - support
+  - regulatory
+parents:
+  - ..
+---
 
 ## The Challenge
 

@@ -1,12 +1,24 @@
-# Buildings
-
-## Summary
-
-Building management in KYC involves tracking and managing information
-about physical buildings and properties associated with customers,
-including business locations, registered addresses, and property
-ownership. This information is used for risk assessment, address
-validation, and understanding customer business operations.
+---
+title: >-
+  Buildings
+summary: >-
+  Building management tracks properties and their relationships to customers, including ownership, tenancy, and business use, connecting buildings to addresses, locations, and jurisdictions. This use case addresses understanding property relationships, using building information for geographic and business risk assessment, tracking building ownership and occupancy changes over time, and supporting address validation and customer business location understanding.
+keywords:
+  - buildings
+  - building
+  - management
+  - tracks
+  - properties
+  - relationships
+  - customers
+  - including
+  - ownership
+  - tenancy
+  - business
+  - use
+parents:
+  - ..
+---
 
 ## The Challenge
 

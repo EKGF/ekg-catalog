@@ -1,14 +1,24 @@
-# Signatories
-
-<object data="../../../../diagrams/out/signatories.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Signatory management involves tracking individuals authorized to sign
-on behalf of legal entities, including their signing authority,
-limits, and the types of documents they can sign. Signatory
-information is critical for transaction authorization, compliance,
-fraud prevention, and understanding entity control structures.
+---
+title: >-
+  Signatories
+summary: >-
+  Signatories manages authorized signatories for entities, tracking their signing authorities, limits, document type permissions, and delegation chains. This use case addresses managing multiple signatories with different authorities, tracking signatory appointments and revocations over time, verifying signatory authority for fraud prevention, linking signatories to transactions and documents, ensuring compliance with signatory authorization requirements, and maintaining effective internal controls through complete audit trails.
+keywords:
+  - signatories
+  - manages
+  - authorized
+  - entities
+  - tracking
+  - signing
+  - authorities
+  - limits
+  - document
+  - type
+  - permissions
+  - delegation
+parents:
+  - ..
+---
 
 ## The Challenge
 

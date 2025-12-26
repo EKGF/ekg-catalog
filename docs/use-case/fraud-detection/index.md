@@ -1,31 +1,24 @@
 ---
-description: >-
-  Detect fraudulent patterns across all transactions, accounts, and channels
-  in real-time using Enterprise Knowledge Graph technology, even when
-  patterns span multiple systems and time periods.
+title: >-
+  Enterprise Fraud Detection
+summary: >-
+  Enterprise fraud detection identifies fraudulent patterns across multiple systems and time periods by analyzing relationships between entities, accounts, transactions, and locations. This use case addresses detecting cross-system fraud patterns, identifying fraud networks and rings, responding in real-time to prevent losses, adapting to evolving fraud patterns, handling massive transaction volumes, and maintaining low false positive rates through graph-based relationship analysis and network detection algorithms.
 keywords:
-  - fraud detection
-  - enterprise fraud
-  - real-time fraud
-  - fraud patterns
-  - EKG use case
-  - enterprise knowledge graph
-schema_type: "Article"
+  - enterprise
+  - fraud
+  - detection
+  - identifies
+  - fraudulent
+  - patterns
+  - multiple
+  - systems
+  - time
+  - periods
+  - analyzing
+  - relationships
+parents:
+  - ..
 ---
-
-# Enterprise Fraud Detection
-
-## Summary
-
-Enterprise fraud detection requires detecting fraudulent patterns across
-all transactions, accounts, and channels in real-time, even when
-patterns span multiple systems and time periods. Fraud patterns often
-involve relationships between entities (people, accounts, transactions,
-locations) that are not visible in isolated systems.
-
-Enterprise Knowledge Graph (EKG) technology's graph structure enables
-pattern detection across the entire enterprise data landscape by
-representing these relationships semantically.
 
 ## The Challenge
 

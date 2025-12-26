@@ -1,15 +1,24 @@
-# Supporting Information
-
-<object data="../../../../diagrams/out/supporting-information.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Supporting Information encompasses reference data and supporting
-details that provide context and enable proper interpretation of legal
-entity data. This includes currency information, exchange rates, and
-other reference data that supports entity management activities.
-Supporting information is essential for accurate financial reporting,
-transaction processing, risk management, and regulatory compliance.
+---
+title: >-
+  Supporting Information
+summary: >-
+  Supporting information manages reference data and supporting information for legal entities including currencies, exchange rates, and other reference data that changes over time. This use case addresses integrating reference data from multiple sources and systems, tracking reference data changes over time and maintaining historical records, linking reference data to entities, transactions, and financial information, linking reference data to regulatory requirements and reporting obligations, identifying and resolving reference data inconsistencies, and supporting financial reporting, risk management, and regulatory compliance through comprehensive reference data management.
+keywords:
+  - supporting
+  - information
+  - manages
+  - reference
+  - data
+  - legal
+  - entities
+  - including
+  - currencies
+  - exchange
+  - rates
+  - other
+parents:
+  - ..
+---
 
 ## The Challenge
 

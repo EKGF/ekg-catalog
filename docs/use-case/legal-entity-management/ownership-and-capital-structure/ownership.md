@@ -1,16 +1,24 @@
-# Ownership
-
-<object data="../../../../diagrams/out/ownership.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Ownership management involves tracking and managing information about
-entity ownership, including shareholders, ownership percentages,
-ownership types, and ownership changes over time. Understanding
-ownership structures is essential for beneficial ownership
-identification, risk assessment, corporate governance, and regulatory
-compliance. Ownership may be direct or indirect through complex
-ownership chains.
+---
+title: >-
+  Ownership
+summary: >-
+  Ownership manages direct and indirect ownership relationships between shareholders and entities, tracking ownership changes over time and identifying ultimate beneficial owners through complex ownership chains. This use case addresses modeling complex ownership structures with multiple shareholders, traversing ownership chains to identify indirect and beneficial ownership, tracking ownership changes through transactions and corporate actions, linking ownership to regulatory requirements, and supporting risk assessment and due diligence through comprehensive ownership analysis.
+keywords:
+  - ownership
+  - manages
+  - direct
+  - indirect
+  - relationships
+  - between
+  - shareholders
+  - entities
+  - tracking
+  - changes
+  - over
+  - time
+parents:
+  - ..
+---
 
 ## The Challenge
 

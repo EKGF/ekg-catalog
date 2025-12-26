@@ -1,13 +1,24 @@
-# Legal Entities
-
-## Summary
-
-Legal entity management in KYC involves maintaining comprehensive
-information about corporate customers, their legal structures,
-ownership, and relationships. Legal entities include corporations,
-partnerships, trusts, and other business structures. Understanding
-legal entities is essential for beneficial ownership identification,
-risk assessment, and regulatory compliance.
+---
+title: >-
+  Legal Entities
+summary: >-
+  Legal entity management from the Client 360/KYC perspective focuses on understanding corporate customer structures, identifying beneficial owners through complex ownership chains, analyzing entity relationships (parent, subsidiary, joint ventures), and using entity information for risk assessment and AML compliance. This use case depends on comprehensive Legal Entity Management for detailed entity data while providing the customer-facing view needed for KYC processes.
+keywords:
+  - legal
+  - entities
+  - entity
+  - management
+  - client
+  - kyc
+  - perspective
+  - focuses
+  - understanding
+  - corporate
+  - customer
+  - structures
+parents:
+  - ..
+---
 
 ## The Challenge
 
@@ -31,7 +42,8 @@ Financial institutions face challenges in legal entity management:
   information
 
 Client 360 / Know Your Customer depends on
-[Legal Entity Management](../../../legal-entity-management/index.md).
+[Legal Entity Management](../../../legal-entity-management/index.md)
+for comprehensive legal entity information.
 
 ## Why EKG is Required
 
@@ -67,3 +79,9 @@ capabilities:
   and relationship analysis
 - **Operational efficiency** — Automate entity relationship analysis
   and beneficial ownership identification
+
+## Related Use Cases
+
+- [Legal Entity Management](../../../legal-entity-management/index.md) -
+  Comprehensive legal entity management system that Client 360 depends
+  on

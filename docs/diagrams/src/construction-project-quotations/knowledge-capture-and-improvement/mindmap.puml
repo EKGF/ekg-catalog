@@ -1,0 +1,17 @@
+@startmindmap knowledge-capture-and-improvement
+
+!include ../../../include/themes/light.puml
+
++ [[ /use-case/construction-project-quotations/knowledge-capture-and-improvement/ Knowledge Capture & Continuous Improvement ]]
+--_ [[ /use-case/construction-project-quotations/ Complex Construction Project Quotations ]]
+---_ [[ /use-case/construction-project-quotations/estimating-and-pricing/ Estimating & Pricing ]]
+---_ [[ /use-case/construction-project-quotations/opportunity-and-tender-intake/ Opportunity & Tender Intake ]]
+---_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/ Proposal & Negotiation ]]
+---_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/ Risk, Compliance & Contracts ]]
+---_ [[ /use-case/construction-project-quotations/scope-and-requirements/ Scope & Requirements ]]
+---_ [[ /use-case/construction-project-quotations/supply-chain-and-subcontractors/ Supply Chain & Subcontractors ]]
+++_ [[ /use-case/construction-project-quotations/knowledge-capture-and-improvement/document-ingestion-and-knowledge-extraction/ Document Ingestion & Knowledge Extraction ]]
+++_ [[ /use-case/construction-project-quotations/knowledge-capture-and-improvement/estimate-vs-actual-and-lessons-learned/ Estimate vs Actual & Lessons Learned ]]
+++_ [[ /use-case/construction-project-quotations/knowledge-capture-and-improvement/sme-knowledge-capture/ SME Knowledge Capture ]]
+++_ [[ /use-case/construction-project-quotations/knowledge-capture-and-improvement/traceability-and-provenance/ Traceability & Provenance ]]
+@endmindmap

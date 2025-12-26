@@ -1,15 +1,24 @@
-# Risk Management
-
-<object data="../../../../diagrams/out/kyc-risk-management.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-KYC Risk Management involves assessing, scoring, and managing the risk
-associated with each customer relationship. It integrates multiple
-risk factors—including sanctions, PEP status, crime records,
-transaction patterns, and business relationships—to assign risk
-ratings and determine appropriate due diligence and monitoring
-measures.
+---
+title: >-
+  Risk Management
+summary: >-
+  Risk management integrates multiple risk factors including sanctions, PEPs, crime records, transaction patterns, and relationships to assess customer risk levels and determine appropriate due diligence measures. This use case addresses aggregating risk data from fragmented sources, maintaining dynamic risk profiles that evolve over time, applying consistent risk methodologies, understanding network risk propagation, enabling risk-based workflows, and providing explainable risk decisions with complete documentation for regulatory compliance.
+keywords:
+  - risk
+  - management
+  - integrates
+  - multiple
+  - factors
+  - including
+  - sanctions
+  - peps
+  - crime
+  - records
+  - transaction
+  - patterns
+parents:
+  - ..
+---
 
 ## The Challenge
 

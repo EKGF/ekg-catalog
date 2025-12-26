@@ -1,0 +1,9 @@
+@startmindmap correspondent-based-aml
+
+!include ../../../../../include/themes/light.puml
+
++ [[ /use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/ Correspondent-based AML ]]
+--_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
+---_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/ Network Based AML ]]
+---_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/ Transaction / Finance based AML ]]
+@endmindmap

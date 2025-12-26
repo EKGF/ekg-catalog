@@ -1,6 +1,6 @@
 title: Opportunity & Tender Intake
 nav:
-  - index.md
-  - ...
-
-
+- index.md
+- bid-no-bid-decisioning.md
+- rfp-rfq-intake.md
+- site-visit-and-existing-conditions.md

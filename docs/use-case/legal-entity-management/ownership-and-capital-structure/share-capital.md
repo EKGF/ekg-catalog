@@ -1,16 +1,24 @@
-# Share Capital
-
-<object data="../../../../diagrams/out/share-capital.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Share capital management involves tracking and managing information
-about entity share capital, including authorized share capital, share
-classes, par values, and capital structure. Share capital represents
-the total capital that entities are authorized to issue and is
-fundamental to entity structure, ownership, and regulatory compliance.
-Understanding share capital is essential for corporate finance,
-ownership analysis, and regulatory reporting.
+---
+title: >-
+  Share Capital
+summary: >-
+  Share capital manages the authorized and issued share capital of entities, including different share classes with varying par values, rights, and characteristics. This use case addresses distinguishing between authorized and issued share capital, tracking share capital changes over time through amendments and corporate actions, modeling complex capital structures with multiple share classes, understanding how share capital affects ownership and control, meeting regulatory requirements for share capital reporting, and supporting corporate finance decisions and due diligence through comprehensive capital structure information.
+keywords:
+  - share
+  - capital
+  - manages
+  - authorized
+  - issued
+  - entities
+  - including
+  - different
+  - classes
+  - varying
+  - par
+  - values
+parents:
+  - ..
+---
 
 ## The Challenge
 

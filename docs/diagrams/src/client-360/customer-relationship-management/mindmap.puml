@@ -1,0 +1,15 @@
+@startmindmap customer-relationship-management
+
+!include ../../../include/themes/light.puml
+
++ [[ /use-case/client-360/customer-relationship-management/ Customer Relationship Management ]]
+--_ [[ /use-case/client-360/ Client 360 / Customer 360 ]]
+---_ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
+---_ [[ /use-case/client-360/relationships-and-connections/ Relationships & Connections ]]
+---_ [[ /use-case/client-360/social-media/ Social Media ]]
+++_ [[ /use-case/client-360/customer-relationship-management/account-management/ Account Management ]]
+++_ [[ /use-case/client-360/customer-relationship-management/activity-management/ Activity Management ]]
+++_ [[ /use-case/client-360/customer-relationship-management/contact-management/ Contact Management ]]
+++_ [[ /use-case/client-360/customer-relationship-management/lead-management/ Lead Management ]]
+++_ [[ /use-case/client-360/customer-relationship-management/opportunity-management/ Opportunity Management ]]
+@endmindmap

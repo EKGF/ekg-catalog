@@ -1,16 +1,24 @@
-# Stock Splits
-
-<object data="../../../../../diagrams/out/stock-splits.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Stock split management involves tracking and managing information
-about entity stock splits, where entities increase the number of
-shares outstanding while proportionally reducing share prices. Stock
-splits affect share ownership, share prices, and capital structure
-without changing total market capitalization. Understanding stock
-split history is essential for ownership analysis, share tracking, and
-historical price analysis.
+---
+title: >-
+  Stock Splits
+summary: >-
+  Stock splits manages forward and reverse stock splits that adjust the number of shares outstanding and share prices proportionally, requiring adjustments to historical ownership records and share prices. This use case addresses tracking stock split announcements, ratios, and effective dates, automatically adjusting historical ownership records for stock splits, supporting historical price analysis through split-adjusted prices, linking splits to shareholders and tracking ownership adjustments, meeting regulatory requirements for stock split reporting, and enabling accurate historical price and ownership analysis.
+keywords:
+  - stock
+  - splits
+  - manages
+  - forward
+  - reverse
+  - adjust
+  - number
+  - shares
+  - outstanding
+  - share
+  - prices
+  - proportionally
+parents:
+  - ..
+---
 
 ## The Challenge
 

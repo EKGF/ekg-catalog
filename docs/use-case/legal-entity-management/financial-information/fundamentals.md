@@ -1,14 +1,24 @@
-# Fundamentals
-
-<object data="../../../../diagrams/out/fundamentals.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Financial fundamentals management involves maintaining core financial
-information about legal entities, including financial statements, key
-financial metrics, ratios, and performance indicators. Financial
-fundamentals provide the foundation for financial analysis, risk
-assessment, valuation, and decision-making.
+---
+title: >-
+  Fundamentals
+summary: >-
+  Financial fundamentals manages core financial metrics and ratios including revenue, profit, cash flow, and balance sheet items across multiple periods and accounting standards. This use case addresses connecting financial data across systems, periods, and entities, automatically calculating financial ratios and metrics from connected data, tracking financial data over time and maintaining historical records, comparing financial fundamentals across entities and time periods, understanding how entity relationships affect financial fundamentals, and supporting financial analysis, risk assessment, and valuation through comprehensive fundamentals data.
+keywords:
+  - fundamentals
+  - financial
+  - manages
+  - core
+  - metrics
+  - ratios
+  - including
+  - revenue
+  - profit
+  - cash
+  - flow
+  - balance
+parents:
+  - ..
+---
 
 ## The Challenge
 

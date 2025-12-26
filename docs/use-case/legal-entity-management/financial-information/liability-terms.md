@@ -1,14 +1,24 @@
-# Liability Terms
-
-<object data="../../../../diagrams/out/liability-terms.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Liability terms management involves tracking and managing information
-about entity liabilities, including debt terms, covenants, repayment
-schedules, and credit agreements. Liability terms information is
-critical for financial risk assessment, compliance monitoring, cash
-flow planning, and understanding entity financial obligations.
+---
+title: >-
+  Liability Terms
+summary: >-
+  Liability terms manages debt and liability terms including covenants, repayment structures, creditor relationships, and compliance monitoring. This use case addresses modeling complex liability terms and covenants, tracking liability terms and amendments over time, automatically monitoring covenant compliance and identifying breaches, linking liabilities to creditors and understanding creditor relationships, assessing liability-related risks through relationship analysis, and supporting risk mitigation, financial planning, and regulatory compliance through comprehensive liability management.
+keywords:
+  - liability
+  - terms
+  - manages
+  - debt
+  - including
+  - covenants
+  - repayment
+  - structures
+  - creditor
+  - relationships
+  - compliance
+  - monitoring
+parents:
+  - ..
+---
 
 ## The Challenge
 

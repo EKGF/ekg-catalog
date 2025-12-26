@@ -1,15 +1,24 @@
-# High Net Worth Individuals
-
-## Summary
-
-High Net Worth (HNW) individuals require specialized KYC monitoring
-due to their complex financial profiles, high transaction volumes, and
-sophisticated wealth management needs. A large number of organizations
-monitor the transactions of HNW individuals in a separate
-complementary process along with a more formal annual KYC review.
-However, traditional monitoring systems struggle to handle the
-lifestyles of the new rich and produce meaningful warnings or reports
-that can be used to assess customer behavior.
+---
+title: >-
+  High Net Worth Individuals
+summary: >-
+  High net worth (HNW) individual monitoring requires contextual analysis of high-value transactions and lifestyle patterns to distinguish legitimate activity from suspicious behavior. This use case addresses reducing false positives from high-value purchases, understanding income sources and investment patterns, analyzing counterparty relationships, identifying money laundering networks, tracking behavioral changes over time, and enabling holistic multi-dimensional analysis that connects income sources, countries, investments, companies, and familial links.
+keywords:
+  - high
+  - net
+  - worth
+  - individuals
+  - hnw
+  - individual
+  - monitoring
+  - requires
+  - contextual
+  - analysis
+  - high-value
+  - transactions
+parents:
+  - ..
+---
 
 ## The Challenge
 

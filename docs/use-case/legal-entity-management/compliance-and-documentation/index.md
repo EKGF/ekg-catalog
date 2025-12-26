@@ -1,16 +1,24 @@
-# Compliance & Documentation
-
-<object data="../../../../diagrams/out/compliance-and-documentation.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Compliance and Documentation encompasses all compliance activities and
-document management for legal entities. This includes tracking
-compliance status, managing compliance obligations, maintaining
-compliance documentation, and organizing entity-related documents.
-Effective compliance and documentation management is essential for
-regulatory compliance, risk mitigation, audit support, and operational
-efficiency.
+---
+title: >-
+  Compliance & Documentation
+summary: >-
+  Compliance and documentation manages regulatory compliance requirements, obligations, and documentation for entities across multiple jurisdictions, handling large volumes of documents and tracking compliance status and deadlines. This use case addresses connecting compliance requirements and activities across entities, linking documents to entities, transactions, and compliance requirements, tracking compliance status and document versions over time, linking entities to applicable regulations and jurisdictions, understanding how entity relationships affect compliance obligations, continuously monitoring compliance status, and supporting regulatory compliance, risk mitigation, and audit through comprehensive compliance and document management.
+keywords:
+  - compliance
+  - documentation
+  - manages
+  - regulatory
+  - requirements
+  - obligations
+  - entities
+  - multiple
+  - jurisdictions
+  - handling
+  - large
+  - volumes
+parents:
+  - ..
+---
 
 ## The Challenge
 

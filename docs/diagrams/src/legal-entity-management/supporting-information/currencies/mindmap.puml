@@ -1,0 +1,7 @@
+@startmindmap currencies
+
+!include ../../../../include/themes/light.puml
+
++ [[ /use-case/legal-entity-management/supporting-information/currencies/ Currencies ]]
+--_ [[ /use-case/legal-entity-management/supporting-information/ Supporting Information ]]
+@endmindmap

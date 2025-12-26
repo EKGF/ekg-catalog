@@ -1,0 +1,6 @@
+@startmindmap
+
+!include ../../../../include/themes/light.puml
+
++ [[ /use-case/client-360/customer-relationship-management/lead-management/lead-qualification/ Lead Qualification ]]
+@endmindmap

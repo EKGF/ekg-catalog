@@ -1,16 +1,24 @@
-# Merger & Acquisition History
-
-<object data="../../../../../diagrams/out/merger-and-acquisition-history.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Merger and acquisition (M&A) history management involves tracking and
-managing information about entity mergers, acquisitions, and
-divestitures, including transaction details, dates, parties, and
-outcomes. M&A history is critical for understanding entity evolution,
-ownership changes, corporate structure, and regulatory compliance.
-Understanding M&A history is essential for due diligence, risk
-assessment, and entity analysis.
+---
+title: >-
+  Merger & Acquisition History
+summary: >-
+  Merger and acquisition history tracks M&A transactions including mergers, acquisitions, divestitures, and joint ventures, maintaining historical records of announcements, approvals, and completions. This use case addresses modeling complex M&A transactions with multiple parties and structures, tracking transactions over time, linking transactions to regulatory approvals and filings, understanding how M&A affects entity relationships and structures, reconstructing entity history through M&A transaction chains, and supporting due diligence, risk assessment, and strategic insights through comprehensive M&A analysis.
+keywords:
+  - merger
+  - acquisition
+  - history
+  - tracks
+  - transactions
+  - including
+  - mergers
+  - acquisitions
+  - divestitures
+  - joint
+  - ventures
+  - maintaining
+parents:
+  - ..
+---
 
 ## The Challenge
 

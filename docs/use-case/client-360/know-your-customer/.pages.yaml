@@ -1,7 +1,13 @@
 title: Know Your Customer
 nav:
-  - core-record-management
-  - Anti Money Laundering: anti-money-laundering
-  - GDPR: gdpr.md
-  - HNW Individuals: high-net-worth-individuals.md
-  - ...
+- index.md
+- anti-money-laundering
+- core-record-management
+- activity-monitoring.md
+- crime-records.md
+- gdpr.md
+- high-net-worth-individuals.md
+- identification-verification.md
+- peps.md
+- risk-management.md
+- sanctions.md

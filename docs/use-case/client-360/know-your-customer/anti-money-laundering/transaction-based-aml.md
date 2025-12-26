@@ -1,15 +1,24 @@
-# Transaction / Finance based AML
-
-<object data="../../../../../diagrams/out/transaction-based-aml.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Transaction-based AML, specifically trade finance-based money
-laundering, focuses on detecting money laundering risks in trade
-finance transactions where criminals exploit the complexity of
-international trade to move illicit funds. This requires analyzing
-both financial flows and physical goods movements to identify
-discrepancies and suspicious patterns.
+---
+title: >-
+  Transaction / Finance based AML
+summary: >-
+  Transaction-based AML focuses on detecting money laundering through trade finance and commercial transactions by analyzing both financial flows and physical goods delivery. This use case addresses the complexity of understanding multi-disciplinary logistics, linking financial transactions with shipping and customs data, detecting sophisticated trade finance laundering schemes, reducing false positives from legitimate trade, and providing an agile platform to develop new detection methods as criminals adapt their techniques.
+keywords:
+  - transaction
+  - finance
+  - based
+  - aml
+  - transaction-based
+  - focuses
+  - detecting
+  - money
+  - laundering
+  - through
+  - trade
+  - commercial
+parents:
+  - ..
+---
 
 ## The Challenge
 

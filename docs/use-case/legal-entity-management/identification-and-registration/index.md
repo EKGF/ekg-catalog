@@ -1,16 +1,24 @@
-# Identification & Registration
-
-<object data="../../../../diagrams/out/identification-and-registration.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Identification and Registration encompasses the fundamental
-information required to uniquely identify and legally register a legal
-entity. This includes the legal form of the entity, business
-registration details, commercial register entries, and entity
-classification. This information forms the foundation for all other
-legal entity management activities and is essential for regulatory
-compliance, risk assessment, and entity verification.
+---
+title: >-
+  Identification & Registration
+summary: >-
+  Identification and registration manages entity identification and registration across multiple jurisdictions, handling different types of registrations (incorporation, business license, tax registration) with varying requirements. This use case addresses tracking registration status and changes over time, managing entity classifications across multiple taxonomies, linking registrations to regulatory requirements, and maintaining accurate registration information across systems for compliance and due diligence.
+keywords:
+  - identification
+  - registration
+  - manages
+  - entity
+  - multiple
+  - jurisdictions
+  - handling
+  - different
+  - types
+  - registrations
+  - incorporation
+  - business
+parents:
+  - ..
+---
 
 ## The Challenge
 

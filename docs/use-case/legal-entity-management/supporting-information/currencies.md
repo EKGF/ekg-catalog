@@ -1,16 +1,24 @@
-# Currencies
-
-<object data="../../../../diagrams/out/currencies.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Currency management for legal entities involves tracking and managing
-information about currencies used by entities, including functional
-currencies, reporting currencies, transaction currencies, and currency
-exposure. Currency information is essential for financial reporting,
-risk management, transaction processing, and regulatory compliance.
-Understanding currency relationships and exposures is critical for
-multinational entities.
+---
+title: >-
+  Currencies
+summary: >-
+  Currencies manages currency usage by entities including functional currency determination, currency conversions, exchange rates, and currency exposure analysis. This use case addresses tracking all currencies used by entities, connecting currencies to exchange rates and conversion factors, tracking currency usage and exchange rates over time, analyzing currency exposure and risk through relationship analysis, linking currencies to regulatory requirements and reporting obligations, connecting currencies to transactions and financial statements, and supporting financial reporting, risk management, and regulatory compliance through comprehensive currency management.
+keywords:
+  - currencies
+  - manages
+  - currency
+  - usage
+  - entities
+  - including
+  - functional
+  - determination
+  - conversions
+  - exchange
+  - rates
+  - exposure
+parents:
+  - ..
+---
 
 ## The Challenge
 

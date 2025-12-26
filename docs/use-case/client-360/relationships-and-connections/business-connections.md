@@ -1,14 +1,24 @@
-# Business Connections
-
-<object data="../../../../diagrams/out/business-connections.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Business Connections provide a comprehensive view of the professional
-relationships and networks that clients maintain with other
-businesses, partners, suppliers, and corporate entities. Understanding
-these connections is critical for identifying risks, opportunities,
-and the broader business ecosystem in which a client operates.
+---
+title: >-
+  Business Connections
+summary: >-
+  Business connections model corporate relationships including parent-subsidiary structures, joint ventures, partnerships, supply chains, and beneficial ownership networks. This use case addresses mapping complex corporate structures, tracking evolving relationships through mergers and acquisitions, identifying hidden risks and conflicts of interest, understanding influence networks and decision-making power, and integrating business relationship data across CRM, legal, compliance, and transaction systems.
+keywords:
+  - business
+  - connections
+  - model
+  - corporate
+  - relationships
+  - including
+  - parent-subsidiary
+  - structures
+  - joint
+  - ventures
+  - partnerships
+  - supply
+parents:
+  - ..
+---
 
 ## The Challenge
 

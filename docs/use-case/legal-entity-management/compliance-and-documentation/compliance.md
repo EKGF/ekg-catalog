@@ -1,16 +1,24 @@
-# Compliance
-
-<object data="../../../../diagrams/out/compliance.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Compliance management for legal entities involves tracking and
-ensuring adherence to regulatory requirements, industry standards, and
-internal policies. This includes monitoring compliance status,
-managing compliance obligations, tracking regulatory changes, and
-maintaining evidence of compliance activities. Effective compliance
-management is essential for risk mitigation, regulatory reporting, and
-maintaining business licenses.
+---
+title: >-
+  Compliance
+summary: >-
+  Compliance manages regulatory compliance for legal entities across multiple jurisdictions, tracking compliance status, deadlines, and obligations, and handling dynamic regulatory requirements that change frequently. This use case addresses linking entities to applicable regulations, jurisdictions, and compliance requirements, tracking compliance status over time, understanding how entity relationships affect compliance obligations, tracking regulatory changes and their impact, connecting compliance documentation and evidence to specific requirements, assessing compliance risk across entity networks, and continuously monitoring compliance status to identify issues proactively for risk mitigation and regulatory compliance.
+keywords:
+  - compliance
+  - manages
+  - regulatory
+  - legal
+  - entities
+  - multiple
+  - jurisdictions
+  - tracking
+  - status
+  - deadlines
+  - obligations
+  - handling
+parents:
+  - ..
+---
 
 ## The Challenge
 
@@ -73,3 +81,10 @@ capabilities:
   compliance management
 - **Strategic insights** — Understand compliance landscape and
   requirements across entity portfolio
+
+## Related Use Cases
+
+- [Client 360 / Know Your Customer](../../client-360/index.md) - Uses
+  compliance concepts for customer-level compliance (AML, GDPR,
+  sanctions, PEPs) from a customer risk perspective, while this page
+  focuses on entity-level regulatory compliance

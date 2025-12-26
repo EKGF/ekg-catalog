@@ -1,16 +1,24 @@
-# Ownership & Capital Structure
-
-<object data="../../../../diagrams/out/ownership-and-capital-structure.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Ownership and Capital Structure encompasses all aspects of entity
-ownership, control, and capital. This includes direct and indirect
-ownership, control relationships, share structures, capital issuances,
-and corporate actions such as mergers, acquisitions, spin-offs, and
-dividends. Understanding ownership and capital structure is essential
-for beneficial ownership identification, risk assessment, regulatory
-compliance, and corporate finance.
+---
+title: >-
+  Ownership & Capital Structure
+summary: >-
+  Ownership and capital structure manages complex ownership chains, beneficial ownership identification, control relationships, and capital structures including shares, share capital, and corporate actions. This use case addresses traversing ownership chains to identify indirect and beneficial owners, determining control beyond simple ownership percentages, tracking ownership and capital changes over time through corporate actions, meeting regulatory requirements for ownership disclosure, and supporting risk assessment and due diligence through comprehensive ownership analysis.
+keywords:
+  - ownership
+  - capital
+  - structure
+  - manages
+  - complex
+  - chains
+  - beneficial
+  - identification
+  - control
+  - relationships
+  - structures
+  - including
+parents:
+  - ..
+---
 
 ## The Challenge
 

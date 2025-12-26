@@ -1,19 +1,24 @@
-# GDPR
-
-<object data="../../../../diagrams/out/gdpr.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-GDPR (General Data Protection Regulation) compliance in KYC involves
-managing customer data in accordance with EU data protection
-regulations, including data subject rights, consent management, data
-minimization, and the right to be forgotten. By creating a holistic
-view of data within the organization and leveraging both internally
-and externally available data (such as directors, shareholders,
-sanctions and adverse lists), the EKG can create a holistic view and
-analyze current and potential clients, enabling the identification of
-direct and indirect (i.e. beneficial ownership structures) risk
-factors while maintaining GDPR compliance.
+---
+title: >-
+  GDPR
+summary: >-
+  GDPR compliance ensures organizations meet European data protection requirements including data subject rights (access, rectification, erasure, portability), consent management, data minimization, and the right to be forgotten. This use case addresses managing fragmented customer data across systems, tracking complete data lifecycles from lead to customer, integrating data from all touchpoints and systems, maintaining audit trails, and enabling data discovery while respecting privacy rights and maintaining necessary compliance records.
+keywords:
+  - gdpr
+  - compliance
+  - ensures
+  - organizations
+  - meet
+  - european
+  - data
+  - protection
+  - requirements
+  - including
+  - subject
+  - rights
+parents:
+  - ..
+---
 
 ## The Challenge
 

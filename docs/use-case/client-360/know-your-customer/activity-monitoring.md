@@ -1,15 +1,24 @@
-# Activity Monitoring
-
-<object data="../../../../diagrams/out/activity-monitoring.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Activity Monitoring tracks and analyzes customer transactions,
-behaviors, and interactions over time to identify unusual patterns,
-detect potential financial crime, and ensure ongoing compliance with
-KYC and AML requirements. Continuous monitoring is essential for
-maintaining customer relationships and detecting changes in risk
-profile that may require enhanced due diligence.
+---
+title: >-
+  Activity Monitoring
+summary: >-
+  Activity monitoring continuously tracks customer transactions and behaviors across all channels to detect suspicious patterns and ensure regulatory compliance. This use case addresses processing high volumes of transactions, reducing false positive alerts through contextual analysis, understanding customer behavior in context rather than isolated transactions, detecting evolving risk patterns, providing cross-channel visibility, and enabling proactive risk management through behavioral baselines and network analysis.
+keywords:
+  - activity
+  - monitoring
+  - continuously
+  - tracks
+  - customer
+  - transactions
+  - behaviors
+  - all
+  - channels
+  - detect
+  - suspicious
+  - patterns
+parents:
+  - ..
+---
 
 ## The Challenge
 

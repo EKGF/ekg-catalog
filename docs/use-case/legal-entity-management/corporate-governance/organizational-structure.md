@@ -1,15 +1,24 @@
-# Organizational Structure
-
-<object data="../../../../diagrams/out/organizational-structure.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Organizational structure management involves modeling and maintaining
-the hierarchical structure of legal entities, including reporting
-relationships, business units, divisions, and organizational charts.
-Understanding organizational structure is essential for corporate
-governance, risk management, compliance, and operational
-decision-making.
+---
+title: >-
+  Organizational Structure
+summary: >-
+  Organizational structure manages the hierarchical and multi-dimensional structures of entities, representing relationships across legal, business, geographic, and functional dimensions. This use case addresses modeling complex organizational hierarchies, tracking organizational changes over time through reorganizations and mergers, understanding relationships between organizational units and entities, mapping structure to governance and decision-making authority, and supporting strategic planning and change management through comprehensive structure understanding.
+keywords:
+  - organizational
+  - structure
+  - manages
+  - hierarchical
+  - multi-dimensional
+  - structures
+  - entities
+  - representing
+  - relationships
+  - legal
+  - business
+  - geographic
+parents:
+  - ..
+---
 
 ## The Challenge
 

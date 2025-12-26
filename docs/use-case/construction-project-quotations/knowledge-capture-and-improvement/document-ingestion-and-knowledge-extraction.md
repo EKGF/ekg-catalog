@@ -1,6 +1,24 @@
-# Document Ingestion & Knowledge Extraction
-
-<object data="../../../../diagrams/out/document-ingestion-and-knowledge-extraction.svg#darkable" type="image/svg+xml"></object>
+---
+title: >-
+  Document Ingestion & Knowledge Extraction
+summary: >-
+  Document ingestion and knowledge extraction converts large volumes of tender and project documentation (PDFs, drawings, calculations) into machine-readable knowledge that can be queried, validated, and reused. This use case uses GenAI to extract facts and relationships from unstructured documents, then uses EKG to validate, de-duplicate, and link them into the quotation model with provenance, creating structured document metadata and evidence links.
+keywords:
+  - document
+  - ingestion
+  - knowledge
+  - extraction
+  - converts
+  - large
+  - volumes
+  - tender
+  - project
+  - documentation
+  - pdfs
+  - drawings
+parents:
+  - ..
+---
 
 Convert large volumes of tender and project documentation (PDFs,
 drawings, calculations) into machine-readable knowledge that can be
@@ -13,5 +31,3 @@ queried, validated, and reused.
 - **EKG + GenAI**: use GenAI to extract facts and relationships, then
   use the EKG to validate, de-duplicate, and link them into the
   quotation model with provenance.
-
-

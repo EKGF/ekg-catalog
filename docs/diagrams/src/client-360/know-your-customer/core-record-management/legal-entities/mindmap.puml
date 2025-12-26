@@ -1,0 +1,14 @@
+@startmindmap legal-entities
+
+!include ../../../../../include/themes/light.puml
+
++ [[ /use-case/client-360/know-your-customer/core-record-management/legal-entities/ Legal Entities ]]
+--_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
+---_ [[ /use-case/client-360/know-your-customer/core-record-management/addresses/ Addresses ]]
+---_ [[ /use-case/client-360/know-your-customer/core-record-management/audit/ Audit ]]
+---_ [[ /use-case/client-360/know-your-customer/core-record-management/buildings/ Buildings ]]
+---_ [[ /use-case/client-360/know-your-customer/core-record-management/countries/ Countries ]]
+---_ [[ /use-case/client-360/know-your-customer/core-record-management/jurisdictions/ Jurisdictions ]]
+---_ [[ /use-case/client-360/know-your-customer/core-record-management/locations/ Locations ]]
+---_ [[ /use-case/client-360/know-your-customer/core-record-management/regions/ Regions ]]
+@endmindmap

@@ -1,17 +1,24 @@
-# Corporate Actions
-
-<object data="../../../../../diagrams/out/corporate-actions.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Corporate Actions encompass all significant events and transactions
-that affect the ownership, capital structure, and value of legal
-entities. This includes mergers and acquisitions, spin-offs, stock
-splits, dividends, and parent-subsidiary relationships. Corporate
-actions have profound impacts on ownership structures, share values,
-and entity relationships, making accurate tracking and analysis
-essential for regulatory compliance, financial reporting, and
-strategic decision-making.
+---
+title: >-
+  Corporate Actions
+summary: >-
+  Corporate actions manages transactions that fundamentally change entity structures, ownership, and capital, including mergers, acquisitions, spin-offs, stock splits, and dividends. This use case addresses modeling complex corporate actions with multiple parties and jurisdictions, tracking corporate actions over time, understanding how actions affect ownership structures and distributions, mapping relationships between entities before, during, and after actions, meeting regulatory requirements for disclosure and reporting, and supporting due diligence and financial reporting through comprehensive corporate action analysis.
+keywords:
+  - corporate
+  - actions
+  - manages
+  - transactions
+  - fundamentally
+  - change
+  - entity
+  - structures
+  - ownership
+  - capital
+  - including
+  - mergers
+parents:
+  - ..
+---
 
 ## The Challenge
 

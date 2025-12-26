@@ -1,16 +1,24 @@
-# Dissolution
-
-<object data="../../../../diagrams/out/dissolution.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Dissolution management involves tracking and managing the process of
-dissolving legal entities, including dissolution procedures,
-timelines, requirements, and final distributions. Entity dissolution
-is a complex legal process that requires compliance with regulatory
-requirements, creditor notification, asset distribution, and final
-filings. Understanding dissolution status is critical for risk
-management, compliance, and entity portfolio management.
+---
+title: >-
+  Dissolution
+summary: >-
+  Dissolution manages the process of legally terminating entities, involving multiple steps, regulatory filings, creditor notifications, and asset distribution. This use case addresses modeling dissolution processes and requirements across jurisdictions, tracking dissolution timelines, deadlines, and milestones, linking dissolution to creditors, claims, and notifications, tracking asset distribution and final settlements, linking dissolution to regulatory requirements and filing obligations, understanding impact of dissolution on entity relationships, and supporting risk mitigation and regulatory compliance through comprehensive dissolution management.
+keywords:
+  - dissolution
+  - manages
+  - process
+  - legally
+  - terminating
+  - entities
+  - involving
+  - multiple
+  - steps
+  - regulatory
+  - filings
+  - creditor
+parents:
+  - ..
+---
 
 ## The Challenge
 

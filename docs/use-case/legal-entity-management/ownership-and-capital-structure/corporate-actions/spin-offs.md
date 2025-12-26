@@ -1,15 +1,24 @@
-# Spin-offs
-
-<object data="../../../../../diagrams/out/spin-offs.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Spin-off management involves tracking and managing information about
-entity spin-offs, where entities separate business units or divisions
-into independent entities. Spin-offs involve complex transactions
-including asset transfers, liability allocations, share distributions,
-and regulatory approvals. Understanding spin-off history is essential
-for entity analysis, ownership tracking, and regulatory compliance.
+---
+title: >-
+  Spin-offs
+summary: >-
+  Spin-offs manages transactions where entities separate business units into independent entities, involving complex asset transfers, liability allocations, and share distributions. This use case addresses modeling complex spin-off transactions with multiple parties, tracking spin-off announcements, approvals, and completions over time, linking spin-offs to asset transfers and liability allocations, understanding how spin-offs affect shareholder distributions and ownership changes, linking spin-offs to regulatory approvals and filings, and reconstructing entity history through spin-off transaction chains for analysis and reporting.
+keywords:
+  - spin-offs
+  - manages
+  - transactions
+  - entities
+  - separate
+  - business
+  - units
+  - independent
+  - involving
+  - complex
+  - asset
+  - transfers
+parents:
+  - ..
+---
 
 ## The Challenge
 

@@ -1,16 +1,24 @@
-# Issued Capital
-
-<object data="../../../../diagrams/out/issued-capital.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Issued capital management involves tracking and managing information
-about capital that has been issued by entities to shareholders,
-including the number of shares issued, issue dates, issue prices, and
-shareholder allocations. Issued capital represents the actual capital
-raised by entities and is distinct from authorized capital.
-Understanding issued capital is essential for ownership analysis,
-valuation, and regulatory compliance.
+---
+title: >-
+  Issued Capital
+summary: >-
+  Issued capital tracks the actual shares that have been issued to shareholders, distinguishing between authorized share capital and the portion that has been issued, and tracking multiple capital issuances over time with different share types and terms. This use case addresses tracking capital issuances with dates, prices, and terms, linking issued capital to shareholders and allocations, tracking issued capital changes over time, understanding how capital issuances affect ownership and control structures, meeting regulatory requirements for issued capital reporting, and supporting ownership analysis and valuation through comprehensive issuance data.
+keywords:
+  - issued
+  - capital
+  - tracks
+  - actual
+  - shares
+  - have
+  - been
+  - shareholders
+  - distinguishing
+  - between
+  - authorized
+  - share
+parents:
+  - ..
+---
 
 ## The Challenge
 

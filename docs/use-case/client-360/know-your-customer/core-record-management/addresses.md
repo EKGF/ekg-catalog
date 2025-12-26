@@ -1,13 +1,31 @@
-# Addresses
+---
+title: >-
+  Addresses
+summary: >-
+  Address management from the Client 360/KYC perspective focuses on customer identity verification and risk assessment, handling diverse address formats across countries, managing multiple address types (residential, business, mailing), validating address authenticity, tracking address changes over time, and using addresses for geographic risk assessment and sanctions screening while maintaining compliance with privacy regulations.
+keywords:
+  - addresses
+  - address
+  - management
+  - client
+  - kyc
+  - perspective
+  - focuses
+  - customer
+  - identity
+  - verification
+  - risk
+  - assessment
+parents:
+  - ..
+---
 
-## Summary
-
-Address management is a fundamental component of KYC core record
-management, involving the collection, validation, and maintenance of
-customer addresses for identity verification, risk assessment, and
-regulatory compliance. Addresses serve as critical identifying
-information and are used for sanctions screening, PEP identification,
-and understanding customer geographic risk.
+> **Note**: This page describes address management from the Client 360
+> / Know Your Customer perspective, focusing on customer identity
+> verification and risk assessment. For address management from the
+> Legal Entity Management perspective (entity compliance and
+> regulatory filings), see
+> [Addresses](../../../legal-entity-management/contact-and-location-information/addresses.md).
 
 ## The Challenge
 
@@ -64,3 +82,11 @@ capabilities:
   manual data entry
 - **Customer experience** — Ensure accurate address data for
   communications and service delivery
+
+## Related Use Cases
+
+- [Legal Entity Management](../../../legal-entity-management/index.md) -
+  Manages addresses for entities (registered, business, mailing
+  addresses)
+- [Legal Entity Management - Addresses](../../../legal-entity-management/contact-and-location-information/addresses.md) -
+  Address management from entity perspective

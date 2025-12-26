@@ -1,15 +1,24 @@
-# Crime Records
-
-<object data="../../../../diagrams/out/crime-records.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Crime Records screening involves checking customers against criminal
-databases, conviction records, and law enforcement watchlists to
-identify individuals with criminal histories that may pose risks to
-the organization. This is a critical component of customer due
-diligence, helping financial institutions assess risk, comply with
-regulations, and protect against financial crime.
+---
+title: >-
+  Crime Records
+summary: >-
+  Crime records screening checks customers against criminal databases from multiple jurisdictions to identify individuals with criminal histories that may pose financial or reputational risks. This use case addresses managing fragmented data sources across jurisdictions, reducing false positives through enhanced entity resolution, handling privacy and legal restrictions, interpreting crime relevance to financial risk, and maintaining continuous monitoring as records are updated or expunged.
+keywords:
+  - crime
+  - records
+  - screening
+  - checks
+  - customers
+  - against
+  - criminal
+  - databases
+  - multiple
+  - jurisdictions
+  - identify
+  - individuals
+parents:
+  - ..
+---
 
 ## The Challenge
 

@@ -1,31 +1,24 @@
 ---
-description: >-
-  Monitor and manage risk and compliance across all regulatory
-  requirements, business units, and jurisdictions in real-time using
-  Enterprise Knowledge Graph technology.
+title: >-
+  Enterprise Risk & Compliance Management
+summary: >-
+  Enterprise risk and compliance management monitors compliance across multiple regulatory requirements, understands relationships between regulations and business processes, tracks data lineage for compliance reporting, and manages risk across business units and jurisdictions. This use case addresses modeling regulatory requirements semantically, providing cross-system visibility, enabling automated compliance reporting, responding to regulatory changes in real-time, and providing complete audit trails and evidence for compliance demonstrations.
 keywords:
-  - risk management
-  - enterprise risk
-  - compliance management
-  - regulatory compliance
-  - EKG use case
-  - enterprise knowledge graph
-schema_type: "Article"
+  - enterprise
+  - risk
+  - compliance
+  - management
+  - monitors
+  - multiple
+  - regulatory
+  - requirements
+  - understands
+  - relationships
+  - between
+  - regulations
+parents:
+  - ..
 ---
-
-# Enterprise Risk & Compliance Management
-
-## Summary
-
-Enterprise risk and compliance management requires monitoring and
-managing risk and compliance across all regulatory requirements,
-business units, and jurisdictions in real-time. Risk and compliance
-require understanding relationships between regulations, business
-processes, data lineage, and organizational structures.
-
-Enterprise Knowledge Graph (EKG) technology provides the semantic
-foundation to model and query these complex relationships, enabling
-proactive risk management and automated compliance reporting.
 
 ## The Challenge
 
@@ -51,8 +44,8 @@ structures. EKG provides:
   modeling of regulatory requirements and business processes
 - **Cross-system visibility** — Semantic relationships enable queries
   across all systems and organizational units
-- **Data lineage tracking** — Graph structure enables automatic tracking
-  of data flows for compliance
+- **Data lineage tracking** — Graph structure enables automatic
+  tracking of data flows for compliance
 - **Regulatory mapping** — Relationships between regulations and
   business processes can be modeled and queried
 - **Real-time monitoring** — Graph queries enable real-time risk and
@@ -66,11 +59,11 @@ structures. EKG provides:
   violations
 - **Faster compliance reporting** — Automated generation reduces time
   to produce reports
-- **Proactive risk management** — Early identification of risks enables
-  mitigation
+- **Proactive risk management** — Early identification of risks
+  enables mitigation
 - **Cost reduction** — Automation reduces manual compliance effort
-- **Better decision-making** — Comprehensive risk view enables informed
-  decisions
+- **Better decision-making** — Comprehensive risk view enables
+  informed decisions
 
 ## Related Use Cases
 

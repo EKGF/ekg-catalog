@@ -1,15 +1,24 @@
-# Assets
-
-<object data="../../../../diagrams/out/assets.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Asset management for legal entities involves tracking and managing
-information about entity assets, including tangible assets (property,
-equipment), intangible assets (intellectual property, goodwill), and
-financial assets (investments, cash). Asset information is essential
-for financial reporting, risk assessment, valuation, and understanding
-entity financial position.
+---
+title: >-
+  Assets
+summary: >-
+  Assets manages entity assets including various asset types with different characteristics, valuation methods, ownership, liens, and encumbrances. This use case addresses connecting all entity assets across systems and time periods, tracking asset values, ownership, and changes over time, linking assets to valuation methods, assumptions, and results, modeling depreciation, amortization, and impairment schedules, understanding asset relationships across entity networks, assessing asset-related risks through relationship analysis, and supporting financial reporting, risk assessment, and valuation through comprehensive asset management.
+keywords:
+  - assets
+  - manages
+  - entity
+  - including
+  - various
+  - asset
+  - types
+  - different
+  - characteristics
+  - valuation
+  - methods
+  - ownership
+parents:
+  - ..
+---
 
 ## The Challenge
 

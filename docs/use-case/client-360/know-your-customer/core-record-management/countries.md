@@ -1,12 +1,29 @@
-# Countries
+---
+title: >-
+  Countries
+summary: >-
+  Country reference data in the Client 360/KYC context provides geographic risk classification, regulatory requirements understanding, and sanctions tracking for customer risk assessment. This use case addresses maintaining country risk ratings for AML and sanctions purposes, understanding dynamic country risk levels, ensuring consistent country data across systems, tracking sanctions implications, and using country relationships for geographic risk analysis and PEP screening.
+keywords:
+  - countries
+  - country
+  - reference
+  - data
+  - client
+  - kyc
+  - context
+  - provides
+  - geographic
+  - risk
+  - classification
+  - regulatory
+parents:
+  - ..
+---
 
-## Summary
-
-Country management in KYC involves maintaining reference data about
-countries, their risk classifications, and regulatory requirements.
-Country information is used for geographic risk assessment, sanctions
-screening, PEP identification, and understanding regulatory
-requirements for customers from different jurisdictions.
+> **Note**: This page describes the use of country reference data in
+> the Client 360 / Know Your Customer context. For general information
+> about country reference data as a shared concept, see
+> [Countries](../../../../concept/countries.md).
 
 ## The Challenge
 
@@ -63,3 +80,10 @@ capabilities:
   and screening
 - **Strategic insights** — Understand geographic distribution of
   customer base and risks
+
+## Related Use Cases
+
+- [Legal Entity Management](../../../legal-entity-management/index.md) -
+  Uses country data for entity geographic presence
+- [Countries](../../../../concept/countries.md) - Shared concept for
+  country reference data

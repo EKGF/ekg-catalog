@@ -1,16 +1,24 @@
-# Corporate Governance
-
-<object data="../../../../diagrams/out/corporate-governance.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Corporate Governance encompasses the structures, processes, and
-relationships that govern how legal entities are directed and
-controlled. This includes board composition and directorships,
-organizational structure, and authorized signatories. Effective
-corporate governance is essential for regulatory compliance, risk
-management, and ensuring proper oversight and control of entity
-operations.
+---
+title: >-
+  Corporate Governance
+summary: >-
+  Corporate governance manages the structures, processes, and relationships that govern how entities are directed and controlled, including boards, committees, directors, officers, and reporting lines. This use case addresses modeling complex governance structures, tracking governance changes over time, understanding relationships between directors and entities, identifying conflicts of interest, ensuring compliance with regulatory requirements, and supporting effective corporate governance across entity portfolios.
+keywords:
+  - corporate
+  - governance
+  - manages
+  - structures
+  - processes
+  - relationships
+  - govern
+  - entities
+  - directed
+  - controlled
+  - including
+  - boards
+parents:
+  - ..
+---
 
 ## The Challenge
 

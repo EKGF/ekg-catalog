@@ -1,15 +1,31 @@
-# Addresses
+---
+title: >-
+  Addresses
+summary: >-
+  Addresses manages entity addresses from the Legal Entity Management perspective, focusing on entity compliance and regulatory filings, handling multiple address types (registered, business, mailing, operational) across jurisdictions. This use case addresses tracking address changes over time, connecting addresses to jurisdictions, regions, and countries, linking addresses to identify shared locations and entity networks, validating address accuracy across different countries, maintaining historical address records for compliance and audit, and supporting regulatory compliance, data quality, and geographic insights through comprehensive address management.
+keywords:
+  - addresses
+  - manages
+  - entity
+  - legal
+  - management
+  - perspective
+  - focusing
+  - compliance
+  - regulatory
+  - filings
+  - handling
+  - multiple
+parents:
+  - ..
+---
 
-<object data="../../../../diagrams/out/addresses-lem.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Address management for legal entities involves maintaining accurate
-and up-to-date information about entity addresses, including
-registered addresses, business addresses, mailing addresses, and
-operational locations. Address information is critical for legal
-compliance, regulatory filings, communication, and understanding
-entity geographic presence.
+> **Note**: This page describes address management from the Legal
+> Entity Management perspective, focusing on entity compliance and
+> regulatory filings. For address management from the Client 360 /
+> Know Your Customer perspective (customer identity verification and
+> risk assessment), see
+> [Addresses](../../client-360/know-your-customer/core-record-management/addresses.md).
 
 ## The Challenge
 
@@ -66,3 +82,10 @@ capabilities:
   communications
 - **Risk assessment** — Use address information for geographic risk
   assessment
+
+## Related Use Cases
+
+- [Client 360 / Know Your Customer](../../client-360/index.md) - Uses
+  address data for customer identity verification and risk assessment
+- [Client 360 - Addresses](../../client-360/know-your-customer/core-record-management/addresses.md) -
+  Address management from customer perspective

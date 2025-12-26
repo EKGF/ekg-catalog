@@ -1,4 +1,7 @@
-title: Client 360
+title: Client 360 / Customer 360
 nav:
-  - Know Your Customer: know-your-customer
-  - ...
+- index.md
+- customer-relationship-management
+- know-your-customer
+- relationships-and-connections
+- social-media

@@ -1,0 +1,28 @@
+@startmindmap construction-project-quotations
+
+!include ../../include/themes/light.puml
+
++ [[ /use-case/construction-project-quotations/ Complex Construction Project Quotations ]]
+--_ [[ /use-case/./ Use Cases ]]
+---_ [[ /use-case/./ Use Cases ]]
+---_ [[ /use-case/client-360/ Client 360 / Customer 360 ]]
+---_ [[ /use-case/cyber-security/ Cybersecurity ]]
+---_ [[ /use-case/data-privacy-governance/ Data Privacy & Governance ]]
+---_ [[ /use-case/digital-twin/ Digital Twin of Technology and Data Landscape ]]
+---_ [[ /use-case/fraud-detection/ Enterprise Fraud Detection ]]
+---_ [[ /use-case/legal-entity-management/ Legal Entity Management ]]
+---_ [[ /use-case/organization-management/ Organization Management ]]
+---_ [[ /use-case/other/ Other Usecases ]]
+---_ [[ /use-case/recommendation-engine/ Recommendation Engine ]]
+---_ [[ /use-case/regulatory-reports/ Enterprise-Spanning Regulatory Reports ]]
+---_ [[ /use-case/risk-management/ Enterprise Risk & Compliance Management ]]
+---_ [[ /use-case/strategic-use-cases/ Strategic Use Cases ]]
+---_ [[ /use-case/supply-chain-management/ Supply Chain Management ]]
+++_ [[ /use-case/construction-project-quotations/estimating-and-pricing/ Estimating & Pricing ]]
+++_ [[ /use-case/construction-project-quotations/knowledge-capture-and-improvement/ Knowledge Capture & Continuous Improvement ]]
+++_ [[ /use-case/construction-project-quotations/opportunity-and-tender-intake/ Opportunity & Tender Intake ]]
+++_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/ Proposal & Negotiation ]]
+++_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/ Risk, Compliance & Contracts ]]
+++_ [[ /use-case/construction-project-quotations/scope-and-requirements/ Scope & Requirements ]]
+++_ [[ /use-case/construction-project-quotations/supply-chain-and-subcontractors/ Supply Chain & Subcontractors ]]
+@endmindmap

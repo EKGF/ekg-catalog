@@ -1,35 +1,24 @@
 ---
-description: >-
-  Create a unified, real-time view of every customer across all
-  touchpoints, products, and interactions using Enterprise Knowledge Graph
-  technology.
+title: >-
+  Client 360 / Customer 360
+summary: >-
+  Client 360 (also known as Customer 360) creates a unified, real-time view of customers by integrating data from multiple systems and touchpoints without requiring expensive data warehouses or complex ETL processes. This use case enables organizations to understand customer relationships and connections, provide personalized experiences, and maintain a single source of truth for customer information that automatically updates as new data sources are added through semantic relationships.
 keywords:
-  - client 360
-  - customer 360
-  - customer view
-  - customer relationship
-  - EKG use case
-  - enterprise knowledge graph
-schema_type: "Article"
+  - client
+  - customer
+  - also
+  - known
+  - creates
+  - unified
+  - real-time
+  - view
+  - customers
+  - integrating
+  - data
+  - multiple
+parents:
+  - ..
 ---
-
-# Client 360 / Customer 360
-
-<object data="../../diagrams/out/client-360.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Client 360 (also known as Customer 360) is the arch-use case for
-creating a unified, real-time view of every customer across all
-touchpoints, products, and interactions.
-
-Every large enterprise struggles with this, often for decades trying to
-create one holistic view of their business with their customers, across
-lines of business, globally.
-
-This is one of the core use cases where the EKG can shine and can
-really add value and is the technology that can actually deliver a
-solution for this use case.
 
 ## The Challenge
 
@@ -42,24 +31,24 @@ Creating a unified customer view requires:
 - Providing a single source of truth for customer information
 - Enabling personalization and targeted engagement
 
-Traditional approaches require massive data warehouses with complex ETL
-processes that are expensive, slow to update, and break when new data
-sources are added.
+Traditional approaches require massive data warehouses with complex
+ETL processes that are expensive, slow to update, and break when new
+data sources are added.
 
 ## Why EKG is Required
 
-Traditional approaches require massive data warehouses with complex ETL
-processes that are expensive, slow to update, and break when new data
-sources are added. EKG enables:
+Traditional approaches require massive data warehouses with complex
+ETL processes that are expensive, slow to update, and break when new
+data sources are added. EKG enables:
 
 - **Real-time, federated views** — Automatically connect customer data
   from any source through semantic relationships
 - **No data duplication** — Federated approach avoids expensive data
   warehouses
-- **Rapid integration** — New data sources can be added quickly through
-  semantic mapping
-- **Relationship understanding** — Graph structure naturally represents
-  customer relationships and connections
+- **Rapid integration** — New data sources can be added quickly
+  through semantic mapping
+- **Relationship understanding** — Graph structure naturally
+  represents customer relationships and connections
 - **Cross-system queries** — Semantic relationships enable queries
   across all systems without data movement
 
@@ -78,3 +67,30 @@ sources are added. EKG enables:
 - [Relationships & Connections](relationships-and-connections/index.md)
 - [Know Your Customer (KYC)](know-your-customer/index.md)
 - [Social Media](social-media/index.md)
+- [Customer Relationship Management](customer-relationship-management/index.md)
+
+## Related Use Cases
+
+Client 360 / Know Your Customer depends on and integrates with several
+other use cases:
+
+- **[Legal Entity Management](../legal-entity-management/index.md)** -
+  Client 360 uses Legal Entity Management for comprehensive
+  information about corporate customers, their legal structures,
+  ownership, and relationships. See
+  [Legal Entities](know-your-customer/core-record-management/legal-entities.md)
+  for details.
+
+### Shared Concepts
+
+Client 360 uses these shared reference data concepts:
+
+- **[Countries](../../concept/countries.md)** - Geographic reference
+  data for customer risk assessment
+- **[Jurisdictions](../../concept/jurisdictions.md)** - Legal and
+  regulatory jurisdictions for compliance
+- **[Regions](../../concept/regions.md)** - Geographic regions for
+  risk classification
+
+These shared concepts are also used by Legal Entity Management and
+other use cases.

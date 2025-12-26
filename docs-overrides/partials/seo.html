@@ -1,7 +1,7 @@
 {# SEO Meta Tags Partial #}
 
-{# Get page-specific description or fall back to site description #}
-{% set page_description = page.meta.description if page.meta and page.meta.description else config.site_description %}
+{# Get page-specific description (summary) or fall back to site description #}
+{% set page_description = page.meta.summary if page.meta and page.meta.summary else (page.meta.description if page.meta and page.meta.description else config.site_description) %}
 
 {# Get page title #}
 {% set page_title = page.title if page.title else config.site_name %}
@@ -40,6 +40,9 @@
     {% endif %}
   {% endfor %}
 {% endif %}
+
+{# Standard meta description #}
+<meta name="description" content="{{ page_description }}">
 
 {# Additional SEO meta tags #}
 {% if page.meta and page.meta.keywords %}

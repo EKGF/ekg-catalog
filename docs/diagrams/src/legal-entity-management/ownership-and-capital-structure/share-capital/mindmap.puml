@@ -1,0 +1,12 @@
+@startmindmap share-capital
+
+!include ../../../../include/themes/light.puml
+
++ [[ /use-case/legal-entity-management/ownership-and-capital-structure/share-capital/ Share Capital ]]
+--_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/ Ownership & Capital Structure ]]
+---_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/control/ Control ]]
+---_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/ Corporate Actions ]]
+---_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/issued-capital/ Issued Capital ]]
+---_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/ownership/ Ownership ]]
+---_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/shares/ Shares ]]
+@endmindmap

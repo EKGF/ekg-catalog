@@ -1,0 +1,13 @@
+@startmindmap opportunity-management
+
+!include ../../../../include/themes/light.puml
+
++ [[ /use-case/client-360/customer-relationship-management/opportunity-management/ Opportunity Management ]]
+--_ [[ /use-case/client-360/customer-relationship-management/ Customer Relationship Management ]]
+---_ [[ /use-case/client-360/customer-relationship-management/account-management/ Account Management ]]
+---_ [[ /use-case/client-360/customer-relationship-management/activity-management/ Activity Management ]]
+---_ [[ /use-case/client-360/customer-relationship-management/contact-management/ Contact Management ]]
+---_ [[ /use-case/client-360/customer-relationship-management/lead-management/ Lead Management ]]
+++_ [[ /use-case/client-360/customer-relationship-management/opportunity-management/forecasting/ Forecasting ]]
+++_ [[ /use-case/client-360/customer-relationship-management/opportunity-management/sales-pipeline/ Sales Pipeline ]]
+@endmindmap

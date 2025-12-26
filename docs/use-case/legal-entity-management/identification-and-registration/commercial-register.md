@@ -1,15 +1,24 @@
-# Commercial Register
-
-<object data="../../../../diagrams/out/commercial-register.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Commercial register management involves tracking and managing
-information about entity registration in commercial or company
-registers maintained by regulatory authorities. Commercial register
-information includes entity details, registration records, filing
-history, and public disclosures. This information is essential for
-legal compliance, due diligence, and entity verification.
+---
+title: >-
+  Commercial Register
+summary: >-
+  Commercial register manages entity registrations in official commercial registers maintained by jurisdictions, which contain publicly disclosed information about entities including ownership, directors, and filings. This use case addresses accessing and integrating data from multiple commercial registers across jurisdictions, tracking register filings and changes over time, understanding filing requirements, managing public disclosure information, and ensuring entities maintain proper register filings for legal compliance and due diligence.
+keywords:
+  - commercial
+  - register
+  - manages
+  - entity
+  - registrations
+  - official
+  - registers
+  - maintained
+  - jurisdictions
+  - which
+  - contain
+  - publicly
+parents:
+  - ..
+---
 
 ## The Challenge
 

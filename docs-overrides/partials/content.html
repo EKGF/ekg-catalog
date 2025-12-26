@@ -30,20 +30,69 @@
 
 {% if 'hide' in page.meta and 'title' in page.meta.hide %}
 {% else %}
-<!--
-  Hack: check whether the content contains a h1 headline. If it doesn't, the
-  page title (or respectively site name) is used as the main headline.
--->
+<!-- Always show title for use case pages, or if content doesn't have H1 -->
+{% set is_use_case = False %}
+{% if page.meta.parents is defined %}
+  {% set is_use_case = True %}
+{% endif %}
+{% if not is_use_case and page.file and page.file.src_path %}
+  {% set src_path = page.file.src_path | string %}
+  {% if 'use-case/' in src_path and src_path != 'use-case/index.md' %}
+    {% set is_use_case = True %}
+  {% endif %}
+{% endif %}
+{% if not is_use_case and page.url %}
+  {% set url_str = page.url | string %}
+  {% if '/use-case/' in url_str and url_str != '/use-case/' and url_str != '/use-case' %}
+    {% set is_use_case = True %}
+  {% endif %}
+{% endif %}
+{% if is_use_case %}
+<!-- Use case pages: always show title as H1 at the top FIRST -->
+<!-- IMPORTANT: H1 must come BEFORE diagram and summary to ensure correct order -->
+{% if page.meta.letter_prefix %}
+<div class="objective-header-with-badge">
+<span class="objective-badge-standalone" data-letter="{{ page.meta.letter_prefix }}"></span>
+<h1>{{ page.title | d(config.site_name, true)}}</h1>
+</div>
+{% else %}
+<h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+<!-- Inject PlantUML mindmap diagram SECOND, immediately after H1 for use case pages -->
+{% set use_case_path = page.url.strip('/').replace('use-case/', '') %}
+{% if use_case_path %}
+{% set path_segments = use_case_path.split('/') %}
+{% set depth = path_segments | length + 1 %}
+{% set relative_prefix = '../' * depth %}
+{% set diagram_path = relative_prefix + 'diagrams/out/' + use_case_path + '/mindmap.svg' %}
+<figure>
+<object data="{{ diagram_path }}#darkable" type="image/svg+xml"></object>
+</figure>
+{% endif %}
+<!-- Display Summary section THIRD, after diagram, without H2 header -->
+{% if page.meta and page.meta.summary %}
+<div class="md-typeset use-case-summary">
+  <p>{{ page.meta.summary }}</p>
+</div>
+{% endif %}
+{% else %}
+<!-- Other pages: check if content has H1, if not show title -->
 {% if not "\x3ch1" in page.content %}
 {% if page.meta.letter_prefix %}
 <div class="objective-header-with-badge">
 <span class="objective-badge-standalone" data-letter="{{ page.meta.letter_prefix }}"></span>
-
 <h1>{{ page.title | d(config.site_name, true)}}</h1>
-
 </div>
 {% else %}
 <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{% endif %}
+<!-- Display Summary section for non-use-case pages -->
+{% if page.meta and page.meta.summary %}
+<div class="md-typeset">
+  <h2>Summary</h2>
+  <p>{{ page.meta.summary }}</p>
+</div>
 {% endif %}
 {% endif %}
 {% endif %}
@@ -52,7 +101,13 @@
 {% if page.meta.letter_prefix %}
 <script type="application/json" id="page-meta-letter-prefix">{{ page.meta.letter_prefix | tojson }}</script>
 {% endif %}
+{% if is_use_case %}
+<!-- Remove H1 from content for use case pages (template shows it at top) -->
+<!-- H1s should already be removed by on_page_content hook, but output content as-is -->
 {{ page.content }}
+{% else %}
+{{ page.content }}
+{% endif %}
 
 <!-- Source file information -->
 {% if page.meta and (

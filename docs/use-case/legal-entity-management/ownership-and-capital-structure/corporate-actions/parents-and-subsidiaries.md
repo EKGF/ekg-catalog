@@ -1,16 +1,24 @@
-# Parents & Subsidiaries
-
-<object data="../../../../../diagrams/out/parents-and-subsidiaries.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Parent and subsidiary relationship management involves tracking and
-managing information about entity parent-subsidiary relationships,
-including ownership percentages, control structures, and relationship
-types. Understanding parent-subsidiary relationships is essential for
-consolidated reporting, risk assessment, regulatory compliance, and
-understanding entity structures. These relationships form the
-foundation of corporate groups and organizational hierarchies.
+---
+title: >-
+  Parents & Subsidiaries
+summary: >-
+  Parents and subsidiaries manages parent-subsidiary relationships and hierarchies, determining control relationships beyond simple ownership percentages and tracking how these relationships change through M&A, divestitures, and reorganizations. This use case addresses modeling complex multi-level parent-subsidiary hierarchies, traversing hierarchies to identify all relationships, understanding consolidation requirements for financial reporting, tracking relationship changes over time, meeting regulatory requirements for parent-subsidiary disclosure, and supporting consolidated reporting and risk assessment through comprehensive relationship understanding.
+keywords:
+  - parents
+  - subsidiaries
+  - manages
+  - parent-subsidiary
+  - relationships
+  - hierarchies
+  - determining
+  - control
+  - beyond
+  - simple
+  - ownership
+  - percentages
+parents:
+  - ..
+---
 
 ## The Challenge
 

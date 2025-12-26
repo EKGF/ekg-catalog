@@ -1,6 +1,7 @@
 title: Knowledge Capture & Continuous Improvement
 nav:
-  - index.md
-  - ...
-
-
+- index.md
+- document-ingestion-and-knowledge-extraction.md
+- estimate-vs-actual-and-lessons-learned.md
+- sme-knowledge-capture.md
+- traceability-and-provenance.md

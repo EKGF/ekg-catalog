@@ -1,14 +1,24 @@
-# Classification
-
-<object data="../../../../diagrams/out/classification.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Entity classification management involves categorizing and classifying
-legal entities according to various taxonomies, including industry
-classifications, legal entity types, regulatory classifications, and
-business classifications. Classification information is used for risk
-assessment, regulatory compliance, reporting, and entity management.
+---
+title: >-
+  Classification
+summary: >-
+  Classification manages entity classifications using multiple taxonomies (NAICS, SIC, GICS) across different dimensions, handling hierarchical classification structures and temporal changes as entities evolve and classification systems update. This use case addresses managing multiple classification systems, standardizing classifications across entity portfolios, linking classifications to regulatory requirements and reporting obligations, tracking classification changes over time, and supporting risk assessment and strategic insights through classification analysis.
+keywords:
+  - classification
+  - manages
+  - entity
+  - classifications
+  - using
+  - multiple
+  - taxonomies
+  - naics
+  - sic
+  - gics
+  - different
+  - dimensions
+parents:
+  - ..
+---
 
 ## The Challenge
 

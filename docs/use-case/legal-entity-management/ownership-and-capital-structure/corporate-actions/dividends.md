@@ -1,16 +1,24 @@
-# Dividends
-
-<object data="../../../../../diagrams/out/dividends.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Dividend management involves tracking and managing information about
-entity dividend payments, including dividend declarations, payment
-dates, amounts, and shareholder distributions. Dividends represent
-distributions of entity profits to shareholders and are important for
-shareholder returns, financial analysis, and regulatory compliance.
-Understanding dividend history and patterns is essential for
-investment analysis and entity valuation.
+---
+title: >-
+  Dividends
+summary: >-
+  Dividends manages dividend declarations, distributions, and payments, tracking different types of dividends (cash, stock, special) with their payment frequencies, dates, and shareholder allocations. This use case addresses tracking dividend declarations, ex-dividend dates, record dates, and payment dates, linking dividends to shareholders and tracking distributions, understanding tax implications of dividends, meeting regulatory requirements for dividend reporting, connecting dividends to financial statements and performance metrics, and supporting investment analysis and financial planning through comprehensive dividend tracking.
+keywords:
+  - dividends
+  - manages
+  - dividend
+  - declarations
+  - distributions
+  - payments
+  - tracking
+  - different
+  - types
+  - cash
+  - stock
+  - special
+parents:
+  - ..
+---
 
 ## The Challenge
 

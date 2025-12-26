@@ -1,15 +1,24 @@
-# Contacts
-
-<object data="../../../../diagrams/out/contacts.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Contact management for legal entities involves maintaining information
-about individuals associated with entities, including directors,
-officers, shareholders, authorized signatories, and other key
-personnel. Contact information is essential for communication,
-regulatory compliance, corporate governance, and understanding entity
-relationships.
+---
+title: >-
+  Contacts
+summary: >-
+  Contacts manages individuals serving as contacts for entities, tracking their roles, responsibilities, and relationships, and handling contact information in compliance with privacy regulations. This use case addresses managing multiple types of contacts with different roles, tracking contact role changes over time, understanding contacts across multiple entities, linking contacts to privacy preferences and consent records, connecting contacts to communication history and preferences, linking contacts to regulatory requirements and filing obligations, and supporting regulatory compliance, communication efficiency, and corporate governance through comprehensive contact management.
+keywords:
+  - contacts
+  - manages
+  - individuals
+  - serving
+  - entities
+  - tracking
+  - roles
+  - responsibilities
+  - relationships
+  - handling
+  - contact
+  - information
+parents:
+  - ..
+---
 
 ## The Challenge
 

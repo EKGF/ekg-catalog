@@ -1,16 +1,24 @@
-# Financial Information
-
-<object data="../../../../diagrams/out/financial-information.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Financial Information encompasses all financial data and metrics
-related to legal entities, including assets, liabilities, financial
-fundamentals, earnings estimates, credit ratings, and liability terms.
-This information is essential for financial analysis, risk assessment,
-valuation, investment decisions, and regulatory compliance.
-Understanding financial information provides insights into entity
-financial health, performance, and risk profile.
+---
+title: >-
+  Financial Information
+summary: >-
+  Financial information manages entity financial data including assets, fundamentals, earnings estimates, ratings, and liability terms across multiple periods and accounting standards (GAAP, IFRS). This use case addresses integrating financial data from multiple sources and systems, maintaining historical financial data and tracking changes over time, linking financial data to accounting standards and reporting requirements, understanding how entity relationships affect financial information, meeting regulatory requirements for financial reporting and disclosure, and supporting financial analysis, risk assessment, and valuation through comprehensive financial information.
+keywords:
+  - financial
+  - information
+  - manages
+  - entity
+  - data
+  - including
+  - assets
+  - fundamentals
+  - earnings
+  - estimates
+  - ratings
+  - liability
+parents:
+  - ..
+---
 
 ## The Challenge
 

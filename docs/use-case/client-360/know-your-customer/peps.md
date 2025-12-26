@@ -1,15 +1,24 @@
-# Politically Exposed Persons (PEPs)
-
-<object data="../../../../diagrams/out/peps.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Politically Exposed Persons (PEPs) are individuals who hold or have
-held prominent public positions, making them potentially higher risk
-for corruption, bribery, or money laundering. PEP screening is a
-mandatory component of KYC and AML compliance, requiring financial
-institutions to identify PEPs, assess their risk, and apply enhanced
-due diligence measures.
+---
+title: >-
+  Politically Exposed Persons (PEPs)
+summary: >-
+  PEP screening identifies customers who are politically exposed persons or connected to PEPs through family or business relationships, requiring enhanced due diligence to mitigate corruption and money laundering risks. This use case addresses navigating varying PEP definitions across jurisdictions, identifying indirect connections through relationship traversal, tracking dynamic political positions over time, reducing false positives through contextual analysis, and maintaining continuous monitoring as political positions change.
+keywords:
+  - politically
+  - exposed
+  - persons
+  - peps
+  - pep
+  - screening
+  - identifies
+  - customers
+  - connected
+  - through
+  - family
+  - business
+parents:
+  - ..
+---
 
 ## The Challenge
 

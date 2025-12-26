@@ -1,17 +1,24 @@
-# Lifecycle & Status
-
-<object data="../../../../diagrams/out/lifecycle-and-status.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Lifecycle and Status management encompasses tracking the current
-status and lifecycle stage of legal entities, including active
-operations, dissolution processes, and liquidation procedures.
-Understanding entity lifecycle and status is essential for risk
-management, regulatory compliance, portfolio management, and
-operational decision-making. Entities progress through various
-lifecycle stages from formation to dissolution, and tracking this
-progression is critical for effective entity management.
+---
+title: >-
+  Lifecycle & Status
+summary: >-
+  Lifecycle and status manages entity statuses and lifecycle stages including active, inactive, dissolved, and liquidated states across multiple jurisdictions. This use case addresses tracking entity progression through lifecycle stages over time, managing complex dissolution and liquidation procedures, maintaining historical records of status and lifecycle changes, linking lifecycle and status to regulatory requirements, understanding how entity relationships affect lifecycle and status, and supporting risk mitigation, portfolio management, and due diligence through comprehensive lifecycle and status tracking.
+keywords:
+  - lifecycle
+  - status
+  - manages
+  - entity
+  - statuses
+  - stages
+  - including
+  - active
+  - inactive
+  - dissolved
+  - liquidated
+  - states
+parents:
+  - ..
+---
 
 ## The Challenge
 

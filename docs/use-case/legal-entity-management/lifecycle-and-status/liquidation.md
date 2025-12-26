@@ -1,17 +1,24 @@
-# Liquidation
-
-<object data="../../../../diagrams/out/liquidation.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Liquidation management involves tracking and managing the process of
-liquidating legal entities, including liquidation procedures, asset
-sales, creditor payments, and final distributions. Entity liquidation
-is a complex process that may be voluntary or involuntary
-(bankruptcy), requiring compliance with regulatory requirements,
-creditor prioritization, and asset distribution. Understanding
-liquidation status is critical for risk management, compliance, and
-recovery planning.
+---
+title: >-
+  Liquidation
+summary: >-
+  Liquidation manages the process of winding up entities through asset sales and creditor payments, handling different types of liquidation (voluntary, involuntary, bankruptcy) with varying procedures. This use case addresses modeling liquidation processes and requirements, tracking liquidation timelines and milestones, managing creditor claims and payment priorities, tracking asset sales and proceeds during liquidation, linking liquidation to regulatory requirements and filing obligations, analyzing recovery rates and creditor payments, and supporting risk mitigation, recovery optimization, and regulatory compliance through comprehensive liquidation management.
+keywords:
+  - liquidation
+  - manages
+  - process
+  - winding
+  - entities
+  - through
+  - asset
+  - sales
+  - creditor
+  - payments
+  - handling
+  - different
+parents:
+  - ..
+---
 
 ## The Challenge
 

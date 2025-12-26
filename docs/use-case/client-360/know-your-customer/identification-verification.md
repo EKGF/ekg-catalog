@@ -1,14 +1,24 @@
-# Identification Verification
-
-<object data="../../../../diagrams/out/identification-verification.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Identification Verification (IDV) is the process of verifying that
-customers are who they claim to be by validating government-issued
-identity documents, biometric data, and other identity attributes. It
-is a foundational requirement for KYC compliance, preventing identity
-fraud, and establishing the legal basis for customer relationships.
+---
+title: >-
+  Identification Verification
+summary: >-
+  Identification verification (IDV) confirms customer identity through document checks, biometric verification, and cross-referencing with other data sources. This use case addresses detecting sophisticated document fraud and synthetic identities, enabling reliable remote onboarding for digital channels, handling diverse global identity documents, balancing security with customer experience, managing biometric data securely, providing real-time verification results, and maintaining audit trails for regulatory compliance.
+keywords:
+  - identification
+  - verification
+  - idv
+  - confirms
+  - customer
+  - identity
+  - through
+  - document
+  - checks
+  - biometric
+  - cross-referencing
+  - other
+parents:
+  - ..
+---
 
 ## The Challenge
 

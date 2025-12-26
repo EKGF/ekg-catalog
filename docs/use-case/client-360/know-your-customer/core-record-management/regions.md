@@ -1,13 +1,29 @@
-# Regions
+---
+title: >-
+  Regions
+summary: >-
+  Region reference data in the Client 360/KYC context provides geographic risk classification at a higher level than countries, supporting risk assessment and sanctions compliance. This use case addresses managing regions defined in multiple ways (geographic, economic, political, regulatory), maintaining region risk ratings, understanding relationships between regions and countries, tracking dynamic region risk levels, and enabling region-based risk assessment and screening for customers with multi-regional operations.
+keywords:
+  - regions
+  - region
+  - reference
+  - data
+  - client
+  - kyc
+  - context
+  - provides
+  - geographic
+  - risk
+  - classification
+  - higher
+parents:
+  - ..
+---
 
-## Summary
-
-Region management in KYC involves maintaining information about
-geographic regions, their risk classifications, and relationships to
-countries and jurisdictions. Regions may be defined by geography,
-economics, politics, or regulatory frameworks. Understanding regions
-is important for risk assessment, sanctions screening, and geographic
-analysis.
+> **Note**: This page describes the use of region reference data in
+> the Client 360 / Know Your Customer context. For general information
+> about region reference data as a shared concept, see
+> [Regions](../../../../concept/regions.md).
 
 ## The Challenge
 
@@ -64,3 +80,10 @@ capabilities:
   and screening
 - **Strategic insights** — Understand regional distribution of
   customer base and risks
+
+## Related Use Cases
+
+- [Legal Entity Management](../../../legal-entity-management/index.md) -
+  Uses region data for entity presence
+- [Regions](../../../../concept/regions.md) - Shared concept for
+  region reference data

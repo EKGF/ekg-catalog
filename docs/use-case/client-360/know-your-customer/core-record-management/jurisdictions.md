@@ -1,13 +1,29 @@
-# Jurisdictions
+---
+title: >-
+  Jurisdictions
+summary: >-
+  Jurisdiction reference data in the Client 360/KYC context manages legal and regulatory jurisdictions (countries, states, provinces) with their specific KYC, AML, and data privacy requirements. This use case addresses handling complex overlapping jurisdictional boundaries, maintaining jurisdiction risk ratings, determining which jurisdictions apply to multi-jurisdictional customers, tracking dynamic jurisdictional requirements, and enabling jurisdiction-based compliance automation and risk assessment.
+keywords:
+  - jurisdictions
+  - jurisdiction
+  - reference
+  - data
+  - client
+  - kyc
+  - context
+  - manages
+  - legal
+  - regulatory
+  - countries
+  - states
+parents:
+  - ..
+---
 
-## Summary
-
-Jurisdiction management in KYC involves maintaining information about
-legal and regulatory jurisdictions, their requirements, and risk
-classifications. Jurisdictions may be countries, states, provinces, or
-other legal entities that have distinct regulatory frameworks.
-Understanding jurisdictions is critical for compliance, risk
-assessment, and determining appropriate due diligence measures.
+> **Note**: This page describes the use of jurisdiction reference data
+> in the Client 360 / Know Your Customer context. For general
+> information about jurisdiction reference data as a shared concept,
+> see [Jurisdictions](../../../../concept/jurisdictions.md).
 
 ## The Challenge
 
@@ -64,3 +80,10 @@ capabilities:
   processes
 - **Strategic insights** — Understand jurisdictional distribution of
   customer base and risks
+
+## Related Use Cases
+
+- [Legal Entity Management](../../../legal-entity-management/index.md) -
+  Uses jurisdiction data for entity registration and compliance
+- [Jurisdictions](../../../../concept/jurisdictions.md) - Shared
+  concept for jurisdiction reference data

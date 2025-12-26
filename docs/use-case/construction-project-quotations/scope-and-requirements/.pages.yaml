@@ -1,6 +1,7 @@
 title: Scope & Requirements
 nav:
-  - index.md
-  - ...
-
-
+- index.md
+- assumptions-exclusions-qualifications.md
+- constructability-review.md
+- rfis-clarifications-addenda.md
+- scope-decomposition-wbs-boq.md

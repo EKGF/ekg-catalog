@@ -1,0 +1,10 @@
+@startmindmap regulatory-safety-environmental-compliance
+
+!include ../../../../include/themes/light.puml
+
++ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/regulatory-safety-environmental-compliance/ Regulatory, Safety & Environmental Compliance ]]
+--_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/ Risk, Compliance & Contracts ]]
+---_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/bonds-insurance-warranties/ Bonds, Insurance & Warranties ]]
+---_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/contract-terms-and-commercial-review/ Contract Terms & Commercial Review ]]
+---_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/risk-register-and-scenario-analysis/ Risk Register & Scenario Analysis ]]
+@endmindmap

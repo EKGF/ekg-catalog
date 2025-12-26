@@ -1,6 +1,7 @@
 nav:
   - index.md
   - Use Cases: use-case
+  - Concepts: concept
   - Datasets: dataset
   - Ontologies: ontology
   - other

@@ -1,15 +1,24 @@
-# Legal Forms
-
-<object data="../../../../diagrams/out/legal-form.svg#darkable" type="image/svg+xml"></object>
-
-## Summary
-
-Legal form management involves tracking and managing the legal
-structure and form of entities, such as corporation, partnership,
-limited liability company, trust, or other legal entity types. Legal
-form determines entity rights, obligations, governance structure, and
-regulatory requirements. Understanding legal form is fundamental for
-entity management, compliance, and risk assessment.
+---
+title: >-
+  Legal Forms
+summary: >-
+  Legal forms manages the various legal forms that entities can take (corporation, partnership, LLC, etc.) across different jurisdictions, each with different characteristics, regulatory requirements, and implications for governance, tax treatment, and liability. This use case addresses modeling legal forms and their characteristics, tracking legal form changes over time, understanding how legal form affects entity relationships, linking forms to regulatory requirements, and supporting governance, tax planning, and risk assessment.
+keywords:
+  - legal
+  - forms
+  - manages
+  - various
+  - entities
+  - take
+  - corporation
+  - partnership
+  - llc
+  - etc
+  - different
+  - jurisdictions
+parents:
+  - ..
+---
 
 ## The Challenge
 
