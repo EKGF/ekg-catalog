@@ -2,7 +2,6 @@
 
 !include ../../../../../include/themes/light.puml
 
-+ [[ /use-case/client-360/customer-relationship-management/opportunity-management/sales-pipeline/ Sales Pipeline ]]
++[ [[ /use-case/client-360/customer-relationship-management/opportunity-management/sales-pipeline/ Sales Pipeline ]]
 --_ [[ /use-case/client-360/customer-relationship-management/opportunity-management/ Opportunity Management ]]
----_ [[ /use-case/client-360/customer-relationship-management/opportunity-management/forecasting/ Forecasting ]]
 @endmindmap

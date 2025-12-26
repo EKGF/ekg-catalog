@@ -2,6 +2,6 @@
 
 !include ../../../../../include/themes/light.puml
 
-+ [[ /use-case/client-360/customer-relationship-management/lead-management/lead-qualification/ Lead Qualification ]]
++[ [[ /use-case/client-360/customer-relationship-management/lead-management/lead-qualification/ Lead Qualification ]]
 --_ [[ /use-case/client-360/customer-relationship-management/lead-management/ Lead Management ]]
 @endmindmap

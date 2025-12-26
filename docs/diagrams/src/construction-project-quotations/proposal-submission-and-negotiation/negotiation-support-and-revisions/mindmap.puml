@@ -2,8 +2,6 @@
 
 !include ../../../../include/themes/light.puml
 
-+ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/negotiation-support-and-revisions/ Negotiation Support & Revisions ]]
++[ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/negotiation-support-and-revisions/ Negotiation Support & Revisions ]]
 --_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/ Proposal & Negotiation ]]
----_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/compliance-matrix-and-submission-packaging/ Compliance Matrix & Submission Packaging ]]
----_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/proposal-document-generation/ Proposal Document Generation & Assembly ]]
 @endmindmap

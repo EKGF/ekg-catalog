@@ -1,13 +1,13 @@
 title: Know Your Customer
 nav:
-- index.md
-- anti-money-laundering
-- core-record-management
-- activity-monitoring.md
-- crime-records.md
-- gdpr.md
-- high-net-worth-individuals.md
-- identification-verification.md
-- peps.md
-- risk-management.md
-- sanctions.md
+  - index.md
+  - anti-money-laundering
+  - core-record-management
+  - activity-monitoring.md
+  - crime-records.md
+  - gdpr.md
+  - high-net-worth-individuals.md
+  - identification-verification.md
+  - peps.md
+  - risk-management.md
+  - sanctions.md

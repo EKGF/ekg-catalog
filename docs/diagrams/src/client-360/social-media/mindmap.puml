@@ -2,11 +2,8 @@
 
 !include ../../../include/themes/light.puml
 
-+ [[ /use-case/client-360/social-media/ Social Media ]]
++[ [[ /use-case/client-360/social-media/ Social Media ]]
 --_ [[ /use-case/client-360/ Client 360 / Customer 360 ]]
----_ [[ /use-case/client-360/customer-relationship-management/ Customer Relationship Management ]]
----_ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
----_ [[ /use-case/client-360/relationships-and-connections/ Relationships & Connections ]]
 ++_ [[ /use-case/client-360/social-media/interest-graph/ Interest Graph ]]
 ++_ [[ /use-case/client-360/social-media/social-graph/ Social Graph ]]
 @endmindmap

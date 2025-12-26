@@ -2,6 +2,6 @@
 
 !include ../../../../../include/themes/light.puml
 
-+ [[ /use-case/client-360/customer-relationship-management/activity-management/interactions/ Interactions ]]
++[ [[ /use-case/client-360/customer-relationship-management/activity-management/interactions/ Interactions ]]
 --_ [[ /use-case/client-360/customer-relationship-management/activity-management/ Activity Management ]]
 @endmindmap

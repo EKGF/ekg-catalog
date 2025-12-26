@@ -12,10 +12,10 @@ keywords:
   - decomposing
   - managing
   - project
+  - this
   - includes
   - creating
   - work
-  - breakdown
 parents:
   - ..
 ---

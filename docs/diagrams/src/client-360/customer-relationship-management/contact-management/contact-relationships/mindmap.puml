@@ -2,6 +2,6 @@
 
 !include ../../../../../include/themes/light.puml
 
-+ [[ /use-case/client-360/customer-relationship-management/contact-management/contact-relationships/ Contact Relationships ]]
++[ [[ /use-case/client-360/customer-relationship-management/contact-management/contact-relationships/ Contact Relationships ]]
 --_ [[ /use-case/client-360/customer-relationship-management/contact-management/ Contact Management ]]
 @endmindmap

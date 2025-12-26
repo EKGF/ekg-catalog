@@ -2,20 +2,6 @@
 
 !include ../../include/themes/light.puml
 
-+ [[ /use-case/organization-management/ Organization Management ]]
++[ [[ /use-case/organization-management/ Organization Management ]]
 --_ [[ /use-case/./ Use Cases ]]
----_ [[ /use-case/./ Use Cases ]]
----_ [[ /use-case/client-360/ Client 360 / Customer 360 ]]
----_ [[ /use-case/construction-project-quotations/ Complex Construction Project Quotations ]]
----_ [[ /use-case/cyber-security/ Cybersecurity ]]
----_ [[ /use-case/data-privacy-governance/ Data Privacy & Governance ]]
----_ [[ /use-case/digital-twin/ Digital Twin of Technology and Data Landscape ]]
----_ [[ /use-case/fraud-detection/ Enterprise Fraud Detection ]]
----_ [[ /use-case/legal-entity-management/ Legal Entity Management ]]
----_ [[ /use-case/other/ Other Usecases ]]
----_ [[ /use-case/recommendation-engine/ Recommendation Engine ]]
----_ [[ /use-case/regulatory-reports/ Enterprise-Spanning Regulatory Reports ]]
----_ [[ /use-case/risk-management/ Enterprise Risk & Compliance Management ]]
----_ [[ /use-case/strategic-use-cases/ Strategic Use Cases ]]
----_ [[ /use-case/supply-chain-management/ Supply Chain Management ]]
 @endmindmap

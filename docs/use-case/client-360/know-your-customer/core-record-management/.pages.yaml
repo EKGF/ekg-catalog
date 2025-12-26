@@ -1,11 +1,11 @@
 title: Core Record Management
 nav:
-- index.md
-- addresses.md
-- audit.md
-- buildings.md
-- countries.md
-- jurisdictions.md
-- legal-entities.md
-- locations.md
-- regions.md
+  - index.md
+  - addresses.md
+  - audit.md
+  - buildings.md
+  - countries.md
+  - jurisdictions.md
+  - legal-entities.md
+  - locations.md
+  - regions.md

@@ -1,6 +1,6 @@
 title: Anti Money Laundering (AML)
 nav:
-- index.md
-- correspondent-based-aml.md
-- network-based-aml.md
-- transaction-based-aml.md
+  - index.md
+  - correspondent-based-aml.md
+  - network-based-aml.md
+  - transaction-based-aml.md

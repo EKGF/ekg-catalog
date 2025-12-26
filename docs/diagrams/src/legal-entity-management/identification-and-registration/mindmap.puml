@@ -2,15 +2,8 @@
 
 !include ../../../include/themes/light.puml
 
-+ [[ /use-case/legal-entity-management/identification-and-registration/ Identification & Registration ]]
++[ [[ /use-case/legal-entity-management/identification-and-registration/ Identification & Registration ]]
 --_ [[ /use-case/legal-entity-management/ Legal Entity Management ]]
----_ [[ /use-case/legal-entity-management/compliance-and-documentation/ Compliance & Documentation ]]
----_ [[ /use-case/legal-entity-management/contact-and-location-information/ Contact & Location Information ]]
----_ [[ /use-case/legal-entity-management/corporate-governance/ Corporate Governance ]]
----_ [[ /use-case/legal-entity-management/financial-information/ Financial Information ]]
----_ [[ /use-case/legal-entity-management/lifecycle-and-status/ Lifecycle & Status ]]
----_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/ Ownership & Capital Structure ]]
----_ [[ /use-case/legal-entity-management/supporting-information/ Supporting Information ]]
 ++_ [[ /use-case/legal-entity-management/identification-and-registration/business-registration/ Business Registration ]]
 ++_ [[ /use-case/legal-entity-management/identification-and-registration/classification/ Classification ]]
 ++_ [[ /use-case/legal-entity-management/identification-and-registration/commercial-register/ Commercial Register ]]

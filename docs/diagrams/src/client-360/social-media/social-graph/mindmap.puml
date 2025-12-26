@@ -2,7 +2,6 @@
 
 !include ../../../../include/themes/light.puml
 
-+ [[ /use-case/client-360/social-media/social-graph/ Social Graph ]]
++[ [[ /use-case/client-360/social-media/social-graph/ Social Graph ]]
 --_ [[ /use-case/client-360/social-media/ Social Media ]]
----_ [[ /use-case/client-360/social-media/interest-graph/ Interest Graph ]]
 @endmindmap

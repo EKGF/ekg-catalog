@@ -2,9 +2,6 @@
 
 !include ../../../../include/themes/light.puml
 
-+ [[ /use-case/legal-entity-management/identification-and-registration/classification/ Classification ]]
++[ [[ /use-case/legal-entity-management/identification-and-registration/classification/ Classification ]]
 --_ [[ /use-case/legal-entity-management/identification-and-registration/ Identification & Registration ]]
----_ [[ /use-case/legal-entity-management/identification-and-registration/business-registration/ Business Registration ]]
----_ [[ /use-case/legal-entity-management/identification-and-registration/commercial-register/ Commercial Register ]]
----_ [[ /use-case/legal-entity-management/identification-and-registration/legal-form/ Legal Forms ]]
 @endmindmap

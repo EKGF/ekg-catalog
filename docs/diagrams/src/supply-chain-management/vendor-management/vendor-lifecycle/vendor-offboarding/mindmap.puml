@@ -2,6 +2,6 @@
 
 !include ../../../../../include/themes/light.puml
 
-+ [[ /use-case/supply-chain-management/vendor-management/vendor-lifecycle/vendor-offboarding/ Vendor Offboarding ]]
++[ [[ /use-case/supply-chain-management/vendor-management/vendor-lifecycle/vendor-offboarding/ Vendor Offboarding ]]
 --_ [[ /use-case/supply-chain-management/vendor-management/vendor-lifecycle/ Vendor Lifecycle ]]
 @endmindmap

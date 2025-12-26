@@ -1,7 +1,7 @@
 title: Risk, Compliance & Contracts
 nav:
-- index.md
-- bonds-insurance-warranties.md
-- contract-terms-and-commercial-review.md
-- regulatory-safety-environmental-compliance.md
-- risk-register-and-scenario-analysis.md
+  - index.md
+  - bonds-insurance-warranties.md
+  - contract-terms-and-commercial-review.md
+  - regulatory-safety-environmental-compliance.md
+  - risk-register-and-scenario-analysis.md

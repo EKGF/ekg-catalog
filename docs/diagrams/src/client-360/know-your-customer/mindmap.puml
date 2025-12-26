@@ -2,11 +2,8 @@
 
 !include ../../../include/themes/light.puml
 
-+ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
++[ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
 --_ [[ /use-case/client-360/ Client 360 / Customer 360 ]]
----_ [[ /use-case/client-360/customer-relationship-management/ Customer Relationship Management ]]
----_ [[ /use-case/client-360/relationships-and-connections/ Relationships & Connections ]]
----_ [[ /use-case/client-360/social-media/ Social Media ]]
 ++_ [[ /use-case/client-360/know-your-customer/activity-monitoring/ Activity Monitoring ]]
 ++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
 ++_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
@@ -17,4 +14,15 @@
 ++_ [[ /use-case/client-360/know-your-customer/peps/ Politically Exposed Persons (PEPs) ]]
 ++_ [[ /use-case/client-360/know-your-customer/risk-management/ Risk Management ]]
 ++_ [[ /use-case/client-360/know-your-customer/sanctions/ Sanctions ]]
++++_ [[ /use-case/client-360/know-your-customer/core-record-management/addresses/ Addresses ]]
++++_ [[ /use-case/client-360/know-your-customer/core-record-management/audit/ Audit ]]
++++_ [[ /use-case/client-360/know-your-customer/core-record-management/buildings/ Buildings ]]
++++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/correspondent-based-aml/ Correspondent-based AML ]]
++++_ [[ /use-case/client-360/know-your-customer/core-record-management/countries/ Countries ]]
++++_ [[ /use-case/client-360/know-your-customer/core-record-management/jurisdictions/ Jurisdictions ]]
++++_ [[ /use-case/client-360/know-your-customer/core-record-management/legal-entities/ Legal Entities ]]
++++_ [[ /use-case/client-360/know-your-customer/core-record-management/locations/ Locations ]]
++++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/network-based-aml/ Network Based AML ]]
++++_ [[ /use-case/client-360/know-your-customer/core-record-management/regions/ Regions ]]
++++_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/transaction-based-aml/ Transaction / Finance based AML ]]
 @endmindmap

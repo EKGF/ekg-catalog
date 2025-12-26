@@ -2,9 +2,6 @@
 
 !include ../../../../include/themes/light.puml
 
-+ [[ /use-case/client-360/relationships-and-connections/political-connections/ Political Connections ]]
++[ [[ /use-case/client-360/relationships-and-connections/political-connections/ Political Connections ]]
 --_ [[ /use-case/client-360/relationships-and-connections/ Relationships & Connections ]]
----_ [[ /use-case/client-360/relationships-and-connections/business-connections/ Business Connections ]]
----_ [[ /use-case/client-360/relationships-and-connections/family-connections/ Family Connections ]]
----_ [[ /use-case/client-360/relationships-and-connections/social-connections/ Social Connections ]]
 @endmindmap

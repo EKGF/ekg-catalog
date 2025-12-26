@@ -9,13 +9,13 @@ keywords:
   - governance
   - ensures
   - compliance
+  - with
   - regulations
   - tracking
   - personal
   - all
   - systems
   - understanding
-  - lineage
 parents:
   - ..
 ---

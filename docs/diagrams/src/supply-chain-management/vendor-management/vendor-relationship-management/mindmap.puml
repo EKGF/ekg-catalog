@@ -2,10 +2,8 @@
 
 !include ../../../../include/themes/light.puml
 
-+ [[ /use-case/supply-chain-management/vendor-management/vendor-relationship-management/ Vendor Relationship Management ]]
++[ [[ /use-case/supply-chain-management/vendor-management/vendor-relationship-management/ Vendor Relationship Management ]]
 --_ [[ /use-case/supply-chain-management/vendor-management/ Vendor Management ]]
----_ [[ /use-case/supply-chain-management/vendor-management/vendor-lifecycle/ Vendor Lifecycle ]]
----_ [[ /use-case/supply-chain-management/vendor-management/vendor-vetting-and-onboarding/ Vendor Vetting & Onboarding ]]
 ++_ [[ /use-case/supply-chain-management/vendor-management/vendor-relationship-management/vendor-contracts/ Vendor Contracts ]]
 ++_ [[ /use-case/supply-chain-management/vendor-management/vendor-relationship-management/vendor-performance/ Vendor Performance ]]
 @endmindmap

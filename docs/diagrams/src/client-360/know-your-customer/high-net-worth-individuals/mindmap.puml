@@ -2,15 +2,6 @@
 
 !include ../../../../include/themes/light.puml
 
-+ [[ /use-case/client-360/know-your-customer/high-net-worth-individuals/ High Net Worth Individuals ]]
++[ [[ /use-case/client-360/know-your-customer/high-net-worth-individuals/ High Net Worth Individuals ]]
 --_ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
----_ [[ /use-case/client-360/know-your-customer/activity-monitoring/ Activity Monitoring ]]
----_ [[ /use-case/client-360/know-your-customer/anti-money-laundering/ Anti Money Laundering (AML) ]]
----_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
----_ [[ /use-case/client-360/know-your-customer/crime-records/ Crime Records ]]
----_ [[ /use-case/client-360/know-your-customer/gdpr/ GDPR ]]
----_ [[ /use-case/client-360/know-your-customer/identification-verification/ Identification Verification ]]
----_ [[ /use-case/client-360/know-your-customer/peps/ Politically Exposed Persons (PEPs) ]]
----_ [[ /use-case/client-360/know-your-customer/risk-management/ Risk Management ]]
----_ [[ /use-case/client-360/know-your-customer/sanctions/ Sanctions ]]
 @endmindmap

@@ -11,11 +11,11 @@ keywords:
   - various
   - asset
   - types
+  - with
   - different
   - characteristics
   - valuation
   - methods
-  - ownership
 parents:
   - ..
 ---

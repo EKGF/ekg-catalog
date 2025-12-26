@@ -13,9 +13,9 @@ keywords:
   - proposals
   - ensuring
   - compliance
+  - with
   - requirements
   - packaging
-  - submissions
 parents:
   - ..
 ---

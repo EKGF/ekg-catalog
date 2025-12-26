@@ -1,8 +1,8 @@
 title: Customer Relationship Management
 nav:
-- index.md
-- account-management
-- activity-management
-- contact-management
-- lead-management
-- opportunity-management
+  - index.md
+  - account-management
+  - activity-management
+  - contact-management
+  - lead-management
+  - opportunity-management

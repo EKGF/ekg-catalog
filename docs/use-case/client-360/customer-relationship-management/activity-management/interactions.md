@@ -11,11 +11,11 @@ keywords:
   - touchpoints
   - between
   - organization
-  - its
   - customers
   - multiple
   - channels
   - including
+  - email
 parents:
   - ..
 ---

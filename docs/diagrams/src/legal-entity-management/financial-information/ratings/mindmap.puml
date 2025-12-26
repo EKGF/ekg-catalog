@@ -2,10 +2,6 @@
 
 !include ../../../../include/themes/light.puml
 
-+ [[ /use-case/legal-entity-management/financial-information/ratings/ Ratings ]]
++[ [[ /use-case/legal-entity-management/financial-information/ratings/ Ratings ]]
 --_ [[ /use-case/legal-entity-management/financial-information/ Financial Information ]]
----_ [[ /use-case/legal-entity-management/financial-information/assets/ Assets ]]
----_ [[ /use-case/legal-entity-management/financial-information/earnings-estimates/ Earnings Estimates ]]
----_ [[ /use-case/legal-entity-management/financial-information/fundamentals/ Fundamentals ]]
----_ [[ /use-case/legal-entity-management/financial-information/liability-terms/ Liability Terms ]]
 @endmindmap

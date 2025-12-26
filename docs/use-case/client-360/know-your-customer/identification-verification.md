@@ -15,7 +15,7 @@ keywords:
   - checks
   - biometric
   - cross-referencing
-  - other
+  - with
 parents:
   - ..
 ---

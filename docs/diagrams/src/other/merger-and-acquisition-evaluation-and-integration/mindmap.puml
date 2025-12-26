@@ -2,8 +2,6 @@
 
 !include ../../../include/themes/light.puml
 
-+ [[ /use-case/other/merger-and-acquisition-evaluation-and-integration/ Merger and Acquisition Evaluation and Integration ]]
++[ [[ /use-case/other/merger-and-acquisition-evaluation-and-integration/ Merger and Acquisition Evaluation and Integration ]]
 --_ [[ /use-case/other/ Other Usecases ]]
----_ [[ /use-case/other/enterprise-initiative-prioritization/ Enterprise Initiative Prioritization ]]
----_ [[ /use-case/other/identify-redundant-vendor-contracts/ Identify Redundant Vendor Contracts ]]
 @endmindmap
