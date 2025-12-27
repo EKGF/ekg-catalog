@@ -1,7 +1,0 @@
-@startmindmap supplier-rfqs-and-material-pricing
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/supply-chain-and-subcontractors/supplier-rfqs-and-material-pricing/ Supplier RFQs & Material Pricing ]]
---_ [[ /use-case/construction-project-quotations/supply-chain-and-subcontractors/ Supply Chain & Subcontractors ]]
-@endmindmap

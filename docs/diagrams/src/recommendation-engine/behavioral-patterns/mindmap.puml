@@ -1,7 +1,0 @@
-@startmindmap behavioral-patterns
-
-!include ../../../include/themes/light.puml
-
-+[ [[ /use-case/recommendation-engine/behavioral-patterns/ Behavioral Patterns ]]
---_ [[ /use-case/recommendation-engine/ Recommendation Engine ]]
-@endmindmap

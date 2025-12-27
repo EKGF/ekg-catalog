@@ -1,7 +1,0 @@
-@startmindmap content-relationships
-
-!include ../../../include/themes/light.puml
-
-+[ [[ /use-case/recommendation-engine/content-relationships/ Content Relationships ]]
---_ [[ /use-case/recommendation-engine/ Recommendation Engine ]]
-@endmindmap

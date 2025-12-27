@@ -1,7 +1,0 @@
-@startmindmap merger-and-acquisition-evaluation-and-integration
-
-!include ../../../include/themes/light.puml
-
-+[ [[ /use-case/other/merger-and-acquisition-evaluation-and-integration/ Merger and Acquisition Evaluation and Integration ]]
---_ [[ /use-case/other/ Other Usecases ]]
-@endmindmap

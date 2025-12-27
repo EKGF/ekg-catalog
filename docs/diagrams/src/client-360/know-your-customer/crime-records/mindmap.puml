@@ -1,7 +1,0 @@
-@startmindmap crime-records
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/crime-records/ Crime Records ]]
---_ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap parents-and-subsidiaries
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/parents-and-subsidiaries/ Parents & Subsidiaries ]]
---_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/ Corporate Actions ]]
-@endmindmap

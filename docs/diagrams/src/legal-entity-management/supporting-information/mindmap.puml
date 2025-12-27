@@ -1,8 +1,0 @@
-@startmindmap supporting-information
-
-!include ../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/supporting-information/ Supporting Information ]]
---_ [[ /use-case/legal-entity-management/ Legal Entity Management ]]
-++_ [[ /use-case/legal-entity-management/supporting-information/currencies/ Currencies ]]
-@endmindmap

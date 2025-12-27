@@ -1,7 +1,0 @@
-@startmindmap cyber-security
-
-!include ../../include/themes/light.puml
-
-+[ [[ /use-case/cyber-security/ Cybersecurity ]]
---_ [[ /use-case/./ Use Cases ]]
-@endmindmap

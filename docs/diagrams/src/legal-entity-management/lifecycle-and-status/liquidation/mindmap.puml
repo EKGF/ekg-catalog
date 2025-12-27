@@ -1,7 +1,0 @@
-@startmindmap liquidation
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/lifecycle-and-status/liquidation/ Liquidation ]]
---_ [[ /use-case/legal-entity-management/lifecycle-and-status/ Lifecycle & Status ]]
-@endmindmap

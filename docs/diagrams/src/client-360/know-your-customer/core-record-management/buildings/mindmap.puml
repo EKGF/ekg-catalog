@@ -1,7 +1,0 @@
-@startmindmap buildings
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/core-record-management/buildings/ Buildings ]]
---_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
-@endmindmap

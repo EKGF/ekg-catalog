@@ -1,7 +1,0 @@
-@startmindmap identify-redundant-vendor-contracts
-
-!include ../../../include/themes/light.puml
-
-+[ [[ /use-case/other/identify-redundant-vendor-contracts/ Identify Redundant Vendor Contracts ]]
---_ [[ /use-case/other/ Other Usecases ]]
-@endmindmap

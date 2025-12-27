@@ -1,7 +1,0 @@
-@startmindmap quantity-takeoff
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/estimating-and-pricing/quantity-takeoff/ Quantity Takeoff (2D/3D/BIM) ]]
---_ [[ /use-case/construction-project-quotations/estimating-and-pricing/ Estimating & Pricing ]]
-@endmindmap

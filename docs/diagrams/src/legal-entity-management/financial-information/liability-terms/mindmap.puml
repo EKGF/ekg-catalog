@@ -1,7 +1,0 @@
-@startmindmap liability-terms
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/financial-information/liability-terms/ Liability Terms ]]
---_ [[ /use-case/legal-entity-management/financial-information/ Financial Information ]]
-@endmindmap

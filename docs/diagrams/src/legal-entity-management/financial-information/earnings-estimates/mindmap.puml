@@ -1,7 +1,0 @@
-@startmindmap earnings-estimates
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/financial-information/earnings-estimates/ Earnings Estimates ]]
---_ [[ /use-case/legal-entity-management/financial-information/ Financial Information ]]
-@endmindmap

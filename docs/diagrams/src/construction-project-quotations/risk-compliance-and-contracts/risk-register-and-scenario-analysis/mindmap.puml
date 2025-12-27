@@ -1,7 +1,0 @@
-@startmindmap risk-register-and-scenario-analysis
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/risk-register-and-scenario-analysis/ Risk Register & Scenario Analysis ]]
---_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/ Risk, Compliance & Contracts ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap organizational-structure
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/corporate-governance/organizational-structure/ Organizational Structure ]]
---_ [[ /use-case/legal-entity-management/corporate-governance/ Corporate Governance ]]
-@endmindmap

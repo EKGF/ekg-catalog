@@ -1,7 +1,0 @@
-@startmindmap vendor-performance
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/supply-chain-management/vendor-management/vendor-relationship-management/vendor-performance/ Vendor Performance ]]
---_ [[ /use-case/supply-chain-management/vendor-management/vendor-relationship-management/ Vendor Relationship Management ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap assets
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/financial-information/assets/ Assets ]]
---_ [[ /use-case/legal-entity-management/financial-information/ Financial Information ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap enterprise-initiative-prioritization
-
-!include ../../../include/themes/light.puml
-
-+[ [[ /use-case/other/enterprise-initiative-prioritization/ Enterprise Initiative Prioritization ]]
---_ [[ /use-case/other/ Other Usecases ]]
-@endmindmap

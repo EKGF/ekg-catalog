@@ -1,7 +1,0 @@
-@startmindmap strategic-use-cases
-
-!include ../../include/themes/light.puml
-
-+[ [[ /use-case/strategic-use-cases/ Strategic Use Cases ]]
---_ [[ /use-case/./ Use Cases ]]
-@endmindmap

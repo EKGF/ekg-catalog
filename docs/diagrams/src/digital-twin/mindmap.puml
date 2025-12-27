@@ -1,7 +1,0 @@
-@startmindmap digital-twin
-
-!include ../../include/themes/light.puml
-
-+[ [[ /use-case/digital-twin/ Digital Twin of Technology and Data Landscape ]]
---_ [[ /use-case/./ Use Cases ]]
-@endmindmap

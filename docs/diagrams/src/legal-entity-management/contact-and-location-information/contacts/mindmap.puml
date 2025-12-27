@@ -1,7 +1,0 @@
-@startmindmap contacts
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/contact-and-location-information/contacts/ Contacts ]]
---_ [[ /use-case/legal-entity-management/contact-and-location-information/ Contact & Location Information ]]
-@endmindmap

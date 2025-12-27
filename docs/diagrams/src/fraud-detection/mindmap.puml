@@ -1,7 +1,0 @@
-@startmindmap fraud-detection
-
-!include ../../include/themes/light.puml
-
-+[ [[ /use-case/fraud-detection/ Enterprise Fraud Detection ]]
---_ [[ /use-case/./ Use Cases ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap jurisdictions
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/core-record-management/jurisdictions/ Jurisdictions ]]
---_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
-@endmindmap

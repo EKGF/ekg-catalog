@@ -1,7 +1,0 @@
-@startmindmap contract-terms-and-commercial-review
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/contract-terms-and-commercial-review/ Contract Terms & Commercial Review ]]
---_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/ Risk, Compliance & Contracts ]]
-@endmindmap

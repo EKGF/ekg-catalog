@@ -3,7 +3,7 @@
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from .config import DIAGRAMS_SRC_DIR, USE_CASE_DIR
+from .constants import DIAGRAMS_SRC_DIR, USE_CASE_DIR
 
 
 def make_link(rel_path: str):
@@ -19,19 +19,12 @@ def puml_for_node(node_id: str, graph: dict):
     parents = node["parents"]
 
     # Extract base name for @startmindmap directive
-    if node_id == ".":
-        base_name = "use-cases"
-    else:
-        base_name = Path(node_id).parts[-1] if Path(node_id).parts else node_id
+    base_name = Path(node_id).parts[-1] if Path(node_id).parts else node_id
 
     # Calculate depth: node_id parts + 1 (for the mindmap.puml being in a subdirectory)
     # e.g., "client-360" -> depth 2 (client-360/ + mindmap.puml) -> ../../include
     # e.g., "client-360/know-your-customer" -> depth 3 -> ../../../include
-    # e.g., "." (root) -> depth 2 -> ../../include
-    if node_id == ".":
-        depth = 2
-    else:
-        depth = len(Path(node_id).parts) + 1
+    depth = len(Path(node_id).parts) + 1
     prefix = "../" * depth
     lines = [
         f"@startmindmap {base_name}",
@@ -39,58 +32,100 @@ def puml_for_node(node_id: str, graph: dict):
         f"!include {prefix}include/themes/light.puml",
         "",
     ]
-    # Rule 2: Central node is boxed (use +[ for boxed node)
-    lines.append(f"+[ [[ {make_link(node_id)} {title} ]]")
 
-    # Rule 3: Left side shows only parents (no siblings)
+    # Rule 2: Central node is boxed - must come FIRST
+    lines.append(f"+{title}")
+
+    # Rule 3: Left side shows parents and grandparents (no siblings)
+    # Rule 6: Top-level use cases (direct subdirectories of docs/use-case) are root nodes
+    # and should never show a parent to the left
     # If no parent, show nothing on left
-    # Root node (.) should not show itself as parent
-    if parents:
+    # IMPORTANT: In PlantUML mindmaps, left-side nodes come AFTER the center node
+    # Use - (dash) for left side: -- for parent (closer), --- for grandparent (farther)
+    is_top_level = len(Path(node_id).parts) == 1
+    if parents and not is_top_level:
+        # Collect all ancestors to show (parents and grandparents)
+        ancestors_to_show = []
+
+        # First, add all parents
         for idx, parent_id in enumerate(parents):
-            # Skip if parent is self (shouldn't happen, but safety check)
-            if parent_id == node_id:
+            # Skip empty parent (excluded from graph per Rule 6) and self (shouldn't happen)
+            if not parent_id or parent_id == "" or parent_id == node_id:
+                continue
+            if parent_id not in graph:
                 continue
             parent = graph[parent_id]
             # Primary parent uses solid line, secondary parents use dotted line
-            if idx == 0:
-                connector = "--"  # solid line for primary parent
-            else:
-                connector = ".."  # dotted line for secondary parents
-            parent_title = parent["title"]
-            lines.append(f"{connector}_ [[ {make_link(parent_id)} {parent_title} ]]")
+            is_primary = idx == 0
+            ancestors_to_show.append((parent_id, parent["title"], is_primary, False))
+
+            # Add grandparent(s) of primary parent only
+            # This shows 2 ancestor levels: parent and grandparent
+            if is_primary and parent["parents"]:
+                for grandparent_id in parent["parents"]:
+                    # Skip empty parent and self
+                    if (
+                        not grandparent_id
+                        or grandparent_id == ""
+                        or grandparent_id == node_id
+                        or grandparent_id == parent_id
+                    ):
+                        continue
+                    if grandparent_id not in graph:
+                        continue
+                    grandparent = graph[grandparent_id]
+                    # Add grandparent (marked as level 2)
+                    ancestors_to_show.append(
+                        (grandparent_id, grandparent["title"], False, 2)
+                    )
+
+        # Separate ancestors by level
+        # Level 1 = parent (False), Level 2 = grandparent
+        grandparents = [
+            (pid, title) for pid, title, _, level in ancestors_to_show if level == 2
+        ]
+        parents_list = [
+            (pid, title, is_primary)
+            for pid, title, is_primary, level in ancestors_to_show
+            if level == False  # Parents are marked as False (not a level number)
+        ]
+
+        # Render left-side ancestors AFTER the center node
+        # Use - (dash) with _ (underscore): --- for grandparent (farther), -- for parent (closer)
+        # The _ removes the border/box
+        # In PlantUML mindmaps: MORE dashes = farther from center
+        # Order: parent first, then grandparent
+
+        # Parents first (closer to center, 2 dashes)
+        for parent_id, parent_title, is_primary in parents_list:
+            lines.append(f"--_ [[{make_link(parent_id)} {parent_title}]]")
+
+        # Then grandparents (farther from center, 3 dashes)
+        for grandparent_id, grandparent_title in grandparents:
+            lines.append(f"---_ [[{make_link(grandparent_id)} {grandparent_title}]]")
 
     # Rule 4: Right side shows children and grandchildren (but not great-grandchildren)
     # Rule 5: Sort alphabetically
-    def get_children_and_grandchildren(node_id: str, graph: dict, max_depth: int = 2):
-        """Get children and grandchildren up to max_depth levels."""
-        result = []
-        if max_depth <= 0:
-            return result
-
-        children = sorted(graph[node_id]["children"])
-        for child_id in children:
-            result.append((child_id, 1))  # (node_id, depth)
-            if max_depth > 1:
-                grandchildren = sorted(graph[child_id]["children"])
-                for grandchild_id in grandchildren:
-                    result.append((grandchild_id, 2))  # grandchildren at depth 2
-        return result
-
-    descendants = get_children_and_grandchildren(node_id, graph, max_depth=2)
-    # Sort by depth first (children before grandchildren), then alphabetically by title
-    descendants.sort(key=lambda x: (x[1], graph[x[0]]["title"]))
-
-    for desc_id, depth in descendants:
+    # In PlantUML mindmaps, grandchildren must be nested under their parent children
+    # to avoid them all attaching to the last child node
+    children = sorted(graph[node_id]["children"])
+    for child_id in children:
         # Skip self (shouldn't happen, but safety check)
-        if desc_id == node_id:
+        if child_id == node_id:
             continue
-        desc_title = graph[desc_id]["title"]
-        if depth == 1:
-            # Direct children use ++_
-            lines.append(f"++_ [[ {make_link(desc_id)} {desc_title} ]]")
-        else:
+        child_title = graph[child_id]["title"]
+        # Direct children use ++_
+        lines.append(f"++_ [[{make_link(child_id)} {child_title}]]")
+
+        # Add grandchildren immediately after their parent (nested)
+        grandchildren = sorted(graph[child_id]["children"])
+        for grandchild_id in grandchildren:
+            # Skip self (shouldn't happen, but safety check)
+            if grandchild_id == node_id:
+                continue
+            grandchild_title = graph[grandchild_id]["title"]
             # Grandchildren use +++_ (one more + for deeper level)
-            lines.append(f"+++_ [[ {make_link(desc_id)} {desc_title} ]]")
+            lines.append(f"+++_ [[{make_link(grandchild_id)} {grandchild_title}]]")
 
     lines.append("@endmindmap")
     return "\n".join(lines) + "\n"
@@ -98,11 +133,9 @@ def puml_for_node(node_id: str, graph: dict):
 
 def write_pumls(graph: dict, max_workers: int = 8):
     """Generate PlantUML mindmap files for all use cases."""
-    # Collect expected targets (skip root node - no diagram needed)
+    # Collect expected targets
     expected = set()
     for node_id in graph:
-        if node_id == ".":
-            continue  # Skip root node - no diagram needed
         target = DIAGRAMS_SRC_DIR / node_id / "mindmap.puml"
         expected.add(target.resolve())
 
@@ -133,8 +166,6 @@ def write_pumls(graph: dict, max_workers: int = 8):
                     pass
 
     def render_and_write(node_id: str):
-        if node_id == ".":
-            return  # Skip root node - no diagram needed
         target = DIAGRAMS_SRC_DIR / node_id / "mindmap.puml"
         target.parent.mkdir(parents=True, exist_ok=True)
         content = puml_for_node(node_id, graph)
@@ -144,13 +175,14 @@ def write_pumls(graph: dict, max_workers: int = 8):
                 return
         target.write_text(content, encoding="utf-8")
 
-    # Generate diagrams for all nodes except root
-    node_ids_to_process = [node_id for node_id in graph.keys() if node_id != "."]
+    # Generate diagrams for all nodes in the graph
+    # (Root node is excluded during graph building per Rule 6)
+    node_ids_to_process = list(graph.keys())
     with ThreadPoolExecutor(max_workers=max_workers) as ex:
         list(ex.map(render_and_write, node_ids_to_process))
 
-    # Remove root diagram if it exists
-    root_diagram = DIAGRAMS_SRC_DIR / "root" / "mindmap.puml"
+    # Clean up any root node diagram that might exist (should not be generated per Rule 6)
+    root_diagram = DIAGRAMS_SRC_DIR / "mindmap.puml"
     if root_diagram.exists():
         try:
             root_diagram.unlink()

@@ -1,7 +1,0 @@
-@startmindmap signatories
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/corporate-governance/signatories/ Signatories ]]
---_ [[ /use-case/legal-entity-management/corporate-governance/ Corporate Governance ]]
-@endmindmap

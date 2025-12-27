@@ -1,7 +1,0 @@
-@startmindmap interest-graph
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/social-media/interest-graph/ Interest Graph ]]
---_ [[ /use-case/client-360/social-media/ Social Media ]]
-@endmindmap

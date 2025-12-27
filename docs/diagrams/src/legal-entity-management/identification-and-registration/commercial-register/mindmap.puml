@@ -1,7 +1,0 @@
-@startmindmap commercial-register
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/identification-and-registration/commercial-register/ Commercial Register ]]
---_ [[ /use-case/legal-entity-management/identification-and-registration/ Identification & Registration ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap activity-monitoring
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/activity-monitoring/ Activity Monitoring ]]
---_ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
-@endmindmap

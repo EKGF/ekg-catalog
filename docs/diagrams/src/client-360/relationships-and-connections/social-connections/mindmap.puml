@@ -1,7 +1,0 @@
-@startmindmap social-connections
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/relationships-and-connections/social-connections/ Social Connections ]]
---_ [[ /use-case/client-360/relationships-and-connections/ Relationships & Connections ]]
-@endmindmap

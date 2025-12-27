@@ -1,7 +1,0 @@
-@startmindmap proposal-document-generation
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/proposal-document-generation/ Proposal Document Generation & Assembly ]]
---_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/ Proposal & Negotiation ]]
-@endmindmap

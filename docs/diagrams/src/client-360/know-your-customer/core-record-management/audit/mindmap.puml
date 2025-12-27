@@ -1,7 +1,0 @@
-@startmindmap audit
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/core-record-management/audit/ Audit ]]
---_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
-@endmindmap

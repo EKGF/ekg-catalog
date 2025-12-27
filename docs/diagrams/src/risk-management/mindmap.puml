@@ -1,7 +1,0 @@
-@startmindmap risk-management
-
-!include ../../include/themes/light.puml
-
-+[ [[ /use-case/risk-management/ Enterprise Risk & Compliance Management ]]
---_ [[ /use-case/./ Use Cases ]]
-@endmindmap

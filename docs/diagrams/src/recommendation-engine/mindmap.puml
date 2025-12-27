@@ -1,9 +1,0 @@
-@startmindmap recommendation-engine
-
-!include ../../include/themes/light.puml
-
-+[ [[ /use-case/recommendation-engine/ Recommendation Engine ]]
---_ [[ /use-case/./ Use Cases ]]
-++_ [[ /use-case/recommendation-engine/behavioral-patterns/ Behavioral Patterns ]]
-++_ [[ /use-case/recommendation-engine/content-relationships/ Content Relationships ]]
-@endmindmap

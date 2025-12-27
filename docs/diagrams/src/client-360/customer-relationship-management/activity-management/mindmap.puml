@@ -1,8 +1,0 @@
-@startmindmap activity-management
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/customer-relationship-management/activity-management/ Activity Management ]]
---_ [[ /use-case/client-360/customer-relationship-management/ Customer Relationship Management ]]
-++_ [[ /use-case/client-360/customer-relationship-management/activity-management/interactions/ Interactions ]]
-@endmindmap

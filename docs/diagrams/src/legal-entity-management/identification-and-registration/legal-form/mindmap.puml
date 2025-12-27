@@ -1,7 +1,0 @@
-@startmindmap legal-form
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/identification-and-registration/legal-form/ Legal Forms ]]
---_ [[ /use-case/legal-entity-management/identification-and-registration/ Identification & Registration ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap unit-rates-and-cost-libraries
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/estimating-and-pricing/unit-rates-and-cost-libraries/ Unit Rates & Cost Libraries ]]
---_ [[ /use-case/construction-project-quotations/estimating-and-pricing/ Estimating & Pricing ]]
-@endmindmap

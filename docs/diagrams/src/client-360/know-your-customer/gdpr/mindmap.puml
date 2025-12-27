@@ -1,7 +1,0 @@
-@startmindmap gdpr
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/gdpr/ GDPR ]]
---_ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
-@endmindmap

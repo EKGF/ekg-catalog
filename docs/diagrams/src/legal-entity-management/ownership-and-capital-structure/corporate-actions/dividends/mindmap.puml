@@ -1,7 +1,0 @@
-@startmindmap dividends
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/dividends/ Dividends ]]
---_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/ Corporate Actions ]]
-@endmindmap

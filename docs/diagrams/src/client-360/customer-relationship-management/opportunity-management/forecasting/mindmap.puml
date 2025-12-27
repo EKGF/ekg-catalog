@@ -1,7 +1,0 @@
-@startmindmap forecasting
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/customer-relationship-management/opportunity-management/forecasting/ Forecasting ]]
---_ [[ /use-case/client-360/customer-relationship-management/opportunity-management/ Opportunity Management ]]
-@endmindmap

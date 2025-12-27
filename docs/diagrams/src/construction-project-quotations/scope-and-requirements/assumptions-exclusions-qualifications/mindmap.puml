@@ -1,7 +1,0 @@
-@startmindmap assumptions-exclusions-qualifications
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/scope-and-requirements/assumptions-exclusions-qualifications/ Assumptions, Exclusions & Qualifications ]]
---_ [[ /use-case/construction-project-quotations/scope-and-requirements/ Scope & Requirements ]]
-@endmindmap

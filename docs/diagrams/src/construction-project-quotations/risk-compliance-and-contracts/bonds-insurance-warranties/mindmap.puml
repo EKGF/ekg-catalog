@@ -1,7 +1,0 @@
-@startmindmap bonds-insurance-warranties
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/bonds-insurance-warranties/ Bonds, Insurance & Warranties ]]
---_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/ Risk, Compliance & Contracts ]]
-@endmindmap

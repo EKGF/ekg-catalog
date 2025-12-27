@@ -1,7 +1,0 @@
-@startmindmap risk-management
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/risk-management/ Risk Management ]]
---_ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap bid-leveling
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/supply-chain-and-subcontractors/bid-leveling/ Bid Leveling & Comparative Analysis ]]
---_ [[ /use-case/construction-project-quotations/supply-chain-and-subcontractors/ Supply Chain & Subcontractors ]]
-@endmindmap

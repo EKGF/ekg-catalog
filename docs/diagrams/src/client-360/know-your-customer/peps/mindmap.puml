@@ -1,7 +1,0 @@
-@startmindmap peps
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/peps/ Politically Exposed Persons (PEPs) ]]
---_ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
-@endmindmap

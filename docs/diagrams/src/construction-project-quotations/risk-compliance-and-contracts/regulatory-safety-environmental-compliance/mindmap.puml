@@ -1,7 +1,0 @@
-@startmindmap regulatory-safety-environmental-compliance
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/regulatory-safety-environmental-compliance/ Regulatory, Safety & Environmental Compliance ]]
---_ [[ /use-case/construction-project-quotations/risk-compliance-and-contracts/ Risk, Compliance & Contracts ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap addresses
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/core-record-management/addresses/ Addresses ]]
---_ [[ /use-case/client-360/know-your-customer/core-record-management/ Core Record Management ]]
-@endmindmap

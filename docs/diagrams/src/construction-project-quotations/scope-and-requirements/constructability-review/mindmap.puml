@@ -1,7 +1,0 @@
-@startmindmap constructability-review
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/scope-and-requirements/constructability-review/ Constructability Review ]]
---_ [[ /use-case/construction-project-quotations/scope-and-requirements/ Scope & Requirements ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap regulatory-reports
-
-!include ../../include/themes/light.puml
-
-+[ [[ /use-case/regulatory-reports/ Enterprise-Spanning Regulatory Reports ]]
---_ [[ /use-case/./ Use Cases ]]
-@endmindmap

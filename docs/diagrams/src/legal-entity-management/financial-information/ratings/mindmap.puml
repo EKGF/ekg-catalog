@@ -1,7 +1,0 @@
-@startmindmap ratings
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/financial-information/ratings/ Ratings ]]
---_ [[ /use-case/legal-entity-management/financial-information/ Financial Information ]]
-@endmindmap

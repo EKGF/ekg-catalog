@@ -1,7 +1,0 @@
-@startmindmap sales-pipeline
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/customer-relationship-management/opportunity-management/sales-pipeline/ Sales Pipeline ]]
---_ [[ /use-case/client-360/customer-relationship-management/opportunity-management/ Opportunity Management ]]
-@endmindmap

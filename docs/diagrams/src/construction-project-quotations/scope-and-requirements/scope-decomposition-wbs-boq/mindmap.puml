@@ -1,7 +1,0 @@
-@startmindmap scope-decomposition-wbs-boq
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/scope-and-requirements/scope-decomposition-wbs-boq/ Scope Decomposition (WBS/BoQ) ]]
---_ [[ /use-case/construction-project-quotations/scope-and-requirements/ Scope & Requirements ]]
-@endmindmap

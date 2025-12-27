@@ -1,7 +1,0 @@
-@startmindmap directorships
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/corporate-governance/directorships/ Directorships ]]
---_ [[ /use-case/legal-entity-management/corporate-governance/ Corporate Governance ]]
-@endmindmap

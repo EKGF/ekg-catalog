@@ -1,7 +1,0 @@
-@startmindmap organization-management
-
-!include ../../include/themes/light.puml
-
-+[ [[ /use-case/organization-management/ Organization Management ]]
---_ [[ /use-case/./ Use Cases ]]
-@endmindmap

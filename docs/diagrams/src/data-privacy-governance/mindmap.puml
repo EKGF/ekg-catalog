@@ -1,7 +1,0 @@
-@startmindmap data-privacy-governance
-
-!include ../../include/themes/light.puml
-
-+[ [[ /use-case/data-privacy-governance/ Data Privacy & Governance ]]
---_ [[ /use-case/./ Use Cases ]]
-@endmindmap

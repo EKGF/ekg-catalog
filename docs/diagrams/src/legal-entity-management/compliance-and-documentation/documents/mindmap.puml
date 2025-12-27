@@ -1,7 +1,0 @@
-@startmindmap documents
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/compliance-and-documentation/documents/ Documents ]]
---_ [[ /use-case/legal-entity-management/compliance-and-documentation/ Compliance & Documentation ]]
-@endmindmap

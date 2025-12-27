@@ -1,7 +1,0 @@
-@startmindmap ownership
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/ownership-and-capital-structure/ownership/ Ownership ]]
---_ [[ /use-case/legal-entity-management/ownership-and-capital-structure/ Ownership & Capital Structure ]]
-@endmindmap

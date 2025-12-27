@@ -1,7 +1,0 @@
-@startmindmap business-connections
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/relationships-and-connections/business-connections/ Business Connections ]]
---_ [[ /use-case/client-360/relationships-and-connections/ Relationships & Connections ]]
-@endmindmap

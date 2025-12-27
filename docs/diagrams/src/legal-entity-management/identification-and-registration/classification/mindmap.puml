@@ -1,7 +1,0 @@
-@startmindmap classification
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/legal-entity-management/identification-and-registration/classification/ Classification ]]
---_ [[ /use-case/legal-entity-management/identification-and-registration/ Identification & Registration ]]
-@endmindmap

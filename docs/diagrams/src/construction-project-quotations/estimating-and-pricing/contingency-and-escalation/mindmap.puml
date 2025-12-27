@@ -1,7 +1,0 @@
-@startmindmap contingency-and-escalation
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/estimating-and-pricing/contingency-and-escalation/ Contingency & Escalation ]]
---_ [[ /use-case/construction-project-quotations/estimating-and-pricing/ Estimating & Pricing ]]
-@endmindmap

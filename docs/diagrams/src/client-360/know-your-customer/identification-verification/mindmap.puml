@@ -1,7 +1,0 @@
-@startmindmap identification-verification
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/know-your-customer/identification-verification/ Identification Verification ]]
---_ [[ /use-case/client-360/know-your-customer/ Know Your Customer ]]
-@endmindmap

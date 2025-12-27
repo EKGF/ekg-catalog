@@ -1,7 +1,0 @@
-@startmindmap rfis-clarifications-addenda
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/scope-and-requirements/rfis-clarifications-addenda/ RFIs, Clarifications & Addenda ]]
---_ [[ /use-case/construction-project-quotations/scope-and-requirements/ Scope & Requirements ]]
-@endmindmap

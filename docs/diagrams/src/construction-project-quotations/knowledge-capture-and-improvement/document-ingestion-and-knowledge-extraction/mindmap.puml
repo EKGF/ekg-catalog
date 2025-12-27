@@ -1,7 +1,0 @@
-@startmindmap document-ingestion-and-knowledge-extraction
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/knowledge-capture-and-improvement/document-ingestion-and-knowledge-extraction/ Document Ingestion & Knowledge Extraction ]]
---_ [[ /use-case/construction-project-quotations/knowledge-capture-and-improvement/ Knowledge Capture & Continuous Improvement ]]
-@endmindmap

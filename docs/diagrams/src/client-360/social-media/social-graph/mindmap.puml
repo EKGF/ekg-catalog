@@ -1,7 +1,0 @@
-@startmindmap social-graph
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/social-media/social-graph/ Social Graph ]]
---_ [[ /use-case/client-360/social-media/ Social Media ]]
-@endmindmap

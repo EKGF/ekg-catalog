@@ -1,8 +1,0 @@
-@startmindmap lead-management
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/client-360/customer-relationship-management/lead-management/ Lead Management ]]
---_ [[ /use-case/client-360/customer-relationship-management/ Customer Relationship Management ]]
-++_ [[ /use-case/client-360/customer-relationship-management/lead-management/lead-qualification/ Lead Qualification ]]
-@endmindmap

@@ -1,7 +1,0 @@
-@startmindmap vendor-kyc
-
-!include ../../../../../include/themes/light.puml
-
-+[ [[ /use-case/supply-chain-management/vendor-management/vendor-vetting-and-onboarding/vendor-kyc/ Vendor KYC ]]
---_ [[ /use-case/supply-chain-management/vendor-management/vendor-vetting-and-onboarding/ Vendor Vetting & Onboarding ]]
-@endmindmap

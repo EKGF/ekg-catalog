@@ -1,7 +1,0 @@
-@startmindmap compliance-matrix-and-submission-packaging
-
-!include ../../../../include/themes/light.puml
-
-+[ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/compliance-matrix-and-submission-packaging/ Compliance Matrix & Submission Packaging ]]
---_ [[ /use-case/construction-project-quotations/proposal-submission-and-negotiation/ Proposal & Negotiation ]]
-@endmindmap
