@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Dict
 
-from .config import USE_CASE_DIR
+from .constants import USE_CASE_DIR
 from .frontmatter import parse_frontmatter, resolve_parents, format_frontmatter
 from .content import (
     extract_title_and_description,
@@ -87,8 +87,14 @@ def build_graph(max_workers: int = 8):
     def prepare(md_path: Path):
         rel = md_path.relative_to(USE_CASE_DIR)
         if md_path.stem == "index":
+            # Skip root node (use-case/index.md) - Rule 6: there is no single root node
+            # Root node is when rel.parent is empty (the USE_CASE_DIR itself)
+            if rel.parent == Path() or len(rel.parent.parts) == 0:
+                return None
             node_id = str(rel.parent.as_posix())
-            parent_dir = rel.parent.parent if rel.parent != Path(".") else Path(".")
+            # For top-level use cases, parent_dir is empty (USE_CASE_DIR itself)
+            # For nested use cases, parent_dir is the parent directory
+            parent_dir = rel.parent.parent if len(rel.parent.parts) > 0 else Path()
             self_dir = rel.parent
         else:
             node_id = str(rel.with_suffix("").as_posix())
@@ -96,7 +102,7 @@ def build_graph(max_workers: int = 8):
             self_dir = Path(node_id)
         return node_id, md_path, parent_dir, self_dir
 
-    work_items = [prepare(p) for p in md_files]
+    work_items = [item for p in md_files if (item := prepare(p)) is not None]
 
     def worker(item):
         node_id, md_path, parent_dir, self_dir = item
@@ -132,6 +138,9 @@ def build_graph(max_workers: int = 8):
     # validate parents existence and sibling rule (serial)
     for node_id, info in nodes.items():
         for parent in info["parents"]:
+            # Skip empty parent - it's valid for top-level use cases but excluded from graph per Rule 6
+            if not parent or parent == "":
+                continue
             if parent not in nodes:
                 raise ValueError(f"Parent '{parent}' not found for {node_id}")
             # Prevent self-loops: don't add node to its own children

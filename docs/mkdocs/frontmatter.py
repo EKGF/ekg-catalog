@@ -108,14 +108,17 @@ def resolve_parents(meta_parents, parent_dir: Path, self_dir: Path):
     parents = meta_parents or []
 
     # Default to [".."] if parents is empty and this is not root-level
-    if not parents and parent_dir != Path("."):
+    # Root-level is when parent_dir is empty
+    is_root_level = not parent_dir or len(parent_dir.parts) == 0
+    if not parents and not is_root_level:
         parents = [".."]
 
     resolved = []
     for parent in parents:
         if parent == "..":
-            if parent_dir == Path("."):
-                resolved.append(".")
+            if is_root_level:
+                # At root level, ".." resolves to empty string (no parent in graph)
+                resolved.append("")
             else:
                 resolved.append(str(parent_dir.as_posix()))
         elif isinstance(parent, str) and parent.startswith("/"):
