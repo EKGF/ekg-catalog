@@ -1,6 +1,0 @@
-@startmindmap
-
-!include ../../../include/themes/light.puml
-
-+ [[ /use-case/legal-entity-management/contact-and-location-information/addresses/ Addresses ]]
-@endmindmap

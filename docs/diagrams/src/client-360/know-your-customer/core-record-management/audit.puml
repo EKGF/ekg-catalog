@@ -1,6 +1,0 @@
-@startmindmap
-
-!include ../../../../include/themes/light.puml
-
-+ [[ /use-case/client-360/know-your-customer/core-record-management/audit/ Audit ]]
-@endmindmap

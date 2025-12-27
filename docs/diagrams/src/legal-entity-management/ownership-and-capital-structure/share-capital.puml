@@ -1,6 +1,0 @@
-@startmindmap
-
-!include ../../../include/themes/light.puml
-
-+ [[ /use-case/legal-entity-management/ownership-and-capital-structure/share-capital/ Share Capital ]]
-@endmindmap
