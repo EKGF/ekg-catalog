@@ -95,18 +95,6 @@ plugins:
       exclude:
         - 'fragment/*'
         - 'other/seo-guide.md'
-  - plantuml_async:
-      render: "server" # or "local" for local rendering
-      server: "http://www.plantuml.com/plantuml" # official plantuml server
-      output_format: "svg" # or "png"
-      diagram_root: "docs/diagrams" # should reside under docs_dir
-      output_folder: "out"
-      input_folder: "src"
-      input_extensions: "" # comma separated list of extensions to parse, by default every file is parsed
-      theme_enabled: true
-      theme_folder: "include/themes"
-      theme_light: "light.puml"
-      theme_dark: "dark.puml"
       max_concurrent_requests: 8 # Number of parallel HTTP requests
   - awesome-pages:
       filename: .pages.yaml

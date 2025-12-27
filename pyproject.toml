@@ -38,9 +38,6 @@ Repository = "https://github.com/EKGF/ekg-catalog"
 [project.scripts]
 generate-docs = "docs.main:main"
 
-[project.entry-points."mkdocs.plugins"]
-plantuml_async = "docs.mkdocs.plantuml_async:AsyncPlantUMLPlugin"
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
