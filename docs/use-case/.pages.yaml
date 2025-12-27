@@ -1,16 +1,15 @@
 title: Use Cases
 nav:
-  - index.md
-  - client-360
-  - construction-project-quotations
-  - cyber-security
-  - data-privacy-governance
-  - digital-twin
-  - fraud-detection
-  - legal-entity-management
-  - organization-management
-  - other
-  - recommendation-engine
-  - regulatory-reports
-  - risk-management
-  - supply-chain-management
+- client-360
+- construction-project-quotations
+- cyber-security
+- data-privacy-governance
+- digital-twin
+- fraud-detection
+- legal-entity-management
+- organization-management
+- other
+- recommendation-engine
+- regulatory-reports
+- risk-management
+- supply-chain-management
