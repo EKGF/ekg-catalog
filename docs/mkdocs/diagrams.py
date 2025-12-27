@@ -36,16 +36,18 @@ def puml_for_node(node_id: str, graph: dict):
     # Rule 2: Central node is boxed - must come FIRST
     lines.append(f"+{title}")
 
-    # Rule 3: Left side shows parents and grandparents (no siblings)
+    # Rule 3: Left side shows parents and grandparents
     # Rule 6: Top-level use cases (direct subdirectories of docs/use-case) are root nodes
     # and should never show a parent to the left
+    # Rule 7: Show siblings (parent's children) for context
     # If no parent, show nothing on left
     # IMPORTANT: In PlantUML mindmaps, left-side nodes come AFTER the center node
     # Use - (dash) for left side: -- for parent (closer), --- for grandparent (farther)
     is_top_level = len(Path(node_id).parts) == 1
     if parents and not is_top_level:
-        # Collect all ancestors to show (parents and grandparents)
+        # Collect all ancestors and siblings to show
         ancestors_to_show = []
+        siblings_to_show = []
 
         # First, add all parents
         for idx, parent_id in enumerate(parents):
@@ -59,25 +61,37 @@ def puml_for_node(node_id: str, graph: dict):
             is_primary = idx == 0
             ancestors_to_show.append((parent_id, parent["title"], is_primary, False))
 
-            # Add grandparent(s) of primary parent only
+            # Add grandparent(s) and siblings of primary parent only
             # This shows 2 ancestor levels: parent and grandparent
-            if is_primary and parent["parents"]:
-                for grandparent_id in parent["parents"]:
-                    # Skip empty parent and self
-                    if (
-                        not grandparent_id
-                        or grandparent_id == ""
-                        or grandparent_id == node_id
-                        or grandparent_id == parent_id
-                    ):
+            if is_primary:
+                # Add grandparents
+                if parent["parents"]:
+                    for grandparent_id in parent["parents"]:
+                        # Skip empty parent and self
+                        if (
+                            not grandparent_id
+                            or grandparent_id == ""
+                            or grandparent_id == node_id
+                            or grandparent_id == parent_id
+                        ):
+                            continue
+                        if grandparent_id not in graph:
+                            continue
+                        grandparent = graph[grandparent_id]
+                        # Add grandparent (marked as level 2)
+                        ancestors_to_show.append(
+                            (grandparent_id, grandparent["title"], False, 2)
+                        )
+                
+                # Rule 7: Add siblings (parent's children) for context
+                # Siblings are the children of the parent, excluding the current node
+                for sibling_id in sorted(graph[parent_id]["children"]):
+                    if sibling_id == node_id:
+                        continue  # Skip self
+                    if sibling_id not in graph:
                         continue
-                    if grandparent_id not in graph:
-                        continue
-                    grandparent = graph[grandparent_id]
-                    # Add grandparent (marked as level 2)
-                    ancestors_to_show.append(
-                        (grandparent_id, grandparent["title"], False, 2)
-                    )
+                    sibling = graph[sibling_id]
+                    siblings_to_show.append((sibling_id, sibling["title"]))
 
         # Separate ancestors by level
         # Level 1 = parent (False), Level 2 = grandparent
@@ -94,11 +108,16 @@ def puml_for_node(node_id: str, graph: dict):
         # Use - (dash) with _ (underscore): --- for grandparent (farther), -- for parent (closer)
         # The _ removes the border/box
         # In PlantUML mindmaps: MORE dashes = farther from center
-        # Order: parent first, then grandparent
+        # Order: parent first, siblings (nested under parent), then grandparent
 
         # Parents first (closer to center, 2 dashes)
         for parent_id, parent_title, is_primary in parents_list:
             lines.append(f"--_ [[{make_link(parent_id)} {parent_title}]]")
+            
+            # Rule 7: Show siblings (parent's children) nested under the parent
+            # Siblings use --- (3 dashes, same level as grandparent but nested under parent)
+            for sibling_id, sibling_title in siblings_to_show:
+                lines.append(f"---_ [[{make_link(sibling_id)} {sibling_title}]]")
 
         # Then grandparents (farther from center, 3 dashes)
         for grandparent_id, grandparent_title in grandparents:
