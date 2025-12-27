@@ -112,6 +112,44 @@ def on_pre_build(config):
     """
     MkDocs hook: normalize use case metadata and generate mindmaps.
     """
+    import time
+    from pathlib import Path
+
+    start = time.time()
     graph = build_graph()
+    graph_time = time.time() - start
+
+    start = time.time()
     write_pumls(graph)
+    diagram_time = time.time() - start
+
+    start = time.time()
     write_pages_yaml(graph)
+    nav_time = time.time() - start
+
+    # Count generated diagrams
+    from .constants import DIAGRAMS_SRC_DIR
+
+    diagram_count = (
+        len(list(DIAGRAMS_SRC_DIR.rglob("mindmap.puml")))
+        if DIAGRAMS_SRC_DIR.exists()
+        else 0
+    )
+
+    # Note: Parallel rendering would require processing !include directives
+    # which is complex. The mkdocs-build-plantuml plugin handles this correctly
+    # but processes diagrams sequentially. For now, we let the plugin handle
+    # all rendering to ensure includes are processed correctly.
+    render_time = 0.0
+
+    total_time = graph_time + diagram_time + nav_time + render_time
+    print(
+        f"PlantUML source generation timing: graph={graph_time:.3f}s ({len(graph)} nodes), "
+        f"diagrams={diagram_time:.3f}s ({diagram_count} files), "
+        f"navigation={nav_time:.3f}s"
+    )
+    if render_time > 0:
+        print(f"  Parallel SVG rendering: {render_time:.3f}s ({diagram_count} files)")
+        if diagram_count > 0:
+            print(f"  Average: {render_time / diagram_count * 1000:.2f} ms per SVG")
+    print(f"  Total: {total_time:.3f}s")

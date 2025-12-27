@@ -57,6 +57,8 @@ clean:
 	@rm -rf .venv 2>/dev/null || true
 	@rm -rf *.lock 2>/dev/null || true
 	@rm -rf docs/diagrams/out 2>/dev/null || true
+	@echo "Cleaning generated PlantUML diagrams"
+	@find docs/diagrams/src -name "mindmap.puml" -type f -delete 2>/dev/null || true
 
 .PHONY: install
 install: docs-install

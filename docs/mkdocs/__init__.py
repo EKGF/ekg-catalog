@@ -1,6 +1,6 @@
-"""MkDocs plugins package."""
+"""MkDocs plugins and hooks."""
 
-# Make hooks available at package level
-from .hooks import define_env, on_page_content, on_pre_build
+# Make the async plugin available
+from .plantuml_async import AsyncPlantUMLPlugin
 
-__all__ = ["define_env", "on_page_content", "on_pre_build"]
+__all__ = ["AsyncPlantUMLPlugin"]

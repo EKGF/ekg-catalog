@@ -1,7 +1,7 @@
 """Content extraction and cleaning utilities."""
 
 import re
-from .config import STOP_WORDS
+from .constants import STOP_WORDS
 
 
 def extract_title_and_description(body: str):
@@ -175,8 +175,8 @@ def remove_diagram_tags(body: str) -> str:
     i = 0
     while i < len(lines):
         line = lines[i].strip()
-        # Remove <object> tags that reference diagrams/out/*.svg
-        if line.startswith("<object") and "diagrams/out" in line and ".svg" in line:
+        # Remove <object> tags that reference diagram SVGs (diagrams are injected by template)
+        if line.startswith("<object") and ".svg" in line:
             # Skip until closing </object> tag
             while i < len(lines) and "</object>" not in lines[i]:
                 i += 1

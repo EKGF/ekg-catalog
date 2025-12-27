@@ -95,9 +95,8 @@ plugins:
       exclude:
         - 'fragment/*'
         - 'other/seo-guide.md'
-  - build_plantuml:
+  - plantuml_async:
       render: "server" # or "local" for local rendering
-      bin_path: "/usr/local/bin/plantuml" # ignored when render: server
       server: "http://www.plantuml.com/plantuml" # official plantuml server
       output_format: "svg" # or "png"
       diagram_root: "docs/diagrams" # should reside under docs_dir
@@ -108,6 +107,7 @@ plugins:
       theme_folder: "include/themes"
       theme_light: "light.puml"
       theme_dark: "dark.puml"
+      max_concurrent_requests: 8 # Number of parallel HTTP requests
   - awesome-pages:
       filename: .pages.yaml
       collapse_single_pages: false
