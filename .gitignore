@@ -4,6 +4,10 @@ venv/
 __pypackages__/
 site/
 poetry.lock
+
+# Generated PlantUML mindmap diagrams
+**/mindmap.puml
+docs/diagrams/out/
 .DS_Store
 .texpadtmp
 *.aux
