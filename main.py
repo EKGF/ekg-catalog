@@ -1,49 +1,36 @@
-import re
+"""
+MkDocs hooks entry point.
 
-def define_env(env):
-    "Hook function"
+This file is kept for backward compatibility with mkdocs.yml configuration.
+It imports from the mkdocs package.
+"""
 
-    @env.macro
-    def test123(page):
-        list = []
-        while page.next_page:
-            list.append(page.next_page)
-            page = page.next_page
-        return list
+import sys
+from pathlib import Path
+
+# Handle imports for both module and script execution
+# When MkDocs loads this as a hook, it may not be in a package context,
+# so we need to handle both absolute and relative imports
+try:
+    # Try relative import first (works when loaded as part of package)
+    from .mkdocs.hooks import define_env, on_page_content, on_pre_build
+except ImportError:
+    # Fall back to absolute import (works when loaded directly by MkDocs or as script)
+    parent_dir = Path(__file__).parent.parent
+    if str(parent_dir) not in sys.path:
+        sys.path.insert(0, str(parent_dir))
+    from docs.mkdocs.hooks import define_env, on_page_content, on_pre_build
+
+# Make hooks available at module level for MkDocs
+__all__ = ["define_env", "on_page_content", "on_pre_build"]
 
 
-def on_page_content(html, page, config, files):
-    """
-    Inject objective letter badge before the first H1 heading.
-    This runs after markdown is converted to HTML.
-    """
-    # Check if page has letter_prefix in frontmatter
-    if not hasattr(page, 'meta') or 'letter_prefix' not in page.meta:
-        return html
-    
-    letter_prefix = page.meta['letter_prefix']
-    if not letter_prefix or not isinstance(letter_prefix, str):
-        return html
-    
-    # Find the first H1 tag and wrap it with the badge
-    # Pattern: <h1 ... > ... </h1>
-    h1_pattern = r'(<h1[^>]*>)(.*?)(</h1>)'
-    
-    def replace_first_h1(match):
-        opening_tag = match.group(1)
-        h1_content = match.group(2)
-        closing_tag = match.group(3)
-        
-        # Create the badge wrapper HTML
-        badge_html = f'''<div class="objective-header-with-badge">
-<span class="objective-badge-standalone" data-letter="{letter_prefix}"></span>
+# Entry point function for script execution
+def main():
+    """Entry point for running the generator as a script."""
+    on_pre_build(None)
 
-{opening_tag}{h1_content}{closing_tag}
 
-</div>'''
-        return badge_html
-    
-    # Replace only the first H1
-    modified_html = re.sub(h1_pattern, replace_first_h1, html, count=1, flags=re.DOTALL)
-    
-    return modified_html
+# When run as script, execute
+if __name__ == "__main__":
+    main()

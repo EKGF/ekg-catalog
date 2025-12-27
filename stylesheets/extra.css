@@ -1,21 +1,21 @@
 :root {
   /* EKGF custom colors - used by entire theme including Mermaid diagrams */
-  --md-primary-fg-color:        #4051b5;  /* Material Indigo 500 for primary elements */
-  --md-primary-fg-color--light: #5c6bc0;  /* Lighter indigo */
-  --md-primary-fg-color--dark:  #303f9f;  /* Darker indigo */
-  --md-accent-fg-color:         #ff6f00;  /* EKGF orange for accents */
-  --md-accent-fg-color--light:  #ff9800;  /* Lighter orange */
-  --md-accent-fg-color--dark:   #e65100;  /* Darker orange */
+  --md-primary-fg-color: #4051b5; /* Material Indigo 500 for primary elements */
+  --md-primary-fg-color--light: #5c6bc0; /* Lighter indigo */
+  --md-primary-fg-color--dark: #303f9f; /* Darker indigo */
+  --md-accent-fg-color: #ff6f00; /* EKGF orange for accents */
+  --md-accent-fg-color--light: #ff9800; /* Lighter orange */
+  --md-accent-fg-color--dark: #e65100; /* Darker orange */
 }
 
 /* Dark mode color adjustments */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        #4051b5;
+  --md-primary-fg-color: #4051b5;
   --md-primary-fg-color--light: #5c6bc0;
-  --md-primary-fg-color--dark:  #303f9f;
-  --md-accent-fg-color:         #ff6f00;
-  --md-accent-fg-color--light:  #ff9800;
-  --md-accent-fg-color--dark:   #e65100;
+  --md-primary-fg-color--dark: #303f9f;
+  --md-accent-fg-color: #ff6f00;
+  --md-accent-fg-color--light: #ff9800;
+  --md-accent-fg-color--dark: #e65100;
 }
 
 /* Force Mermaid diagram elements to use EKGF colors */
@@ -107,7 +107,10 @@
   gap: 1.5rem !important;
   display: grid !important;
   /* Responsive grid: 1 column on mobile, 2 on tablet, 3 on desktop */
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  ) !important;
 }
 
 /* Individual card styling - cards are in ul > li structure */
@@ -124,24 +127,29 @@
 .md-typeset .grid.cards > ul > li:hover,
 .md-typeset .grid.cards li:hover {
   transform: translateY(-4px) scale(1.01) !important;
-  box-shadow: 
-    0 8px 16px rgba(0, 0, 0, 0.12),
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12),
     0 4px 8px rgba(0, 0, 0, 0.08) !important;
 }
 
 /* Light mode card hover shadow */
-[data-md-color-scheme="default"] .md-typeset .grid.cards > ul > li:hover,
+[data-md-color-scheme="default"]
+  .md-typeset
+  .grid.cards
+  > ul
+  > li:hover,
 [data-md-color-scheme="default"] .md-typeset .grid.cards li:hover {
-  box-shadow: 
-    0 8px 16px rgba(74, 35, 217, 0.15),
+  box-shadow: 0 8px 16px rgba(74, 35, 217, 0.15),
     0 4px 8px rgba(74, 35, 217, 0.1) !important;
 }
 
 /* Dark mode card hover shadow */
-[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li:hover,
+[data-md-color-scheme="slate"]
+  .md-typeset
+  .grid.cards
+  > ul
+  > li:hover,
 [data-md-color-scheme="slate"] .md-typeset .grid.cards li:hover {
-  box-shadow: 
-    0 8px 16px rgba(0, 0, 0, 0.3),
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3),
     0 4px 8px rgba(0, 0, 0, 0.2) !important;
 }
 
@@ -215,7 +223,11 @@
   min-height: 4.5rem;
 }
 
-.md-typeset .grid.process-cards > ul > li > *:not(.process-card-header) {
+.md-typeset
+  .grid.process-cards
+  > ul
+  > li
+  > *:not(.process-card-header) {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
@@ -228,7 +240,11 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, rgba(48, 63, 159, 0.45), rgba(25, 118, 210, 0.4));
+  background: linear-gradient(
+    120deg,
+    rgba(48, 63, 159, 0.45),
+    rgba(25, 118, 210, 0.4)
+  );
   z-index: -1;
 }
 
@@ -236,7 +252,11 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(circle at 80% -10%, rgba(255, 255, 255, 0.15), transparent 55%);
+  background-image: radial-gradient(
+    circle at 80% -10%,
+    rgba(255, 255, 255, 0.15),
+    transparent 55%
+  );
   opacity: 0.35;
   pointer-events: none;
   z-index: -1;
@@ -331,7 +351,11 @@
   width: 3rem !important;
   height: 3rem !important;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--md-primary-fg-color) 0%, var(--md-primary-fg-color--dark) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--md-primary-fg-color) 0%,
+    var(--md-primary-fg-color--dark) 100%
+  );
   color: white;
   font-weight: 700;
   font-size: 1.5rem;
@@ -348,8 +372,15 @@
 }
 
 /* Dark mode badge styling */
-[data-md-color-scheme="slate"] .md-typeset .grid.cards .objective-badge {
-  background: linear-gradient(135deg, var(--md-primary-fg-color--light) 0%, var(--md-primary-fg-color) 100%);
+[data-md-color-scheme="slate"]
+  .md-typeset
+  .grid.cards
+  .objective-badge {
+  background: linear-gradient(
+    135deg,
+    var(--md-primary-fg-color--light) 0%,
+    var(--md-primary-fg-color) 100%
+  );
   box-shadow: 0 2px 8px rgba(74, 35, 217, 0.3);
 }
 
@@ -361,8 +392,17 @@
   box-shadow: 0 4px 12px rgba(74, 35, 217, 0.4);
 }
 
-[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li:hover .objective-badge,
-[data-md-color-scheme="slate"] .md-typeset .grid.cards li:hover .objective-badge {
+[data-md-color-scheme="slate"]
+  .md-typeset
+  .grid.cards
+  > ul
+  > li:hover
+  .objective-badge,
+[data-md-color-scheme="slate"]
+  .md-typeset
+  .grid.cards
+  li:hover
+  .objective-badge {
   box-shadow: 0 4px 12px rgba(74, 35, 217, 0.5);
 }
 
@@ -374,7 +414,11 @@
   width: 3rem !important;
   height: 3rem !important;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--md-primary-fg-color) 0%, var(--md-primary-fg-color--dark) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--md-primary-fg-color) 0%,
+    var(--md-primary-fg-color--dark) 100%
+  );
   color: white;
   font-weight: 700;
   font-size: 1.5rem;
@@ -394,8 +438,14 @@
 }
 
 /* Dark mode standalone badge styling */
-[data-md-color-scheme="slate"] .md-typeset .objective-badge-standalone {
-  background: linear-gradient(135deg, var(--md-primary-fg-color--light) 0%, var(--md-primary-fg-color) 100%);
+[data-md-color-scheme="slate"]
+  .md-typeset
+  .objective-badge-standalone {
+  background: linear-gradient(
+    135deg,
+    var(--md-primary-fg-color--light) 0%,
+    var(--md-primary-fg-color) 100%
+  );
   box-shadow: 0 2px 8px rgba(74, 35, 217, 0.3);
 }
 
@@ -714,12 +764,36 @@
 }
 
 /* Tabbed content styling - ONLY active/selected tab is orange */
-.md-typeset .tabbed-set > input:nth-child(1):checked ~ .tabbed-labels > :nth-child(1),
-.md-typeset .tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > :nth-child(2),
-.md-typeset .tabbed-set > input:nth-child(3):checked ~ .tabbed-labels > :nth-child(3),
-.md-typeset .tabbed-set > input:nth-child(4):checked ~ .tabbed-labels > :nth-child(4),
-.md-typeset .tabbed-set > input:nth-child(5):checked ~ .tabbed-labels > :nth-child(5),
-.md-typeset .tabbed-set > input:nth-child(6):checked ~ .tabbed-labels > :nth-child(6) {
+.md-typeset
+  .tabbed-set
+  > input:nth-child(1):checked
+  ~ .tabbed-labels
+  > :nth-child(1),
+.md-typeset
+  .tabbed-set
+  > input:nth-child(2):checked
+  ~ .tabbed-labels
+  > :nth-child(2),
+.md-typeset
+  .tabbed-set
+  > input:nth-child(3):checked
+  ~ .tabbed-labels
+  > :nth-child(3),
+.md-typeset
+  .tabbed-set
+  > input:nth-child(4):checked
+  ~ .tabbed-labels
+  > :nth-child(4),
+.md-typeset
+  .tabbed-set
+  > input:nth-child(5):checked
+  ~ .tabbed-labels
+  > :nth-child(5),
+.md-typeset
+  .tabbed-set
+  > input:nth-child(6):checked
+  ~ .tabbed-labels
+  > :nth-child(6) {
   color: #ff6f00 !important;
   border-color: #ff6f00 !important;
   border-bottom-color: #ff6f00 !important;
@@ -732,14 +806,34 @@
  *   - Start states: orange fill + stroke
  *   - End states: outer circle (transparent fill + orange stroke), inner circle (orange fill + stroke)
  * CSS here is a fallback to ensure visibility before JS runs */
-[data-md-color-scheme="slate"] svg[data-diagram-type="STATE"] polygon[fill="#222222"],
-[data-md-color-scheme="slate"] svg[data-diagram-type="STATE"] polygon[fill="#222"],
-[data-md-color-scheme="slate"] .ekgf-diagram svg[data-diagram-type="STATE"] polygon[fill="#222222"],
-[data-md-color-scheme="slate"] .ekgf-diagram svg[data-diagram-type="STATE"] polygon[fill="#222"],
-[data-md-color-scheme="slate"] svg[data-diagram-type="STATE"] polygon[style*="stroke:#222222"],
-[data-md-color-scheme="slate"] svg[data-diagram-type="STATE"] polygon[style*="stroke:#222"],
-[data-md-color-scheme="slate"] .ekgf-diagram svg[data-diagram-type="STATE"] polygon[style*="stroke:#222222"],
-[data-md-color-scheme="slate"] .ekgf-diagram svg[data-diagram-type="STATE"] polygon[style*="stroke:#222"] {
+[data-md-color-scheme="slate"]
+  svg[data-diagram-type="STATE"]
+  polygon[fill="#222222"],
+[data-md-color-scheme="slate"]
+  svg[data-diagram-type="STATE"]
+  polygon[fill="#222"],
+[data-md-color-scheme="slate"]
+  .ekgf-diagram
+  svg[data-diagram-type="STATE"]
+  polygon[fill="#222222"],
+[data-md-color-scheme="slate"]
+  .ekgf-diagram
+  svg[data-diagram-type="STATE"]
+  polygon[fill="#222"],
+[data-md-color-scheme="slate"]
+  svg[data-diagram-type="STATE"]
+  polygon[style*="stroke:#222222"],
+[data-md-color-scheme="slate"]
+  svg[data-diagram-type="STATE"]
+  polygon[style*="stroke:#222"],
+[data-md-color-scheme="slate"]
+  .ekgf-diagram
+  svg[data-diagram-type="STATE"]
+  polygon[style*="stroke:#222222"],
+[data-md-color-scheme="slate"]
+  .ekgf-diagram
+  svg[data-diagram-type="STATE"]
+  polygon[style*="stroke:#222"] {
   stroke: #ff6f00 !important;
   /* Fill will be handled by JavaScript to differentiate start vs end states */
 }
@@ -846,17 +940,58 @@ object[data*=".svg"] {
   margin: 1rem 0;
 }
 
+/* Hide any summary/description paragraph that appears before H1 on use case pages */
+/* This targets Material's automatic summary rendering if it exists */
+.md-typeset
+  article[data-md-component="article"]
+  > .md-typeset
+  > p:first-child,
+.md-typeset article[data-md-component="article"] > p:first-child {
+  /* Check if next sibling is H1 - if so, hide this summary */
+  display: none;
+}
+
+.md-typeset
+  article[data-md-component="article"]
+  > .md-typeset
+  > h1
+  ~ p:first-of-type,
+.md-typeset
+  article[data-md-component="article"]
+  > h1
+  ~ p:first-of-type {
+  display: block;
+}
+
 /* PlantUML mindmap text color override in light mode */
 /* Default text color should be blue for connector text */
-[data-md-color-scheme="default"] .md-typeset object[data*=".svg"] svg text,
+[data-md-color-scheme="default"]
+  .md-typeset
+  object[data*=".svg"]
+  svg
+  text,
 [data-md-color-scheme="default"] .md-typeset .ekgf-diagram svg text {
   fill: #4051b5 !important;
 }
 
 /* Text inside boxes (nodes with polygons as background) should be white, larger, and bold */
 /* Polygons are used for mindmap node backgrounds in PlantUML */
-[data-md-color-scheme="default"] .md-typeset object[data*=".svg"] svg g polygon + a text,
-[data-md-color-scheme="default"] .md-typeset .ekgf-diagram svg g polygon + a text {
+[data-md-color-scheme="default"]
+  .md-typeset
+  object[data*=".svg"]
+  svg
+  g
+  polygon
+  + a
+  text,
+[data-md-color-scheme="default"]
+  .md-typeset
+  .ekgf-diagram
+  svg
+  g
+  polygon
+  + a
+  text {
   fill: #ffffff !important;
   font-size: 16px !important;
   font-weight: bold !important;
@@ -875,4 +1010,3 @@ object[data*=".svg"] {
 [data-md-color-scheme="slate"] .md-typeset img.only-light {
   display: none;
 }
-
