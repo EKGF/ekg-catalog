@@ -1,3 +1,7 @@
 title: Digital Twin of Technology and Data Landscape
 nav:
 - index.md
+- data-flow-and-lineage-mapping.md
+- dependency-and-relationship-mapping.md
+- security-and-compliance-posture-visibility.md
+- technology-estate-inventory.md
