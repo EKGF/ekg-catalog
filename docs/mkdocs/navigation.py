@@ -26,7 +26,9 @@ def build_nav(node_id: str, graph: dict, primary: dict) -> List[Any]:
     # Root-level nodes have only one path part (e.g., "client-360")
     is_root_level = len(Path(node_id).parts) == 1 if node_id else True
 
-    for cid, p in primary.items():
+    # Use sorted items for deterministic navigation order
+    for cid in sorted(primary.keys()):
+        p = primary[cid]
         # Skip if child not in graph (shouldn't happen, but safety check)
         if cid not in graph:
             continue

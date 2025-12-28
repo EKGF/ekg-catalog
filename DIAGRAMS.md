@@ -24,3 +24,7 @@
    direct subdirectory of `docs/use-case` is a root node in itself
    (such as `client-360`). Do not ever show a parent to the left of
    such a node.
+
+7. For each direct parent of the central node, all of that parent's
+   direct children must be shown (siblings of the central node),
+   providing context about related use cases at the same level.

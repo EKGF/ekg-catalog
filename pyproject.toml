@@ -8,8 +8,6 @@ readme = "README.md"
 license = { file = "LICENSE" }
 dependencies = [
   "mkdocs-material",
-  "mkdocs-build-plantuml-plugin",
-  "httpx",
   "mdutils",
   "mkdocs-awesome-pages-plugin",
   "mkdocs-exclude",
@@ -37,9 +35,6 @@ Repository = "https://github.com/EKGF/ekg-catalog"
 
 [project.scripts]
 generate-docs = "docs.main:main"
-
-[project.entry-points."mkdocs.plugins"]
-plantuml_async = "docs.mkdocs.plantuml_async:AsyncPlantUMLPlugin"
 
 [build-system]
 requires = ["hatchling"]

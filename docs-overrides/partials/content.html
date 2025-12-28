@@ -33,41 +33,43 @@
 <!-- Always show title for use case pages, or if content doesn't have H1 -->
 {% set is_use_case = False %}
 {% if page.meta.parents is defined %}
-  {% set is_use_case = True %}
+{% set is_use_case = True %}
 {% endif %}
 {% if not is_use_case and page.file and page.file.src_path %}
-  {% set src_path = page.file.src_path | string %}
-  {% if 'use-case/' in src_path and src_path != 'use-case/index.md' %}
-    {% set is_use_case = True %}
-  {% endif %}
+{% set src_path = page.file.src_path | string %}
+{% if 'use-case/' in src_path and src_path != 'use-case/index.md' %}
+{% set is_use_case = True %}
+{% endif %}
 {% endif %}
 {% if not is_use_case and page.url %}
-  {% set url_str = page.url | string %}
-  {% if '/use-case/' in url_str and url_str != '/use-case/' and url_str != '/use-case' %}
-    {% set is_use_case = True %}
-  {% endif %}
+{% set url_str = page.url | string %}
+{% if '/use-case/' in url_str and url_str != '/use-case/' and url_str != '/use-case' %}
+{% set is_use_case = True %}
+{% endif %}
 {% endif %}
 {% if is_use_case %}
 <!-- Use case pages: always show title as H1 at the top FIRST -->
 <!-- IMPORTANT: H1 must come BEFORE diagram and summary to ensure correct order -->
 {% if page.meta.letter_prefix %}
 <div class="objective-header-with-badge">
-<span class="objective-badge-standalone" data-letter="{{ page.meta.letter_prefix }}"></span>
-<h1>{{ page.title | d(config.site_name, true)}}</h1>
+  <span class="objective-badge-standalone" data-letter="{{ page.meta.letter_prefix }}"></span>
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
 </div>
 {% else %}
 <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
-<!-- Inject PlantUML mindmap diagram SECOND, immediately after H1 for use case pages -->
+<!-- Inject use case tree diagram SECOND, immediately after H1 for use case pages -->
 {% set use_case_path = page.url.strip('/').replace('use-case/', '') %}
 {% if use_case_path %}
-{% set path_segments = use_case_path.split('/') %}
-{% set depth = path_segments | length + 1 %}
-{% set relative_prefix = '../' * depth %}
-{% set diagram_path = relative_prefix + 'diagrams/out/' + use_case_path + '/mindmap.svg' %}
-<figure>
-<object data="{{ diagram_path }}#darkable" type="image/svg+xml"></object>
-</figure>
+{% set svg_base = 'use-case-tree-diagrams/' + use_case_path + '/use-case-tree' %}
+<div class="use-case-tree-diagram">
+  <div class="only-light">
+    {{ get_svg_content(svg_base + '.svg') }}
+  </div>
+  <div class="only-dark">
+    {{ get_svg_content(svg_base + '_dark.svg') }}
+  </div>
+</div>
 {% endif %}
 <!-- Display Summary section THIRD, after diagram, without H2 header -->
 {% if page.meta and page.meta.summary %}
@@ -80,8 +82,8 @@
 {% if not "\x3ch1" in page.content %}
 {% if page.meta.letter_prefix %}
 <div class="objective-header-with-badge">
-<span class="objective-badge-standalone" data-letter="{{ page.meta.letter_prefix }}"></span>
-<h1>{{ page.title | d(config.site_name, true)}}</h1>
+  <span class="objective-badge-standalone" data-letter="{{ page.meta.letter_prefix }}"></span>
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
 </div>
 {% else %}
 <h1>{{ page.title | d(config.site_name, true)}}</h1>

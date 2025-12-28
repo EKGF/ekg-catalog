@@ -56,9 +56,8 @@ clean:
 	@rm -rf site 2>/dev/null || true
 	@rm -rf .venv 2>/dev/null || true
 	@rm -rf *.lock 2>/dev/null || true
-	@rm -rf docs/diagrams/out 2>/dev/null || true
-	@echo "Cleaning generated PlantUML diagrams"
-	@find docs/diagrams/src -name "mindmap.puml" -type f -delete 2>/dev/null || true
+	@rm -rf docs/use-case-tree-diagrams 2>/dev/null || true
+	@echo "Cleaning generated diagrams"
 
 .PHONY: install
 install: docs-install

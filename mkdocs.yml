@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: EKG/Catalog
 site_description: Catalog and repository for components of the Enterprise Knowledge Graph
-repo_name: 'EKGF/ekg-catalog'
+repo_name: "EKGF/ekg-catalog"
 repo_url: https://github.com/EKGF/ekg-catalog
 site_url: https://catalog.ekgf.org
 edit_uri: edit/main/docs/
@@ -30,8 +30,8 @@ theme:
       primary: custom
       accent: custom
       toggle:
-#        icon: material/toggle-switch-off-outline
-#        icon: material/lightbulb-outline
+        #        icon: material/toggle-switch-off-outline
+        #        icon: material/lightbulb-outline
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -39,8 +39,8 @@ theme:
       primary: custom
       accent: custom
       toggle:
-#        icon: material/toggle-switch
-#        icon: material/lightbulb
+        #        icon: material/toggle-switch
+        #        icon: material/lightbulb
         icon: material/weather-night
         name: Switch to light mode
   features:
@@ -50,8 +50,8 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-#    - navigation.sections
-#    - navigation.expand
+    #    - navigation.sections
+    #    - navigation.expand
     - navigation.indexes
     - toc.follow
     - toc.integrate
@@ -93,21 +93,8 @@ plugins:
         - en
   - exclude-search:
       exclude:
-        - 'fragment/*'
-        - 'other/seo-guide.md'
-  - plantuml_async:
-      render: "server" # or "local" for local rendering
-      server: "http://www.plantuml.com/plantuml" # official plantuml server
-      output_format: "svg" # or "png"
-      diagram_root: "docs/diagrams" # should reside under docs_dir
-      output_folder: "out"
-      input_folder: "src"
-      input_extensions: "" # comma separated list of extensions to parse, by default every file is parsed
-      theme_enabled: true
-      theme_folder: "include/themes"
-      theme_light: "light.puml"
-      theme_dark: "dark.puml"
-      max_concurrent_requests: 8 # Number of parallel HTTP requests
+        - "fragment/*"
+        - "other/seo-guide.md"
   - awesome-pages:
       filename: .pages.yaml
       collapse_single_pages: false
@@ -117,8 +104,8 @@ plugins:
         - "*.tmp"
         - "*.sparql"
         - "*.gz"
-        - 'diagrams/src/*'
-        - 'fragment/*'
+        - "diagrams/src/*"
+        - "fragment/*"
       regex:
         - '.*\.(tmp|bin|tar)$'
         - '_.*\.md$'
@@ -132,7 +119,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - meta
-# - mdx_spanner
+  # - mdx_spanner
   - def_list
   - abbr
   - admonition

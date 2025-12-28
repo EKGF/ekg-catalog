@@ -5,9 +5,7 @@ from pathlib import Path
 # Base directories
 DOCS_DIR = Path(__file__).parent.parent
 USE_CASE_DIR = DOCS_DIR / "use-case"
-DIAGRAMS_SRC_DIR = DOCS_DIR / "diagrams" / "src"
-DIAGRAMS_OUT_DIR = DOCS_DIR / "diagrams" / "out"
-DIAGRAMS_INCLUDE_DIR = DOCS_DIR / "diagrams" / "include"
+DIAGRAMS_SRC_DIR = DOCS_DIR / "use-case-tree-diagrams"
 
 # Stop words for keyword extraction
 STOP_WORDS = {
