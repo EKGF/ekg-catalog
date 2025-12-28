@@ -95,7 +95,6 @@ plugins:
       exclude:
         - 'fragment/*'
         - 'other/seo-guide.md'
-      max_concurrent_requests: 8 # Number of parallel HTTP requests
   - awesome-pages:
       filename: .pages.yaml
       collapse_single_pages: false

@@ -58,13 +58,13 @@
 {% else %}
 <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
-<!-- Inject PlantUML mindmap diagram SECOND, immediately after H1 for use case pages -->
+<!-- Inject use case tree diagram SECOND, immediately after H1 for use case pages -->
 {% set use_case_path = page.url.strip('/').replace('use-case/', '') %}
 {% if use_case_path %}
 {% set path_segments = use_case_path.split('/') %}
 {% set depth = path_segments | length + 1 %}
 {% set relative_prefix = '../' * depth %}
-{% set diagram_path = relative_prefix + 'diagrams/out/' + use_case_path + '/mindmap.svg' %}
+{% set diagram_path = relative_prefix + 'use-case-tree-diagrams/' + use_case_path + '/use-case-tree.svg' %}
 <figure>
 <object data="{{ diagram_path }}#darkable" type="image/svg+xml"></object>
 </figure>

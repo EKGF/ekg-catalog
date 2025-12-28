@@ -1,5 +1,5 @@
 /**
- * Inline PlantUML SVGs (rendered via mkdocs-build-plantuml) so that:
+ * Inline SVG diagrams so that:
  * - Clickable hyperlinks keep working
  * - Light/dark variants can be swapped even though Material only supports
  *   #darkable on <img>, not <object>

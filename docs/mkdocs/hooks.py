@@ -5,7 +5,7 @@ import re
 # Use relative imports - MkDocs imports this as a module
 from .graph import build_graph
 from .navigation import write_pages_yaml
-from .diagrams import write_pumls
+from .svg_generator import generate_svg_use_case_trees
 
 
 def define_env(env):
@@ -120,36 +120,28 @@ def on_pre_build(config):
     graph_time = time.time() - start
 
     start = time.time()
-    write_pumls(graph)
-    diagram_time = time.time() - start
+    generate_svg_use_case_trees(graph)
+    svg_time = time.time() - start
 
     start = time.time()
     write_pages_yaml(graph)
     nav_time = time.time() - start
 
-    # Count generated diagrams
+    # Count generated SVG diagrams
     from .constants import DIAGRAMS_SRC_DIR
 
-    diagram_count = (
-        len(list(DIAGRAMS_SRC_DIR.rglob("mindmap.puml")))
+    svg_count = (
+        len(list(DIAGRAMS_SRC_DIR.rglob("use-case-tree.svg")))
         if DIAGRAMS_SRC_DIR.exists()
         else 0
     )
 
-    # Note: Parallel rendering would require processing !include directives
-    # which is complex. The mkdocs-build-plantuml plugin handles this correctly
-    # but processes diagrams sequentially. For now, we let the plugin handle
-    # all rendering to ensure includes are processed correctly.
-    render_time = 0.0
-
-    total_time = graph_time + diagram_time + nav_time + render_time
+    total_time = graph_time + svg_time + nav_time
     print(
-        f"PlantUML source generation timing: graph={graph_time:.3f}s ({len(graph)} nodes), "
-        f"diagrams={diagram_time:.3f}s ({diagram_count} files), "
+        f"SVG generation timing: graph={graph_time:.3f}s ({len(graph)} nodes), "
+        f"svg={svg_time:.3f}s ({svg_count} files), "
         f"navigation={nav_time:.3f}s"
     )
-    if render_time > 0:
-        print(f"  Parallel SVG rendering: {render_time:.3f}s ({diagram_count} files)")
-        if diagram_count > 0:
-            print(f"  Average: {render_time / diagram_count * 1000:.2f} ms per SVG")
+    if svg_count > 0:
+        print(f"  Average: {svg_time / svg_count * 1000:.2f} ms per SVG")
     print(f"  Total: {total_time:.3f}s")

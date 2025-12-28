@@ -8,8 +8,6 @@ readme = "README.md"
 license = { file = "LICENSE" }
 dependencies = [
   "mkdocs-material",
-  "mkdocs-build-plantuml-plugin",
-  "httpx",
   "mdutils",
   "mkdocs-awesome-pages-plugin",
   "mkdocs-exclude",

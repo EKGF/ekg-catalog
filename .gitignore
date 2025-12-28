@@ -5,9 +5,8 @@ __pypackages__/
 site/
 poetry.lock
 
-# Generated PlantUML mindmap diagrams
-**/mindmap.puml
-docs/diagrams/out/
+# Generated use case tree diagrams
+docs/use-case-tree-diagrams/
 .DS_Store
 .texpadtmp
 *.aux

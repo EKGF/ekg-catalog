@@ -18,83 +18,6 @@
   --md-accent-fg-color--dark: #e65100;
 }
 
-/* Force Mermaid diagram elements to use EKGF colors */
-/* Apply to all possible rect elements - node backgrounds - use indigo blue (#4051b5) to match PlantUML class diagrams */
-.mermaid rect,
-.mermaid .node rect,
-.mermaid .node circle,
-.mermaid .node ellipse,
-.mermaid .node polygon,
-.mermaid .cluster rect,
-.mermaid g.classGroup rect,
-.mermaid g rect.divider,
-.mermaid g.classGroup > rect:first-child,
-.mermaid svg g rect {
-  fill: #4051b5 !important;
-  stroke: #ff6f00 !important;
-  stroke-width: 2px !important;
-}
-
-/* Connector lines, relations, and arrows - orange */
-.mermaid path,
-.mermaid line,
-.mermaid .edgePath path,
-.mermaid .flowchart-link,
-.mermaid line.relation,
-.mermaid path.relation,
-.mermaid line[class*="messageLine"],
-.mermaid path[class*="messageLine"],
-.mermaid .relationshipLine {
-  stroke: #ff6f00 !important;
-  stroke-width: 2px !important;
-}
-
-/* Arrow markers - orange */
-.mermaid marker path,
-.mermaid defs marker path,
-.mermaid marker polygon {
-  fill: #ff6f00 !important;
-  stroke: #ff6f00 !important;
-}
-
-/* Text labels on nodes - white */
-.mermaid text,
-.mermaid .nodeLabel,
-.mermaid text.nodeLabel,
-.mermaid .node text,
-.mermaid .classLabel .label,
-.mermaid tspan,
-.mermaid g.classGroup text,
-.mermaid .classLabel text {
-  fill: #ffffff !important;
-  color: #ffffff !important;
-}
-
-/* Edge labels - keep dark for readability on light background */
-.mermaid .edgeLabel,
-.mermaid .edgeLabel text,
-.mermaid .edgeLabel tspan,
-.mermaid .edgeLabel rect {
-  fill: #333333 !important;
-  color: #333333 !important;
-}
-
-.mermaid .edgeLabel rect {
-  fill: #ffffff !important;
-}
-
-/* Dark mode edge label adjustments */
-[data-md-color-scheme="slate"] .mermaid .edgeLabel,
-[data-md-color-scheme="slate"] .mermaid .edgeLabel text,
-[data-md-color-scheme="slate"] .mermaid .edgeLabel tspan {
-  fill: #ffffff !important;
-  color: #ffffff !important;
-}
-
-[data-md-color-scheme="slate"] .mermaid .edgeLabel rect {
-  fill: #1e1e1e !important;
-}
-
 /* Card Design Enhancements */
 
 /* Grid cards container - improved spacing */
@@ -801,91 +724,8 @@
 
 /* Hover state - orange on hover for all tabs */
 
-/* Fix PlantUML start/end state visibility in dark mode */
-/* JavaScript (darkable-objects.js) handles the differentiation:
- *   - Start states: orange fill + stroke
- *   - End states: outer circle (transparent fill + orange stroke), inner circle (orange fill + stroke)
- * CSS here is a fallback to ensure visibility before JS runs */
-[data-md-color-scheme="slate"]
-  svg[data-diagram-type="STATE"]
-  polygon[fill="#222222"],
-[data-md-color-scheme="slate"]
-  svg[data-diagram-type="STATE"]
-  polygon[fill="#222"],
-[data-md-color-scheme="slate"]
-  .ekgf-diagram
-  svg[data-diagram-type="STATE"]
-  polygon[fill="#222222"],
-[data-md-color-scheme="slate"]
-  .ekgf-diagram
-  svg[data-diagram-type="STATE"]
-  polygon[fill="#222"],
-[data-md-color-scheme="slate"]
-  svg[data-diagram-type="STATE"]
-  polygon[style*="stroke:#222222"],
-[data-md-color-scheme="slate"]
-  svg[data-diagram-type="STATE"]
-  polygon[style*="stroke:#222"],
-[data-md-color-scheme="slate"]
-  .ekgf-diagram
-  svg[data-diagram-type="STATE"]
-  polygon[style*="stroke:#222222"],
-[data-md-color-scheme="slate"]
-  .ekgf-diagram
-  svg[data-diagram-type="STATE"]
-  polygon[style*="stroke:#222"] {
-  stroke: #ff6f00 !important;
-  /* Fill will be handled by JavaScript to differentiate start vs end states */
-}
 .md-typeset .tabbed-labels > label:hover {
   color: #ff6f00 !important;
-}
-
-/* PlantUML diagram container injected via darkable-objects.js */
-.ekgf-diagram {
-  display: block;
-  width: auto;
-  max-width: 100%;
-}
-
-.ekgf-diagram svg {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.md-typeset figure > .ekgf-diagram {
-  margin: 0;
-}
-
-/* FORCE transparent backgrounds on ALL figure and object elements */
-figure,
-figure[markdown],
-figure > *,
-.md-typeset figure,
-.md-typeset figure[markdown],
-.md-typeset figure > p,
-.md-typeset figure > p > *,
-object[type="image/svg+xml"],
-object[data*=".svg"] {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
-}
-
-/* Dark mode - even more aggressive */
-[data-md-color-scheme="slate"] figure,
-[data-md-color-scheme="slate"] figure[markdown],
-[data-md-color-scheme="slate"] figure > *,
-[data-md-color-scheme="slate"] .md-typeset figure,
-[data-md-color-scheme="slate"] .md-typeset figure[markdown],
-[data-md-color-scheme="slate"] .md-typeset figure > p,
-[data-md-color-scheme="slate"] .md-typeset figure > p > *,
-[data-md-color-scheme="slate"] object[type="image/svg+xml"],
-[data-md-color-scheme="slate"] object[data*=".svg"] {
-  background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
 }
 
 /* Dark mode bold text - use lighter blue instead of dark blue/purple */
@@ -963,39 +803,7 @@ object[data*=".svg"] {
   display: block;
 }
 
-/* PlantUML mindmap text color override in light mode */
-/* Default text color should be blue for connector text */
-[data-md-color-scheme="default"]
-  .md-typeset
-  object[data*=".svg"]
-  svg
-  text,
-[data-md-color-scheme="default"] .md-typeset .ekgf-diagram svg text {
-  fill: #4051b5 !important;
-}
-
-/* Text inside boxes (nodes with polygons as background) should be white, larger, and bold */
-/* Polygons are used for mindmap node backgrounds in PlantUML */
-[data-md-color-scheme="default"]
-  .md-typeset
-  object[data*=".svg"]
-  svg
-  g
-  polygon
-  + a
-  text,
-[data-md-color-scheme="default"]
-  .md-typeset
-  .ekgf-diagram
-  svg
-  g
-  polygon
-  + a
-  text {
-  fill: #ffffff !important;
-  font-size: 16px !important;
-  font-weight: bold !important;
-}
+/* Images in dark mode - transparent background */
 
 /* Images in dark mode - transparent background */
 [data-md-color-scheme="slate"] .md-typeset img {
