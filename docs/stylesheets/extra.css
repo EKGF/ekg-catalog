@@ -791,6 +791,12 @@
   display: none;
 }
 
+/* Reduce space between H1 and diagram on use case pages */
+.md-typeset h1,
+.md-typeset .objective-header-with-badge {
+  margin-bottom: 0.25rem !important;
+}
+
 .md-typeset
   article[data-md-component="article"]
   > .md-typeset
@@ -810,15 +816,17 @@
 
 /* Use case tree diagram container */
 .use-case-tree-diagram {
-  margin: 1.5rem 0;
+  margin: 0.5rem 0 1.5rem 0; /* Reduced top margin from 1.5rem to 0.5rem */
   width: 100%;
+  display: flex;
+  justify-content: flex-start; /* Left align */
 }
 
 .use-case-tree-diagram svg {
   display: block;
-  width: 100%;
+  width: auto; /* Use natural width from SVG attributes */
   height: auto;
-  max-width: 100%;
+  max-width: 100%; /* But don't overflow container */
 }
 
 /* Light/Dark mode visibility toggles for inlined elements */

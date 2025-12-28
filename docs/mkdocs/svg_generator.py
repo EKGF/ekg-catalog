@@ -208,8 +208,12 @@ class SVGUseCaseTreeGenerator:
         all_x_right = [x + node_widths[nid] for nid, (x, y) in positions.items()]
         all_y = [y for x, y in positions.values()]
 
-        min_x, min_y = min(all_x_left) - 50, min(all_y) - self.node_height - 50
-        max_x, max_y = max(all_x_right) + 50, max(all_y) + self.node_height + 50
+        # Use minimal padding (5px) for a tight fit
+        padding = 5
+        min_x = min(all_x_left) - padding
+        min_y = min(all_y) - (self.node_height / 2) - padding
+        max_x = max(all_x_right) + padding
+        max_y = max(all_y) + (self.node_height / 2) + padding
         width, height = max_x - min_x, max_y - min_y
 
         # Pre-calculate max_x2 for each column group to determine common trunk points
@@ -234,8 +238,9 @@ class SVGUseCaseTreeGenerator:
                 "xmlns": "http://www.w3.org/2000/svg",
                 "xmlns:xlink": "http://www.w3.org/1999/xlink",
                 "viewBox": f"{min_x:.2f} {min_y:.2f} {width:.2f} {height:.2f}",
-                "width": "100%",
-                "style": "max-width: 100%; height: auto;",
+                "width": f"{width:.2f}px",
+                "height": f"{height:.2f}px",
+                "class": "use-case-tree-svg",
             },
         )
         ET.SubElement(
