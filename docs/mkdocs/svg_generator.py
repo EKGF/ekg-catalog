@@ -187,7 +187,8 @@ class SVGUseCaseTreeGenerator:
                 edges.append((level_l2[0], primary_parent_id))
         for nid in level_r1:
             edges.append((node_id, nid))
-            for gcid in graph[nid]["children"]:
+            # Sort children for deterministic SVG output
+            for gcid in sorted(list(graph[nid].get("children", []))):
                 if gcid in positions:
                     edges.append((nid, gcid))
 
@@ -213,7 +214,9 @@ class SVGUseCaseTreeGenerator:
 
         # Pre-calculate max_x2 for each column group to determine common trunk points
         col_max_x2 = {}
-        for nid, (x, y) in positions.items():
+        # Use sorted keys for deterministic calculation
+        for nid in sorted(positions.keys()):
+            x, y = positions[nid]
             ntype = node_types[nid]
             if ntype in ["center", "sibling"]:
                 col = "level0"
@@ -230,16 +233,17 @@ class SVGUseCaseTreeGenerator:
             {
                 "xmlns": "http://www.w3.org/2000/svg",
                 "xmlns:xlink": "http://www.w3.org/1999/xlink",
-                "viewBox": f"{min_x} {min_y} {width} {height}",
-                "width": f"{width}px",
-                "height": f"{height}px",
+                "viewBox": f"{min_x:.2f} {min_y:.2f} {width:.2f} {height:.2f}",
+                "width": "100%",
+                "style": "max-width: 100%; height: auto;",
             },
         )
         ET.SubElement(
             svg, "rect", {"width": "100%", "height": "100%", "fill": self.bg_color}
         )
 
-        for parent_id, child_id in edges:
+        # Sort edges for deterministic XML element order
+        for parent_id, child_id in sorted(edges):
             if parent_id not in positions or child_id not in positions:
                 continue
             p_x, p_y = positions[parent_id]
@@ -274,10 +278,10 @@ class SVGUseCaseTreeGenerator:
                         svg,
                         "line",
                         {
-                            "x1": str(p_edge_x),
-                            "y1": str(p_y),
-                            "x2": str(trunk_x),
-                            "y2": str(p_y),
+                            "x1": f"{p_edge_x:.2f}",
+                            "y1": f"{p_y:.2f}",
+                            "x2": f"{trunk_x:.2f}",
+                            "y2": f"{p_y:.2f}",
                             "stroke": self.line_color,
                             "stroke-width": "1.5",
                         },
@@ -291,7 +295,10 @@ class SVGUseCaseTreeGenerator:
                     svg, p_x, p_y, c_x + c_w, c_y, node_types.get(child_id, "")
                 )
 
-        for nid, (box_left, y) in positions.items():
+        # Draw nodes (positions are left edges)
+        # Use sorted keys for deterministic XML element order
+        for nid in sorted(positions.keys()):
+            box_left, y = positions[nid]
             self._draw_node(
                 svg,
                 nid,
@@ -321,7 +328,7 @@ class SVGUseCaseTreeGenerator:
             cx1, cy1, cx2, cy2 = x1 + control_offset, y1, x2 - control_offset, y2
         else:
             cx1, cy1, cx2, cy2 = x1 - control_offset, y1, x2 + control_offset, y2
-        path_data = f"M {x1} {y1} C {cx1} {cy1}, {cx2} {cy2}, {x2} {y2}"
+        path_data = f"M {x1:.2f} {y1:.2f} C {cx1:.2f} {cy1:.2f}, {cx2:.2f} {cy2:.2f}, {x2:.2f} {y2:.2f}"
         ET.SubElement(
             parent,
             "path",
@@ -355,9 +362,9 @@ class SVGUseCaseTreeGenerator:
                 a,
                 "rect",
                 {
-                    "x": str(box_x),
-                    "y": str(box_y),
-                    "width": str(node_width),
+                    "x": f"{box_x:.2f}",
+                    "y": f"{box_y:.2f}",
+                    "width": f"{node_width:.2f}",
                     "height": str(self.node_height),
                     "rx": str(self.box_radius),
                     "ry": str(self.box_radius),
@@ -371,9 +378,9 @@ class SVGUseCaseTreeGenerator:
                 a,
                 "rect",
                 {
-                    "x": str(box_x),
-                    "y": str(box_y),
-                    "width": str(node_width),
+                    "x": f"{box_x:.2f}",
+                    "y": f"{box_y:.2f}",
+                    "width": f"{node_width:.2f}",
                     "height": str(self.node_height),
                     "rx": str(self.box_radius),
                     "ry": str(self.box_radius),
@@ -388,8 +395,8 @@ class SVGUseCaseTreeGenerator:
             a,
             "text",
             {
-                "x": str(text_x),
-                "y": str(text_y),
+                "x": f"{text_x:.2f}",
+                "y": f"{text_y:.2f}",
                 "text-anchor": "start",
                 "font-family": self.font_family,
                 "font-size": str(self.font_size),
@@ -399,10 +406,17 @@ class SVGUseCaseTreeGenerator:
         ).text = title
 
 
+try:
+    import mkdocs_gen_files
+except ImportError:
+    mkdocs_gen_files = None
+
+
 def generate_svg_use_case_trees(graph: dict, max_workers: int = 8):
     """Generate SVG use case tree diagram files for all use cases."""
 
     def render_and_write(node_id: str):
+        # Generate both light and dark versions
         for theme in ["light", "dark"]:
             generator = SVGUseCaseTreeGenerator(theme=theme)
             positions, node_types, node_widths, edges = generator.calculate_layout(
@@ -411,12 +425,37 @@ def generate_svg_use_case_trees(graph: dict, max_workers: int = 8):
             svg_content = generator.generate_svg(
                 node_id, graph, positions, node_types, node_widths, edges
             )
+
             suffix = "_dark" if theme == "dark" else ""
-            target = DIAGRAMS_SRC_DIR / node_id / f"use-case-tree{suffix}.svg"
-            target.parent.mkdir(parents=True, exist_ok=True)
-            if not target.exists() or target.read_text(encoding="utf-8") != svg_content:
+            path = f"use-case-tree-diagrams/{node_id}/use-case-tree{suffix}.svg"
+
+            if mkdocs_gen_files:
+                # Use mkdocs-gen-files to avoid triggering watch loop
+                # This writes to a virtual file system during serve/build
+                with mkdocs_gen_files.open(path, "wb") as f:
+                    f.write(svg_content.encode("utf-8"))
+            else:
+                # Fallback to direct file writing
+                target = DIAGRAMS_SRC_DIR / node_id / f"use-case-tree{suffix}.svg"
+
+                if target.exists():
+                    existing = target.read_text(encoding="utf-8")
+                    if existing == svg_content:
+                        continue
+
+                target.parent.mkdir(parents=True, exist_ok=True)
                 target.write_text(svg_content, encoding="utf-8")
 
-    node_ids_to_process = list(graph.keys())
-    with ThreadPoolExecutor(max_workers=max_workers) as ex:
-        list(ex.map(render_and_write, node_ids_to_process))
+    # Generate diagrams for all nodes in the graph
+    # Sort node IDs for deterministic build order
+    node_ids_to_process = sorted(list(graph.keys()))
+
+    if mkdocs_gen_files:
+        # Use mkdocs-gen-files sequentially to avoid potential thread-safety issues
+        # with the plugin's virtual file system
+        for node_id in node_ids_to_process:
+            render_and_write(node_id)
+    else:
+        # Fallback to parallel direct file writing
+        with ThreadPoolExecutor(max_workers=max_workers) as ex:
+            list(ex.map(render_and_write, node_ids_to_process))

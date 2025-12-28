@@ -804,10 +804,30 @@
 }
 
 /* Images in dark mode - transparent background */
-
-/* Images in dark mode - transparent background */
 [data-md-color-scheme="slate"] .md-typeset img {
   background: transparent !important;
+}
+
+/* Use case tree diagram container */
+.use-case-tree-diagram {
+  margin: 1.5rem 0;
+  width: 100%;
+}
+
+.use-case-tree-diagram svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Light/Dark mode visibility toggles for inlined elements */
+[data-md-color-scheme="default"] .only-dark {
+  display: none !important;
+}
+
+[data-md-color-scheme="slate"] .only-light {
+  display: none !important;
 }
 
 /* Show/hide images based on color scheme */

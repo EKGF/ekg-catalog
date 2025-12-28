@@ -8,16 +8,30 @@ from .navigation import write_pages_yaml
 from .svg_generator import generate_svg_use_case_trees
 
 
-def define_env(env):
-    """MkDocs hook: define macros and filters."""
+def on_env(env, config, files):
+    """Register functions into the Jinja2 environment."""
 
-    @env.macro
-    def test123(page):
-        pages = []
-        while page.next_page:
-            pages.append(page.next_page)
-            page = page.next_page
-        return pages
+    def get_svg_content(file_path: str) -> str:
+        """Read SVG file content from the docs directory."""
+        from .constants import DOCS_DIR
+        import os
+
+        # Ensure the path is relative to the docs directory
+        abs_path = (DOCS_DIR / file_path).resolve()
+        if not abs_path.exists():
+            return f"<!-- SVG not found: {file_path} -->"
+
+        try:
+            content = abs_path.read_text(encoding="utf-8")
+            # Remove XML declaration if present
+            if content.startswith("<?xml"):
+                content = content.split("?>", 1)[-1].strip()
+            return content
+        except Exception as e:
+            return f"<!-- Error reading SVG {file_path}: {e} -->"
+
+    # Add the function to the Jinja2 globals
+    env.globals["get_svg_content"] = get_svg_content
 
     def remove_h1(content):
         """Remove H1 tags from content for use case pages."""
@@ -39,19 +53,10 @@ def define_env(env):
         return result
 
     # Register filter - try both methods for compatibility
-    if hasattr(env, "filter"):
-        try:
-            env.filter("remove_h1")(remove_h1)
-        except Exception:
-            pass
     if hasattr(env, "filters"):
         env.filters["remove_h1"] = remove_h1
-    # Also register as a macro for alternative access
-    if hasattr(env, "macro"):
-        try:
-            env.macro("remove_h1")(remove_h1)
-        except Exception:
-            pass
+
+    return env
 
 
 def on_page_content(html, page, config, files):
