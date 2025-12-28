@@ -27,31 +27,37 @@ def build_nav(node_id: str, graph: dict, primary: dict) -> List[Any]:
     is_root_level = len(Path(node_id).parts) == 1 if node_id else True
 
     # Use sorted items for deterministic navigation order
-    for cid in sorted(primary.keys()):
-        p = primary[cid]
-        # Skip if child not in graph (shouldn't happen, but safety check)
-        if cid not in graph:
+    for cid in sorted(graph.keys()):
+        # Skip if not in primary (shouldn't happen, but safety check)
+        if cid not in primary:
             continue
+        p = primary[cid]
 
         # For root-level navigation (when node_id is empty), find top-level use cases
+        # Navigation is based on FILESYSTEM location, not logical parent relationships
         # Top-level use cases are directly under USE_CASE_DIR (exactly 2 path parts)
         if not node_id:
             node_path = graph[cid]["path"]
             rel_to_base = node_path.relative_to(USE_CASE_DIR)
-            # Top-level: exactly 2 parts (e.g., "client-360/index.md")
+            # Top-level: exactly 2 parts (e.g., "client-360/index.md" or "core-record-management/index.md")
             if len(rel_to_base.parts) != 2:
                 continue
-            # Top-level use cases have no valid parent in the graph (their parent would have been root)
-            # Check if this is a top-level use case by path depth (one part: "client-360")
+            # Check if this is a top-level use case by path depth (one part: "client-360" or "core-record-management")
             if len(Path(cid).parts) != 1:
                 continue
-            # Top-level use cases have empty parent (resolved from ".." at root level)
-            if p and p != "":
-                continue
+            # Include all use cases at this filesystem level regardless of logical parent
         else:
+            # For non-root navigation, only include filesystem children
             if p != node_id:
                 continue
-        rel_path = graph[cid]["path"].relative_to(base_dir).as_posix()
+
+        # Check if child is actually under base_dir in filesystem
+        # If not, skip it (it's a logical child but not a filesystem child)
+        try:
+            rel_path = graph[cid]["path"].relative_to(base_dir).as_posix()
+        except ValueError:
+            # Child is not under base_dir in filesystem, skip it
+            continue
         if graph[cid]["path"].stem == "index":
             # For index.md files, reference the directory, not the file
             # Strip /index.md from the path to get just the directory
@@ -72,12 +78,12 @@ def build_nav(node_id: str, graph: dict, primary: dict) -> List[Any]:
     dirs.sort()
     files.sort()
     result = dirs + files
-    
+
     # For root-level navigation, move "other" to the end
     if not node_id and "other" in result:
         result.remove("other")
         result.append("other")
-    
+
     return result
 
 

@@ -96,7 +96,7 @@ class SVGUseCaseTreeGenerator:
         Dict[str, Tuple[float, float]],
         Dict[str, str],
         Dict[str, float],
-        List[Tuple[str, str]],
+        List[Tuple[str, str, str]],  # (parent, child, edge_type)
     ]:
         """Calculate positions using global column packing."""
         positions = {}
@@ -112,27 +112,41 @@ class SVGUseCaseTreeGenerator:
                 )
 
         # 1. Collect nodes for each column
-        parents = node.get("parents", [])
+        # Primary parent is from is-part-of (should be 0 or 1)
+        is_part_of = node.get("is-part-of", [])
+        is_used_in = node.get("is-used-in", [])
+
         primary_parent_id = next(
-            (p for p in parents if p and p != "" and p in graph), None
+            (p for p in is_part_of if p and p != "" and p in graph), None
         )
 
+        # Get is-used-in parents (for dotted line connections to the left)
+        used_in_parents = [p for p in is_used_in if p and p != "" and p in graph]
+
         level_0 = (
-            sorted(list(graph[primary_parent_id]["children"]))
+            sorted(list(graph[primary_parent_id]["part-of-children"]))
             if primary_parent_id
             else [node_id]
         )
+        # Children include both part-of and used-in
         level_r1 = sorted(list(graph[node_id]["children"]))
         level_r2 = []
         for r1id in level_r1:
             level_r2.extend(sorted(list(graph[r1id]["children"])))
-        level_l1 = [primary_parent_id] if primary_parent_id else []
+
+        # Left side: primary parent (solid) and used-in parents (dotted)
+        level_l1 = []
+        if primary_parent_id:
+            level_l1.append(primary_parent_id)
+        # Add used-in parents below the primary parent
+        level_l1.extend(sorted(used_in_parents))
+
         level_l2 = []
-        if primary_parent_id and graph[primary_parent_id].get("parents"):
+        if primary_parent_id and graph[primary_parent_id].get("is-part-of"):
             gp_id = next(
                 (
                     p
-                    for p in graph[primary_parent_id]["parents"]
+                    for p in graph[primary_parent_id]["is-part-of"]
                     if p and p != "" and p in graph
                 ),
                 None,
@@ -172,25 +186,72 @@ class SVGUseCaseTreeGenerator:
         _position_column(level_r2, col_r2_x, "grandchild")
 
         center_y = positions[node_id][1]
+
+        # Position level_l1 items (primary parent + used-in parents)
         if level_l1:
-            positions[level_l1[0]] = (col_l1_x, center_y)
-            node_types[level_l1[0]] = "parent"
+            # If there's only one parent, center it
+            if len(level_l1) == 1:
+                positions[level_l1[0]] = (col_l1_x, center_y)
+                # Determine type based on whether it's primary_parent_id
+                if level_l1[0] == primary_parent_id:
+                    node_types[level_l1[0]] = "parent"
+                else:
+                    node_types[level_l1[0]] = "used-in-parent"
+            else:
+                # Multiple parents: stack them vertically centered around center_y
+                total_h = len(level_l1) * self.node_height
+                start_y = center_y - total_h / 2 + self.node_height / 2
+                for i, nid in enumerate(level_l1):
+                    positions[nid] = (col_l1_x, start_y + i * self.node_height)
+                    # Determine type based on whether it's primary_parent_id
+                    if nid == primary_parent_id:
+                        node_types[nid] = "parent"
+                    else:
+                        node_types[nid] = "used-in-parent"
+
         if level_l2:
             positions[level_l2[0]] = (col_l2_x, center_y)
             node_types[level_l2[0]] = "grandparent"
 
-        # 4. Build edges
+        # 4. Build edges with types (solid for is-part-of, dotted for is-used-in)
+
+        # Edges from primary parent to siblings (level_0)
         if primary_parent_id:
             for nid in level_0:
-                edges.append((primary_parent_id, nid))
+                # Check if this is part-of or used-in relationship
+                if nid in graph[primary_parent_id]["part-of-children"]:
+                    edges.append((primary_parent_id, nid, "solid"))
+                elif nid in graph[primary_parent_id]["used-in-children"]:
+                    edges.append((primary_parent_id, nid, "dotted"))
+                else:
+                    edges.append((primary_parent_id, nid, "solid"))  # fallback
             if level_l2:
-                edges.append((level_l2[0], primary_parent_id))
+                edges.append((level_l2[0], primary_parent_id, "solid"))
+
+        # Edges from used-in parents to center node (dotted lines)
+        for used_in_parent in used_in_parents:
+            if used_in_parent in positions:
+                edges.append((used_in_parent, node_id, "dotted"))
+
+        # Edges from center to children
         for nid in level_r1:
-            edges.append((node_id, nid))
+            # Check edge type for center's children
+            if nid in graph[node_id]["part-of-children"]:
+                edges.append((node_id, nid, "solid"))
+            elif nid in graph[node_id]["used-in-children"]:
+                edges.append((node_id, nid, "dotted"))
+            else:
+                edges.append((node_id, nid, "solid"))  # fallback
             # Sort children for deterministic SVG output
             for gcid in sorted(list(graph[nid].get("children", []))):
                 if gcid in positions:
-                    edges.append((nid, gcid))
+                    # Determine edge type for grandchildren
+                    if gcid in graph[nid]["part-of-children"]:
+                        edges.append((nid, gcid, "solid"))
+                    elif gcid in graph[nid]["used-in-children"]:
+                        edges.append((nid, gcid, "dotted"))
+                    else:
+                        edges.append((nid, gcid, "solid"))  # fallback
 
         return positions, node_types, node_widths, edges
 
@@ -201,7 +262,7 @@ class SVGUseCaseTreeGenerator:
         positions: Dict[str, Tuple[float, float]],
         node_types: Dict[str, str],
         node_widths: Dict[str, float],
-        edges: List[Tuple[str, str]],
+        edges: List[Tuple[str, str, str]],  # (parent, child, edge_type)
     ) -> str:
         """Generate SVG content for a use case tree diagram."""
         all_x_left = [x for x, y in positions.values()]
@@ -224,7 +285,7 @@ class SVGUseCaseTreeGenerator:
             ntype = node_types[nid]
             if ntype in ["center", "sibling"]:
                 col = "level0"
-            elif ntype == "parent":
+            elif ntype in ["parent", "used-in-parent"]:
                 col = "levelL1"
             elif ntype == "grandparent":
                 col = "levelL2"
@@ -248,7 +309,7 @@ class SVGUseCaseTreeGenerator:
         )
 
         # Sort edges for deterministic XML element order
-        for parent_id, child_id in sorted(edges):
+        for parent_id, child_id, edge_type in sorted(edges):
             if parent_id not in positions or child_id not in positions:
                 continue
             p_x, p_y = positions[parent_id]
@@ -260,7 +321,7 @@ class SVGUseCaseTreeGenerator:
                 # Group columns together for trunk calculation
                 if p_type in ["center", "sibling"]:
                     col = "level0"
-                elif p_type == "parent":
+                elif p_type in ["parent", "used-in-parent"]:
                     col = "levelL1"
                 elif p_type == "grandparent":
                     col = "levelL2"
@@ -269,7 +330,8 @@ class SVGUseCaseTreeGenerator:
 
                 # Determine if this is the absolute leftmost column in the diagram
                 is_leftmost = (p_type == "grandparent") or (
-                    p_type == "parent" and "levelL2" not in col_max_x2
+                    p_type in ["parent", "used-in-parent"]
+                    and "levelL2" not in col_max_x2
                 )
 
                 # Trunk offset: +10px for the leftmost column (sticks out), -5px for all others (tight but safe)
@@ -279,25 +341,30 @@ class SVGUseCaseTreeGenerator:
                 # Draw straight line from parent edge to trunk
                 p_edge_x = p_x + p_w
                 if trunk_x > p_edge_x:
-                    ET.SubElement(
-                        svg,
-                        "line",
-                        {
-                            "x1": f"{p_edge_x:.2f}",
-                            "y1": f"{p_y:.2f}",
-                            "x2": f"{trunk_x:.2f}",
-                            "y2": f"{p_y:.2f}",
-                            "stroke": self.line_color,
-                            "stroke-width": "1.5",
-                        },
-                    )
+                    line_attrs = {
+                        "x1": f"{p_edge_x:.2f}",
+                        "y1": f"{p_y:.2f}",
+                        "x2": f"{trunk_x:.2f}",
+                        "y2": f"{p_y:.2f}",
+                        "stroke": self.line_color,
+                        "stroke-width": "1.5",
+                    }
+                    if edge_type == "dotted":
+                        line_attrs["stroke-dasharray"] = "4 2"
+                    ET.SubElement(svg, "line", line_attrs)
 
                 self._draw_connection(
-                    svg, trunk_x, p_y, c_x, c_y, node_types.get(child_id, "")
+                    svg, trunk_x, p_y, c_x, c_y, node_types.get(child_id, ""), edge_type
                 )
             else:
                 self._draw_connection(
-                    svg, p_x, p_y, c_x + c_w, c_y, node_types.get(child_id, "")
+                    svg,
+                    p_x,
+                    p_y,
+                    c_x + c_w,
+                    c_y,
+                    node_types.get(child_id, ""),
+                    edge_type,
                 )
 
         # Draw nodes (positions are left edges)
@@ -325,6 +392,7 @@ class SVGUseCaseTreeGenerator:
         x2: float,
         y2: float,
         node_type: str,
+        edge_type: str = "solid",
     ):
         """Draw a curved connection line using Bezier curves."""
         dx, dy = x2 - x1, y2 - y1
@@ -334,16 +402,19 @@ class SVGUseCaseTreeGenerator:
         else:
             cx1, cy1, cx2, cy2 = x1 - control_offset, y1, x2 + control_offset, y2
         path_data = f"M {x1:.2f} {y1:.2f} C {cx1:.2f} {cy1:.2f}, {cx2:.2f} {cy2:.2f}, {x2:.2f} {y2:.2f}"
-        ET.SubElement(
-            parent,
-            "path",
-            {
-                "d": path_data,
-                "stroke": self.line_color,
-                "stroke-width": "1.5",
-                "fill": "none",
-            },
-        )
+
+        path_attrs = {
+            "d": path_data,
+            "stroke": self.line_color,
+            "stroke-width": "1.5",
+            "fill": "none",
+        }
+
+        # Add stroke-dasharray for dotted lines (is-used-in relationships)
+        if edge_type == "dotted":
+            path_attrs["stroke-dasharray"] = "4 2"
+
+        ET.SubElement(parent, "path", path_attrs)
 
     def _draw_node(
         self,

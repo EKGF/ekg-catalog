@@ -51,19 +51,59 @@ def update_frontmatter(path: Path, parent_dir: Path, self_dir: Path):
     if not keywords:
         keywords = extract_keywords(title, summary)
 
-    parents = meta.get("parents")
-    # Default to [".."] if parents is None or empty list
-    # All use cases should have parents: - .. (root-level ones reference use-case/index.md)
-    # Handle both None and empty list cases
-    if parents is None or (isinstance(parents, list) and len(parents) == 0):
-        parents = [".."]
-    resolved_parents = resolve_parents(parents, parent_dir, self_dir)
+    # Support both old 'parents' field and new 'is-part-of'/'is-used-in' fields
+    from .frontmatter import resolve_path_list
+
+    # Get field values
+    is_part_of = meta.get("is-part-of")
+    is_used_in = meta.get("is-used-in")
+    parents = meta.get("parents")  # For backwards compatibility
+
+    # Migration logic: if old 'parents' field exists and new fields don't
+    if parents is not None and is_part_of is None and is_used_in is None:
+        # Old format: first parent is is-part-of, rest are is-used-in
+        if isinstance(parents, list) and len(parents) > 0:
+            is_part_of = [parents[0]]
+            is_used_in = parents[1:] if len(parents) > 1 else []
+        else:
+            is_part_of = parents
+            is_used_in = []
+
+    # Default to [".."] only if is-part-of is None (not if it's explicitly [])
+    # Explicit [] means "standalone use case with no ownership parent"
+    # Use 'is None' check, not falsy check, to distinguish None from []
+    if is_part_of is None:
+        is_part_of = [".."]
+    if is_used_in is None:
+        is_used_in = []
+
+    # Ensure they are lists
+    if not isinstance(is_part_of, list):
+        is_part_of = [is_part_of] if is_part_of else []
+    if not isinstance(is_used_in, list):
+        is_used_in = [is_used_in] if is_used_in else []
+
+    # For standalone use cases at root level with no ownership parent,
+    # keep is-part-of as [] instead of [".."]
+    is_root_level = not parent_dir or len(parent_dir.parts) == 0
+    if is_root_level and is_part_of == [".."] and len(is_used_in) > 0:
+        # This is a standalone reusable use case - no ownership parent
+        is_part_of = []
+
+    # Resolve paths (allow_empty=True to support standalone use cases with is-part-of: [])
+    resolved_is_part_of = resolve_path_list(
+        is_part_of, parent_dir, self_dir, "is-part-of", allow_empty=True
+    )
+    resolved_is_used_in = resolve_path_list(
+        is_used_in, parent_dir, self_dir, "is-used-in", allow_empty=True
+    )
 
     new_meta = {
         "title": title,
         "summary": summary,
         "keywords": keywords,
-        "parents": parents,  # keep original expression (e.g., '..' or absolute)
+        "is-part-of": is_part_of,  # keep original expression (e.g., '..' or absolute or [])
+        "is-used-in": is_used_in,  # keep original expression
     }
     new_front = format_frontmatter(new_meta)
     new_text = new_front + body
@@ -73,7 +113,10 @@ def update_frontmatter(path: Path, parent_dir: Path, self_dir: Path):
         "title": title,
         "summary": summary,
         "keywords": keywords,
-        "parents": resolved_parents,
+        "is-part-of": resolved_is_part_of,
+        "is-used-in": resolved_is_used_in,
+        # Keep 'parents' for backwards compatibility (combines both fields)
+        "parents": resolved_is_part_of + resolved_is_used_in,
         "body": body,
     }
 
@@ -115,8 +158,12 @@ def build_graph(max_workers: int = 8):
                 {
                     "path": md_path,
                     "title": data["title"],
-                    "parents": data["parents"],
+                    "is-part-of": data["is-part-of"],
+                    "is-used-in": data["is-used-in"],
+                    "parents": data["parents"],  # Combined for backwards compat
                     "children": set(),
+                    "part-of-children": set(),  # Children via is-part-of
+                    "used-in-children": set(),  # Children via is-used-in
                 },
                 None,
             )
@@ -137,15 +184,16 @@ def build_graph(max_workers: int = 8):
         msgs = "\n".join(f"{n}: {e}" for n, e in errors)
         raise ValueError(f"Errors while building graph:\n{msgs}")
 
-    # validate parents existence and sibling rule (serial)
+    # validate is-part-of and is-used-in existence and populate children sets (serial)
     # Sort by node_id for deterministic child set population order
     for node_id, info in sorted(nodes.items()):
-        for parent in info["parents"]:
+        # Process is-part-of relationships
+        for parent in info["is-part-of"]:
             # Skip empty parent - it's valid for top-level use cases but excluded from graph per Rule 6
             if not parent or parent == "":
                 continue
             if parent not in nodes:
-                raise ValueError(f"Parent '{parent}' not found for {node_id}")
+                raise ValueError(f"is-part-of '{parent}' not found for {node_id}")
             # Prevent self-loops: don't add node to its own children
             if parent == node_id:
                 continue
@@ -153,16 +201,35 @@ def build_graph(max_workers: int = 8):
                 Path(parent).parent == Path(node_id).parent
                 and Path(parent) != Path(node_id).parent
             ):
-                raise ValueError(f"Siblings cannot be parents: {parent} for {node_id}")
+                raise ValueError(
+                    f"Siblings cannot be in is-part-of: {parent} for {node_id}"
+                )
             nodes[parent]["children"].add(node_id)
+            nodes[parent]["part-of-children"].add(node_id)
+
+        # Process is-used-in relationships
+        for parent in info["is-used-in"]:
+            # Skip empty parent
+            if not parent or parent == "":
+                continue
+            if parent not in nodes:
+                raise ValueError(f"is-used-in '{parent}' not found for {node_id}")
+            # Prevent self-loops
+            if parent == node_id:
+                continue
+            # is-used-in can reference siblings (it's a usage relationship, not ownership)
+            nodes[parent]["children"].add(node_id)
+            nodes[parent]["used-in-children"].add(node_id)
+
     return nodes
 
 
 def primary_parent(graph: dict) -> Dict[str, str]:
-    """Return mapping of node_id -> primary parent (first) or None."""
+    """Return mapping of node_id -> primary parent (is-part-of[0]) or None."""
     mapping = {}
     # Use sorted keys for deterministic iteration order
     for node_id in sorted(graph.keys()):
         info = graph[node_id]
-        mapping[node_id] = info["parents"][0] if info["parents"] else None
+        # Primary parent is the is-part-of parent (there should only be 0 or 1)
+        mapping[node_id] = info["is-part-of"][0] if info["is-part-of"] else None
     return mapping
