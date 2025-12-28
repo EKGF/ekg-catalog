@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 382.50 266.14 35.00" width="266.14px" height="35.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 382.50 282.09 35.00" width="282.09px" height="35.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
   <a xlink:href="/use-case/regulatory-reports/" target="_top">
-    <rect x="400.00" y="387.50" width="256.14" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="387.50" width="272.09" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Enterprise-Spanning Regulatory Reports</text>
   </a>
 </svg>

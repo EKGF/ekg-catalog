@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-162.81 320.00 844.48 160.00" width="844.48px" height="160.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-164.20 320.00 845.06 160.00" width="845.06px" height="160.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
-  <line x1="101.88" y1="362.50" x2="111.88" y2="362.50" stroke="#FF9900" stroke-width="1.5" />
-  <path d="M 111.88 362.50 C 129.88 362.50, 133.88 362.50, 151.88 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="99.30" y1="362.50" x2="109.30" y2="362.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 109.30 362.50 C 127.30 362.50, 131.30 362.50, 149.30 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <path d="M 345.00 362.50 C 369.75 362.50, 375.25 337.50, 400.00 337.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <path d="M 345.00 362.50 C 369.75 362.50, 375.25 362.50, 400.00 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <path d="M 345.00 362.50 C 369.75 362.50, 375.25 387.50, 400.00 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
@@ -9,35 +9,35 @@
   <path d="M 345.00 362.50 C 369.75 362.50, 375.25 437.50, 400.00 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <path d="M 345.00 362.50 C 369.75 362.50, 375.25 462.50, 400.00 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/construction-project-quotations/" target="_top">
-    <rect x="-157.81" y="350.00" width="259.69" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="-147.81" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Complex Construction Project Quotations</text>
+    <rect x="-159.20" y="350.00" width="258.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-149.20" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Complex Construction Project Quotations</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/" target="_top">
-    <rect x="151.88" y="350.00" width="198.12" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="161.88" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Supply Chain &amp; Subcontractors</text>
+    <rect x="149.30" y="350.00" width="200.70" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="159.30" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Supply Chain &amp; Subcontractors</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/bid-leveling/" target="_top">
-    <rect x="400.00" y="325.00" width="229.28" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="325.00" width="231.78" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Bid Leveling &amp; Comparative Analysis</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/inventory-and-distribution-constraints/" target="_top">
-    <rect x="400.00" y="350.00" width="228.88" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="350.00" width="243.89" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Inventory &amp; Distribution Constraints</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/payments-terms-and-cash-flow/" target="_top">
-    <rect x="400.00" y="375.00" width="194.45" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="375.00" width="197.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Payments, Terms &amp; Cash Flow</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/subcontractor-bid-solicitation-and-comparison/" target="_top">
-    <rect x="400.00" y="400.00" width="276.67" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="400.00" width="275.86" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Subcontractor Bid Solicitation &amp; Comparison</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/subcontractor-scope-packages/" target="_top">
-    <rect x="400.00" y="425.00" width="201.02" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="425.00" width="202.16" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Subcontractor Scope Packages</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/supplier-rfqs-and-material-pricing/" target="_top">
-    <rect x="400.00" y="450.00" width="206.47" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="450.00" width="210.77" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Supplier RFQs &amp; Material Pricing</text>
   </a>
 </svg>

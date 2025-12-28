@@ -1,27 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 357.50 643.48 85.00" width="643.48px" height="85.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 357.50 652.78 85.00" width="652.78px" height="85.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
-  <path d="M 571.78 400.00 C 596.53 400.00, 602.03 400.00, 626.78 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 762.80 400.00 C 787.55 400.00, 793.05 375.00, 817.80 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 762.80 400.00 C 787.55 400.00, 793.05 400.00, 817.80 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 762.80 400.00 C 787.55 400.00, 793.05 425.00, 817.80 425.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 581.12 400.00 C 605.88 400.00, 611.38 400.00, 636.12 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 771.86 400.00 C 796.61 400.00, 802.11 375.00, 826.86 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 771.86 400.00 C 796.61 400.00, 802.11 400.00, 826.86 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 771.86 400.00 C 796.61 400.00, 802.11 425.00, 826.86 425.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/supply-chain-management/" target="_top">
-    <rect x="400.00" y="387.50" width="176.78" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="387.50" width="186.12" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Supply Chain Management</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/" target="_top">
-    <rect x="626.78" y="387.50" width="141.02" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="636.78" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Management</text>
+    <rect x="636.12" y="387.50" width="140.73" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="646.12" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Management</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-lifecycle/" target="_top">
-    <rect x="817.80" y="362.50" width="115.59" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="827.80" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Lifecycle</text>
+    <rect x="826.86" y="362.50" width="115.42" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="836.86" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Lifecycle</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-relationship-management/" target="_top">
-    <rect x="817.80" y="387.50" width="215.69" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="827.80" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Relationship Management</text>
+    <rect x="826.86" y="387.50" width="215.92" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="836.86" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Relationship Management</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-vetting-and-onboarding/" target="_top">
-    <rect x="817.80" y="412.50" width="187.12" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="827.80" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Vetting &amp; Onboarding</text>
+    <rect x="826.86" y="412.50" width="188.45" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="836.86" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Vetting &amp; Onboarding</text>
   </a>
 </svg>

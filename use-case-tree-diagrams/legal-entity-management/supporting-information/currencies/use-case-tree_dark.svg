@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-26.06 382.50 514.44 35.00" width="514.44px" height="35.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-24.03 382.50 516.97 35.00" width="516.97px" height="35.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
-  <line x1="145.75" y1="400.00" x2="155.75" y2="400.00" stroke="#FF9900" stroke-width="1.5" />
-  <path d="M 155.75 400.00 C 173.75 400.00, 177.75 400.00, 195.75 400.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="148.44" y1="400.00" x2="158.44" y2="400.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 158.44 400.00 C 176.44 400.00, 180.44 400.00, 198.44 400.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <path d="M 345.00 400.00 C 369.75 400.00, 375.25 400.00, 400.00 400.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/legal-entity-management/" target="_top">
-    <rect x="-21.06" y="387.50" width="166.81" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="-11.06" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Legal Entity Management</text>
+    <rect x="-19.03" y="387.50" width="167.47" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-9.03" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Legal Entity Management</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/supporting-information/" target="_top">
-    <rect x="195.75" y="387.50" width="154.25" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="205.75" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Supporting Information</text>
+    <rect x="198.44" y="387.50" width="151.56" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="208.44" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Supporting Information</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/supporting-information/currencies/" target="_top">
-    <rect x="400.00" y="387.50" width="83.38" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="387.50" width="87.94" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Currencies</text>
   </a>
 </svg>

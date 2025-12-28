@@ -71,7 +71,14 @@ def build_nav(node_id: str, graph: dict, primary: dict) -> List[Any]:
                 files.append(rel_path)
     dirs.sort()
     files.sort()
-    return dirs + files
+    result = dirs + files
+    
+    # For root-level navigation, move "other" to the end
+    if not node_id and "other" in result:
+        result.remove("other")
+        result.append("other")
+    
+    return result
 
 
 def write_pages_yaml(graph: dict):
