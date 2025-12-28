@@ -1,0 +1,9 @@
+title: Detect (Cybersecurity Monitoring)
+nav:
+- index.md
+- anomaly-and-behavior-detection.md
+- detection-engineering.md
+- logging-and-telemetry.md
+- soc-monitoring-and-alerting.md
+- threat-hunting.md
+- threat-intelligence.md

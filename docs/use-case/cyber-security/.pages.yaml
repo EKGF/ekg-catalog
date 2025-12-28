@@ -1,3 +1,10 @@
 title: Cybersecurity
 nav:
 - index.md
+- contexts
+- detect
+- govern
+- identify
+- protect
+- recover
+- respond

@@ -1,0 +1,11 @@
+title: Protect (Cybersecurity Controls)
+nav:
+- index.md
+- application-and-api-security.md
+- backup-and-resilience-controls.md
+- data-protection.md
+- identity-and-access-management.md
+- network-and-segmentation.md
+- privileged-access-management.md
+- secure-configuration-and-hardening.md
+- security-awareness-and-training.md
