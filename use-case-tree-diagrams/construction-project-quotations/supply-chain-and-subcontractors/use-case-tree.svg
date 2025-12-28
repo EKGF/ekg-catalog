@@ -15,6 +15,8 @@
   <line x1="350.00" y1="475.00" x2="360.00" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
   <path d="M 360.00 475.00 C 378.00 475.00, 382.00 475.00, 400.00 475.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <line x1="615.73" y1="475.00" x2="690.41" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 690.41 475.00 C 715.16 475.00, 720.66 337.50, 745.41 337.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="615.73" y1="475.00" x2="690.41" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
   <path d="M 690.41 475.00 C 715.16 475.00, 720.66 362.50, 745.41 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <line x1="615.73" y1="475.00" x2="690.41" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
   <path d="M 690.41 475.00 C 715.16 475.00, 720.66 387.50, 745.41 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
@@ -22,6 +24,8 @@
   <path d="M 690.41 475.00 C 715.16 475.00, 720.66 412.50, 745.41 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <line x1="615.73" y1="475.00" x2="690.41" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
   <path d="M 690.41 475.00 C 715.16 475.00, 720.66 437.50, 745.41 437.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="615.73" y1="475.00" x2="690.41" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 690.41 475.00 C 715.16 475.00, 720.66 462.50, 745.41 462.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/construction-project-quotations/" target="_top">
     <rect x="91.50" y="462.50" width="258.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="101.50" y="479.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Complex Construction Project Quotations</text>
@@ -55,19 +59,27 @@
     <text x="410.00" y="479.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Supply Chain &amp; Subcontractors</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/bid-leveling/" target="_top">
-    <rect x="745.41" y="350.00" width="231.78" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="755.41" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Bid Leveling &amp; Comparative Analysis</text>
+    <rect x="745.41" y="325.00" width="231.78" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="755.41" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Bid Leveling &amp; Comparative Analysis</text>
+  </a>
+  <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/inventory-and-distribution-constraints/" target="_top">
+    <rect x="745.41" y="350.00" width="223.80" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="755.41" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Inventory &amp; Distribution Constraints</text>
+  </a>
+  <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/payments-terms-and-cash-flow/" target="_top">
+    <rect x="745.41" y="375.00" width="197.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="755.41" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Payments, Terms &amp; Cash Flow</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/subcontractor-bid-solicitation-and-comparison/" target="_top">
-    <rect x="745.41" y="375.00" width="275.86" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="755.41" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Subcontractor Bid Solicitation &amp; Comparison</text>
+    <rect x="745.41" y="400.00" width="275.86" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="755.41" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Subcontractor Bid Solicitation &amp; Comparison</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/subcontractor-scope-packages/" target="_top">
-    <rect x="745.41" y="400.00" width="202.16" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="755.41" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Subcontractor Scope Packages</text>
+    <rect x="745.41" y="425.00" width="202.16" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="755.41" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Subcontractor Scope Packages</text>
   </a>
   <a xlink:href="/use-case/construction-project-quotations/supply-chain-and-subcontractors/supplier-rfqs-and-material-pricing/" target="_top">
-    <rect x="745.41" y="425.00" width="210.77" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="755.41" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Supplier RFQs &amp; Material Pricing</text>
+    <rect x="745.41" y="450.00" width="210.77" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="755.41" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Supplier RFQs &amp; Material Pricing</text>
   </a>
 </svg>
