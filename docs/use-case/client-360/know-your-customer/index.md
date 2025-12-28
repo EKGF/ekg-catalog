@@ -16,8 +16,10 @@ keywords:
   - ensuring
   - regulatory
   - compliance
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge
@@ -91,7 +93,7 @@ cases:
   KYC uses Legal Entity Management for comprehensive information about
   corporate customers, their legal structures, ownership, and
   relationships. See
-  [Legal Entities](core-record-management/legal-entities.md) for
+  [Legal Entities](../../core-record-management/legal-entities.md) for
   details.
 
 - **[Vendor Management](../../supply-chain-management/vendor-management/index.md)** -
@@ -100,16 +102,23 @@ cases:
   identity verification, risk assessment, and compliance checks as
   customer KYC, and can leverage KYC processes and data.
 
-### Shared Concepts
+### Core Record Management
 
-Know Your Customer uses these shared reference data concepts:
+Know Your Customer uses
+[Core Record Management](../../core-record-management/index.md) for
+authoritative reference data:
 
-- **[Countries](../../../concept/countries.md)** - Geographic
-  reference data for customer risk assessment
-- **[Jurisdictions](../../../concept/jurisdictions.md)** - Legal and
-  regulatory jurisdictions for compliance
-- **[Regions](../../../concept/regions.md)** - Geographic regions for
-  risk classification
+- **[Countries](../../core-record-management/countries.md)** -
+  Geographic reference data for customer risk assessment
+- **[Jurisdictions](../../core-record-management/jurisdictions.md)** -
+  Legal and regulatory jurisdictions for compliance
+- **[Regions](../../core-record-management/regions.md)** - Geographic
+  regions for risk classification
+- **[Addresses](../../core-record-management/addresses.md)** - Address
+  reference data for identity verification
+- **[Legal Entities](../../core-record-management/legal-entities.md)** -
+  Legal entity reference data for corporate customers
 
-These shared concepts are also used by Legal Entity Management and
-other use cases.
+The [Core Record Management](../../core-record-management/index.md)
+use case is a child of Know Your Customer, providing the foundational
+reference data needed for KYC processes.

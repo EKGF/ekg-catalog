@@ -16,8 +16,10 @@ keywords:
   - corporate
   - customer
   - structures
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge
@@ -42,7 +44,7 @@ Financial institutions face challenges in legal entity management:
   information
 
 Client 360 / Know Your Customer depends on
-[Legal Entity Management](../../../legal-entity-management/index.md)
+[Legal Entity Management](../legal-entity-management/index.md)
 for comprehensive legal entity information.
 
 ## Why EKG is Required
@@ -82,6 +84,6 @@ capabilities:
 
 ## Related Use Cases
 
-- [Legal Entity Management](../../../legal-entity-management/index.md) -
+- [Legal Entity Management](../legal-entity-management/index.md) -
   Comprehensive legal entity management system that Client 360 depends
   on

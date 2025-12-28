@@ -16,14 +16,18 @@ keywords:
   - risk
   - classification
   - regulatory
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
-> **Note**: This page describes the use of country reference data in
-> the Client 360 / Know Your Customer context. For general information
-> about country reference data as a shared concept, see
-> [Countries](../../../../concept/countries.md).
+Country reference data provides geographic risk classification,
+regulatory requirements understanding, and sanctions tracking that is
+used across multiple use cases including
+[Know Your Customer](../client-360/know-your-customer/index.md),
+[Legal Entity Management](../legal-entity-management/index.md), and
+Risk Management.
 
 ## The Challenge
 
@@ -83,7 +87,7 @@ capabilities:
 
 ## Related Use Cases
 
-- [Legal Entity Management](../../../legal-entity-management/index.md) -
+- [Legal Entity Management](../legal-entity-management/index.md) -
   Uses country data for entity geographic presence
-- [Countries](../../../../concept/countries.md) - Shared concept for
-  country reference data
+- [Countries](countries.md) - Shared concept for country reference
+  data

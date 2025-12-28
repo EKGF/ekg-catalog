@@ -16,16 +16,18 @@ keywords:
   - verification
   - risk
   - assessment
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
-> **Note**: This page describes address management from the Client 360
-> / Know Your Customer perspective, focusing on customer identity
-> verification and risk assessment. For address management from the
-> Legal Entity Management perspective (entity compliance and
-> regulatory filings), see
-> [Addresses](../../../legal-entity-management/contact-and-location-information/addresses.md).
+Address management maintains authoritative address information for
+identity verification and risk assessment, used across multiple use
+cases including
+[Know Your Customer](../client-360/know-your-customer/index.md),
+[Legal Entity Management](../legal-entity-management/contact-and-location-information/addresses.md),
+and Supply Chain Management.
 
 ## The Challenge
 
@@ -85,8 +87,8 @@ capabilities:
 
 ## Related Use Cases
 
-- [Legal Entity Management](../../../legal-entity-management/index.md) -
+- [Legal Entity Management](../legal-entity-management/index.md) -
   Manages addresses for entities (registered, business, mailing
   addresses)
-- [Legal Entity Management - Addresses](../../../legal-entity-management/contact-and-location-information/addresses.md) -
+- [Legal Entity Management - Addresses](../legal-entity-management/contact-and-location-information/addresses.md) -
   Address management from entity perspective

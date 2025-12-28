@@ -16,14 +16,18 @@ keywords:
   - regulatory
   - countries
   - states
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
-> **Note**: This page describes the use of jurisdiction reference data
-> in the Client 360 / Know Your Customer context. For general
-> information about jurisdiction reference data as a shared concept,
-> see [Jurisdictions](../../../../concept/jurisdictions.md).
+Jurisdiction reference data manages legal and regulatory jurisdictions
+with their specific compliance requirements, used across multiple use
+cases including
+[Know Your Customer](../client-360/know-your-customer/index.md),
+[Legal Entity Management](../legal-entity-management/index.md), and
+Data Privacy Governance.
 
 ## The Challenge
 
@@ -83,7 +87,7 @@ capabilities:
 
 ## Related Use Cases
 
-- [Legal Entity Management](../../../legal-entity-management/index.md) -
+- [Legal Entity Management](../legal-entity-management/index.md) -
   Uses jurisdiction data for entity registration and compliance
-- [Jurisdictions](../../../../concept/jurisdictions.md) - Shared
-  concept for jurisdiction reference data
+- [Jurisdictions](jurisdictions.md) - Shared concept for jurisdiction
+  reference data

@@ -16,14 +16,17 @@ keywords:
   - risk
   - classification
   - higher
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
-> **Note**: This page describes the use of region reference data in
-> the Client 360 / Know Your Customer context. For general information
-> about region reference data as a shared concept, see
-> [Regions](../../../../concept/regions.md).
+Region reference data provides geographic risk classification at a
+higher level than countries, used across multiple use cases including
+[Know Your Customer](../client-360/know-your-customer/index.md),
+[Legal Entity Management](../legal-entity-management/index.md), and
+Risk Management.
 
 ## The Challenge
 
@@ -83,7 +86,6 @@ capabilities:
 
 ## Related Use Cases
 
-- [Legal Entity Management](../../../legal-entity-management/index.md) -
+- [Legal Entity Management](../legal-entity-management/index.md) -
   Uses region data for entity presence
-- [Regions](../../../../concept/regions.md) - Shared concept for
-  region reference data
+- [Regions](regions.md) - Shared concept for region reference data

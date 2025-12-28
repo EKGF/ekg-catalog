@@ -16,8 +16,10 @@ keywords:
   - tenancy
   - business
   - use
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

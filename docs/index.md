@@ -14,7 +14,10 @@ are being discussed in the [EKGF](https://ekgf.org) community.
 Besides all use cases, we have:
 
 - [Use Cases](use-case/index.md), comprehensive use case catalog
-- [Concepts](concept/index.md), shared reference data and concepts
-  used across multiple use cases
 - [Datasets](dataset/index.md), per use case
 - [Ontologies](ontology/index.md), per dataset and per use case
+
+Reference data and shared concepts are now organized within use cases,
+particularly in the
+[Core Record Management](use-case/core-record-management/index.md) use
+case.

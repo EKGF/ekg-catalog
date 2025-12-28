@@ -16,8 +16,10 @@ keywords:
   - with
   - offboarding
   - suppliers
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge
@@ -111,16 +113,22 @@ cases:
   vendor relationships, and understanding vendor networks can inform
   customer relationship strategies.
 
-### Shared Concepts
+### Core Record Management
 
-Vendor Management uses these shared reference data concepts:
+Vendor Management uses
+[Core Record Management](../../core-record-management/index.md) for
+authoritative reference data:
 
-- **[Countries](../../../concept/countries.md)** - Geographic
-  reference data for vendor location and risk assessment
-- **[Jurisdictions](../../../concept/jurisdictions.md)** - Legal and
-  regulatory jurisdictions for vendor compliance
-- **[Regions](../../../concept/regions.md)** - Geographic regions for
-  vendor risk classification
+- **[Countries](../../core-record-management/countries.md)** -
+  Geographic reference data for vendor location and risk assessment
+- **[Jurisdictions](../../core-record-management/jurisdictions.md)** -
+  Legal and regulatory jurisdictions for vendor compliance
+- **[Regions](../../core-record-management/regions.md)** - Geographic
+  regions for vendor risk classification
+- **[Addresses](../../core-record-management/addresses.md)** - Address
+  reference data for vendor locations
+- **[Legal Entities](../../core-record-management/legal-entities.md)** -
+  Legal entity reference data for vendor entities
 
-These shared concepts are also used by Legal Entity Management, Know
-Your Customer, Customer Relationship Management, and other use cases.
+Core Record Management provides the foundational reference data used
+across multiple use cases including vendor and customer management.

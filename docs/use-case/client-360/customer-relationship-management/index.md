@@ -16,8 +16,10 @@ keywords:
   - with
   - customers
   - throughout
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge
@@ -109,17 +111,23 @@ several other use cases:
   vendor relationships, and understanding vendor networks can inform
   customer relationship strategies.
 
-### Shared Concepts
+### Core Record Management
 
-Customer Relationship Management uses these shared reference data
-concepts:
+Customer Relationship Management uses
+[Core Record Management](../../core-record-management/index.md) for
+authoritative reference data:
 
-- **[Countries](../../../concept/countries.md)** - Geographic
-  reference data for customer and account location
-- **[Jurisdictions](../../../concept/jurisdictions.md)** - Legal and
-  regulatory jurisdictions for compliance in customer relationships
-- **[Regions](../../../concept/regions.md)** - Geographic regions for
-  sales territory and account analysis
+- **[Countries](../../core-record-management/countries.md)** -
+  Geographic reference data for customer and account location
+- **[Jurisdictions](../../core-record-management/jurisdictions.md)** -
+  Legal and regulatory jurisdictions for compliance in customer
+  relationships
+- **[Regions](../../core-record-management/regions.md)** - Geographic
+  regions for sales territory and account analysis
+- **[Addresses](../../core-record-management/addresses.md)** - Address
+  reference data for customer locations
+- **[Legal Entities](../../core-record-management/legal-entities.md)** -
+  Legal entity reference data for corporate customers
 
-These shared concepts are also used by Legal Entity Management, Know
-Your Customer, and other use cases.
+Core Record Management provides the foundational reference data used
+across Client 360 use cases.

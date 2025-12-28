@@ -16,8 +16,10 @@ keywords:
   - legal
   - entities
   - locations
-parents:
-  - ..
+is-part-of:
+  []
+is-used-in:
+  - ../client-360/know-your-customer
 ---
 
 ## Related Use Cases
@@ -25,7 +27,7 @@ parents:
 Core Record Management in Client 360 / Know Your Customer shares
 concepts with:
 
-- **[Legal Entity Management](../../../legal-entity-management/index.md)** -
+- **[Legal Entity Management](../legal-entity-management/index.md)** -
   Legal Entity Management provides comprehensive information about
   legal entities that Client 360 uses for corporate customers. See
   [Legal Entities](legal-entities.md) for details.
@@ -34,11 +36,10 @@ concepts with:
 
 This section uses these shared reference data concepts:
 
-- **[Countries](../../../../concept/countries.md)** - Geographic
-  reference data
-- **[Jurisdictions](../../../../concept/jurisdictions.md)** - Legal
-  and regulatory jurisdictions
-- **[Regions](../../../../concept/regions.md)** - Geographic regions
+- **[Countries](countries.md)** - Geographic reference data
+- **[Jurisdictions](jurisdictions.md)** - Legal and regulatory
+  jurisdictions
+- **[Regions](regions.md)** - Geographic regions
 
 ### Overlapping Concepts
 
@@ -46,9 +47,9 @@ Some concepts overlap with Legal Entity Management but are viewed from
 different perspectives:
 
 - **[Addresses](addresses.md)** - Address management for customers vs.
-  [Legal Entity Management - Addresses](../../../legal-entity-management/contact-and-location-information/addresses.md)
+  [Legal Entity Management - Addresses](../legal-entity-management/contact-and-location-information/addresses.md)
   for entities
 - **[Legal Entities](legal-entities.md)** - Legal entity information
   for corporate customers vs.
-  [Legal Entity Management](../../../legal-entity-management/index.md)
+  [Legal Entity Management](../legal-entity-management/index.md)
   comprehensive entity management

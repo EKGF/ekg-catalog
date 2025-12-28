@@ -16,8 +16,10 @@ keywords:
   - structures
   - ownership
   - capital
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## Components
@@ -48,8 +50,8 @@ Legal Entity Management supports and is used by:
   Client 360 depends on Legal Entity Management for comprehensive
   information about corporate customers, their legal structures,
   ownership, and relationships. See
-  [Legal Entities](../client-360/know-your-customer/core-record-management/legal-entities.md)
-  in Client 360 for details.
+  [Legal Entities](../core-record-management/legal-entities.md) in
+  Client 360 for details.
 
 - **[Customer Relationship Management](../client-360/customer-relationship-management/index.md)** -
   CRM systems use Legal Entity Management data for B2B account
@@ -65,16 +67,25 @@ Legal Entity Management supports and is used by:
   information for vendor management, especially for vendor vetting and
   due diligence processes.
 
-### Shared Concepts
+### Core Record Management
 
-Legal Entity Management uses these shared reference data concepts:
+Legal Entity Management uses
+[Core Record Management](../core-record-management/index.md) for
+authoritative reference data:
 
-- **[Countries](../../concept/countries.md)** - Geographic reference
-  data for entity geographic presence
-- **[Jurisdictions](../../concept/jurisdictions.md)** - Legal and
-  regulatory jurisdictions for entity registration and compliance
-- **[Regions](../../concept/regions.md)** - Geographic regions for
-  entity presence analysis
+- **[Countries](../core-record-management/countries.md)** - Geographic
+  reference data for entity geographic presence
+- **[Jurisdictions](../core-record-management/jurisdictions.md)** -
+  Legal and regulatory jurisdictions for entity registration and
+  compliance
+- **[Regions](../core-record-management/regions.md)** - Geographic
+  regions for entity presence analysis
+- **[Addresses](../core-record-management/addresses.md)** - Address
+  reference data for entity locations
+- **[Legal Entities](../core-record-management/legal-entities.md)** -
+  Legal entity reference data (extended by this use case with full
+  lifecycle management)
 
-These shared concepts are also used by Client 360 / Know Your Customer
-and other use cases.
+Core Record Management provides the foundational reference data that
+Legal Entity Management extends with comprehensive lifecycle
+management.
