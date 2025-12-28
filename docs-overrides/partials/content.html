@@ -70,6 +70,15 @@
     {{ get_svg_content(svg_base + '_dark.svg') }}
   </div>
 </div>
+{% set method_site_url = config.extra.method_site_url | default('https://method.ekgf.org') %}
+<div class="use-case-method-links" aria-label="Learn about the method">
+  <span class="use-case-method-links__label">New to this diagram? Learn about the method:</span>
+  <a href="{{ method_site_url }}/concept/use-case-tree/" target="_blank" rel="noopener noreferrer">Use Case Tree</a>
+  <span class="use-case-method-links__sep">·</span>
+  <a href="{{ method_site_url }}/concept/use-case/" target="_blank" rel="noopener noreferrer">Use Case</a>
+  <span class="use-case-method-links__sep">·</span>
+  <a href="{{ method_site_url }}/concept/outcome/" target="_blank" rel="noopener noreferrer">Outcome</a>
+</div>
 {% endif %}
 <!-- Display Summary section THIRD, after diagram, without H2 header -->
 {% if page.meta and page.meta.summary %}

@@ -58,6 +58,7 @@ theme:
     - content.code.annotate
 extra:
   homepage: https://www.ekgf.org/quadrants
+  method_site_url: https://method.ekgf.org
   generator: false
   google_site_verification: "Q_9d2He8XxoBrVAXrAXsEm2R_UrGZ6KcOCXkeNRQ058"
   social:
