@@ -16,8 +16,10 @@ keywords:
   - assumptions
   - estimated
   - costs
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Close the loop by comparing bid assumptions and estimated costs

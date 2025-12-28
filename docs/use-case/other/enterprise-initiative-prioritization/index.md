@@ -16,8 +16,10 @@ keywords:
   - based
   - multiple
   - criteria
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 !!! note

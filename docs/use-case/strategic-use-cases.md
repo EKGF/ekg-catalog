@@ -16,8 +16,10 @@ keywords:
   - power
   - enterprise
   - knowledge
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 [Digital Twin / Connected Inventory](digital-twin/index.md)

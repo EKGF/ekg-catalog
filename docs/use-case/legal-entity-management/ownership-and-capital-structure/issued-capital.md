@@ -16,8 +16,10 @@ keywords:
   - between
   - authorized
   - share
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

@@ -16,8 +16,10 @@ keywords:
   - cost
   - codes
   - estimating
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Decompose the tender scope into a consistent structure (WBS/BoQ/cost

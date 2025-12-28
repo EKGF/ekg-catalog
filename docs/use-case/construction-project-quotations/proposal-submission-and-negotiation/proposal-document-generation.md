@@ -16,8 +16,10 @@ keywords:
   - generating
   - narrative
   - technical
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Assemble a complete, consistent tender response by generating proposal

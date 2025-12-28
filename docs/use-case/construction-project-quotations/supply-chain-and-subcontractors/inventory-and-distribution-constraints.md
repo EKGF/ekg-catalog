@@ -13,8 +13,10 @@ keywords:
   - lead
   - time
   - logistics
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Connect material availability, warehouse/site capacity, and delivery

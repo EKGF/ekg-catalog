@@ -16,8 +16,10 @@ keywords:
   - referrals
   - media
   - shared
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

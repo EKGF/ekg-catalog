@@ -16,8 +16,10 @@ keywords:
   - share
   - prices
   - proportionally
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

@@ -16,8 +16,10 @@ keywords:
   - simple
   - ownership
   - percentages
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

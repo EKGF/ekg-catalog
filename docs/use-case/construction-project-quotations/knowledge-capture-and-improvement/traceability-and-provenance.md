@@ -16,8 +16,10 @@ keywords:
   - source
   - came
   - which
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Make every number and claim in the quotation explainable: what source

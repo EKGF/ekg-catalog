@@ -16,8 +16,10 @@ keywords:
   - patterns
   - interconnections
   - between
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

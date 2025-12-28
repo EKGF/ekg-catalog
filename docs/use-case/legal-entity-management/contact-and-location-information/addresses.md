@@ -16,8 +16,10 @@ keywords:
   - filings
   - handling
   - multiple
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 > **Note**: This page describes address management from the Legal
@@ -25,7 +27,7 @@ parents:
 > regulatory filings. For address management from the Client 360 /
 > Know Your Customer perspective (customer identity verification and
 > risk assessment), see
-> [Addresses](../../client-360/know-your-customer/core-record-management/addresses.md).
+> [Addresses](../../core-record-management/addresses.md).
 
 ## The Challenge
 
@@ -87,5 +89,5 @@ capabilities:
 
 - [Client 360 / Know Your Customer](../../client-360/index.md) - Uses
   address data for customer identity verification and risk assessment
-- [Client 360 - Addresses](../../client-360/know-your-customer/core-record-management/addresses.md) -
+- [Core Record Management - Addresses](../../core-record-management/addresses.md) -
   Address management from customer perspective

@@ -16,8 +16,10 @@ keywords:
   - analyzing
   - complex
   - patterns
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Analysing big data to find the odd or conflicting patterns which may

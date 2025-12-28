@@ -16,8 +16,10 @@ keywords:
   - cash
   - flow
   - balance
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

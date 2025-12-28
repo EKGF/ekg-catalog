@@ -16,8 +16,10 @@ keywords:
   - payments
   - handling
   - different
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

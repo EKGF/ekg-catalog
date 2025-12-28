@@ -16,7 +16,9 @@ keywords:
   - experts
   - extract
   - insights
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 

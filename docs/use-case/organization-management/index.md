@@ -16,7 +16,9 @@ keywords:
   - hierarchies
   - roles
   - relationships
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 

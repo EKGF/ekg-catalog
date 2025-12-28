@@ -16,8 +16,10 @@ keywords:
   - business
   - mailing
   - operational
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

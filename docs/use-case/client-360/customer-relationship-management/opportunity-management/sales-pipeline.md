@@ -16,8 +16,10 @@ keywords:
   - bottlenecks
   - analyzing
   - progression
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

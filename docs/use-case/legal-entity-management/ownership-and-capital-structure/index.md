@@ -16,8 +16,10 @@ keywords:
   - relationships
   - structures
   - including
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

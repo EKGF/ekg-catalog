@@ -16,8 +16,10 @@ keywords:
   - terms
   - cost
   - availability
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Gather and govern supplier pricing, lead times, and commercial terms

@@ -16,8 +16,10 @@ keywords:
   - downstream
   - delivery
   - teams
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Make the “unknowns” explicit: document assumptions, exclusions, and

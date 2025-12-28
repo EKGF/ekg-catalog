@@ -16,8 +16,10 @@ keywords:
   - deliver
   - including
   - performance
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Manage financial and contractual protections required to bid and

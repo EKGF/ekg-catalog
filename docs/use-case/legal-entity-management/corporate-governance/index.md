@@ -16,8 +16,10 @@ keywords:
   - controlled
   - including
   - boards
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

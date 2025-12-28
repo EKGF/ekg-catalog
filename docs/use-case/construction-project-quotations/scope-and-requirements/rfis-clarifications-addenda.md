@@ -16,8 +16,10 @@ keywords:
   - change
   - affected
   - scope
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Manage questions, clarifications, and addenda as first-class

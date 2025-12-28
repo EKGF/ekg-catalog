@@ -16,8 +16,10 @@ keywords:
   - procurement
   - lead
   - times
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Quantify uncertainty: apply risk-based contingency and price

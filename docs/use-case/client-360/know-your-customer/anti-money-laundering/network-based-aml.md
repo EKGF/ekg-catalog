@@ -16,8 +16,10 @@ keywords:
   - multiple
   - interconnected
   - parties
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

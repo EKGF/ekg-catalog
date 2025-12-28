@@ -16,8 +16,10 @@ keywords:
   - new
   - suppliers
   - organization
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

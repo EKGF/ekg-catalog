@@ -16,8 +16,10 @@ keywords:
   - individuals
   - within
   - customer
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

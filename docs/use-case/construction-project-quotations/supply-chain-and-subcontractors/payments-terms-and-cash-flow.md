@@ -13,8 +13,10 @@ keywords:
   - retention
   - invoices
   - milestones
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Connect payment terms and schedules across suppliers, subcontractors,

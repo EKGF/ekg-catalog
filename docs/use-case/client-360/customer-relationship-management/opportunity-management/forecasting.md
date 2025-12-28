@@ -16,8 +16,10 @@ keywords:
   - probabilities
   - historical
   - patterns
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

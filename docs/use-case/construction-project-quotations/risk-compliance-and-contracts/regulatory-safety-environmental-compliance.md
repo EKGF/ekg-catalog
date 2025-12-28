@@ -16,8 +16,10 @@ keywords:
   - codes
   - permits
   - client
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Extract, manage, and validate compliance obligations across building

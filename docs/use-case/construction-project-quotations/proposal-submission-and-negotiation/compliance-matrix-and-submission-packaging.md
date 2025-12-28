@@ -16,8 +16,10 @@ keywords:
   - proposal
   - section
   - evidence
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Demonstrate compliance by mapping every requirement to the exact

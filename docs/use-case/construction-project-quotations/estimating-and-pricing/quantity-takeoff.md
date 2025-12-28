@@ -16,8 +16,10 @@ keywords:
   - quantities
   - drawings
   - specifications
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Produce a defensible quantity basis for pricing by measuring and

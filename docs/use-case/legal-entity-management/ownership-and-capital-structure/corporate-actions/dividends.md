@@ -16,8 +16,10 @@ keywords:
   - cash
   - stock
   - special
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

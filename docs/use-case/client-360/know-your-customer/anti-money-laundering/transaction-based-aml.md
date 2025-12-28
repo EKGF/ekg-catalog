@@ -16,8 +16,10 @@ keywords:
   - through
   - trade
   - commercial
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

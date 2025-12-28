@@ -16,8 +16,10 @@ keywords:
   - legal
   - business
   - geographic
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

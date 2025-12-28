@@ -16,8 +16,10 @@ keywords:
   - ventures
   - partnerships
   - supply
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

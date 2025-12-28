@@ -16,8 +16,10 @@ keywords:
   - documentation
   - pdfs
   - drawings
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Convert large volumes of tender and project documentation (PDFs,

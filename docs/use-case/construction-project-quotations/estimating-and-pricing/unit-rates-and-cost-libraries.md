@@ -16,8 +16,10 @@ keywords:
   - assemblies
   - productivity
   - baselines
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Maintain and apply consistent cost intelligence: unit rates,

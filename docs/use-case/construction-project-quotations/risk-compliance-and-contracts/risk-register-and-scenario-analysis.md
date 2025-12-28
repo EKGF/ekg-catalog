@@ -16,8 +16,10 @@ keywords:
   - cost
   - schedule
   - commercial
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Identify, structure, and quantify risks that drive cost, schedule, and

@@ -16,8 +16,10 @@ keywords:
   - fitch
   - internal
   - models
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

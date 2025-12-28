@@ -16,8 +16,10 @@ keywords:
   - ownership
   - voting
   - rights
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

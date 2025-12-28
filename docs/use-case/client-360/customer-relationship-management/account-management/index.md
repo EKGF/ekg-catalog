@@ -16,8 +16,10 @@ keywords:
   - accounts
   - particularly
   - b2b
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

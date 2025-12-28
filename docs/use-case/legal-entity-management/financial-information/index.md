@@ -16,8 +16,10 @@ keywords:
   - estimates
   - ratings
   - liability
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

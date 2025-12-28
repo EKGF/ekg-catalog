@@ -16,8 +16,10 @@ keywords:
   - with
   - organization
   - initial
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

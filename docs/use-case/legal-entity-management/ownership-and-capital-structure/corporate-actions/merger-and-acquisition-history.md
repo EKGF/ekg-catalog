@@ -16,8 +16,10 @@ keywords:
   - joint
   - ventures
   - maintaining
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

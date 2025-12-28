@@ -16,7 +16,9 @@ keywords:
   - protections
   - ensure
   - projects
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 

@@ -16,8 +16,10 @@ keywords:
   - signals
   - deliver
   - personalized
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

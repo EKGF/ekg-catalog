@@ -16,8 +16,10 @@ keywords:
   - complex
   - asset
   - transfers
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

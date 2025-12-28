@@ -16,8 +16,10 @@ keywords:
   - family
   - members
   - close
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

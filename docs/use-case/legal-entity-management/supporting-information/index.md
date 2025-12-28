@@ -16,8 +16,10 @@ keywords:
   - exchange
   - rates
   - other
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

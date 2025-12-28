@@ -16,8 +16,10 @@ keywords:
   - consolidated
   - reduce
   - costs
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 !!! note

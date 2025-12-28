@@ -16,8 +16,10 @@ keywords:
   - structured
   - versioned
   - requirement
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Turn an incoming tender pack (RFP/RFQ) into a structured, versioned

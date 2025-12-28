@@ -16,8 +16,10 @@ keywords:
   - registrations
   - incorporation
   - business
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

@@ -16,8 +16,10 @@ keywords:
   - patterns
   - access
   - constraints
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Translate scope into labor hours by modeling crews, productivity,

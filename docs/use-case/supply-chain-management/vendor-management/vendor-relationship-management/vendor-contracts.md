@@ -16,8 +16,10 @@ keywords:
   - supplier
   - agreements
   - this
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

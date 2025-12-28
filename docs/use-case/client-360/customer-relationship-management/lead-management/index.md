@@ -16,8 +16,10 @@ keywords:
   - customers
   - initial
   - interest
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

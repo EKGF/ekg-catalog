@@ -16,8 +16,10 @@ keywords:
   - between
   - customer
   - contacts
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

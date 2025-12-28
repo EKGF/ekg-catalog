@@ -16,8 +16,10 @@ keywords:
   - products
   - content
   - understand
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

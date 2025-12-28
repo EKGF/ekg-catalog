@@ -16,8 +16,10 @@ keywords:
   - qualifications
   - commercial
   - terms
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Perform apples-to-apples evaluation by normalizing bid scope,

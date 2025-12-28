@@ -16,8 +16,10 @@ keywords:
   - types
   - incorporation
   - license
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

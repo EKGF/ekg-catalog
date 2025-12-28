@@ -16,8 +16,10 @@ keywords:
   - managing
   - clarifications
   - receiving
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Run the subcontractor bidding process: invite bidders, manage

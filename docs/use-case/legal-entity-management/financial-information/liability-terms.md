@@ -16,8 +16,10 @@ keywords:
   - relationships
   - compliance
   - monitoring
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

@@ -16,8 +16,10 @@ keywords:
   - capital
   - including
   - mergers
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

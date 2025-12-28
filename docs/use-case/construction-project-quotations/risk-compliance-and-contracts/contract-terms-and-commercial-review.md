@@ -16,8 +16,10 @@ keywords:
   - damages
   - change
   - control
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Analyze the contract conditions (payment, LDs, change control, scope

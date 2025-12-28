@@ -16,8 +16,10 @@ keywords:
   - planning
   - external
   - analysts
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

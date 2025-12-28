@@ -16,8 +16,10 @@ keywords:
   - periods
   - analyzing
   - relationships
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

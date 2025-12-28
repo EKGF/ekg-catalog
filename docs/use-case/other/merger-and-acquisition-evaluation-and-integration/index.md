@@ -16,8 +16,10 @@ keywords:
   - entities
   - analyzing
   - entity
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 !!! note

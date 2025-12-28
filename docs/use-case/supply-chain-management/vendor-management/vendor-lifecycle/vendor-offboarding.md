@@ -16,8 +16,10 @@ keywords:
   - closure
   - removal
   - system
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

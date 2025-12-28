@@ -16,8 +16,10 @@ keywords:
   - fit
   - delivery
   - capability
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Decide whether to pursue a tender based on strategic fit, delivery

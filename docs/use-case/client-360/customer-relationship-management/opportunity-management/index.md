@@ -16,8 +16,10 @@ keywords:
   - pipelines
   - teams
   - territories
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

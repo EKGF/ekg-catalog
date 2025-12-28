@@ -16,8 +16,10 @@ keywords:
   - parent-child
   - siblings
   - guardianships
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

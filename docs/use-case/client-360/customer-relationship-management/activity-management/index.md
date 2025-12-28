@@ -16,8 +16,10 @@ keywords:
   - channels
   - including
   - email
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

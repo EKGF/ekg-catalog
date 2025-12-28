@@ -16,8 +16,10 @@ keywords:
   - jurisdictions
   - ofac
   - prevent
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

@@ -16,8 +16,10 @@ keywords:
   - type
   - permissions
   - delegation
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

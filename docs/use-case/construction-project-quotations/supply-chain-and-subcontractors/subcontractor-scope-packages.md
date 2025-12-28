@@ -16,8 +16,10 @@ keywords:
   - interfaces
   - assumptions
   - deliverables
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Create clear, complete scope packages for subcontractors, including

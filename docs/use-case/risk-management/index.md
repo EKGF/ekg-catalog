@@ -16,8 +16,10 @@ keywords:
   - relationships
   - between
   - regulations
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

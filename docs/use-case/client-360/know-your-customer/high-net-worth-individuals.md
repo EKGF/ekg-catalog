@@ -16,8 +16,10 @@ keywords:
   - analysis
   - high-value
   - transactions
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

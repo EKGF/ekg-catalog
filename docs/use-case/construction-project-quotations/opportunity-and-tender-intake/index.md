@@ -16,7 +16,9 @@ keywords:
   - including
   - rfp
   - rfq
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 

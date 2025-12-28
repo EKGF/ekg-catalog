@@ -16,8 +16,10 @@ keywords:
   - applying
   - targets
   - commercial
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Turn the cost estimate into a bid price by applying markups, margin

@@ -16,8 +16,10 @@ keywords:
   - deadlines
   - obligations
   - handling
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

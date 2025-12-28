@@ -16,8 +16,10 @@ keywords:
   - versioned
   - changes
   - scope
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 Support clarifications, BAFO rounds, and negotiations by tracking

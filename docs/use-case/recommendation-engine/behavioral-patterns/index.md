@@ -16,8 +16,10 @@ keywords:
   - shares
   - infer
   - preferences
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge

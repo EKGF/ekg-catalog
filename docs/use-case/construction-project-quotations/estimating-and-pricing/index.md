@@ -16,7 +16,9 @@ keywords:
   - costs
   - develop
   - competitive
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 

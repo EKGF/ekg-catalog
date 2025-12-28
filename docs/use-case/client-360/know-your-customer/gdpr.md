@@ -16,8 +16,10 @@ keywords:
   - including
   - subject
   - rights
-parents:
+is-part-of:
   - ..
+is-used-in:
+  []
 ---
 
 ## The Challenge
