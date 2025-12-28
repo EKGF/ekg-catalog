@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-71.00 370.00 557.44 60.00" width="557.44px" height="60.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="101.47" y1="412.50" x2="111.47" y2="412.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 111.47 412.50 C 129.47 412.50, 133.47 412.50, 151.47 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 412.50 C 369.75 412.50, 375.25 387.50, 400.00 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 412.50 C 369.75 412.50, 375.25 412.50, 400.00 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <a xlink:href="/use-case/legal-entity-management/" target="_top">
+    <rect x="-66.00" y="400.00" width="167.47" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-56.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Legal Entity Management</text>
+  </a>
+  <a xlink:href="/use-case/legal-entity-management/contact-and-location-information/" target="_top">
+    <rect x="151.47" y="400.00" width="198.53" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="161.47" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Contact &amp; Location Information</text>
+  </a>
+  <a xlink:href="/use-case/legal-entity-management/contact-and-location-information/addresses/" target="_top">
+    <rect x="400.00" y="375.00" width="81.44" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Addresses</text>
+  </a>
+  <a xlink:href="/use-case/legal-entity-management/contact-and-location-information/contacts/" target="_top">
+    <rect x="400.00" y="400.00" width="75.62" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Contacts</text>
+  </a>
+</svg>

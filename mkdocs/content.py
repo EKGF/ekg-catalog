@@ -169,7 +169,7 @@ def extract_keywords(title: str, description: str, limit: int = 12):
 
 
 def remove_diagram_tags(body: str) -> str:
-    """Remove PlantUML diagram object tags from markdown body (diagrams are injected by template)."""
+    """Remove diagram object tags from markdown body (diagrams are injected by template)."""
     lines = body.splitlines()
     filtered = []
     i = 0

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-18.22 270.00 795.81 260.00" width="795.81px" height="260.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="157.84" y1="337.50" x2="167.84" y2="337.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 167.84 337.50 C 185.84 337.50, 189.84 337.50, 207.84 337.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 287.50, 400.00 287.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 312.50, 400.00 312.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 337.50, 400.00 337.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 362.50, 400.00 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 387.50, 400.00 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 412.50, 400.00 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 437.50, 400.00 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 462.50, 400.00 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 487.50, 400.00 487.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 337.50 C 369.75 337.50, 375.25 512.50, 400.00 512.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="581.11" y1="337.50" x2="619.52" y2="337.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 619.52 337.50 C 644.27 337.50, 649.77 312.50, 674.52 312.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="581.11" y1="337.50" x2="619.52" y2="337.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 619.52 337.50 C 644.27 337.50, 649.77 337.50, 674.52 337.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="581.11" y1="337.50" x2="619.52" y2="337.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 619.52 337.50 C 644.27 337.50, 649.77 362.50, 674.52 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="581.11" y1="337.50" x2="619.52" y2="337.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 619.52 337.50 C 644.27 337.50, 649.77 387.50, 674.52 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="581.11" y1="337.50" x2="619.52" y2="337.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 619.52 337.50 C 644.27 337.50, 649.77 412.50, 674.52 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="581.11" y1="337.50" x2="619.52" y2="337.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 619.52 337.50 C 644.27 337.50, 649.77 437.50, 674.52 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="581.11" y1="337.50" x2="619.52" y2="337.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 619.52 337.50 C 644.27 337.50, 649.77 462.50, 674.52 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="581.11" y1="337.50" x2="619.52" y2="337.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 619.52 337.50 C 644.27 337.50, 649.77 487.50, 674.52 487.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <a xlink:href="/use-case/client-360/" target="_top">
+    <rect x="-13.22" y="325.00" width="171.06" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-3.22" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Client 360 / Customer 360</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/" target="_top">
+    <rect x="207.84" y="325.00" width="142.16" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="217.84" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Know Your Customer</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/activity-monitoring/" target="_top">
+    <rect x="400.00" y="275.00" width="125.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="292.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Activity Monitoring</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/anti-money-laundering/" target="_top">
+    <rect x="400.00" y="300.00" width="192.75" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="317.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Anti Money Laundering (AML)</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/core-record-management/" target="_top">
+    <rect x="400.00" y="325.00" width="181.11" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Core Record Management</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/core-record-management/addresses/" target="_top">
+    <rect x="674.52" y="300.00" width="81.44" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="684.52" y="317.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Addresses</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/core-record-management/audit/" target="_top">
+    <rect x="674.52" y="325.00" width="49.64" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="684.52" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Audit</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/core-record-management/buildings/" target="_top">
+    <rect x="674.52" y="350.00" width="72.78" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="684.52" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Buildings</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/core-record-management/countries/" target="_top">
+    <rect x="674.52" y="375.00" width="75.66" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="684.52" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Countries</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/core-record-management/jurisdictions/" target="_top">
+    <rect x="674.52" y="400.00" width="91.55" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="684.52" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Jurisdictions</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/core-record-management/legal-entities/" target="_top">
+    <rect x="674.52" y="425.00" width="98.08" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="684.52" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Legal Entities</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/core-record-management/locations/" target="_top">
+    <rect x="674.52" y="450.00" width="75.67" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="684.52" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Locations</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/core-record-management/regions/" target="_top">
+    <rect x="674.52" y="475.00" width="67.72" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="684.52" y="492.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Regions</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/crime-records/" target="_top">
+    <rect x="400.00" y="350.00" width="106.70" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Crime Records</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/gdpr/" target="_top">
+    <rect x="400.00" y="375.00" width="57.56" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">GDPR</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/high-net-worth-individuals/" target="_top">
+    <rect x="400.00" y="400.00" width="173.70" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">High Net Worth Individuals</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/identification-verification/" target="_top">
+    <rect x="400.00" y="425.00" width="160.23" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Identification Verification</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/peps/" target="_top">
+    <rect x="400.00" y="450.00" width="224.52" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Politically Exposed Persons (PEPs)</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/risk-management/" target="_top">
+    <rect x="400.00" y="475.00" width="124.80" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="492.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Risk Management</text>
+  </a>
+  <a xlink:href="/use-case/client-360/know-your-customer/sanctions/" target="_top">
+    <rect x="400.00" y="500.00" width="77.11" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="517.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Sanctions</text>
+  </a>
+</svg>

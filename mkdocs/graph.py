@@ -103,6 +103,8 @@ def build_graph(max_workers: int = 8):
         return node_id, md_path, parent_dir, self_dir
 
     work_items = [item for p in md_files if (item := prepare(p)) is not None]
+    # Sort work items for deterministic processing order
+    work_items.sort(key=lambda x: x[0])
 
     def worker(item):
         node_id, md_path, parent_dir, self_dir = item
@@ -136,7 +138,8 @@ def build_graph(max_workers: int = 8):
         raise ValueError(f"Errors while building graph:\n{msgs}")
 
     # validate parents existence and sibling rule (serial)
-    for node_id, info in nodes.items():
+    # Sort by node_id for deterministic child set population order
+    for node_id, info in sorted(nodes.items()):
         for parent in info["parents"]:
             # Skip empty parent - it's valid for top-level use cases but excluded from graph per Rule 6
             if not parent or parent == "":
@@ -158,6 +161,8 @@ def build_graph(max_workers: int = 8):
 def primary_parent(graph: dict) -> Dict[str, str]:
     """Return mapping of node_id -> primary parent (first) or None."""
     mapping = {}
-    for node_id, info in graph.items():
+    # Use sorted keys for deterministic iteration order
+    for node_id in sorted(graph.keys()):
+        info = graph[node_id]
         mapping[node_id] = info["parents"][0] if info["parents"] else None
     return mapping

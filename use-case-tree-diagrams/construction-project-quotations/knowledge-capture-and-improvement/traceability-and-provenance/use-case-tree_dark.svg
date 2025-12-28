@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-258.91 345.00 941.23 110.00" width="941.23px" height="110.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="4.59" y1="437.50" x2="14.59" y2="437.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 14.59 437.50 C 32.59 437.50, 36.59 437.50, 54.59 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 437.50 C 369.75 437.50, 375.25 362.50, 400.00 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 437.50 C 369.75 437.50, 375.25 387.50, 400.00 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 437.50 C 369.75 437.50, 375.25 412.50, 400.00 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 437.50 C 369.75 437.50, 375.25 437.50, 400.00 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <a xlink:href="/use-case/construction-project-quotations/" target="_top">
+    <rect x="-253.91" y="425.00" width="258.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-243.91" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Complex Construction Project Quotations</text>
+  </a>
+  <a xlink:href="/use-case/construction-project-quotations/knowledge-capture-and-improvement/" target="_top">
+    <rect x="54.59" y="425.00" width="295.41" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="64.59" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Knowledge Capture &amp; Continuous Improvement</text>
+  </a>
+  <a xlink:href="/use-case/construction-project-quotations/knowledge-capture-and-improvement/document-ingestion-and-knowledge-extraction/" target="_top">
+    <rect x="400.00" y="350.00" width="277.33" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Document Ingestion &amp; Knowledge Extraction</text>
+  </a>
+  <a xlink:href="/use-case/construction-project-quotations/knowledge-capture-and-improvement/estimate-vs-actual-and-lessons-learned/" target="_top">
+    <rect x="400.00" y="375.00" width="241.89" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Estimate vs Actual &amp; Lessons Learned</text>
+  </a>
+  <a xlink:href="/use-case/construction-project-quotations/knowledge-capture-and-improvement/sme-knowledge-capture/" target="_top">
+    <rect x="400.00" y="400.00" width="166.02" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">SME Knowledge Capture</text>
+  </a>
+  <a xlink:href="/use-case/construction-project-quotations/knowledge-capture-and-improvement/traceability-and-provenance/" target="_top">
+    <rect x="400.00" y="425.00" width="181.88" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Traceability &amp; Provenance</text>
+  </a>
+</svg>

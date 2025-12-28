@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="231.78 357.50 480.22 85.00" width="480.22px" height="85.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="350.00" y1="400.00" x2="360.00" y2="400.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 360.00 400.00 C 378.00 400.00, 382.00 375.00, 400.00 375.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="400.00" x2="360.00" y2="400.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 360.00 400.00 C 378.00 400.00, 382.00 400.00, 400.00 400.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="400.00" x2="360.00" y2="400.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 360.00 400.00 C 378.00 400.00, 382.00 425.00, 400.00 425.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <a xlink:href="/use-case/other/" target="_top">
+    <rect x="236.78" y="387.50" width="113.22" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="246.78" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Other Usecases</text>
+  </a>
+  <a xlink:href="/use-case/other/enterprise-initiative-prioritization/" target="_top">
+    <rect x="400.00" y="362.50" width="205.73" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Enterprise Initiative Prioritization</text>
+  </a>
+  <a xlink:href="/use-case/other/identify-redundant-vendor-contracts/" target="_top">
+    <rect x="400.00" y="387.50" width="249.67" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Identify Redundant Vendor Contracts</text>
+  </a>
+  <a xlink:href="/use-case/other/merger-and-acquisition-evaluation-and-integration/" target="_top">
+    <rect x="400.00" y="412.50" width="307.00" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Merger and Acquisition Evaluation and Integration</text>
+  </a>
+</svg>

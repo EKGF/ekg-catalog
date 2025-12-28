@@ -13,16 +13,16 @@ from pathlib import Path
 # so we need to handle both absolute and relative imports
 try:
     # Try relative import first (works when loaded as part of package)
-    from .mkdocs.hooks import define_env, on_page_content, on_pre_build
+    from .mkdocs.hooks import on_env, on_page_content, on_pre_build
 except ImportError:
     # Fall back to absolute import (works when loaded directly by MkDocs or as script)
     parent_dir = Path(__file__).parent.parent
     if str(parent_dir) not in sys.path:
         sys.path.insert(0, str(parent_dir))
-    from docs.mkdocs.hooks import define_env, on_page_content, on_pre_build
+    from docs.mkdocs.hooks import on_env, on_page_content, on_pre_build
 
 # Make hooks available at module level for MkDocs
-__all__ = ["define_env", "on_page_content", "on_pre_build"]
+__all__ = ["on_env", "on_page_content", "on_pre_build"]
 
 
 # Entry point function for script execution
