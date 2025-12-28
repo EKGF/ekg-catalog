@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-64.50 370.00 560.30 60.00" width="560.30px" height="60.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-63.94 370.00 557.80 60.00" width="557.80px" height="60.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
-  <line x1="107.97" y1="412.50" x2="117.97" y2="412.50" stroke="#FF9900" stroke-width="1.5" />
-  <path d="M 117.97 412.50 C 135.97 412.50, 139.97 412.50, 157.97 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="107.88" y1="412.50" x2="117.88" y2="412.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 117.88 412.50 C 135.88 412.50, 139.88 412.50, 157.88 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <path d="M 345.00 412.50 C 369.75 412.50, 375.25 387.50, 400.00 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <path d="M 345.00 412.50 C 369.75 412.50, 375.25 412.50, 400.00 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/legal-entity-management/" target="_top">
-    <rect x="-59.50" y="400.00" width="167.47" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="-49.50" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Legal Entity Management</text>
+    <rect x="-58.94" y="400.00" width="166.81" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-48.94" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Legal Entity Management</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/compliance-and-documentation/" target="_top">
-    <rect x="157.97" y="400.00" width="192.03" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="167.97" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Compliance &amp; Documentation</text>
+    <rect x="157.88" y="400.00" width="192.12" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="167.88" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Compliance &amp; Documentation</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/compliance-and-documentation/compliance/" target="_top">
-    <rect x="400.00" y="375.00" width="88.67" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="375.00" width="88.86" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Compliance</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/compliance-and-documentation/documents/" target="_top">
-    <rect x="400.00" y="400.00" width="90.80" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="400.00" width="86.48" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Documents</text>
   </a>
 </svg>

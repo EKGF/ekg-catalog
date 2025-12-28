@@ -1,33 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-50.77 345.00 605.84 110.00" width="605.84px" height="110.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.31 345.00 601.67 110.00" width="601.67px" height="110.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
-  <line x1="121.70" y1="412.50" x2="131.70" y2="412.50" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 131.70 412.50 C 149.70 412.50, 153.70 412.50, 171.70 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="120.50" y1="412.50" x2="130.50" y2="412.50" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 130.50 412.50 C 148.50 412.50, 152.50 412.50, 170.50 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <path d="M 345.00 412.50 C 369.75 412.50, 375.25 362.50, 400.00 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <path d="M 345.00 412.50 C 369.75 412.50, 375.25 387.50, 400.00 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <path d="M 345.00 412.50 C 369.75 412.50, 375.25 412.50, 400.00 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <path d="M 345.00 412.50 C 369.75 412.50, 375.25 437.50, 400.00 437.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/legal-entity-management/" target="_top">
-    <rect x="-45.77" y="400.00" width="167.47" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="-35.77" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Legal Entity Management</text>
+    <rect x="-46.31" y="400.00" width="166.81" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-36.31" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Legal Entity Management</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/identification-and-registration/" target="_top">
-    <rect x="171.70" y="400.00" width="178.30" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="181.70" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Identification &amp; Registration</text>
+    <rect x="170.50" y="400.00" width="179.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="180.50" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Identification &amp; Registration</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/identification-and-registration/business-registration/" target="_top">
-    <rect x="400.00" y="350.00" width="145.77" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="350.00" width="145.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Business Registration</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/identification-and-registration/classification/" target="_top">
-    <rect x="400.00" y="375.00" width="96.61" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="375.00" width="98.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Classification</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/identification-and-registration/commercial-register/" target="_top">
-    <rect x="400.00" y="400.00" width="150.08" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="400.00" width="142.92" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Commercial Register</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/identification-and-registration/legal-form/" target="_top">
-    <rect x="400.00" y="425.00" width="92.27" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="425.00" width="91.62" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Legal Forms</text>
   </a>
 </svg>

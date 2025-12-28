@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="173.94 320.00 891.84 160.00" width="891.84px" height="160.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="173.20 320.00 882.34 160.00" width="882.34px" height="160.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
   <line x1="350.00" y1="362.50" x2="360.00" y2="362.50" stroke="#FF6F00" stroke-width="1.5" />
   <path d="M 360.00 362.50 C 378.00 362.50, 382.00 362.50, 400.00 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
@@ -8,83 +8,83 @@
   <path d="M 360.00 362.50 C 378.00 362.50, 382.00 412.50, 400.00 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <line x1="350.00" y1="362.50" x2="360.00" y2="362.50" stroke="#FF6F00" stroke-width="1.5" />
   <path d="M 360.00 362.50 C 378.00 362.50, 382.00 437.50, 400.00 437.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 640.38 362.50 C 665.12 362.50, 670.62 350.00, 695.38 350.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 640.38 362.50 C 665.12 362.50, 670.62 375.00, 695.38 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 640.38 362.50 C 665.12 362.50, 670.62 400.00, 695.38 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 640.38 362.50 C 665.12 362.50, 670.62 425.00, 695.38 425.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 640.38 362.50 C 665.12 362.50, 670.62 450.00, 695.38 450.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <line x1="841.88" y1="350.00" x2="857.11" y2="350.00" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 857.11 350.00 C 881.86 350.00, 887.36 337.50, 912.11 337.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <line x1="836.06" y1="375.00" x2="857.11" y2="375.00" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 857.11 375.00 C 881.86 375.00, 887.36 362.50, 912.11 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <line x1="839.70" y1="400.00" x2="857.11" y2="400.00" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 857.11 400.00 C 881.86 400.00, 887.36 387.50, 912.11 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <line x1="823.83" y1="425.00" x2="857.11" y2="425.00" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 857.11 425.00 C 881.86 425.00, 887.36 412.50, 912.11 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 857.11 450.00 C 881.86 450.00, 887.36 437.50, 912.11 437.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 857.11 450.00 C 881.86 450.00, 887.36 462.50, 912.11 462.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 628.42 362.50 C 653.17 362.50, 658.67 350.00, 683.42 350.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 628.42 362.50 C 653.17 362.50, 658.67 375.00, 683.42 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 628.42 362.50 C 653.17 362.50, 658.67 400.00, 683.42 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 628.42 362.50 C 653.17 362.50, 658.67 425.00, 683.42 425.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 628.42 362.50 C 653.17 362.50, 658.67 450.00, 683.42 450.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="831.34" y1="350.00" x2="846.05" y2="350.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 846.05 350.00 C 870.80 350.00, 876.30 337.50, 901.05 337.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="825.78" y1="375.00" x2="846.05" y2="375.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 846.05 375.00 C 870.80 375.00, 876.30 362.50, 901.05 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="828.67" y1="400.00" x2="846.05" y2="400.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 846.05 400.00 C 870.80 400.00, 876.30 387.50, 901.05 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="811.52" y1="425.00" x2="846.05" y2="425.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 846.05 425.00 C 870.80 425.00, 876.30 412.50, 901.05 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 846.05 450.00 C 870.80 450.00, 876.30 437.50, 901.05 437.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 846.05 450.00 C 870.80 450.00, 876.30 462.50, 901.05 462.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/client-360/" target="_top">
-    <rect x="178.94" y="350.00" width="171.06" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="188.94" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Client 360 / Customer 360</text>
+    <rect x="178.20" y="350.00" width="171.80" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="188.20" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Client 360 / Customer 360</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/" target="_top">
-    <rect x="400.00" y="350.00" width="245.38" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="350.00" width="233.42" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Customer Relationship Management</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/account-management/" target="_top">
-    <rect x="695.38" y="337.50" width="146.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="705.38" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Account Management</text>
+    <rect x="683.42" y="337.50" width="147.92" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="693.42" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Account Management</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/account-management/account-relationships/" target="_top">
-    <rect x="912.11" y="325.00" width="148.67" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="922.11" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Account Relationships</text>
+    <rect x="901.05" y="325.00" width="149.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="911.05" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Account Relationships</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/activity-management/" target="_top">
-    <rect x="695.38" y="362.50" width="140.69" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="705.38" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Activity Management</text>
+    <rect x="683.42" y="362.50" width="142.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="693.42" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Activity Management</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/activity-management/interactions/" target="_top">
-    <rect x="912.11" y="350.00" width="87.22" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="922.11" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Interactions</text>
+    <rect x="901.05" y="350.00" width="88.59" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="911.05" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Interactions</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/contact-management/" target="_top">
-    <rect x="695.38" y="387.50" width="144.33" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="705.38" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Contact Management</text>
+    <rect x="683.42" y="387.50" width="145.25" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="693.42" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Contact Management</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/contact-management/contact-relationships/" target="_top">
-    <rect x="912.11" y="375.00" width="146.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="922.11" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Contact Relationships</text>
+    <rect x="901.05" y="375.00" width="146.83" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="911.05" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Contact Relationships</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/lead-management/" target="_top">
-    <rect x="695.38" y="412.50" width="128.45" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="705.38" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Lead Management</text>
+    <rect x="683.42" y="412.50" width="128.09" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="693.42" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Lead Management</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/lead-management/lead-qualification/" target="_top">
-    <rect x="912.11" y="400.00" width="124.11" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="922.11" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Lead Qualification</text>
+    <rect x="901.05" y="400.00" width="124.11" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="911.05" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Lead Qualification</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/opportunity-management/" target="_top">
-    <rect x="695.38" y="437.50" width="166.73" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="705.38" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Opportunity Management</text>
+    <rect x="683.42" y="437.50" width="167.62" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="693.42" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Opportunity Management</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/opportunity-management/forecasting/" target="_top">
-    <rect x="912.11" y="425.00" width="87.94" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="922.11" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Forecasting</text>
+    <rect x="901.05" y="425.00" width="88.11" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="911.05" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Forecasting</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/opportunity-management/sales-pipeline/" target="_top">
-    <rect x="912.11" y="450.00" width="102.42" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="922.11" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Sales Pipeline</text>
+    <rect x="901.05" y="450.00" width="100.69" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="911.05" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Sales Pipeline</text>
   </a>
   <a xlink:href="/use-case/client-360/know-your-customer/" target="_top">
-    <rect x="400.00" y="375.00" width="142.16" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="375.00" width="141.81" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Know Your Customer</text>
   </a>
   <a xlink:href="/use-case/client-360/relationships-and-connections/" target="_top">
-    <rect x="400.00" y="400.00" width="186.27" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="400.00" width="185.33" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Relationships &amp; Connections</text>
   </a>
   <a xlink:href="/use-case/client-360/social-media/" target="_top">
-    <rect x="400.00" y="425.00" width="94.45" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="425.00" width="94.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Social Media</text>
   </a>
 </svg>

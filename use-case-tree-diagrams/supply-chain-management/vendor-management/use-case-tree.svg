@@ -1,62 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="168.12 320.00 845.73 160.00" width="845.73px" height="160.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="170.16 320.00 835.98 160.00" width="835.98px" height="160.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
   <line x1="350.00" y1="400.00" x2="360.00" y2="400.00" stroke="#FF6F00" stroke-width="1.5" />
   <path d="M 360.00 400.00 C 378.00 400.00, 382.00 400.00, 400.00 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 542.14 400.00 C 566.89 400.00, 572.39 375.00, 597.14 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 542.14 400.00 C 566.89 400.00, 572.39 400.00, 597.14 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 542.14 400.00 C 566.89 400.00, 572.39 425.00, 597.14 425.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <line x1="712.56" y1="375.00" x2="808.06" y2="375.00" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 808.06 375.00 C 832.81 375.00, 838.31 337.50, 863.06 337.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 808.06 400.00 C 832.81 400.00, 838.31 362.50, 863.06 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <path d="M 808.06 400.00 C 832.81 400.00, 838.31 387.50, 863.06 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <line x1="785.59" y1="425.00" x2="808.06" y2="425.00" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 808.06 425.00 C 832.81 425.00, 838.31 412.50, 863.06 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <line x1="785.59" y1="425.00" x2="808.06" y2="425.00" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 808.06 425.00 C 832.81 425.00, 838.31 437.50, 863.06 437.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
-  <line x1="785.59" y1="425.00" x2="808.06" y2="425.00" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 808.06 425.00 C 832.81 425.00, 838.31 462.50, 863.06 462.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 537.14 400.00 C 561.89 400.00, 567.39 375.00, 592.14 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 537.14 400.00 C 561.89 400.00, 567.39 400.00, 592.14 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 537.14 400.00 C 561.89 400.00, 567.39 425.00, 592.14 425.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="707.73" y1="375.00" x2="802.83" y2="375.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 802.83 375.00 C 827.58 375.00, 833.08 337.50, 857.83 337.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 802.83 400.00 C 827.58 400.00, 833.08 362.50, 857.83 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 802.83 400.00 C 827.58 400.00, 833.08 387.50, 857.83 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="779.27" y1="425.00" x2="802.83" y2="425.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 802.83 425.00 C 827.58 425.00, 833.08 412.50, 857.83 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="779.27" y1="425.00" x2="802.83" y2="425.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 802.83 425.00 C 827.58 425.00, 833.08 437.50, 857.83 437.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="779.27" y1="425.00" x2="802.83" y2="425.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 802.83 425.00 C 827.58 425.00, 833.08 462.50, 857.83 462.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/supply-chain-management/" target="_top">
-    <rect x="173.12" y="387.50" width="176.88" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="183.12" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Supply Chain Management</text>
+    <rect x="175.16" y="387.50" width="174.84" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="185.16" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Supply Chain Management</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/" target="_top">
-    <rect x="400.00" y="387.50" width="147.14" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="387.50" width="142.14" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Vendor Management</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-lifecycle/" target="_top">
-    <rect x="597.14" y="362.50" width="115.42" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="607.14" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Lifecycle</text>
+    <rect x="592.14" y="362.50" width="115.59" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="602.14" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Lifecycle</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-lifecycle/vendor-offboarding/" target="_top">
-    <rect x="863.06" y="325.00" width="132.55" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="873.06" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Offboarding</text>
+    <rect x="857.83" y="325.00" width="133.44" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="867.83" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Offboarding</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-relationship-management/" target="_top">
-    <rect x="597.14" y="387.50" width="215.92" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="607.14" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Relationship Management</text>
+    <rect x="592.14" y="387.50" width="215.69" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="602.14" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Relationship Management</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-relationship-management/vendor-contracts/" target="_top">
-    <rect x="863.06" y="350.00" width="120.47" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="873.06" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Contracts</text>
+    <rect x="857.83" y="350.00" width="120.75" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="867.83" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Contracts</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-relationship-management/vendor-performance/" target="_top">
-    <rect x="863.06" y="375.00" width="139.27" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="873.06" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Performance</text>
+    <rect x="857.83" y="375.00" width="139.66" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="867.83" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Performance</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-vetting-and-onboarding/" target="_top">
-    <rect x="597.14" y="412.50" width="188.45" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="607.14" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Vetting &amp; Onboarding</text>
+    <rect x="592.14" y="412.50" width="187.12" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="602.14" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Vetting &amp; Onboarding</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-vetting-and-onboarding/vendor-due-diligence/" target="_top">
-    <rect x="863.06" y="400.00" width="145.80" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="873.06" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Due Diligence</text>
+    <rect x="857.83" y="400.00" width="143.31" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="867.83" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Due Diligence</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-vetting-and-onboarding/vendor-kyc/" target="_top">
-    <rect x="863.06" y="425.00" width="91.56" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="873.06" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor KYC</text>
+    <rect x="857.83" y="425.00" width="88.69" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="867.83" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor KYC</text>
   </a>
   <a xlink:href="/use-case/supply-chain-management/vendor-management/vendor-vetting-and-onboarding/vendor-onboarding/" target="_top">
-    <rect x="863.06" y="450.00" width="132.80" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="873.06" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Onboarding</text>
+    <rect x="857.83" y="450.00" width="131.58" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="867.83" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vendor Onboarding</text>
   </a>
 </svg>

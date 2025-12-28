@@ -1,23 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="29.48 370.00 478.62 60.00" width="478.62px" height="60.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="28.84 370.00 477.89 60.00" width="477.89px" height="60.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
-  <line x1="205.55" y1="412.50" x2="215.55" y2="412.50" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 215.55 412.50 C 233.55 412.50, 237.55 412.50, 255.55 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="205.64" y1="412.50" x2="215.64" y2="412.50" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 215.64 412.50 C 233.64 412.50, 237.64 412.50, 255.64 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <path d="M 345.00 412.50 C 369.75 412.50, 375.25 387.50, 400.00 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <path d="M 345.00 412.50 C 369.75 412.50, 375.25 412.50, 400.00 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/client-360/" target="_top">
-    <rect x="34.48" y="400.00" width="171.06" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="44.48" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Client 360 / Customer 360</text>
+    <rect x="33.84" y="400.00" width="171.80" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="43.84" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Client 360 / Customer 360</text>
   </a>
   <a xlink:href="/use-case/client-360/social-media/" target="_top">
-    <rect x="255.55" y="400.00" width="94.45" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="265.55" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Social Media</text>
+    <rect x="255.64" y="400.00" width="94.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="265.64" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Social Media</text>
   </a>
   <a xlink:href="/use-case/client-360/social-media/interest-graph/" target="_top">
-    <rect x="400.00" y="375.00" width="103.11" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="375.00" width="101.73" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Interest Graph</text>
   </a>
   <a xlink:href="/use-case/client-360/social-media/social-graph/" target="_top">
-    <rect x="400.00" y="400.00" width="100.19" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="400.00" width="94.14" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Social Graph</text>
   </a>
 </svg>

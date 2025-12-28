@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-76.75 382.50 575.44 35.00" width="575.44px" height="35.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-78.42 382.50 573.34 35.00" width="573.34px" height="35.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
-  <line x1="159.31" y1="400.00" x2="169.31" y2="400.00" stroke="#FF6F00" stroke-width="1.5" />
-  <path d="M 169.31 400.00 C 187.31 400.00, 191.31 400.00, 209.31 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="157.64" y1="400.00" x2="167.64" y2="400.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 167.64 400.00 C 185.64 400.00, 189.64 400.00, 207.64 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <path d="M 345.00 400.00 C 369.75 400.00, 375.25 400.00, 400.00 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/client-360/customer-relationship-management/" target="_top">
-    <rect x="-71.75" y="387.50" width="231.06" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="-61.75" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Customer Relationship Management</text>
+    <rect x="-73.42" y="387.50" width="231.06" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-63.42" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Customer Relationship Management</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/activity-management/" target="_top">
-    <rect x="209.31" y="387.50" width="140.69" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="219.31" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Activity Management</text>
+    <rect x="207.64" y="387.50" width="142.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="217.64" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Activity Management</text>
   </a>
   <a xlink:href="/use-case/client-360/customer-relationship-management/activity-management/interactions/" target="_top">
-    <rect x="400.00" y="387.50" width="93.69" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="387.50" width="89.92" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Interactions</text>
   </a>
 </svg>

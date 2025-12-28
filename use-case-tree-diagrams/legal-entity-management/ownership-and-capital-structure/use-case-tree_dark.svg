@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="177.53 295.00 842.67 210.00" width="842.67px" height="210.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="178.19 295.00 837.56 210.00" width="837.56px" height="210.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
   <line x1="350.00" y1="462.50" x2="360.00" y2="462.50" stroke="#FF9900" stroke-width="1.5" />
   <path d="M 360.00 462.50 C 378.00 462.50, 382.00 312.50, 400.00 312.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
@@ -16,95 +16,95 @@
   <path d="M 360.00 462.50 C 378.00 462.50, 382.00 462.50, 400.00 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <line x1="350.00" y1="462.50" x2="360.00" y2="462.50" stroke="#FF9900" stroke-width="1.5" />
   <path d="M 360.00 462.50 C 378.00 462.50, 382.00 487.50, 400.00 487.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 603.53 462.50 C 628.28 462.50, 633.78 337.50, 658.53 337.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 603.53 462.50 C 628.28 462.50, 633.78 362.50, 658.53 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 603.53 462.50 C 628.28 462.50, 633.78 387.50, 658.53 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 603.53 462.50 C 628.28 462.50, 633.78 412.50, 658.53 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 603.53 462.50 C 628.28 462.50, 633.78 437.50, 658.53 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 603.53 462.50 C 628.28 462.50, 633.78 462.50, 658.53 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 776.89 362.50 C 801.64 362.50, 807.14 350.00, 831.89 350.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 776.89 362.50 C 801.64 362.50, 807.14 375.00, 831.89 375.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 776.89 362.50 C 801.64 362.50, 807.14 400.00, 831.89 400.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 776.89 362.50 C 801.64 362.50, 807.14 425.00, 831.89 425.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
-  <path d="M 776.89 362.50 C 801.64 362.50, 807.14 450.00, 831.89 450.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 596.05 462.50 C 620.80 462.50, 626.30 337.50, 651.05 337.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 596.05 462.50 C 620.80 462.50, 626.30 362.50, 651.05 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 596.05 462.50 C 620.80 462.50, 626.30 387.50, 651.05 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 596.05 462.50 C 620.80 462.50, 626.30 412.50, 651.05 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 596.05 462.50 C 620.80 462.50, 626.30 437.50, 651.05 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 596.05 462.50 C 620.80 462.50, 626.30 462.50, 651.05 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 770.66 362.50 C 795.41 362.50, 800.91 350.00, 825.66 350.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 770.66 362.50 C 795.41 362.50, 800.91 375.00, 825.66 375.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 770.66 362.50 C 795.41 362.50, 800.91 400.00, 825.66 400.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 770.66 362.50 C 795.41 362.50, 800.91 425.00, 825.66 425.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 770.66 362.50 C 795.41 362.50, 800.91 450.00, 825.66 450.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/legal-entity-management/" target="_top">
-    <rect x="182.53" y="450.00" width="167.47" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="192.53" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Legal Entity Management</text>
+    <rect x="183.19" y="450.00" width="166.81" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="193.19" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Legal Entity Management</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/compliance-and-documentation/" target="_top">
-    <rect x="400.00" y="300.00" width="192.03" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="300.00" width="192.12" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="317.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Compliance &amp; Documentation</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/contact-and-location-information/" target="_top">
-    <rect x="400.00" y="325.00" width="198.53" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="325.00" width="201.05" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Contact &amp; Location Information</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/corporate-governance/" target="_top">
-    <rect x="400.00" y="350.00" width="152.28" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="350.00" width="149.44" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Corporate Governance</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/financial-information/" target="_top">
-    <rect x="400.00" y="375.00" width="140.70" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="375.00" width="142.72" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Financial Information</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/identification-and-registration/" target="_top">
-    <rect x="400.00" y="400.00" width="178.30" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="400.00" width="179.50" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Identification &amp; Registration</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/lifecycle-and-status/" target="_top">
-    <rect x="400.00" y="425.00" width="123.34" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="425.00" width="122.86" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Lifecycle &amp; Status</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/" target="_top">
-    <rect x="400.00" y="450.00" width="208.53" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <rect x="400.00" y="450.00" width="196.09" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Ownership &amp; Capital Structure</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/control/" target="_top">
-    <rect x="658.53" y="325.00" width="61.92" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="668.53" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Control</text>
+    <rect x="651.05" y="325.00" width="62.17" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="661.05" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Control</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/" target="_top">
-    <rect x="658.53" y="350.00" width="123.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="668.53" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Corporate Actions</text>
+    <rect x="651.05" y="350.00" width="124.61" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="661.05" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Corporate Actions</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/dividends/" target="_top">
-    <rect x="831.89" y="337.50" width="77.11" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="841.89" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Dividends</text>
+    <rect x="825.66" y="337.50" width="76.56" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="835.66" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Dividends</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/merger-and-acquisition-history/" target="_top">
-    <rect x="831.89" y="362.50" width="183.31" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="841.89" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Merger &amp; Acquisition History</text>
+    <rect x="825.66" y="362.50" width="185.09" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="835.66" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Merger &amp; Acquisition History</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/parents-and-subsidiaries/" target="_top">
-    <rect x="831.89" y="387.50" width="151.55" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="841.89" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Parents &amp; Subsidiaries</text>
+    <rect x="825.66" y="387.50" width="149.81" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="835.66" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Parents &amp; Subsidiaries</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/spin-offs/" target="_top">
-    <rect x="831.89" y="412.50" width="71.08" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="841.89" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Spin-offs</text>
+    <rect x="825.66" y="412.50" width="72.09" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="835.66" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Spin-offs</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/corporate-actions/stock-splits/" target="_top">
-    <rect x="831.89" y="437.50" width="87.92" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="841.89" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Stock Splits</text>
+    <rect x="825.66" y="437.50" width="88.17" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="835.66" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Stock Splits</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/issued-capital/" target="_top">
-    <rect x="658.53" y="375.00" width="102.41" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="668.53" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Issued Capital</text>
+    <rect x="651.05" y="375.00" width="102.03" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="661.05" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Issued Capital</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/ownership/" target="_top">
-    <rect x="658.53" y="400.00" width="82.16" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="668.53" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Ownership</text>
+    <rect x="651.05" y="400.00" width="81.48" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="661.05" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Ownership</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/share-capital/" target="_top">
-    <rect x="658.53" y="425.00" width="98.80" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="668.53" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Share Capital</text>
+    <rect x="651.05" y="425.00" width="96.83" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="661.05" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Share Capital</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/ownership-and-capital-structure/shares/" target="_top">
-    <rect x="658.53" y="450.00" width="61.20" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
-    <text x="668.53" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Shares</text>
+    <rect x="651.05" y="450.00" width="59.83" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="661.05" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Shares</text>
   </a>
   <a xlink:href="/use-case/legal-entity-management/supporting-information/" target="_top">
-    <rect x="400.00" y="475.00" width="151.56" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <rect x="400.00" y="475.00" width="154.25" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
     <text x="410.00" y="492.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Supporting Information</text>
   </a>
 </svg>
