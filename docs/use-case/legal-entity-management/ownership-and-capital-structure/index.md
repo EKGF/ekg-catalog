@@ -77,15 +77,3 @@ structure management capabilities:
   optimization opportunities
 
 ## Components
-
-- [Ownership](ownership.md)
-- [Control](control.md)
-- [Shares & Ownership](shares.md)
-- [Share Capital](share-capital.md)
-- [Issued Capital](issued-capital.md)
-- [Corporate Actions](corporate-actions/index.md)
-  - [Merger & Acquisition History](corporate-actions/merger-and-acquisition-history.md)
-  - [Spin-offs](corporate-actions/spin-offs.md)
-  - [Parents and Subsidiaries](corporate-actions/parents-and-subsidiaries.md)
-  - [Stock Splits](corporate-actions/stock-splits.md)
-  - [Dividends](corporate-actions/dividends.md)

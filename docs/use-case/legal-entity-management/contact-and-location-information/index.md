@@ -75,6 +75,3 @@ information management capabilities:
   management and reduce manual data entry
 
 ## Components
-
-- [Contacts](contacts.md)
-- [Addresses](addresses.md)

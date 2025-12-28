@@ -20,7 +20,3 @@ parents:
   - ..
 ---
 
- [Scope Decomposition (WBS/BoQ)](scope-decomposition-wbs-boq.md)
-- [Assumptions, Exclusions & Qualifications](assumptions-exclusions-qualifications.md)
-- [RFIs, Clarifications & Addenda](rfis-clarifications-addenda.md)
-- [Constructability Review](constructability-review.md)

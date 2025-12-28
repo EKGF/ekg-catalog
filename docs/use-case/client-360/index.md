@@ -64,11 +64,6 @@ data sources are added. EKG enables:
 
 ## Components
 
-- [Relationships & Connections](relationships-and-connections/index.md)
-- [Know Your Customer (KYC)](know-your-customer/index.md)
-- [Social Media](social-media/index.md)
-- [Customer Relationship Management](customer-relationship-management/index.md)
-
 ## Related Use Cases
 
 Client 360 / Know Your Customer depends on and integrates with several

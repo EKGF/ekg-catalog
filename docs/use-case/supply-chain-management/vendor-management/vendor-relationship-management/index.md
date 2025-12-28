@@ -79,9 +79,6 @@ management capabilities:
 
 ## Components
 
-- [Vendor Performance](vendor-performance.md)
-- [Vendor Contracts](vendor-contracts.md)
-
 ## Related Use Cases
 
 - **[Customer Relationship Management (CRM)](../../../client-360/customer-relationship-management/index.md)** -

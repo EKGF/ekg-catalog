@@ -76,6 +76,3 @@ documentation management capabilities:
   compliance management
 
 ## Components
-
-- [Compliance](compliance.md)
-- [Documents](documents.md)

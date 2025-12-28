@@ -73,6 +73,3 @@ management capabilities:
   lifecycle and status information
 
 ## Components
-
-- [Dissolution](dissolution.md)
-- [Liquidation](liquidation.md)

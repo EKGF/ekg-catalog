@@ -65,11 +65,6 @@ organizations, geographies, and time. EKG enables:
 
 ## Components
 
-- [Vendor Management](vendor-management/index.md)
-  - [Vendor Vetting & Onboarding](vendor-management/vendor-vetting-and-onboarding/index.md)
-  - [Vendor Relationship Management](vendor-management/vendor-relationship-management/index.md)
-  - [Vendor Lifecycle](vendor-management/vendor-lifecycle/index.md)
-
 ## Related Use Cases
 
 - [Risk Management](../risk-management/index.md) - Supply chain risk

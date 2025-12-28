@@ -86,18 +86,6 @@ Enterprise Knowledge Graphs provide powerful CRM capabilities:
 
 ## Components
 
-- [Lead Management](lead-management/index.md)
-  - [Lead Qualification](lead-management/lead-qualification.md)
-- [Opportunity Management](opportunity-management/index.md)
-  - [Sales Pipeline](opportunity-management/sales-pipeline.md)
-  - [Forecasting](opportunity-management/forecasting.md)
-- [Account Management](account-management/index.md)
-  - [Account Relationships](account-management/account-relationships.md)
-- [Contact Management](contact-management/index.md)
-  - [Contact Relationships](contact-management/contact-relationships.md)
-- [Activity Management](activity-management/index.md)
-  - [Interactions](activity-management/interactions.md)
-
 ## Related Use Cases
 
 Customer Relationship Management depends on and integrates with

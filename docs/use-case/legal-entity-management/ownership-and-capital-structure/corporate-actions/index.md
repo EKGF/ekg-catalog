@@ -76,9 +76,3 @@ management capabilities:
   optimization opportunities
 
 ## Components
-
-- [Merger & Acquisition History](merger-and-acquisition-history.md)
-- [Spin-offs](spin-offs.md)
-- [Parents and Subsidiaries](parents-and-subsidiaries.md)
-- [Stock Splits](stock-splits.md)
-- [Dividends](dividends.md)

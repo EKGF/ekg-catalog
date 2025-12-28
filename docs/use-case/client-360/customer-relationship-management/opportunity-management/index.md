@@ -78,9 +78,6 @@ capabilities:
 
 ## Components
 
-- [Sales Pipeline](sales-pipeline.md)
-- [Forecasting](forecasting.md)
-
 ## Related Use Cases
 
 - **[Account Management](../account-management/index.md)** -

@@ -88,16 +88,6 @@ capabilities:
 
 ## Components
 
-- [Vendor Vetting & Onboarding](vendor-vetting-and-onboarding/index.md)
-  - [Vendor KYC](vendor-vetting-and-onboarding/vendor-kyc.md)
-  - [Vendor Due Diligence](vendor-vetting-and-onboarding/vendor-due-diligence.md)
-  - [Vendor Onboarding](vendor-vetting-and-onboarding/vendor-onboarding.md)
-- [Vendor Relationship Management](vendor-relationship-management/index.md)
-  - [Vendor Performance](vendor-relationship-management/vendor-performance.md)
-  - [Vendor Contracts](vendor-relationship-management/vendor-contracts.md)
-- [Vendor Lifecycle](vendor-lifecycle/index.md)
-  - [Vendor Offboarding](vendor-lifecycle/vendor-offboarding.md)
-
 ## Related Use Cases
 
 Vendor Management depends on and integrates with several other use

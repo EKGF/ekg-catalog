@@ -84,10 +84,6 @@ capabilities:
 
 ## Components
 
-- [Vendor KYC](vendor-kyc.md)
-- [Vendor Due Diligence](vendor-due-diligence.md)
-- [Vendor Onboarding](vendor-onboarding.md)
-
 ## Related Use Cases
 
 - **[Know Your Customer (KYC)](../../../client-360/know-your-customer/index.md)** -

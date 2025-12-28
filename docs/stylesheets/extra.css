@@ -846,3 +846,18 @@
 [data-md-color-scheme="slate"] .md-typeset img.only-light {
   display: none;
 }
+
+/* Fix for lists incorrectly parsed as paragraphs with inline hyphens */
+/* When markdown has a link line followed by list items without proper list markers,
+   Python-Markdown parses it as a paragraph with literal "- " text.
+   This CSS converts such paragraphs to display vertically like a proper list. */
+.md-typeset p:has(> a:first-child) {
+  white-space: pre-line !important;
+  line-height: 1.8 !important;
+  display: block !important;
+}
+
+/* Ensure all content in these paragraphs respects line breaks */
+.md-typeset p:has(> a:first-child) * {
+  white-space: normal;
+}

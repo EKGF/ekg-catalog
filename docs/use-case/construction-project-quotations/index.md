@@ -121,52 +121,17 @@ processing and generation capabilities enables:
 
 ### Opportunity & Tender Intake
 
-- [RFP/RFQ Intake & Document Catalog](opportunity-and-tender-intake/rfp-rfq-intake.md)
-- [Bid/No-Bid Decisioning](opportunity-and-tender-intake/bid-no-bid-decisioning.md)
-- [Site Visit & Existing Conditions](opportunity-and-tender-intake/site-visit-and-existing-conditions.md)
-
 ### Scope & Requirements
-
-- [Scope Decomposition (WBS/BoQ)](scope-and-requirements/scope-decomposition-wbs-boq.md)
-- [Assumptions, Exclusions & Qualifications](scope-and-requirements/assumptions-exclusions-qualifications.md)
-- [RFIs, Clarifications & Addenda](scope-and-requirements/rfis-clarifications-addenda.md)
-- [Constructability Review](scope-and-requirements/constructability-review.md)
 
 ### Estimating & Pricing
 
-- [Quantity Takeoff (2D/3D/BIM)](estimating-and-pricing/quantity-takeoff.md)
-- [Unit Rates & Cost Libraries](estimating-and-pricing/unit-rates-and-cost-libraries.md)
-- [Labor Productivity & Crew Modeling](estimating-and-pricing/labor-productivity-and-crew-modeling.md)
-- [Indirects, Overheads & General Conditions](estimating-and-pricing/indirects-overheads-general-conditions.md)
-- [Contingency & Escalation](estimating-and-pricing/contingency-and-escalation.md)
-- [Pricing Strategy (Margin/Markups)](estimating-and-pricing/pricing-strategy-margin-markups.md)
-
 ### Supply Chain & Subcontractors
-
-- [Supplier RFQs & Material Pricing](supply-chain-and-subcontractors/supplier-rfqs-and-material-pricing.md)
-- [Subcontractor Scope Packages](supply-chain-and-subcontractors/subcontractor-scope-packages.md)
-- [Subcontractor Bid Solicitation & Comparison](supply-chain-and-subcontractors/subcontractor-bid-solicitation-and-comparison.md)
-- [Bid Leveling & Comparative Analysis](supply-chain-and-subcontractors/bid-leveling.md)
 
 ### Risk, Compliance & Contracts
 
-- [Risk Register & Scenario Analysis](risk-compliance-and-contracts/risk-register-and-scenario-analysis.md)
-- [Regulatory, Safety & Environmental Compliance](risk-compliance-and-contracts/regulatory-safety-environmental-compliance.md)
-- [Contract Terms & Commercial Review](risk-compliance-and-contracts/contract-terms-and-commercial-review.md)
-- [Bonds, Insurance & Warranties](risk-compliance-and-contracts/bonds-insurance-warranties.md)
-
 ### Proposal & Negotiation
 
-- [Proposal Document Generation & Assembly](proposal-submission-and-negotiation/proposal-document-generation.md)
-- [Compliance Matrix & Submission Packaging](proposal-submission-and-negotiation/compliance-matrix-and-submission-packaging.md)
-- [Negotiation Support & Revisions](proposal-submission-and-negotiation/negotiation-support-and-revisions.md)
-
 ### Knowledge Capture & Continuous Improvement
-
-- [SME Knowledge Capture](knowledge-capture-and-improvement/sme-knowledge-capture.md)
-- [Document Ingestion & Knowledge Extraction](knowledge-capture-and-improvement/document-ingestion-and-knowledge-extraction.md)
-- [Traceability & Provenance](knowledge-capture-and-improvement/traceability-and-provenance.md)
-- [Estimate vs Actual & Lessons Learned](knowledge-capture-and-improvement/estimate-vs-actual-and-lessons-learned.md)
 
 ## How EKG and GenAI Work Together
 

@@ -77,8 +77,3 @@ identification and registration management:
   registration management
 
 ## Components
-
-- [Legal Form](legal-form.md)
-- [Business Registration](business-registration.md)
-- [Commercial Register](commercial-register.md)
-- [Classification](classification.md)

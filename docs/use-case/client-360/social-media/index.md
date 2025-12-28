@@ -87,6 +87,3 @@ analysis:
   acquisition and retention
 
 ## Components
-
-- [Social Graph](social-graph.md)
-- [Interest Graph](interest-graph.md)

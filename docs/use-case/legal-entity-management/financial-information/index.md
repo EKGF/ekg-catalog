@@ -76,9 +76,3 @@ management capabilities:
   reduce manual effort
 
 ## Components
-
-- [Assets](assets.md)
-- [Fundamentals](fundamentals.md)
-- [Earnings Estimates](earnings-estimates.md)
-- [Ratings](ratings.md)
-- [Liability Terms](liability-terms.md)

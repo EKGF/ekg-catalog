@@ -87,8 +87,3 @@ capabilities:
   and customer acquisition
 
 ## Components
-
-- [Business Connections](business-connections.md)
-- [Family Connections](family-connections.md)
-- [Political Connections](political-connections.md)
-- [Social Connections](social-connections.md)

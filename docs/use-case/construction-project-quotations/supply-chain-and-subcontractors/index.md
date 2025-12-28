@@ -20,7 +20,3 @@ parents:
   - ..
 ---
 
- [Supplier RFQs & Material Pricing](supplier-rfqs-and-material-pricing.md)
-- [Subcontractor Scope Packages](subcontractor-scope-packages.md)
-- [Subcontractor Bid Solicitation & Comparison](subcontractor-bid-solicitation-and-comparison.md)
-- [Bid Leveling & Comparative Analysis](bid-leveling.md)

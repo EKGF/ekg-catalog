@@ -75,7 +75,3 @@ management capabilities:
   optimization opportunities
 
 ## Components
-
-- [Directorships](directorships.md)
-- [Signatories](signatories.md)
-- [Organizational Structure](organizational-structure.md)

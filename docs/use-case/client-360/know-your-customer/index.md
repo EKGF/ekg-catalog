@@ -82,28 +82,6 @@ Enterprise Knowledge Graphs provide powerful KYC capabilities:
 
 ## Components
 
-- [Core Record Management](core-record-management/index.md)
-  - [Addresses](core-record-management/addresses.md)
-  - [Legal Entities](core-record-management/legal-entities.md)
-  - [Locations](core-record-management/locations.md)
-  - [Buildings](core-record-management/buildings.md)
-  - [Countries](core-record-management/countries.md)
-  - [Jurisdictions](core-record-management/jurisdictions.md)
-  - [Regions](core-record-management/regions.md)
-  - [Audit](core-record-management/audit.md)
-- [Identification & Verification](identification-verification.md)
-- [Anti-Money Laundering (AML)](anti-money-laundering/index.md)
-  - [Transaction-Based AML](anti-money-laundering/transaction-based-aml.md)
-  - [Network-Based AML](anti-money-laundering/network-based-aml.md)
-  - [Correspondent-Based AML](anti-money-laundering/correspondent-based-aml.md)
-- [Sanctions](sanctions.md)
-- [Politically Exposed Persons (PEPs)](peps.md)
-- [GDPR](gdpr.md)
-- [Crime Records](crime-records.md)
-- [Risk Management](risk-management.md)
-- [Activity Monitoring](activity-monitoring.md)
-- [High Net Worth Individuals](high-net-worth-individuals.md)
-
 ## Related Use Cases
 
 Know Your Customer depends on and integrates with several other use
