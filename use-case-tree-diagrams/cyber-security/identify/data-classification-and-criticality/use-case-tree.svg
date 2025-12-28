@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-46.36 345.00 686.05 110.00" width="686.05px" height="110.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="58.12" y1="387.50" x2="68.12" y2="387.50" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 68.12 387.50 C 86.12 387.50, 90.12 375.00, 108.12 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 362.50, 400.00 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 387.50, 400.00 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 412.50, 400.00 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 437.50, 400.00 437.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="288.56" y1="400.00" x2="345.00" y2="400.00" stroke="#FF6F00" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 400.00 C 369.75 400.00, 375.25 387.50, 400.00 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <a xlink:href="/use-case/cyber-security/" target="_top">
+    <rect x="-41.36" y="375.00" width="99.48" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-31.36" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Cybersecurity</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/identify/" target="_top">
+    <rect x="108.12" y="362.50" width="241.88" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="118.12" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Identify (Cybersecurity Understanding)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/identify/attack-surface-management/" target="_top">
+    <rect x="400.00" y="350.00" width="184.06" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Attack Surface Management</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/identify/data-classification-and-criticality/" target="_top">
+    <rect x="400.00" y="375.00" width="212.19" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Data Classification &amp; Criticality</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/identify/threat-modeling-and-scenarios/" target="_top">
+    <rect x="400.00" y="400.00" width="234.69" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Threat Modeling &amp; Scenario Mapping</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/identify/vulnerability-management/" target="_top">
+    <rect x="400.00" y="425.00" width="169.88" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Vulnerability Management</text>
+  </a>
+  <a xlink:href="/use-case/data-privacy-governance/" target="_top">
+    <rect x="108.12" y="387.50" width="180.44" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="118.12" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Data Privacy &amp; Governance</text>
+  </a>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-18.14 320.00 619.50 160.00" width="619.50px" height="160.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="86.34" y1="412.50" x2="96.34" y2="412.50" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 96.34 412.50 C 114.34 412.50, 118.34 375.00, 136.34 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="289.33" y1="400.00" x2="345.00" y2="400.00" stroke="#FF6F00" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 400.00 C 369.75 400.00, 375.25 412.50, 400.00 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="298.67" y1="425.00" x2="345.00" y2="425.00" stroke="#FF6F00" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 425.00 C 369.75 425.00, 375.25 412.50, 400.00 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="287.16" y1="450.00" x2="345.00" y2="450.00" stroke="#FF6F00" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 450.00 C 369.75 450.00, 375.25 412.50, 400.00 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 337.50, 400.00 337.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 362.50, 400.00 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 387.50, 400.00 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 412.50, 400.00 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 437.50, 400.00 437.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 462.50, 400.00 462.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <a xlink:href="/use-case/cyber-security/" target="_top">
+    <rect x="-13.14" y="400.00" width="99.48" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-3.14" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Cybersecurity</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/cloud/" target="_top">
+    <rect x="136.34" y="387.50" width="152.98" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="146.34" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Cloud Security Context</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/ot-ics/" target="_top">
+    <rect x="136.34" y="412.50" width="162.33" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="146.34" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">OT/ICS Security Context</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/saas/" target="_top">
+    <rect x="136.34" y="437.50" width="150.81" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="146.34" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">SaaS Security Context</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/detect/" target="_top">
+    <rect x="136.34" y="362.50" width="213.66" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="146.34" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Detect (Cybersecurity Monitoring)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/detect/anomaly-and-behavior-detection/" target="_top">
+    <rect x="400.00" y="325.00" width="196.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Anomaly &amp; Behavior Detection</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/detect/detection-engineering/" target="_top">
+    <rect x="400.00" y="350.00" width="147.97" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Detection Engineering</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/detect/logging-and-telemetry/" target="_top">
+    <rect x="400.00" y="375.00" width="138.31" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Logging &amp; Telemetry</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/detect/soc-monitoring-and-alerting/" target="_top">
+    <rect x="400.00" y="400.00" width="184.14" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">SOC Monitoring &amp; Alerting</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/detect/threat-hunting/" target="_top">
+    <rect x="400.00" y="425.00" width="106.02" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Threat Hunting</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/detect/threat-intelligence/" target="_top">
+    <rect x="400.00" y="450.00" width="126.98" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Threat Intelligence</text>
+  </a>
+</svg>

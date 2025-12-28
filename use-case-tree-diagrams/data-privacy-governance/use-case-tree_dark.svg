@@ -1,7 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 382.50 199.84 35.00" width="199.84px" height="35.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 370.00 690.38 60.00" width="690.38px" height="60.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
+  <line x1="749.47" y1="412.50" x2="831.16" y2="412.50" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 831.16 412.50 C 855.91 412.50, 861.41 400.00, 886.16 400.00" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 584.84 400.00 C 609.59 400.00, 615.09 387.50, 639.84 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 584.84 400.00 C 609.59 400.00, 615.09 412.50, 639.84 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <a xlink:href="/use-case/cyber-security/identify/data-classification-and-criticality/" target="_top">
+    <rect x="639.84" y="375.00" width="196.31" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="649.84" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Data Classification &amp; Criticality</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/data-protection/" target="_top">
+    <rect x="639.84" y="400.00" width="109.62" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="649.84" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Data Protection</text>
+  </a>
   <a xlink:href="/use-case/data-privacy-governance/" target="_top">
     <rect x="400.00" y="387.50" width="189.84" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Data Privacy &amp; Governance</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/data-flow-and-lineage-mapping/" target="_top">
+    <rect x="886.16" y="387.50" width="194.22" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="896.16" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Data Flow &amp; Lineage Mapping</text>
   </a>
 </svg>

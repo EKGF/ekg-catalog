@@ -1,5 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 382.50 282.09 35.00" width="282.09px" height="35.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 370.00 878.62 60.00" width="878.62px" height="60.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
+  <path d="M 963.33 400.00 C 988.08 400.00, 993.58 387.50, 1018.33 387.50" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 963.33 400.00 C 988.08 400.00, 993.58 412.50, 1018.33 412.50" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 667.09 400.00 C 691.84 400.00, 697.34 400.00, 722.09 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <a xlink:href="/use-case/cyber-security/govern/compliance-and-audit/" target="_top">
+    <rect x="722.09" y="387.50" width="246.23" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="732.09" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Compliance, Controls &amp; Audit Evidence</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/data-flow-and-lineage-mapping/" target="_top">
+    <rect x="1018.33" y="375.00" width="194.22" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="1028.33" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Data Flow &amp; Lineage Mapping</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/security-and-compliance-posture-visibility/" target="_top">
+    <rect x="1018.33" y="400.00" width="250.30" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="1028.33" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Security &amp; Compliance Posture Visibility</text>
+  </a>
   <a xlink:href="/use-case/regulatory-reports/" target="_top">
     <rect x="400.00" y="387.50" width="272.09" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Enterprise-Spanning Regulatory Reports</text>

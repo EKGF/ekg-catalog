@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-76.72 307.50 1046.39 160.00" width="1046.39px" height="160.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="27.77" y1="350.00" x2="37.77" y2="350.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 37.77 350.00 C 55.77 350.00, 59.77 325.00, 77.77 325.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="306.61" y1="325.00" x2="345.00" y2="325.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 345.00 325.00 C 369.75 325.00, 375.25 350.00, 400.00 350.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="306.61" y1="325.00" x2="345.00" y2="325.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 345.00 325.00 C 369.75 325.00, 375.25 375.00, 400.00 375.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="306.61" y1="325.00" x2="345.00" y2="325.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 345.00 325.00 C 369.75 325.00, 375.25 400.00, 400.00 400.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="306.61" y1="325.00" x2="345.00" y2="325.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 345.00 325.00 C 369.75 325.00, 375.25 425.00, 400.00 425.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="306.61" y1="325.00" x2="345.00" y2="325.00" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 345.00 325.00 C 369.75 325.00, 375.25 450.00, 400.00 450.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 659.38 350.00 C 684.12 350.00, 689.62 387.50, 714.38 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 659.38 350.00 C 684.12 350.00, 689.62 412.50, 714.38 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="331.97" y1="350.00" x2="345.00" y2="350.00" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 350.00 C 369.75 350.00, 375.25 350.00, 400.00 350.00" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 345.00 375.00 C 369.75 375.00, 375.25 350.00, 400.00 350.00" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <a xlink:href="/use-case/cyber-security/" target="_top">
+    <rect x="-71.72" y="337.50" width="99.48" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-61.72" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Cybersecurity</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/" target="_top">
+    <rect x="77.77" y="312.50" width="228.84" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="87.77" y="329.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Govern (Cybersecurity Governance)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/compliance-and-audit/" target="_top">
+    <rect x="400.00" y="337.50" width="264.38" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Compliance, Controls &amp; Audit Evidence</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/risk-management/" target="_top">
+    <rect x="400.00" y="362.50" width="163.09" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Cyber Risk Management</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/security-architecture-and-standards/" target="_top">
+    <rect x="400.00" y="387.50" width="214.41" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Security Architecture &amp; Standards</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/security-strategy-and-policy/" target="_top">
+    <rect x="400.00" y="412.50" width="169.58" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Security Strategy &amp; Policy</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/third-party-and-supply-chain-risk/" target="_top">
+    <rect x="400.00" y="437.50" width="257.02" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Third-Party &amp; Supply Chain Security Risk</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/data-flow-and-lineage-mapping/" target="_top">
+    <rect x="714.38" y="375.00" width="194.22" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="724.38" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Data Flow &amp; Lineage Mapping</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/security-and-compliance-posture-visibility/" target="_top">
+    <rect x="714.38" y="400.00" width="250.30" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="724.38" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Security &amp; Compliance Posture Visibility</text>
+  </a>
+  <a xlink:href="/use-case/regulatory-reports/" target="_top">
+    <rect x="77.77" y="337.50" width="254.20" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="87.77" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Enterprise-Spanning Regulatory Reports</text>
+  </a>
+  <a xlink:href="/use-case/risk-management/" target="_top">
+    <rect x="77.77" y="362.50" width="272.23" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="87.77" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Enterprise Risk &amp; Compliance Management</text>
+  </a>
+</svg>

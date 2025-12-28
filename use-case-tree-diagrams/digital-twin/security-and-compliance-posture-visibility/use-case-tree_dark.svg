@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="51.48 345.00 623.97 110.00" width="623.97px" height="110.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="302.72" y1="412.50" x2="360.00" y2="412.50" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 360.00 412.50 C 378.00 412.50, 382.00 412.50, 400.00 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="219.58" y1="437.50" x2="360.00" y2="437.50" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 360.00 437.50 C 378.00 437.50, 382.00 412.50, 400.00 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="350.00" y1="387.50" x2="360.00" y2="387.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 360.00 387.50 C 378.00 387.50, 382.00 362.50, 400.00 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="387.50" x2="360.00" y2="387.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 360.00 387.50 C 378.00 387.50, 382.00 387.50, 400.00 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="387.50" x2="360.00" y2="387.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 360.00 387.50 C 378.00 387.50, 382.00 412.50, 400.00 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="387.50" x2="360.00" y2="387.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 360.00 387.50 C 378.00 387.50, 382.00 437.50, 400.00 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <a xlink:href="/use-case/cyber-security/govern/compliance-and-audit/" target="_top">
+    <rect x="56.48" y="400.00" width="246.23" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="66.48" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Compliance, Controls &amp; Audit Evidence</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/risk-management/" target="_top">
+    <rect x="56.48" y="425.00" width="163.09" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="66.48" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Cyber Risk Management</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/" target="_top">
+    <rect x="56.48" y="375.00" width="293.52" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="66.48" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Digital Twin of Technology and Data Landscape</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/data-flow-and-lineage-mapping/" target="_top">
+    <rect x="400.00" y="350.00" width="194.22" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Data Flow &amp; Lineage Mapping</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/dependency-and-relationship-mapping/" target="_top">
+    <rect x="400.00" y="375.00" width="234.00" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Dependency &amp; Relationship Mapping</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/security-and-compliance-posture-visibility/" target="_top">
+    <rect x="400.00" y="400.00" width="270.45" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Security &amp; Compliance Posture Visibility</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/technology-estate-inventory/" target="_top">
+    <rect x="400.00" y="425.00" width="183.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Technology Estate Inventory</text>
+  </a>
+</svg>

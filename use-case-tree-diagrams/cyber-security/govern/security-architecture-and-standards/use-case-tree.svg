@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-33.33 332.50 695.34 135.00" width="695.34px" height="135.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="71.16" y1="400.00" x2="81.16" y2="400.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 81.16 400.00 C 99.16 400.00, 103.16 362.50, 121.16 362.50" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="274.14" y1="387.50" x2="345.00" y2="387.50" stroke="#FF6F00" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 387.50 C 369.75 387.50, 375.25 400.00, 400.00 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="283.48" y1="412.50" x2="345.00" y2="412.50" stroke="#FF6F00" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 412.50 C 369.75 412.50, 375.25 400.00, 400.00 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="271.97" y1="437.50" x2="345.00" y2="437.50" stroke="#FF6F00" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 437.50 C 369.75 437.50, 375.25 400.00, 400.00 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 345.00 362.50 C 369.75 362.50, 375.25 350.00, 400.00 350.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 362.50 C 369.75 362.50, 375.25 375.00, 400.00 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 362.50 C 369.75 362.50, 375.25 400.00, 400.00 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 362.50 C 369.75 362.50, 375.25 425.00, 400.00 425.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 362.50 C 369.75 362.50, 375.25 450.00, 400.00 450.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <a xlink:href="/use-case/cyber-security/" target="_top">
+    <rect x="-28.33" y="387.50" width="99.48" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="-18.33" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Cybersecurity</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/cloud/" target="_top">
+    <rect x="121.16" y="375.00" width="152.98" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="131.16" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Cloud Security Context</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/ot-ics/" target="_top">
+    <rect x="121.16" y="400.00" width="162.33" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="131.16" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">OT/ICS Security Context</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/saas/" target="_top">
+    <rect x="121.16" y="425.00" width="150.81" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="131.16" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">SaaS Security Context</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/" target="_top">
+    <rect x="121.16" y="350.00" width="228.84" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="131.16" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Govern (Cybersecurity Governance)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/compliance-and-audit/" target="_top">
+    <rect x="400.00" y="337.50" width="246.23" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Compliance, Controls &amp; Audit Evidence</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/risk-management/" target="_top">
+    <rect x="400.00" y="362.50" width="163.09" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Cyber Risk Management</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/security-architecture-and-standards/" target="_top">
+    <rect x="400.00" y="387.50" width="231.22" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Security Architecture &amp; Standards</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/security-strategy-and-policy/" target="_top">
+    <rect x="400.00" y="412.50" width="169.58" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Security Strategy &amp; Policy</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/third-party-and-supply-chain-risk/" target="_top">
+    <rect x="400.00" y="437.50" width="257.02" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Third-Party &amp; Supply Chain Security Risk</text>
+  </a>
+</svg>

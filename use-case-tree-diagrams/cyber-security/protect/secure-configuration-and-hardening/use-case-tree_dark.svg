@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-9.45 295.00 655.34 222.50" width="655.34px" height="222.50px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="95.03" y1="462.50" x2="105.03" y2="462.50" stroke="#FF9900" stroke-width="1.5" />
+  <path d="M 105.03 462.50 C 123.03 462.50, 127.03 425.00, 145.03 425.00" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <line x1="298.02" y1="450.00" x2="345.00" y2="450.00" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 450.00 C 369.75 450.00, 375.25 462.50, 400.00 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="307.36" y1="475.00" x2="345.00" y2="475.00" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 475.00 C 369.75 475.00, 375.25 462.50, 400.00 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="295.84" y1="500.00" x2="345.00" y2="500.00" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 345.00 500.00 C 369.75 500.00, 375.25 462.50, 400.00 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 345.00 425.00 C 369.75 425.00, 375.25 312.50, 400.00 312.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 425.00 C 369.75 425.00, 375.25 337.50, 400.00 337.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 425.00 C 369.75 425.00, 375.25 362.50, 400.00 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 425.00 C 369.75 425.00, 375.25 387.50, 400.00 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 425.00 C 369.75 425.00, 375.25 412.50, 400.00 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 425.00 C 369.75 425.00, 375.25 437.50, 400.00 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 425.00 C 369.75 425.00, 375.25 462.50, 400.00 462.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 345.00 425.00 C 369.75 425.00, 375.25 487.50, 400.00 487.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <a xlink:href="/use-case/cyber-security/" target="_top">
+    <rect x="-4.45" y="450.00" width="99.48" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="5.55" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Cybersecurity</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/cloud/" target="_top">
+    <rect x="145.03" y="437.50" width="152.98" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="155.03" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Cloud Security Context</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/ot-ics/" target="_top">
+    <rect x="145.03" y="462.50" width="162.33" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="155.03" y="479.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">OT/ICS Security Context</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/saas/" target="_top">
+    <rect x="145.03" y="487.50" width="150.81" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="155.03" y="504.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">SaaS Security Context</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/" target="_top">
+    <rect x="145.03" y="412.50" width="204.97" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="155.03" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Protect (Cybersecurity Controls)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/application-and-api-security/" target="_top">
+    <rect x="400.00" y="300.00" width="170.33" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="317.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Application &amp; API Security</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/backup-and-resilience-controls/" target="_top">
+    <rect x="400.00" y="325.00" width="191.30" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="342.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Backup &amp; Resilience Controls</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/data-protection/" target="_top">
+    <rect x="400.00" y="350.00" width="109.62" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Data Protection</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/identity-and-access-management/" target="_top">
+    <rect x="400.00" y="375.00" width="233.89" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Identity &amp; Access Management (IAM)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/network-and-segmentation/" target="_top">
+    <rect x="400.00" y="400.00" width="214.41" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Network Security &amp; Segmentation</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/privileged-access-management/" target="_top">
+    <rect x="400.00" y="425.00" width="240.89" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Privileged Access Management (PAM)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/secure-configuration-and-hardening/" target="_top">
+    <rect x="400.00" y="450.00" width="233.06" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="467.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Secure Configuration &amp; Hardening</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/security-awareness-and-training/" target="_top">
+    <rect x="400.00" y="475.00" width="196.11" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="492.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Security Awareness &amp; Training</text>
+  </a>
+</svg>

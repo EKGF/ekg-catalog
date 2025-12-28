@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="245.52 307.50 998.83 185.00" width="998.83px" height="185.00px" class="use-case-tree-svg">
+  <rect width="100%" height="100%" fill="transparent" />
+  <line x1="350.00" y1="475.00" x2="360.00" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 360.00 475.00 C 378.00 475.00, 382.00 325.00, 400.00 325.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="475.00" x2="360.00" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 360.00 475.00 C 378.00 475.00, 382.00 350.00, 400.00 350.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="475.00" x2="360.00" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 360.00 475.00 C 378.00 475.00, 382.00 375.00, 400.00 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="475.00" x2="360.00" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 360.00 475.00 C 378.00 475.00, 382.00 400.00, 400.00 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="475.00" x2="360.00" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 360.00 475.00 C 378.00 475.00, 382.00 425.00, 400.00 425.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="475.00" x2="360.00" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 360.00 475.00 C 378.00 475.00, 382.00 450.00, 400.00 450.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="350.00" y1="475.00" x2="360.00" y2="475.00" stroke="#FF6F00" stroke-width="1.5" />
+  <path d="M 360.00 475.00 C 378.00 475.00, 382.00 475.00, 400.00 475.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 688.80 475.00 C 713.55 475.00, 719.05 350.00, 743.80 350.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 688.80 475.00 C 713.55 475.00, 719.05 375.00, 743.80 375.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 688.80 475.00 C 713.55 475.00, 719.05 400.00, 743.80 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 688.80 475.00 C 713.55 475.00, 719.05 425.00, 743.80 425.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <path d="M 688.80 475.00 C 713.55 475.00, 719.05 450.00, 743.80 450.00" stroke="#FF6F00" stroke-width="1.5" fill="none" />
+  <line x1="909.06" y1="425.00" x2="950.34" y2="425.00" stroke="#FF6F00" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 950.34 425.00 C 975.09 425.00, 980.59 400.00, 1005.34 400.00" stroke="#FF6F00" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <a xlink:href="/use-case/cyber-security/" target="_top">
+    <rect x="250.52" y="462.50" width="99.48" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="260.52" y="479.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Cybersecurity</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/contexts/" target="_top">
+    <rect x="400.00" y="312.50" width="71.31" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="329.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Contexts</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/detect/" target="_top">
+    <rect x="400.00" y="337.50" width="213.66" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Detect (Cybersecurity Monitoring)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/" target="_top">
+    <rect x="400.00" y="362.50" width="228.84" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Govern (Cybersecurity Governance)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/identify/" target="_top">
+    <rect x="400.00" y="387.50" width="241.88" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Identify (Cybersecurity Understanding)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/protect/" target="_top">
+    <rect x="400.00" y="412.50" width="204.97" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Protect (Cybersecurity Controls)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/recover/" target="_top">
+    <rect x="400.00" y="437.50" width="218.70" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="410.00" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Recover (Cybersecurity Recovery)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/respond/" target="_top">
+    <rect x="400.00" y="462.50" width="293.80" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
+    <text x="410.00" y="479.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Respond (Cybersecurity Incident Response)</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/respond/communications-and-disclosure/" target="_top">
+    <rect x="743.80" y="337.50" width="193.44" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="753.80" y="354.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Communications &amp; Disclosure</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/respond/containment-and-eradication/" target="_top">
+    <rect x="743.80" y="362.50" width="174.69" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="753.80" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Containment &amp; Eradication</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/respond/incident-intake-and-triage/" target="_top">
+    <rect x="743.80" y="387.50" width="156.61" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="753.80" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Incident Intake &amp; Triage</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/respond/investigation-and-forensics/" target="_top">
+    <rect x="743.80" y="412.50" width="165.27" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="753.80" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Investigation &amp; Forensics</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/respond/lessons-learned-and-improvement/" target="_top">
+    <rect x="743.80" y="437.50" width="211.55" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="753.80" y="454.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Lessons Learned &amp; Improvement</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/dependency-and-relationship-mapping/" target="_top">
+    <rect x="1005.34" y="387.50" width="234.00" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="1015.34" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#4051B5" font-weight="normal">Dependency &amp; Relationship Mapping</text>
+  </a>
+</svg>

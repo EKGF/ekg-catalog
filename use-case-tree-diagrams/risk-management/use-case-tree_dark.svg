@@ -1,5 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 382.50 298.77 35.00" width="298.77px" height="35.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 357.50 895.30 85.00" width="895.30px" height="85.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
+  <path d="M 980.00 387.50 C 1004.75 387.50, 1010.25 375.00, 1035.00 375.00" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 980.00 387.50 C 1004.75 387.50, 1010.25 425.00, 1035.00 425.00" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <line x1="901.86" y1="412.50" x2="980.00" y2="412.50" stroke="#FF9900" stroke-width="1.5" stroke-dasharray="4 2" />
+  <path d="M 980.00 412.50 C 1004.75 412.50, 1010.25 425.00, 1035.00 425.00" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 683.77 400.00 C 708.52 400.00, 714.02 387.50, 738.77 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <path d="M 683.77 400.00 C 708.52 400.00, 714.02 412.50, 738.77 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" stroke-dasharray="4 2" />
+  <a xlink:href="/use-case/cyber-security/govern/compliance-and-audit/" target="_top">
+    <rect x="738.77" y="375.00" width="246.23" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="748.77" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Compliance, Controls &amp; Audit Evidence</text>
+  </a>
+  <a xlink:href="/use-case/cyber-security/govern/risk-management/" target="_top">
+    <rect x="738.77" y="400.00" width="163.09" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="748.77" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Cyber Risk Management</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/data-flow-and-lineage-mapping/" target="_top">
+    <rect x="1035.00" y="362.50" width="194.22" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="1045.00" y="379.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Data Flow &amp; Lineage Mapping</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/security-and-compliance-posture-visibility/" target="_top">
+    <rect x="1035.00" y="412.50" width="250.30" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="1045.00" y="429.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Security &amp; Compliance Posture Visibility</text>
+  </a>
   <a xlink:href="/use-case/risk-management/" target="_top">
     <rect x="400.00" y="387.50" width="288.77" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Enterprise Risk &amp; Compliance Management</text>

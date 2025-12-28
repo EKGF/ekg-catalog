@@ -1,7 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 382.50 323.45 35.00" width="323.45px" height="35.00px" class="use-case-tree-svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="395.00 345.00 623.75 110.00" width="623.75px" height="110.00px" class="use-case-tree-svg">
   <rect width="100%" height="100%" fill="transparent" />
+  <path d="M 708.45 400.00 C 733.20 400.00, 738.70 362.50, 763.45 362.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 708.45 400.00 C 733.20 400.00, 738.70 387.50, 763.45 387.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 708.45 400.00 C 733.20 400.00, 738.70 412.50, 763.45 412.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
+  <path d="M 708.45 400.00 C 733.20 400.00, 738.70 437.50, 763.45 437.50" stroke="#FF9900" stroke-width="1.5" fill="none" />
   <a xlink:href="/use-case/digital-twin/" target="_top">
     <rect x="400.00" y="387.50" width="313.45" height="25" rx="4" ry="4" fill="#4051B5" stroke="#FF6F00" stroke-width="1.5" />
     <text x="410.00" y="404.50" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#FFFFFF" font-weight="bold">Digital Twin of Technology and Data Landscape</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/data-flow-and-lineage-mapping/" target="_top">
+    <rect x="763.45" y="350.00" width="194.22" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="773.45" y="367.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Data Flow &amp; Lineage Mapping</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/dependency-and-relationship-mapping/" target="_top">
+    <rect x="763.45" y="375.00" width="234.00" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="773.45" y="392.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Dependency &amp; Relationship Mapping</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/security-and-compliance-posture-visibility/" target="_top">
+    <rect x="763.45" y="400.00" width="250.30" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="773.45" y="417.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Security &amp; Compliance Posture Visibility</text>
+  </a>
+  <a xlink:href="/use-case/digital-twin/technology-estate-inventory/" target="_top">
+    <rect x="763.45" y="425.00" width="183.36" height="25" rx="4" ry="4" fill="none" stroke="none" pointer-events="all" />
+    <text x="773.45" y="442.00" text-anchor="start" font-family="Roboto, sans-serif" font-size="13" fill="#90EE90" font-weight="normal">Technology Estate Inventory</text>
   </a>
 </svg>
