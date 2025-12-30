@@ -4,6 +4,7 @@ venv/
 __pypackages__/
 site/
 poetry.lock
+node_modules/
 
 # Generated use case tree diagrams
 docs/use-case-tree-diagrams/
