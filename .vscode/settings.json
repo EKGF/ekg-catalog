@@ -1,17 +1,8 @@
 {
-  "editor.formatOnSave": true,
-  "editor.rulers": [
-    70
+  "markdownlint.ignore": [
+    "LICENSE"
   ],
-  "[markdown]": {
-    "editor.formatOnSave": true,
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 70,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.rulers": [
-      70
-    ]
-  },
-  "prettier.proseWrap": "always",
-  "prettier.printWidth": 70
+  "files.associations": {
+    "LICENSE": "plaintext"
+  }
 }
