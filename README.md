@@ -24,7 +24,6 @@ uv sync
   builds the use case graph, and regenerates collision-free PlantUML
   mindmaps under `docs/diagrams/src/`, overwriting stale use-case
   mindmaps.
-  
 - To regenerate mindmaps and frontmatter outside MkDocs:
 
   ```bash
@@ -38,6 +37,24 @@ uv sync
 
 - Each parent shown in a mindmap includes all its children; multiple
   parents are supported (primary rendered first).
+
+## Copyright and Attribution
+
+```text
+Copyright (c) 2026 EDMCouncil Inc., d/b/a Enterprise Data Management Association ("EDMA")
+Copyright (c) 2026 agnos.ai UK Ltd
+```
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+When using or sharing this content, please provide attribution to:
+
+- EDMCouncil Inc., d/b/a Enterprise Data Management Association
+  ("EDMA")
+- agnos.ai UK Ltd
+
+## Initiative
 
 This is an initiative of:
 
