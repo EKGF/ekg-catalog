@@ -5,7 +5,7 @@ Graph.
 
 ## Python
 
-This repo uses **Python 3.14+** (see `pyproject.toml`) and **uv**.
+This repo uses **Python 3.14.2+** (see `pyproject.toml`) and **uv**.
 
 ```bash
 uv sync
