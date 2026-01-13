@@ -1,17 +1,22 @@
 ---
-title: >-
-  Use Cases
+title: Use Cases
 summary: >-
-  {% include-markdown "use-case/strategic-use-cases.md" heading-offset=1 %}
+  Strategic use cases represent high-level, enterprise-spanning capabilities
+  that demonstrate the transformative power of Enterprise Knowledge Graphs.
 keywords:
-  - use
-  - cases
-  - include-markdown
-  - use-case
-  - strategic-use-cases
-  - heading-offset
-parents:
-  - ..
+  - use cases
+  - strategic
+  - enterprise knowledge graph
+  - EKG
+hide:
+  - toc
 ---
 
-{% include-markdown "use-case/strategic-use-cases.md" heading-offset=1 %}
+## Strategic Use Cases
+
+- [Digital Twin / Connected Inventory](digital-twin/index.md)
+- [Client 360](client-360/index.md)
+- [Real-time Fraud Detection](fraud-detection/index.md)
+- [Real-time Enterprise Risk Management](risk-management/index.md)
+- [Cybersecurity](cyber-security/index.md)
+- [Organization Management](organization-management/index.md)
