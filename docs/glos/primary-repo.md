@@ -12,7 +12,7 @@ that described an organization's Enterprise Knowledge Graph in terms of:
     + Test Scenarios
     + (Descriptions of) Datasets
 
-* Infrastructure of the [EKG/Platform](ekg-platform.md):
+* Infrastructure of the [EKG Platform](ekg-platform.md):
 
     + Helm Charts
     + Terraform<br/>

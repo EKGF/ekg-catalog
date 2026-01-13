@@ -1,4 +1,4 @@
-# EKG/Platform
+# EKG Platform
 
 An **Enterprise Knowledge Graph Platform** is a
 logical system architecture component,

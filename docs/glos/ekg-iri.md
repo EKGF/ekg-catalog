@@ -1,6 +1,6 @@
-# EKG/IRI
+# EKG IRI
 
-An EKG/IRI is an Enterprise Knowledge Graph Identifier that has the form of a URL/URI[^1]
+An EKG IRI is an Enterprise Knowledge Graph Identifier that has the form of a URL/URI[^1]
 
 
 

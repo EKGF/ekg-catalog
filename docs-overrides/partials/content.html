@@ -1,0 +1,135 @@
+<!--
+  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Tags -->
+{% if "tags" in config.plugins %}
+{% include "partials/tags.html" %}
+{% endif %}
+
+<!-- Actions -->
+{% include "partials/actions.html" %}
+
+{% if 'hide' in page.meta and 'title' in page.meta.hide %}
+{% else %}
+<!-- Always show title for use case pages, or if content doesn't have H1 -->
+{% set is_use_case = False %}
+{% if page.meta.parents is defined %}
+{% set is_use_case = True %}
+{% endif %}
+{% if not is_use_case and page.file and page.file.src_path %}
+{% set src_path = page.file.src_path | string %}
+{% if 'use-case/' in src_path and src_path != 'use-case/index.md' %}
+{% set is_use_case = True %}
+{% endif %}
+{% endif %}
+{% if not is_use_case and page.url %}
+{% set url_str = page.url | string %}
+{% if '/use-case/' in url_str and url_str != '/use-case/' and url_str != '/use-case' %}
+{% set is_use_case = True %}
+{% endif %}
+{% endif %}
+{% if is_use_case %}
+<!-- Use case pages: always show title as H1 at the top FIRST -->
+<!-- IMPORTANT: H1 must come BEFORE diagram and summary to ensure correct order -->
+{% if page.meta.letter_prefix %}
+<div class="objective-header-with-badge">
+  <span class="objective-badge-standalone" data-letter="{{ page.meta.letter_prefix }}"></span>
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+</div>
+{% else %}
+<h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+<!-- Inject use case tree diagram SECOND, immediately after H1 for use case pages -->
+{% set use_case_path = page.url.strip('/').replace('use-case/', '') %}
+{% if use_case_path %}
+{% set svg_base = 'use-case-tree-diagrams/' + use_case_path + '/use-case-tree' %}
+<div class="use-case-tree-diagram">
+  <div class="only-light">
+    {{ get_svg_content(svg_base + '.svg') }}
+  </div>
+  <div class="only-dark">
+    {{ get_svg_content(svg_base + '_dark.svg') }}
+  </div>
+</div>
+{% set method_site_url = config.extra.method_site_url | default('https://method.ekgf.org') %}
+<div class="use-case-method-links" aria-label="Learn about the method">
+  <span class="use-case-method-links__label">New to this diagram? Learn about the method:</span>
+  <a href="{{ method_site_url }}/concept/use-case-tree/" target="_blank" rel="noopener noreferrer">Use Case Tree</a>
+  <span class="use-case-method-links__sep">·</span>
+  <a href="{{ method_site_url }}/concept/use-case/" target="_blank" rel="noopener noreferrer">Use Case</a>
+  <span class="use-case-method-links__sep">·</span>
+  <a href="{{ method_site_url }}/concept/outcome/" target="_blank" rel="noopener noreferrer">Outcome</a>
+</div>
+{% endif %}
+<!-- Display Summary section THIRD, after diagram, without H2 header -->
+{% if page.meta and page.meta.summary %}
+<div class="md-typeset use-case-summary">
+  <p>{{ page.meta.summary }}</p>
+</div>
+{% endif %}
+{% else %}
+<!-- Other pages: check if content has H1, if not show title -->
+{% if not "\x3ch1" in page.content %}
+{% if page.meta.letter_prefix %}
+<div class="objective-header-with-badge">
+  <span class="objective-badge-standalone" data-letter="{{ page.meta.letter_prefix }}"></span>
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+</div>
+{% else %}
+<h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{% endif %}
+<!-- Display Summary section for non-use-case pages -->
+{% if page.meta and page.meta.summary %}
+<div class="md-typeset">
+  <h2>Summary</h2>
+  <p>{{ page.meta.summary }}</p>
+</div>
+{% endif %}
+{% endif %}
+{% endif %}
+
+<!-- Page content -->
+{% if page.meta.letter_prefix %}
+<script type="application/json" id="page-meta-letter-prefix">{{ page.meta.letter_prefix | tojson }}</script>
+{% endif %}
+{% if is_use_case %}
+<!-- Remove H1 from content for use case pages (template shows it at top) -->
+<!-- H1s should already be removed by on_page_content hook, but output content as-is -->
+{{ page.content }}
+{% else %}
+{{ page.content }}
+{% endif %}
+
+<!-- Source file information -->
+{% if page.meta and (
+page.meta.git_revision_date_localized or
+page.meta.revision_date
+) %}
+{% include "partials/source-file.html" %}
+{% endif %}
+
+<!-- Was this page helpful? -->
+{% include "partials/feedback.html" %}
+
+<!-- Comment system -->
+{% include "partials/comments.html" %}

@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: EKG/Catalog
+site_name: EKG Catalog
 site_description: Catalog and repository for components of the Enterprise Knowledge Graph
 repo_name: "EKGF/ekg-catalog"
 repo_url: https://github.com/EKGF/ekg-catalog
@@ -15,6 +15,7 @@ copyright: >-
 # nav: omitted, because we're using the awesome-pages plugin (https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/)
 theme:
   name: material
+  custom_dir: docs-overrides
   language: en
   font:
     text: Roboto
