@@ -95,7 +95,6 @@ plugins:
   - exclude-search:
       exclude:
         - "fragment/*"
-        - "other/seo-guide.md"
   - awesome-pages:
       filename: .pages.yaml
       collapse_single_pages: false

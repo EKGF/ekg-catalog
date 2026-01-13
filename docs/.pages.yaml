@@ -1,7 +1,6 @@
 nav:
   - index.md
-  - Use Cases: use-case
+  - use-case
   - Datasets: dataset
   - Ontologies: ontology
-  - other
   - glos
