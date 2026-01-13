@@ -29,7 +29,7 @@
     
     
       
-        <title>Triplestore - EKG/Catalog</title>
+        <title>Triplestore - EKG Catalog</title>
       
     
     
@@ -95,10 +95,10 @@
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://catalog.ekgf.org/glos/triplestore/">
-<meta property="og:title" content="Triplestore - EKG/Catalog">
+<meta property="og:title" content="Triplestore - EKG Catalog">
 <meta property="og:description" content="Catalog and repository for components of the Enterprise Knowledge Graph">
 <meta property="og:image" content="https://catalog.ekgf.org//assets/images/favicon.png">
-<meta property="og:site_name" content="EKG/Catalog">
+<meta property="og:site_name" content="EKG Catalog">
 
 <meta property="og:locale" content="en_US">
 
@@ -106,7 +106,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:url" content="https://catalog.ekgf.org/glos/triplestore/">
-<meta name="twitter:title" content="Triplestore - EKG/Catalog">
+<meta name="twitter:title" content="Triplestore - EKG Catalog">
 <meta name="twitter:description" content="Catalog and repository for components of the Enterprise Knowledge Graph">
 <meta name="twitter:image" content="https://catalog.ekgf.org//assets/images/favicon.png">
 
@@ -129,13 +129,13 @@
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Triplestore - EKG/Catalog",
+  "name": "Triplestore - EKG Catalog",
   "description": "Catalog and repository for components of the Enterprise Knowledge Graph",
   "url": "https://catalog.ekgf.org/glos/triplestore/",
   "inLanguage": "en",
   "isPartOf": {
     "@type": "WebSite",
-    "name": "EKG/Catalog",
+    "name": "EKG Catalog",
     "url": "https://catalog.ekgf.org/"
   },
   "publisher": {
@@ -415,7 +415,7 @@
           <div class="md-header__ellipsis">
             <div class="md-header__topic">
               <span class="md-ellipsis">
-                EKG/Catalog
+                EKG Catalog
               </span>
             </div>
             <div class="md-header__topic" data-md-component="header-topic">
@@ -725,14 +725,7 @@
 
     
     
-      
-      
-        <div class="ekgf-hidden-search-trigger">
-          <label class="md-header__button md-icon" for="__search">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-          </label>
-          <div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -764,8 +757,6 @@
     </div>
   </div>
 </div>
-        </div>
-      
     
   </div>
   
@@ -853,22 +844,10 @@
       
       
 
-  <div class="ekgf-header-search">
-    <form class="ekgf-header-search__form" name="search">
-      <input
-        type="text"
-        class="ekgf-header-search__input"
-        name="query"
-        aria-label="Search"
-        placeholder="Search"
-        autocapitalize="off"
-        autocorrect="off"
-        autocomplete="off"
-        spellcheck="false"
-        required
-      />
-    </form>
-  </div>
+  <label class="ekgf-search-button md-header__button md-icon" for="__search" title="Search" aria-label="Search">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+  </label>
 
     </div>
   </div>
@@ -902,7 +881,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://ekgf.org/quadrants" title="EKG/Catalog" class="md-nav__button md-logo" aria-label="EKG/Catalog" data-md-component="logo">
+    <a href="https://ekgf.org/quadrants" title="EKG Catalog" class="md-nav__button md-logo" aria-label="EKG Catalog" data-md-component="logo">
       
   
   <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -1042,7 +1021,7 @@
 </svg>
 
     </a>
-    EKG/Catalog
+    EKG Catalog
   </label>
   
     <div class="md-nav__source">
@@ -9713,17 +9692,32 @@
 
 
 
-<!--
-  Hack: check whether the content contains a h1 headline. If it doesn't, the
-  page title (or respectively site name) is used as the main headline.
--->
+<!-- Always show title for use case pages, or if content doesn't have H1 -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Other pages: check if content has H1, if not show title -->
+
+<!-- Display Summary section for non-use-case pages -->
+
 
 
 
 <!-- Page content -->
+
+
 <h1 id="triplestore">Triplestore<a class="headerlink" href="#triplestore" title="Permanent link">&para;</a></h1>
 <p>The term "triplestore" is the colloquial term for a database whose internal data structure is based on "<abbr title="Resource Definition Framework, the standard that defines the basic building block of a semantic graph: the so-called &quot;triple&quot; i.e. an RDF-statement">RDF</abbr> Statements"
 a.k.a. "triples", see <a href="../triple/">triple</a> for more information.</p>
+
 
 <!-- Source file information -->
 
