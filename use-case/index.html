@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://catalog.ekgf.org/use-case/">
       
       
-        <link rel="prev" href="../other/">
+        <link rel="prev" href="../ontology/">
       
       
         <link rel="next" href="strategic-use-cases/">
@@ -123,7 +123,7 @@
 
 
 
-<meta name="keywords" content="use, cases, include-markdown, use-case, strategic-use-cases, heading-offset">
+<meta name="keywords" content="use cases, strategic, enterprise knowledge graph, EKG">
 
 
 
@@ -145,7 +145,7 @@
     "name": "Object Management Group (OMG) Enterprise Knowledge Graph Forum",
     "url": "https://catalog.ekgf.org/"
   },
-  "dateModified": "<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 26, 2025 05:40:06 EST"><span class="timeago" datetime="2025-12-26T05:40:06-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 26, 2025 05:40:06 EST">2025-12-26</span>",
+  "dateModified": "<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 13, 2026 17:39:31 EST"><span class="timeago" datetime="2026-01-13T17:39:31-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 13, 2026 17:39:31 EST">2026-01-13</span>",
   "mainEntity": {
     "@type": "Article",
     "headline": "Use Cases",
@@ -347,6 +347,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#strategic-use-cases" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -799,15 +804,6 @@
           </a>
         </li>
       
-        
-        
-
-        <li class="md-tabs__item ">
-          <a href="../other/" class="md-tabs__link ">
-            Other
-          </a>
-        </li>
-      
     </ul>
     
     <div class="ekgf-tabs-controls">
@@ -863,6 +859,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -9579,73 +9577,6 @@
   
 
     
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../other/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Other
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Other
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
   </ul>
 </nav>
                   </div>
@@ -9701,37 +9632,21 @@
 
 
 
-<!-- Use case pages: always show title as H1 at the top FIRST -->
-<!-- IMPORTANT: H1 must come BEFORE diagram and summary to ensure correct order -->
+
+
+
+
+<!-- Other pages: check if content has H1, if not show title -->
+
 
 <h1>Use Cases</h1>
 
-<!-- Inject use case tree diagram SECOND, immediately after H1 for use case pages -->
 
+<!-- Display Summary section for non-use-case pages -->
 
-
-<div class="use-case-tree-diagram">
-  <div class="only-light">
-    <!-- SVG not found: use-case-tree-diagrams/use-case/use-case-tree.svg -->
-  </div>
-  <div class="only-dark">
-    <!-- SVG not found: use-case-tree-diagrams/use-case/use-case-tree_dark.svg -->
-  </div>
-</div>
-
-<div class="use-case-method-links" aria-label="Learn about the method">
-  <span class="use-case-method-links__label">New to this diagram? Learn about the method:</span>
-  <a href="https://method.ekgf.org/concept/use-case-tree/" target="_blank" rel="noopener noreferrer">Use Case Tree</a>
-  <span class="use-case-method-links__sep">·</span>
-  <a href="https://method.ekgf.org/concept/use-case/" target="_blank" rel="noopener noreferrer">Use Case</a>
-  <span class="use-case-method-links__sep">·</span>
-  <a href="https://method.ekgf.org/concept/outcome/" target="_blank" rel="noopener noreferrer">Outcome</a>
-</div>
-
-<!-- Display Summary section THIRD, after diagram, without H2 header -->
-
-<div class="md-typeset use-case-summary">
-  <p>{% include-markdown "use-case/strategic-use-cases.md" heading-offset=1 %}</p>
+<div class="md-typeset">
+  <h2>Summary</h2>
+  <p>Strategic use cases represent high-level, enterprise-spanning capabilities that demonstrate the transformative power of Enterprise Knowledge Graphs.</p>
 </div>
 
 
@@ -9740,31 +9655,9 @@
 <!-- Page content -->
 
 
-<!-- Remove H1 from content for use case pages (template shows it at top) -->
-<!-- H1s should already be removed by on_page_content hook, but output content as-is -->
-<p>Strategic Use Cases
-summary: &gt;-
-  Strategic use cases represent high-level, enterprise-spanning capabilities that demonstrate the transformative power of Enterprise Knowledge Graphs. These include Digital Twin for technology and data landscape visibility, Client 360 for unified customer understanding, real-time fraud detection, real-time enterprise risk management, cybersecurity, and organization management. These use cases serve as foundational capabilities that enable and enhance other specialized use cases across the organization.
-keywords:
-  - strategic
-  - use
-  - cases
-  - represent
-  - high-level
-  - enterprise-spanning
-  - capabilities
-  - demonstrate
-  - transformative
-  - power
-  - enterprise
-  - knowledge
-is-part-of:
-  - ..
-is-used-in:
-  []</p>
-<hr />
-<p><a href="digital-twin/">Digital Twin / Connected Inventory</a></p>
+<h2 id="strategic-use-cases">Strategic Use Cases<a class="headerlink" href="#strategic-use-cases" title="Permanent link">&para;</a></h2>
 <ul>
+<li><a href="digital-twin/">Digital Twin / Connected Inventory</a></li>
 <li><a href="client-360/">Client 360</a></li>
 <li><a href="fraud-detection/">Real-time Fraud Detection</a></li>
 <li><a href="risk-management/">Real-time Enterprise Risk Management</a></li>
@@ -9797,7 +9690,7 @@ is-used-in:
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="December 26, 2025 05:40:06 EST"><span class="timeago" datetime="2025-12-26T05:40:06-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="December 26, 2025 05:40:06 EST">2025-12-26</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="January 13, 2026 17:39:31 EST"><span class="timeago" datetime="2026-01-13T17:39:31-05:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="January 13, 2026 17:39:31 EST">2026-01-13</span>
   </span>
 
     
@@ -9821,6 +9714,8 @@ is-used-in:
 
   
 
+
+  
 
 
 
@@ -9985,6 +9880,8 @@ is-used-in:
         <script src="../assets/javascripts/images_dark.js"></script>
       
         <script src="../assets/javascripts/refresh_on_toggle_dark_light.js"></script>
+      
+        <script src="../assets/javascripts/nav-section-links.js"></script>
       
     
   </body>
