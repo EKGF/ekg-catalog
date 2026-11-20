@@ -1,6 +1,10 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.14.2"
+resolution-markers = [
+    "python_full_version >= '3.14.3'",
+    "python_full_version < '3.14.3'",
+]
 
 [[package]]
 name = "anyio"
@@ -92,11 +96,11 @@ wheels = [
 
 [[package]]
 name = "bracex"
-version = "2.6"
+version = "3.2.4"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/63/9a/fec38644694abfaaeca2798b58e276a8e61de49e2e37494ace423395febc/bracex-2.6.tar.gz", hash = "sha256:98f1347cd77e22ee8d967a30ad4e310b233f7754dbf31ff3fceb76145ba47dc7", size = 26642, upload-time = "2025-06-22T19:12:31.254Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/66/6f/95a6fcb1c430007cda4122c77aace4541fba297f08e2be791ab235a4c548/bracex-3.2.4.tar.gz", hash = "sha256:c1e67eb59f81445dee15b2c588b7c81352b697cfbd6c4931a2943ea6b71eb5ea", size = 35456, upload-time = "2026-11-20T13:05:37.452Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/9d/2a/9186535ce58db529927f6cf5990a849aa9e052eea3e2cfefe20b9e1802da/bracex-2.6-py3-none-any.whl", hash = "sha256:0b0049264e7340b3ec782b5cb99beb325f36c3782a32e36e876452fd49a09952", size = 11508, upload-time = "2025-06-22T19:12:29.781Z" },
+    { url = "https://files.pythonhosted.org/packages/a1/5b/7b404360cc0946686cae68ee564d859a7c57379d190c88edec18fcdc9396/bracex-3.2.4-py3-none-any.whl", hash = "sha256:82e9e738b63fca213c33211d30b0b1ca330896a1091736e78da2c1bcda93ab30", size = 14207, upload-time = "2026-11-20T13:05:35.996Z" },
 ]
 
 [[package]]
@@ -258,7 +262,7 @@ version = "1.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "cairosvg" },
-    { name = "ekglib" },
+    { name = "ekg-lib" },
     { name = "markdown-emdash" },
     { name = "mdutils" },
     { name = "mdx-spanner" },
@@ -273,7 +277,8 @@ dependencies = [
     { name = "mkdocs-localsearch" },
     { name = "mkdocs-macros-plugin" },
     { name = "mkdocs-material" },
-    { name = "mkdocs-material-ekgf" },
+    { name = "mkdocs-material-ekgf", version = "0.0.24", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.14.3'" },
+    { name = "mkdocs-material-ekgf", version = "0.0.25", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.14.3'" },
     { name = "mkdocs-minify-plugin" },
     { name = "mkdocs-redirects" },
     { name = "pillow" },
@@ -283,7 +288,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "cairosvg" },
-    { name = "ekglib", git = "https://github.com/EKGF/ekglib.git" },
+    { name = "ekg-lib", specifier = ">=0.0.30" },
     { name = "markdown-emdash" },
     { name = "mdutils" },
     { name = "mdx-spanner" },
@@ -298,7 +303,7 @@ requires-dist = [
     { name = "mkdocs-localsearch" },
     { name = "mkdocs-macros-plugin" },
     { name = "mkdocs-material" },
-    { name = "mkdocs-material-ekgf", specifier = ">=0.0.17" },
+    { name = "mkdocs-material-ekgf", specifier = ">=0.0.20" },
     { name = "mkdocs-minify-plugin" },
     { name = "mkdocs-redirects" },
     { name = "pillow" },
@@ -306,9 +311,9 @@ requires-dist = [
 ]
 
 [[package]]
-name = "ekglib"
+name = "ekg-lib"
 version = "0.0.30"
-source = { git = "https://github.com/EKGF/ekglib.git#c11749854f25ab1e69b83c44079bca7a11f04e08" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "boto3" },
     { name = "boto3-stubs" },
@@ -331,6 +336,10 @@ dependencies = [
     { name = "sparqlwrapper" },
     { name = "stringcase" },
     { name = "toml" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/1f/06/d3e0bf4fc27a522b5f851057602549884908cc0481e09d4e9964b1141159/ekg_lib-0.0.30.tar.gz", hash = "sha256:e5ce0e76c07e240b712bb48787089ddd2f943cd1dd337d79e99966239d28bd13", size = 74485, upload-time = "2026-01-15T11:35:11.181Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/02/c6/d109f0c74828a623b8fc7ef4e7d2773def1b0d8060bb9611d5806abe8ed2/ekg_lib-0.0.30-py3-none-any.whl", hash = "sha256:e31b20122cbae44ad6342f10f3a42d719e6841133c0f2826240933e9fd3fed52", size = 4280, upload-time = "2026-01-15T11:35:09.581Z" },
 ]
 
 [[package]]
@@ -772,15 +781,34 @@ wheels = [
 
 [[package]]
 name = "mkdocs-material-ekgf"
-version = "0.0.17"
+version = "0.0.24"
 source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version < '3.14.3'",
+]
 dependencies = [
     { name = "mkdocs" },
     { name = "mkdocs-material" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/91/e5/94744acd6ff69982c37faa9ef1b52e3a605a69d50f3953027e80ee386b44/mkdocs_material_ekgf-0.0.17.tar.gz", hash = "sha256:3b14e5578a9e5050f78324743b377bd49fde7f14f874dd42db47d4ff967f65a8", size = 88430, upload-time = "2026-01-14T01:24:38.628Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/27/33/d7219e80c5cf87bcd2c44a999c7044fbcdd33c50c31737a2a1dc6175cdf9/mkdocs_material_ekgf-0.0.24.tar.gz", hash = "sha256:804811939f2c0f3eddf2a9599d1d02356364c43e3fbe8cb53d0d25203c5f1abb", size = 95397, upload-time = "2026-02-18T18:29:29.862Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/77/5e/0c08322dcb2de44111eac808dc8c4cd12688d41c495c78bb67f46dc4a8b7/mkdocs_material_ekgf-0.0.17-py3-none-any.whl", hash = "sha256:37f8645b2eb782beaca98eab61c9e6211b687c84683d782dfef90e0beb86c146", size = 88796, upload-time = "2026-01-14T01:24:37.262Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/96/5bfe62dd9056b1b1bcf7f96bffa37e542cd9077219ffbb5bc7dac35d719f/mkdocs_material_ekgf-0.0.24-py3-none-any.whl", hash = "sha256:c5b1d507db81b535684c72eb8bb85eabfe8e8e64b6905c907718265dd8806e9a", size = 95094, upload-time = "2026-02-18T18:29:28.603Z" },
+]
+
+[[package]]
+name = "mkdocs-material-ekgf"
+version = "0.0.25"
+source = { registry = "https://pypi.org/simple" }
+resolution-markers = [
+    "python_full_version >= '3.14.3'",
+]
+dependencies = [
+    { name = "mkdocs" },
+    { name = "mkdocs-material" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/77/bc/d0c1c59359f05bd386a0d7eb97bdfad56dba9f6ab56b13751540cf827c74/mkdocs_material_ekgf-0.0.25.tar.gz", hash = "sha256:b3d4470b7e49e57edbe95d58f67d218c4fb5d9693d135519f8fd312545bb1680", size = 95400, upload-time = "2026-02-18T20:44:57.813Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/60/46/75f0bc1bc2a42bbfb5fd63d08ed4a4cd1b2617e06cfd4491c096f18b5197/mkdocs_material_ekgf-0.0.25-py3-none-any.whl", hash = "sha256:d315a58ccb8fc09377314aaf0b81edaeedbd2a878717e25a0d7dec9f1b55b3a9", size = 95084, upload-time = "2026-02-18T20:44:56.442Z" },
 ]
 
 [[package]]
@@ -1307,14 +1335,14 @@ wheels = [
 
 [[package]]
 name = "wcmatch"
-version = "10.1"
+version = "11.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "bracex" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/79/3e/c0bdc27cf06f4e47680bd5803a07cb3dfd17de84cde92dd217dcb9e05253/wcmatch-10.1.tar.gz", hash = "sha256:f11f94208c8c8484a16f4f48638a85d771d9513f4ab3f37595978801cb9465af", size = 117421, upload-time = "2025-06-22T19:14:02.49Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/bd/07/b7a9162a804bc0f7d03fe84c93e374d3e1c4d828043d5f9b797f7d4e30e0/wcmatch-11.2.tar.gz", hash = "sha256:1605bde546fbde4c063628c7d89eda486909fd4337e51d73a873987fbcb2554c", size = 134939, upload-time = "2026-10-22T00:37:57.622Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/eb/d8/0d1d2e9d3fabcf5d6840362adcf05f8cf3cd06a73358140c3a97189238ae/wcmatch-10.1-py3-none-any.whl", hash = "sha256:5848ace7dbb0476e5e55ab63c6bbd529745089343427caa5537f230cc01beb8a", size = 39854, upload-time = "2025-06-22T19:14:00.978Z" },
+    { url = "https://files.pythonhosted.org/packages/34/96/b6cebd4bd75320743a291fed494c79f07c01b58fa9b187d12aeb5110f002/wcmatch-11.2-py3-none-any.whl", hash = "sha256:952bab83c75c233836007a69550a3a8753cf06964c1eb3b84ff11ad5bff1c272", size = 44361, upload-time = "2026-10-22T00:37:56.293Z" },
 ]
 
 [[package]]
