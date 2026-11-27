@@ -4,10 +4,10 @@
     "lint:md": "markdownlint '**/*.md' --ignore node_modules --ignore .husky --ignore site"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.4.3",
-    "@commitlint/config-angular": "^20.4.3",
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-angular": "^21.2.4",
     "husky": "^9.1.7",
-    "markdownlint-cli": "^0.48.0",
-    "prettier": "^3.8.1"
+    "markdownlint-cli": "^0.50.0",
+    "prettier": "^3.10.1"
   }
 }
